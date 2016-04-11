@@ -1,9 +1,10 @@
 language: java
 os:
 - linux
-- windows
 jdk:
   - oraclejdk8
+before_script:
+  - mysql -e 'create database qnahub_test;'
 install: ""
 notifications:
     email:
