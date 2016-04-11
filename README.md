@@ -1,7 +1,7 @@
 #Q&amp;A Hub
 Linux CI: ![Build Status](https://travis-ci.org/marikth/QnAHub.svg?branch=master)
 
-Windows CI: [![Build status](https://ci.appveyor.com/api/projects/status/f8v4ltx02jx9427s/branch/master?svg=true)](https://ci.appveyor.com/project/marikth/qnahub/branch/master)
+Windows CI: [![Build status](https://ci.appveyor.com/api/projects/status/ighdmon45xvwrx2i/branch/master?svg=true)](https://ci.appveyor.com/project/marikth/qnahub/branch/master)
 
 ##Technology
 0. This is a Q&A forum that you can deploy on premise.
