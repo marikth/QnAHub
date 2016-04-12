@@ -1,5 +1,5 @@
 #Q&amp;A Hub
-Linux CI: ![Build Status](https://travis-ci.org/marikth/QnAHub.svg?branch=master)
+Linux CI: [![Build Status](https://travis-ci.org/marikth/QnAHub.svg?branch=master)](https://travis-ci.org/marikth/QnAHub)
 
 Windows CI: [![Build status](https://ci.appveyor.com/api/projects/status/ighdmon45xvwrx2i/branch/master?svg=true)](https://ci.appveyor.com/project/marikth/qnahub/branch/master)
 
