@@ -11,8 +11,7 @@ Windows CI: [![Build status](https://ci.appveyor.com/api/projects/status/ighdmon
 
 
 ##Installing development environment 
-0. Create your own fork `fork repository`.
-0. Download your fork to your computer `git clone [your repository name]`.
+0. Download the code to your computer `git clone [your repository name]`.
 0. Download and install and configure Apache Maven.
 0. Build project user maven `mvn install`.
 0. Create IDE project for your development envirornment `mvn idea:idea` for IntelliJ users or `mvn eclipse:eclipse` for Eclipse users
