@@ -11,7 +11,7 @@
 
 
     <groupId>qnahub</groupId>
-    <artifactId>data-module</artifactId>
+    <artifactId>common-module</artifactId>
     <packaging>jar</packaging>
     <name>QnAHUB Data Module</name>
 
@@ -19,15 +19,8 @@
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
+            <version>4.12</version>
             <scope>test</scope>
-        </dependency>
-        <dependency>
-            <groupId>org.hibernate</groupId>
-            <artifactId>hibernate-entitymanager</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>qnahub</groupId>
-            <artifactId>common-module</artifactId>
         </dependency>
         <dependency>
             <groupId>org.springframework</groupId>
@@ -43,9 +36,19 @@
         </dependency>
         <dependency>
             <groupId>org.springframework</groupId>
-            <artifactId>spring-test</artifactId>
-            <scope>test</scope>
+            <artifactId>spring-context</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-orm</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.hibernate</groupId>
+            <artifactId>hibernate-entitymanager</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
         </dependency>
     </dependencies>
-
 </project>
