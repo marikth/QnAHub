@@ -20,7 +20,7 @@
 
     <bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
         <property name="driverClassName" value="com.mysql.jdbc.Driver" />
-        <property name="url" value="jdbc:mysql://localhost:3306/QNA_HUB" />
+        <property name="url" value="jdbc:mysql://localhost:3306/QNA_HUB?autoReconnect=true&amp;characterEncoding=UTF-8&amp;useUnicode=true&amp;createDatabaseIfNotExist=true" />
         <property name="username" value="dev" />
         <property name="password" value="WWnnRR3" />
     </bean>
