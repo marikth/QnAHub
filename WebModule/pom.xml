@@ -4,19 +4,25 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>qndhub</groupId>
-        <artifactId>qndahub-parent</artifactId>
+        <groupId>qnahub</groupId>
+        <artifactId>qnahub-parent</artifactId>
         <version>trunk-SNAPSHOT</version>
     </parent>
 
-    <groupId>qndhub</groupId>
+    <groupId>qnahub</groupId>
     <artifactId>web-module</artifactId>
     <packaging>war</packaging>
-    <name>QndAHUB War Module</name>
+    <name>QnAHUB War Module</name>
 
     <dependencies>
         <dependency>
-            <groupId>qndhub</groupId>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.12</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>qnahub</groupId>
             <artifactId>data-module</artifactId>
         </dependency>
     </dependencies>

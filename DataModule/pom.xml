@@ -4,32 +4,47 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>qndhub</groupId>
-        <artifactId>qndahub-parent</artifactId>
+        <groupId>qnahub</groupId>
+        <artifactId>qnahub-parent</artifactId>
         <version>trunk-SNAPSHOT</version>
     </parent>
 
 
-    <groupId>qndhub</groupId>
+    <groupId>qnahub</groupId>
     <artifactId>data-module</artifactId>
     <packaging>jar</packaging>
-    <name>QndAHUB Data Module</name>
+    <name>QnAHUB Data Module</name>
 
     <dependencies>
         <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.hibernate</groupId>
+            <artifactId>hibernate-entitymanager</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>qnahub</groupId>
+            <artifactId>common-module</artifactId>
+        </dependency>
+        <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-core</artifactId>
-            <version>${spring.version}</version>
         </dependency>
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-web</artifactId>
-            <version>${spring.version}</version>
         </dependency>
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-webmvc</artifactId>
-            <version>${spring.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-test</artifactId>
+            <scope>test</scope>
         </dependency>
     </dependencies>
 
