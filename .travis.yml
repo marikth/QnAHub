@@ -4,7 +4,8 @@ os:
 jdk:
   - oraclejdk8
 before_script:
-  - mysql -e 'create database qnahub_test;'
+  - mysql -u root -e "CREATE USER 'dev_user'@'localhost' IDENTIFIED BY '1234'"
+  - mysql -u root -e "GRANT ALL PRIVILEGES ON *.* TO 'dev_user'@'localhost'"
 install: ""
 notifications:
     email:

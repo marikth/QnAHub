@@ -21,8 +21,8 @@
     <bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
         <property name="driverClassName" value="com.mysql.jdbc.Driver" />
         <property name="url" value="jdbc:mysql://localhost:3306/QNA_HUB_TEST?autoReconnect=true&amp;characterEncoding=UTF-8&amp;useUnicode=true" />
-        <property name="username" value="root" />
-        <property name="password" value="" />
+        <property name="username" value="dev_test" />
+        <property name="password" value="1234" />
     </bean>
 
     <bean id="entityManagerFactory"
