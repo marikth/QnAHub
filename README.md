@@ -1,6 +1,7 @@
 #Q&amp;A Hub
 
-[![Join the chat at https://gitter.im/marikth/QnAHub](https://badges.gitter.im/marikth/QnAHub.svg)](https://gitter.im/marikth/QnAHub?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+Project Chat: [![Join the chat at https://gitter.im/marikth/QnAHub](https://badges.gitter.im/marikth/QnAHub.svg)](https://gitter.im/marikth/QnAHub?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 Linux CI: [![Build Status](https://travis-ci.org/marikth/QnAHub.svg?branch=master)](https://travis-ci.org/marikth/QnAHub)
 
 Windows CI: [![Build status](https://ci.appveyor.com/api/projects/status/ighdmon45xvwrx2i/branch/master?svg=true)](https://ci.appveyor.com/project/marikth/qnahub/branch/master)
