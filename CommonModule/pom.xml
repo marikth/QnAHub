@@ -75,6 +75,7 @@
                     <password>${db.password}</password>
                     <!--all executions are ignored if -Dmaven.test.skip=true-->
                     <!--<skip>${maven.test.skip}</skip>-->
+                    <skip>true</skip>
                 </configuration>
                 <executions>
                     <execution>
