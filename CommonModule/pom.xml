@@ -9,8 +9,6 @@
         <version>trunk-SNAPSHOT</version>
     </parent>
 
-
-    <groupId>qnahub</groupId>
     <artifactId>common-module</artifactId>
     <packaging>jar</packaging>
     <name>QnAHUB Common Module</name>
@@ -51,73 +49,4 @@
             <artifactId>mysql-connector-java</artifactId>
         </dependency>
     </dependencies>
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.codehaus.mojo</groupId>
-                <artifactId>sql-maven-plugin</artifactId>
-                <version>1.5</version>
-                <inherited>false</inherited>
-                <dependencies>
-                    <!-- specify the dependent jdbc driver here -->
-                    <dependency>
-                        <groupId>mysql</groupId>
-                        <artifactId>mysql-connector-java</artifactId>
-                        <version>5.1.38</version>
-                    </dependency>
-                </dependencies>
-
-                <!-- common configuration shared by all executions -->
-                <configuration>
-                    <driver>${db.driverClassName}</driver>
-                    <url>${db.url}</url>
-                    <username>${db.username}</username>
-                    <password>${db.password}</password>
-                    <!--all executions are ignored if -Dmaven.test.skip=true-->
-                    <!--<skip>${maven.test.skip}</skip>-->
-                    <skip>true</skip>
-                </configuration>
-                <executions>
-                    <execution>
-                        <id>drop-db-before-test-if-any</id>
-                        <phase>process-test-resources</phase>
-                        <goals>
-                            <goal>execute</goal>
-                        </goals>
-                        <configuration>
-                            <autocommit>true</autocommit>
-                            <sqlCommand>drop database if exist QNA_HUB_TEST</sqlCommand>
-                            <!-- ignore error when database is not avaiable -->
-                            <onError>continue</onError>
-                        </configuration>
-                    </execution>
-                    <execution>
-                        <id>create-db</id>
-                        <phase>process-test-resources</phase>
-                        <goals>
-                            <goal>execute</goal>
-                        </goals>
-                        <configuration>
-                            <autocommit>true</autocommit>
-                            <sqlCommand>CREATE DATABASE  IF NOT EXISTS QNA_HUB_TEST</sqlCommand>
-                        </configuration>
-                    </execution>
-                    <execution>
-                        <id>create-table</id>
-                        <phase>process-test-resources</phase>
-                        <goals>
-                            <goal>execute</goal>
-                        </goals>
-                        <configuration>
-                            <autocommit>true</autocommit>
-                            <sqlCommand>USE QNA_HUB_TEST</sqlCommand>
-                            <srcFiles>
-                                <srcFile>../conf/CreateDB.sql</srcFile>
-                            </srcFiles>
-                        </configuration>
-                    </execution>
-                </executions>
-            </plugin>
-        </plugins>
-    </build>
 </project>
