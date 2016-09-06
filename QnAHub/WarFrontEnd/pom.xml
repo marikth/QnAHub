@@ -54,15 +54,15 @@
 							<arguments>install</arguments>
 						</configuration>
 					</execution>
-                    <!-- <execution>
-                        <id>bower install</id>
+                    <execution>
+                        <id>webpack build dev</id>
                         <goals>
-                            <goal>bower</goal>
+                            <goal>npm</goal>
                         </goals>
                         <configuration>
-                            <arguments>install</arguments>
+                            <arguments>run build:dev</arguments>
                         </configuration>
-                    </execution> -->
+                    </execution>
                     <!--<execution>-->
                         <!--<id>grunt build</id>-->
                         <!--<goals>-->
