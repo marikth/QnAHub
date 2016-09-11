@@ -23,7 +23,8 @@ const METADATA = webpackMerge(commonConfig.metadata, {
   host: HOST,
   port: PORT,
   ENV: ENV,
-  HMR: HMR
+  HMR: HMR,
+  baseUrl: '/qnahub/'
 });
 
 /**
@@ -67,7 +68,7 @@ module.exports = webpackMerge(commonConfig, {
      *
      * See: http://webpack.github.io/docs/configuration.html#output-path
      */
-    path: helpers.root('dist'),
+    path: helpers.root('src/main/webapp'),
 
     /**
      * Specifies the name of each output file on disk.
@@ -137,7 +138,7 @@ module.exports = webpackMerge(commonConfig, {
   tslint: {
     emitErrors: false,
     failOnHint: false,
-    resourcePath: 'src'
+    resourcePath: 'src/source'
   },
 
   /**
@@ -156,7 +157,7 @@ module.exports = webpackMerge(commonConfig, {
       aggregateTimeout: 300,
       poll: 1000
     },
-    outputPath: helpers.root('dist')
+    outputPath: helpers.root('src/main/webapp')
   },
 
   /*

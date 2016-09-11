@@ -54,9 +54,9 @@ module.exports = {
    */
   entry: {
 
-    'polyfills': './src/polyfills.browser.ts',
-    'vendor':    './src/vendor.browser.ts',
-    'main':      './src/main.browser.ts'
+    'polyfills': './src/source/polyfills.browser.ts',
+    'vendor':    './src/source/vendor.browser.ts',
+    'main':      './src/source/main.browser.ts'
 
   },
 
@@ -75,7 +75,7 @@ module.exports = {
     extensions: ['', '.ts', '.js', '.json'],
 
     // Make sure root is src
-    root: helpers.root('src'),
+    root: helpers.root('src/source'),
 
     // remove other default values
     modulesDirectories: ['node_modules'],
@@ -103,7 +103,7 @@ module.exports = {
           replace: '$1.import($3).then(mod => mod.__esModule ? mod.default : mod)',
           flags: 'g'
         },
-        include: [helpers.root('src')]
+        include: [helpers.root('src/source')]
       },
 
     ],
@@ -163,7 +163,7 @@ module.exports = {
       {
         test: /\.html$/,
         loader: 'raw-loader',
-        exclude: [helpers.root('src/index.html')]
+        exclude: [helpers.root('src/source/index.html')]
       },
 
       /* File loader for supporting images, for example, in CSS files.
@@ -211,7 +211,7 @@ module.exports = {
      * See: https://www.npmjs.com/package/copy-webpack-plugin
      */
     new CopyWebpackPlugin([{
-      from: 'src/assets',
+      from: 'src/source/assets',
       to: 'assets'
     }]),
 
@@ -224,7 +224,7 @@ module.exports = {
      * See: https://github.com/ampedandwired/html-webpack-plugin
      */
     new HtmlWebpackPlugin({
-      template: 'src/index.html',
+      template: 'src/source/index.html',
       chunksSortMode: 'dependency'
     }),
 
