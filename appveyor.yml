@@ -22,10 +22,9 @@ install:
   - cmd: SET MAVEN_OPTS=-XX:MaxPermSize=2g -Xmx4g
   - cmd: SET JAVA_OPTS=-XX:MaxPermSize=2g -Xmx4g
 build_script:
-  - mvn -f QnAHub/pom.xml install
+  - mvn -f QnAHub/pom.xml install package --batch-mode
 
-test_script:
-  - mvn clean install --batch-mode
+
 cache:
   - C:\maven\
   - C:\Users\appveyor\.m2
