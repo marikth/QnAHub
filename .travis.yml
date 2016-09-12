@@ -7,7 +7,7 @@ before_script:
   - mysql -u root -e "CREATE USER 'dev_user'@'localhost' IDENTIFIED BY '1234'"
   - mysql -u root -e "GRANT ALL PRIVILEGES ON *.* TO 'dev_user'@'localhost'"
 install: ""
-script: cd QnAHub ; mvn install ; cd ..
+script: mvn -f QnAHub/pom.xml install
 notifications:
     email:
         recipients:
