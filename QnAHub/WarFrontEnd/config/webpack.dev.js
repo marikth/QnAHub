@@ -24,7 +24,7 @@ const METADATA = webpackMerge(commonConfig.metadata, {
   port: PORT,
   ENV: ENV,
   HMR: HMR,
-  baseUrl: '/qnahub/'
+  baseUrl: '/'
 });
 
 /**

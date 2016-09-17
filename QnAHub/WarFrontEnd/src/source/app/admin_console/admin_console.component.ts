@@ -6,27 +6,15 @@ import { ActivatedRoute } from '@angular/router';
  * see https://github.com/gdi2290/es6-promise-loader for more info
  */
 
-console.log('`About` component loaded asynchronously');
+console.log('`AdminConsole` component loaded asynchronously');
 
 @Component({
-  selector: 'about',
-  styles: [`
-  `],
-  template: `
-    <h1>About2</h1>
-    <div>
-      For hot module reloading run
-      <pre>npm run start:hmr</pre>
-    </div>
-    <div>
-      <h3>
-        patrick@AngularClass.com
-      </h3>
-    </div>
-    <pre>this.localState = {{ localState | json }}</pre>
-  `
+  selector: 'admin_console',
+  styles: [`  `],
+  templateUrl: './admin_console.template.html'
+
 })
-export class About {
+export class AdminConsole {
   localState;
   constructor(public route: ActivatedRoute) {
 
@@ -40,7 +28,7 @@ export class About {
         this.localState = data.yourData;
       });
 
-    console.log('hello `About` component');
+    console.log('hello `AdminConsole` component');
     // static data that is bundled
     // var mockData = require('assets/mock-data/mock-data.json');
     // console.log('mockData', mockData);

@@ -5,36 +5,40 @@ webpackJsonpac__name_([1],{
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__src_common__ = __webpack_require__("./node_modules/@angular/common/src/common.js");
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "NgLocalization", function() { return __WEBPACK_IMPORTED_MODULE_0__src_common__["h"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "CommonModule", function() { return __WEBPACK_IMPORTED_MODULE_0__src_common__["b"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "AsyncPipe", function() { return __WEBPACK_IMPORTED_MODULE_0__src_common__["i"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "DatePipe", function() { return __WEBPACK_IMPORTED_MODULE_0__src_common__["j"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "I18nPluralPipe", function() { return __WEBPACK_IMPORTED_MODULE_0__src_common__["k"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "I18nSelectPipe", function() { return __WEBPACK_IMPORTED_MODULE_0__src_common__["l"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "JsonPipe", function() { return __WEBPACK_IMPORTED_MODULE_0__src_common__["m"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "LowerCasePipe", function() { return __WEBPACK_IMPORTED_MODULE_0__src_common__["n"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "CurrencyPipe", function() { return __WEBPACK_IMPORTED_MODULE_0__src_common__["o"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "DecimalPipe", function() { return __WEBPACK_IMPORTED_MODULE_0__src_common__["p"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "PercentPipe", function() { return __WEBPACK_IMPORTED_MODULE_0__src_common__["q"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "SlicePipe", function() { return __WEBPACK_IMPORTED_MODULE_0__src_common__["r"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "UpperCasePipe", function() { return __WEBPACK_IMPORTED_MODULE_0__src_common__["s"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "NgClass", function() { return __WEBPACK_IMPORTED_MODULE_0__src_common__["t"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "NgFor", function() { return __WEBPACK_IMPORTED_MODULE_0__src_common__["u"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "NgIf", function() { return __WEBPACK_IMPORTED_MODULE_0__src_common__["v"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "NgPlural", function() { return __WEBPACK_IMPORTED_MODULE_0__src_common__["w"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "NgPluralCase", function() { return __WEBPACK_IMPORTED_MODULE_0__src_common__["x"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "NgStyle", function() { return __WEBPACK_IMPORTED_MODULE_0__src_common__["y"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "NgSwitch", function() { return __WEBPACK_IMPORTED_MODULE_0__src_common__["z"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "NgSwitchCase", function() { return __WEBPACK_IMPORTED_MODULE_0__src_common__["A"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "NgSwitchDefault", function() { return __WEBPACK_IMPORTED_MODULE_0__src_common__["B"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "NgTemplateOutlet", function() { return __WEBPACK_IMPORTED_MODULE_0__src_common__["C"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "PlatformLocation", function() { return __WEBPACK_IMPORTED_MODULE_0__src_common__["a"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "LocationStrategy", function() { return __WEBPACK_IMPORTED_MODULE_0__src_common__["c"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "APP_BASE_HREF", function() { return __WEBPACK_IMPORTED_MODULE_0__src_common__["g"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "HashLocationStrategy", function() { return __WEBPACK_IMPORTED_MODULE_0__src_common__["e"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "PathLocationStrategy", function() { return __WEBPACK_IMPORTED_MODULE_0__src_common__["d"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "Location", function() { return __WEBPACK_IMPORTED_MODULE_0__src_common__["f"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__src_location__ = __webpack_require__("./node_modules/@angular/common/src/location.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__src_localization__ = __webpack_require__("./node_modules/@angular/common/src/localization.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__src_common_module__ = __webpack_require__("./node_modules/@angular/common/src/common_module.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__src_directives_index__ = __webpack_require__("./node_modules/@angular/common/src/directives/index.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__src_pipes_index__ = __webpack_require__("./node_modules/@angular/common/src/pipes/index.js");
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "PlatformLocation", function() { return __WEBPACK_IMPORTED_MODULE_0__src_location__["a"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "LocationStrategy", function() { return __WEBPACK_IMPORTED_MODULE_0__src_location__["b"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "APP_BASE_HREF", function() { return __WEBPACK_IMPORTED_MODULE_0__src_location__["c"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "HashLocationStrategy", function() { return __WEBPACK_IMPORTED_MODULE_0__src_location__["d"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "PathLocationStrategy", function() { return __WEBPACK_IMPORTED_MODULE_0__src_location__["e"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "Location", function() { return __WEBPACK_IMPORTED_MODULE_0__src_location__["f"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(exports, "NgLocalization", function() { return __WEBPACK_IMPORTED_MODULE_1__src_localization__["b"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(exports, "CommonModule", function() { return __WEBPACK_IMPORTED_MODULE_2__src_common_module__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(exports, "NgClass", function() { return __WEBPACK_IMPORTED_MODULE_3__src_directives_index__["b"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(exports, "NgFor", function() { return __WEBPACK_IMPORTED_MODULE_3__src_directives_index__["c"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(exports, "NgIf", function() { return __WEBPACK_IMPORTED_MODULE_3__src_directives_index__["d"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(exports, "NgPlural", function() { return __WEBPACK_IMPORTED_MODULE_3__src_directives_index__["e"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(exports, "NgPluralCase", function() { return __WEBPACK_IMPORTED_MODULE_3__src_directives_index__["f"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(exports, "NgStyle", function() { return __WEBPACK_IMPORTED_MODULE_3__src_directives_index__["g"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(exports, "NgSwitch", function() { return __WEBPACK_IMPORTED_MODULE_3__src_directives_index__["h"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(exports, "NgSwitchCase", function() { return __WEBPACK_IMPORTED_MODULE_3__src_directives_index__["i"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(exports, "NgSwitchDefault", function() { return __WEBPACK_IMPORTED_MODULE_3__src_directives_index__["j"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(exports, "NgTemplateOutlet", function() { return __WEBPACK_IMPORTED_MODULE_3__src_directives_index__["k"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(exports, "LowerCasePipe", function() { return __WEBPACK_IMPORTED_MODULE_4__src_pipes_index__["b"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(exports, "DatePipe", function() { return __WEBPACK_IMPORTED_MODULE_4__src_pipes_index__["c"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(exports, "I18nPluralPipe", function() { return __WEBPACK_IMPORTED_MODULE_4__src_pipes_index__["d"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(exports, "I18nSelectPipe", function() { return __WEBPACK_IMPORTED_MODULE_4__src_pipes_index__["e"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(exports, "JsonPipe", function() { return __WEBPACK_IMPORTED_MODULE_4__src_pipes_index__["f"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(exports, "AsyncPipe", function() { return __WEBPACK_IMPORTED_MODULE_4__src_pipes_index__["g"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(exports, "CurrencyPipe", function() { return __WEBPACK_IMPORTED_MODULE_4__src_pipes_index__["h"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(exports, "DecimalPipe", function() { return __WEBPACK_IMPORTED_MODULE_4__src_pipes_index__["i"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(exports, "PercentPipe", function() { return __WEBPACK_IMPORTED_MODULE_4__src_pipes_index__["j"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(exports, "SlicePipe", function() { return __WEBPACK_IMPORTED_MODULE_4__src_pipes_index__["k"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(exports, "UpperCasePipe", function() { return __WEBPACK_IMPORTED_MODULE_4__src_pipes_index__["l"]; });
 /**
  * @license
  * Copyright Google Inc. All Rights Reserved.
@@ -48,125 +52,11 @@ webpackJsonpac__name_([1],{
  * Entry point for all public APIs of the common package.
  */
 
+
+
+
+
 //# sourceMappingURL=index.js.map
-
-/***/ },
-
-/***/ "./node_modules/@angular/common/src/common.js":
-/***/ function(module, exports, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__pipes__ = __webpack_require__("./node_modules/@angular/common/src/pipes.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__directives__ = __webpack_require__("./node_modules/@angular/common/src/directives.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__location__ = __webpack_require__("./node_modules/@angular/common/src/location.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__localization__ = __webpack_require__("./node_modules/@angular/common/src/localization.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__common_module__ = __webpack_require__("./node_modules/@angular/common/src/common_module.js");
-/* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "i", function() { return __WEBPACK_IMPORTED_MODULE_0__pipes__["a"]; });
-/* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "j", function() { return __WEBPACK_IMPORTED_MODULE_0__pipes__["b"]; });
-/* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "k", function() { return __WEBPACK_IMPORTED_MODULE_0__pipes__["c"]; });
-/* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "l", function() { return __WEBPACK_IMPORTED_MODULE_0__pipes__["d"]; });
-/* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "m", function() { return __WEBPACK_IMPORTED_MODULE_0__pipes__["e"]; });
-/* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "n", function() { return __WEBPACK_IMPORTED_MODULE_0__pipes__["f"]; });
-/* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "o", function() { return __WEBPACK_IMPORTED_MODULE_0__pipes__["g"]; });
-/* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "p", function() { return __WEBPACK_IMPORTED_MODULE_0__pipes__["h"]; });
-/* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "q", function() { return __WEBPACK_IMPORTED_MODULE_0__pipes__["i"]; });
-/* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "r", function() { return __WEBPACK_IMPORTED_MODULE_0__pipes__["j"]; });
-/* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "s", function() { return __WEBPACK_IMPORTED_MODULE_0__pipes__["k"]; });
-/* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "t", function() { return __WEBPACK_IMPORTED_MODULE_1__directives__["a"]; });
-/* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "u", function() { return __WEBPACK_IMPORTED_MODULE_1__directives__["b"]; });
-/* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "v", function() { return __WEBPACK_IMPORTED_MODULE_1__directives__["c"]; });
-/* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "w", function() { return __WEBPACK_IMPORTED_MODULE_1__directives__["d"]; });
-/* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "x", function() { return __WEBPACK_IMPORTED_MODULE_1__directives__["e"]; });
-/* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "y", function() { return __WEBPACK_IMPORTED_MODULE_1__directives__["f"]; });
-/* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "z", function() { return __WEBPACK_IMPORTED_MODULE_1__directives__["g"]; });
-/* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "A", function() { return __WEBPACK_IMPORTED_MODULE_1__directives__["h"]; });
-/* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "B", function() { return __WEBPACK_IMPORTED_MODULE_1__directives__["i"]; });
-/* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "C", function() { return __WEBPACK_IMPORTED_MODULE_1__directives__["j"]; });
-/* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "a", function() { return __WEBPACK_IMPORTED_MODULE_2__location__["a"]; });
-/* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "c", function() { return __WEBPACK_IMPORTED_MODULE_2__location__["b"]; });
-/* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "d", function() { return __WEBPACK_IMPORTED_MODULE_2__location__["c"]; });
-/* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "e", function() { return __WEBPACK_IMPORTED_MODULE_2__location__["d"]; });
-/* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "f", function() { return __WEBPACK_IMPORTED_MODULE_2__location__["e"]; });
-/* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "g", function() { return __WEBPACK_IMPORTED_MODULE_2__location__["f"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(exports, "h", function() { return __WEBPACK_IMPORTED_MODULE_3__localization__["b"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(exports, "b", function() { return __WEBPACK_IMPORTED_MODULE_4__common_module__["a"]; });
-/**
- * @license
- * Copyright Google Inc. All Rights Reserved.
- *
- * Use of this source code is governed by an MIT-style license that can be
- * found in the LICENSE file at https://angular.io/license
- */
-
-
-
-
-
-//# sourceMappingURL=common.js.map
-
-/***/ },
-
-/***/ "./node_modules/@angular/common/src/common_directives.js":
-/***/ function(module, exports, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__directives_core_directives__ = __webpack_require__("./node_modules/@angular/common/src/directives/core_directives.js");
-/* harmony export (binding) */ __webpack_require__.d(exports, "a", function() { return COMMON_DIRECTIVES; });
-/**
- * @license
- * Copyright Google Inc. All Rights Reserved.
- *
- * Use of this source code is governed by an MIT-style license that can be
- * found in the LICENSE file at https://angular.io/license
- */
-
-/**
- * A collection of Angular core directives that are likely to be used in each and every Angular
- * application. This includes core directives (e.g., NgIf and NgFor), and forms directives (e.g.,
- * NgModel).
- *
- * This collection can be used to quickly enumerate all the built-in directives in the `directives`
- * property of the `@Component` decorator.
- *
- * ### Example
- *
- * Instead of writing:
- *
- * ```typescript
- * import {NgClass, NgIf, NgFor, NgSwitch, NgSwitchCase, NgSwitchDefault, NgModel, NgForm} from
- * '@angular/common';
- * import {OtherDirective} from './myDirectives';
- *
- * @Component({
- *   selector: 'my-component',
- *   templateUrl: 'myComponent.html',
- *   directives: [NgClass, NgIf, NgFor, NgSwitch, NgSwitchCase, NgSwitchDefault, NgModel, NgForm,
- * OtherDirective]
- * })
- * export class MyComponent {
- *   ...
- * }
- * ```
- * one could import all the common directives at once:
- *
- * ```typescript
- * import {COMMON_DIRECTIVES} from '@angular/common';
- * import {OtherDirective} from './myDirectives';
- *
- * @Component({
- *   selector: 'my-component',
- *   templateUrl: 'myComponent.html',
- *   directives: [COMMON_DIRECTIVES, OtherDirective]
- * })
- * export class MyComponent {
- *   ...
- * }
- * ```
- *
- * @experimental Contains forms which are experimental.
- */
-var COMMON_DIRECTIVES = __WEBPACK_IMPORTED_MODULE_0__directives_core_directives__["a" /* CORE_DIRECTIVES */];
-//# sourceMappingURL=common_directives.js.map
 
 /***/ },
 
@@ -175,9 +65,9 @@ var COMMON_DIRECTIVES = __WEBPACK_IMPORTED_MODULE_0__directives_core_directives_
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/index.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__common_directives__ = __webpack_require__("./node_modules/@angular/common/src/common_directives.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__directives_index__ = __webpack_require__("./node_modules/@angular/common/src/directives/index.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__localization__ = __webpack_require__("./node_modules/@angular/common/src/localization.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__pipes_common_pipes__ = __webpack_require__("./node_modules/@angular/common/src/pipes/common_pipes.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__pipes_index__ = __webpack_require__("./node_modules/@angular/common/src/pipes/index.js");
 /* harmony export (binding) */ __webpack_require__.d(exports, "a", function() { return CommonModule; });
 /**
  * @license
@@ -193,7 +83,7 @@ var COMMON_DIRECTIVES = __WEBPACK_IMPORTED_MODULE_0__directives_core_directives_
 // Note: This does not contain the location providers,
 // as they need some platform specific implementations to work.
 /**
- * The module that includes all the basic Angular directives like {@link NgIf}, ${link NgFor}, ...
+ * The module that includes all the basic Angular directives like {@link NgIf}, {@link NgFor}, ...
  *
  * @stable
  */
@@ -202,8 +92,8 @@ var CommonModule = (function () {
     }
     CommonModule.decorators = [
         { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["NgModule"], args: [{
-                    declarations: [__WEBPACK_IMPORTED_MODULE_1__common_directives__["a" /* COMMON_DIRECTIVES */], __WEBPACK_IMPORTED_MODULE_3__pipes_common_pipes__["a" /* COMMON_PIPES */]],
-                    exports: [__WEBPACK_IMPORTED_MODULE_1__common_directives__["a" /* COMMON_DIRECTIVES */], __WEBPACK_IMPORTED_MODULE_3__pipes_common_pipes__["a" /* COMMON_PIPES */]],
+                    declarations: [__WEBPACK_IMPORTED_MODULE_1__directives_index__["a" /* COMMON_DIRECTIVES */], __WEBPACK_IMPORTED_MODULE_3__pipes_index__["a" /* COMMON_PIPES */]],
+                    exports: [__WEBPACK_IMPORTED_MODULE_1__directives_index__["a" /* COMMON_DIRECTIVES */], __WEBPACK_IMPORTED_MODULE_3__pipes_index__["a" /* COMMON_PIPES */]],
                     providers: [
                         { provide: __WEBPACK_IMPORTED_MODULE_2__localization__["b" /* NgLocalization */], useClass: __WEBPACK_IMPORTED_MODULE_2__localization__["c" /* NgLocaleLocalization */] },
                     ],
@@ -217,51 +107,7 @@ var CommonModule = (function () {
 
 /***/ },
 
-/***/ "./node_modules/@angular/common/src/directives.js":
-/***/ function(module, exports, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__directives_ng_class__ = __webpack_require__("./node_modules/@angular/common/src/directives/ng_class.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__directives_ng_for__ = __webpack_require__("./node_modules/@angular/common/src/directives/ng_for.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__directives_ng_if__ = __webpack_require__("./node_modules/@angular/common/src/directives/ng_if.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__directives_ng_plural__ = __webpack_require__("./node_modules/@angular/common/src/directives/ng_plural.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__directives_ng_style__ = __webpack_require__("./node_modules/@angular/common/src/directives/ng_style.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__directives_ng_switch__ = __webpack_require__("./node_modules/@angular/common/src/directives/ng_switch.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__directives_ng_template_outlet__ = __webpack_require__("./node_modules/@angular/common/src/directives/ng_template_outlet.js");
-/* harmony reexport (binding) */ __webpack_require__.d(exports, "a", function() { return __WEBPACK_IMPORTED_MODULE_0__directives_ng_class__["a"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(exports, "b", function() { return __WEBPACK_IMPORTED_MODULE_1__directives_ng_for__["a"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(exports, "c", function() { return __WEBPACK_IMPORTED_MODULE_2__directives_ng_if__["a"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(exports, "d", function() { return __WEBPACK_IMPORTED_MODULE_3__directives_ng_plural__["a"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(exports, "e", function() { return __WEBPACK_IMPORTED_MODULE_3__directives_ng_plural__["b"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(exports, "f", function() { return __WEBPACK_IMPORTED_MODULE_4__directives_ng_style__["a"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(exports, "g", function() { return __WEBPACK_IMPORTED_MODULE_5__directives_ng_switch__["b"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(exports, "h", function() { return __WEBPACK_IMPORTED_MODULE_5__directives_ng_switch__["c"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(exports, "i", function() { return __WEBPACK_IMPORTED_MODULE_5__directives_ng_switch__["d"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(exports, "j", function() { return __WEBPACK_IMPORTED_MODULE_6__directives_ng_template_outlet__["a"]; });
-/**
- * @license
- * Copyright Google Inc. All Rights Reserved.
- *
- * Use of this source code is governed by an MIT-style license that can be
- * found in the LICENSE file at https://angular.io/license
- */
-/**
- * @module
- * @description
- * Common directives shipped with Angular.
- */
-
-
-
-
-
-
-
-//# sourceMappingURL=directives.js.map
-
-/***/ },
-
-/***/ "./node_modules/@angular/common/src/directives/core_directives.js":
+/***/ "./node_modules/@angular/common/src/directives/index.js":
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -272,7 +118,7 @@ var CommonModule = (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ng_style__ = __webpack_require__("./node_modules/@angular/common/src/directives/ng_style.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__ng_switch__ = __webpack_require__("./node_modules/@angular/common/src/directives/ng_switch.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__ng_template_outlet__ = __webpack_require__("./node_modules/@angular/common/src/directives/ng_template_outlet.js");
-/* harmony export (binding) */ __webpack_require__.d(exports, "a", function() { return CORE_DIRECTIVES; });
+/* harmony export (binding) */ __webpack_require__.d(exports, "a", function() { return COMMON_DIRECTIVES; });
 /**
  * @license
  * Copyright Google Inc. All Rights Reserved.
@@ -287,49 +133,22 @@ var CommonModule = (function () {
 
 
 
+/* harmony reexport (binding) */ __webpack_require__.d(exports, "b", function() { return __WEBPACK_IMPORTED_MODULE_0__ng_class__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(exports, "c", function() { return __WEBPACK_IMPORTED_MODULE_1__ng_for__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(exports, "d", function() { return __WEBPACK_IMPORTED_MODULE_2__ng_if__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(exports, "e", function() { return __WEBPACK_IMPORTED_MODULE_3__ng_plural__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(exports, "f", function() { return __WEBPACK_IMPORTED_MODULE_3__ng_plural__["b"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(exports, "g", function() { return __WEBPACK_IMPORTED_MODULE_4__ng_style__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(exports, "h", function() { return __WEBPACK_IMPORTED_MODULE_5__ng_switch__["b"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(exports, "i", function() { return __WEBPACK_IMPORTED_MODULE_5__ng_switch__["c"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(exports, "j", function() { return __WEBPACK_IMPORTED_MODULE_5__ng_switch__["d"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(exports, "k", function() { return __WEBPACK_IMPORTED_MODULE_6__ng_template_outlet__["a"]; });
+
 /**
- * A collection of Angular core directives that are likely to be used in each and every Angular
+ * A collection of Angular directives that are likely to be used in each and every Angular
  * application.
- *
- * This collection can be used to quickly enumerate all the built-in directives in the `directives`
- * property of the `@Component` annotation.
- *
- * ### Example ([live demo](http://plnkr.co/edit/yakGwpCdUkg0qfzX5m8g?p=preview))
- *
- * Instead of writing:
- *
- * ```typescript
- * import {NgClass, NgIf, NgFor, NgSwitch, NgSwitchCase, NgSwitchDefault} from '@angular/common';
- * import {OtherDirective} from './myDirectives';
- *
- * @Component({
- *   selector: 'my-component',
- *   templateUrl: 'myComponent.html',
- *   directives: [NgClass, NgIf, NgFor, NgSwitch, NgSwitchCase, NgSwitchDefault, OtherDirective]
- * })
- * export class MyComponent {
- *   ...
- * }
- * ```
- * one could import all the core directives at once:
- *
- * ```typescript
- * import {CORE_DIRECTIVES} from '@angular/common';
- * import {OtherDirective} from './myDirectives';
- *
- * @Component({
- *   selector: 'my-component',
- *   templateUrl: 'myComponent.html',
- *   directives: [CORE_DIRECTIVES, OtherDirective]
- * })
- * export class MyComponent {
- *   ...
- * }
- * ```
- *
- * @stable
  */
-var CORE_DIRECTIVES = [
+var COMMON_DIRECTIVES = [
     __WEBPACK_IMPORTED_MODULE_0__ng_class__["a" /* NgClass */],
     __WEBPACK_IMPORTED_MODULE_1__ng_for__["a" /* NgFor */],
     __WEBPACK_IMPORTED_MODULE_2__ng_if__["a" /* NgIf */],
@@ -341,7 +160,7 @@ var CORE_DIRECTIVES = [
     __WEBPACK_IMPORTED_MODULE_3__ng_plural__["a" /* NgPlural */],
     __WEBPACK_IMPORTED_MODULE_3__ng_plural__["b" /* NgPluralCase */],
 ];
-//# sourceMappingURL=core_directives.js.map
+//# sourceMappingURL=index.js.map
 
 /***/ },
 
@@ -432,10 +251,10 @@ var NgClass = (function () {
         this._renderer = _renderer;
         this._initialClasses = [];
     }
-    Object.defineProperty(NgClass.prototype, "initialClasses", {
+    Object.defineProperty(NgClass.prototype, "klass", {
         set: function (v) {
             this._applyInitialClasses(true);
-            this._initialClasses = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2__facade_lang__["b" /* isPresent */])(v) && __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2__facade_lang__["k" /* isString */])(v) ? v.split(' ') : [];
+            this._initialClasses = typeof v === 'string' ? v.split(/\s+/) : [];
             this._applyInitialClasses(false);
             this._applyClasses(this._rawClass, false);
         },
@@ -445,18 +264,15 @@ var NgClass = (function () {
     Object.defineProperty(NgClass.prototype, "ngClass", {
         set: function (v) {
             this._cleanupClasses(this._rawClass);
-            if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2__facade_lang__["k" /* isString */])(v)) {
-                v = v.split(' ');
-            }
-            this._rawClass = v;
             this._iterableDiffer = null;
             this._keyValueDiffer = null;
-            if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2__facade_lang__["b" /* isPresent */])(v)) {
-                if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_collection__["c" /* isListLikeIterable */])(v)) {
-                    this._iterableDiffer = this._iterableDiffers.find(v).create(null);
+            this._rawClass = typeof v === 'string' ? v.split(/\s+/) : v;
+            if (this._rawClass) {
+                if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_collection__["a" /* isListLikeIterable */])(this._rawClass)) {
+                    this._iterableDiffer = this._iterableDiffers.find(this._rawClass).create(null);
                 }
                 else {
-                    this._keyValueDiffer = this._keyValueDiffers.find(v).create(null);
+                    this._keyValueDiffer = this._keyValueDiffers.find(this._rawClass).create(null);
                 }
             }
         },
@@ -464,15 +280,15 @@ var NgClass = (function () {
         configurable: true
     });
     NgClass.prototype.ngDoCheck = function () {
-        if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2__facade_lang__["b" /* isPresent */])(this._iterableDiffer)) {
+        if (this._iterableDiffer) {
             var changes = this._iterableDiffer.diff(this._rawClass);
-            if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2__facade_lang__["b" /* isPresent */])(changes)) {
+            if (changes) {
                 this._applyIterableChanges(changes);
             }
         }
-        if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2__facade_lang__["b" /* isPresent */])(this._keyValueDiffer)) {
+        else if (this._keyValueDiffer) {
             var changes = this._keyValueDiffer.diff(this._rawClass);
-            if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2__facade_lang__["b" /* isPresent */])(changes)) {
+            if (changes) {
                 this._applyKeyValueChanges(changes);
             }
         }
@@ -483,8 +299,8 @@ var NgClass = (function () {
     };
     NgClass.prototype._applyKeyValueChanges = function (changes) {
         var _this = this;
-        changes.forEachAddedItem(function (record) { _this._toggleClass(record.key, record.currentValue); });
-        changes.forEachChangedItem(function (record) { _this._toggleClass(record.key, record.currentValue); });
+        changes.forEachAddedItem(function (record) { return _this._toggleClass(record.key, record.currentValue); });
+        changes.forEachChangedItem(function (record) { return _this._toggleClass(record.key, record.currentValue); });
         changes.forEachRemovedItem(function (record) {
             if (record.previousValue) {
                 _this._toggleClass(record.key, false);
@@ -493,42 +309,32 @@ var NgClass = (function () {
     };
     NgClass.prototype._applyIterableChanges = function (changes) {
         var _this = this;
-        changes.forEachAddedItem(function (record) { _this._toggleClass(record.item, true); });
-        changes.forEachRemovedItem(function (record) { _this._toggleClass(record.item, false); });
+        changes.forEachAddedItem(function (record) { return _this._toggleClass(record.item, true); });
+        changes.forEachRemovedItem(function (record) { return _this._toggleClass(record.item, false); });
     };
     NgClass.prototype._applyInitialClasses = function (isCleanup) {
         var _this = this;
-        this._initialClasses.forEach(function (className) { return _this._toggleClass(className, !isCleanup); });
+        this._initialClasses.forEach(function (klass) { return _this._toggleClass(klass, !isCleanup); });
     };
     NgClass.prototype._applyClasses = function (rawClassVal, isCleanup) {
         var _this = this;
-        if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2__facade_lang__["b" /* isPresent */])(rawClassVal)) {
-            if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2__facade_lang__["f" /* isArray */])(rawClassVal)) {
-                rawClassVal.forEach(function (className) { return _this._toggleClass(className, !isCleanup); });
-            }
-            else if (rawClassVal instanceof Set) {
-                rawClassVal.forEach(function (className) { return _this._toggleClass(className, !isCleanup); });
+        if (rawClassVal) {
+            if (Array.isArray(rawClassVal) || rawClassVal instanceof Set) {
+                rawClassVal.forEach(function (klass) { return _this._toggleClass(klass, !isCleanup); });
             }
             else {
-                __WEBPACK_IMPORTED_MODULE_1__facade_collection__["a" /* StringMapWrapper */].forEach(rawClassVal, function (expVal, className) {
-                    if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2__facade_lang__["b" /* isPresent */])(expVal))
-                        _this._toggleClass(className, !isCleanup);
+                Object.keys(rawClassVal).forEach(function (klass) {
+                    if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2__facade_lang__["a" /* isPresent */])(rawClassVal[klass]))
+                        _this._toggleClass(klass, !isCleanup);
                 });
             }
         }
     };
-    NgClass.prototype._toggleClass = function (className, enabled) {
-        className = className.trim();
-        if (className.length > 0) {
-            if (className.indexOf(' ') > -1) {
-                var classes = className.split(/\s+/g);
-                for (var i = 0, len = classes.length; i < len; i++) {
-                    this._renderer.setElementClass(this._ngEl.nativeElement, classes[i], enabled);
-                }
-            }
-            else {
-                this._renderer.setElementClass(this._ngEl.nativeElement, className, enabled);
-            }
+    NgClass.prototype._toggleClass = function (klass, enabled) {
+        var _this = this;
+        klass = klass.trim();
+        if (klass) {
+            klass.split(/\s+/g).forEach(function (klass) { _this._renderer.setElementClass(_this._ngEl.nativeElement, klass, enabled); });
         }
     };
     NgClass.decorators = [
@@ -542,7 +348,7 @@ var NgClass = (function () {
         { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["Renderer"], },
     ];
     NgClass.propDecorators = {
-        'initialClasses': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["Input"], args: ['class',] },],
+        'klass': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["Input"], args: ['class',] },],
         'ngClass': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["Input"] },],
     };
     return NgClass;
@@ -661,16 +467,17 @@ var NgForRow = (function () {
  * @stable
  */
 var NgFor = (function () {
-    function NgFor(_viewContainer, _templateRef, _iterableDiffers, _cdr) {
+    function NgFor(_viewContainer, _template, _differs, _cdr) {
         this._viewContainer = _viewContainer;
-        this._templateRef = _templateRef;
-        this._iterableDiffers = _iterableDiffers;
+        this._template = _template;
+        this._differs = _differs;
         this._cdr = _cdr;
+        this._differ = null;
     }
     Object.defineProperty(NgFor.prototype, "ngForTemplate", {
         set: function (value) {
-            if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["b" /* isPresent */])(value)) {
-                this._templateRef = value;
+            if (value) {
+                this._template = value;
             }
         },
         enumerable: true,
@@ -680,20 +487,20 @@ var NgFor = (function () {
         if ('ngForOf' in changes) {
             // React on ngForOf changes only once all inputs have been initialized
             var value = changes['ngForOf'].currentValue;
-            if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["c" /* isBlank */])(this._differ) && __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["b" /* isPresent */])(value)) {
+            if (!this._differ && value) {
                 try {
-                    this._differ = this._iterableDiffers.find(value).create(this._cdr, this.ngForTrackBy);
+                    this._differ = this._differs.find(value).create(this._cdr, this.ngForTrackBy);
                 }
                 catch (e) {
-                    throw new Error("Cannot find a differ supporting object '" + value + "' of type '" + __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["q" /* getTypeNameForDebugging */])(value) + "'. NgFor only supports binding to Iterables such as Arrays.");
+                    throw new Error("Cannot find a differ supporting object '" + value + "' of type '" + __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["g" /* getTypeNameForDebugging */])(value) + "'. NgFor only supports binding to Iterables such as Arrays.");
                 }
             }
         }
     };
     NgFor.prototype.ngDoCheck = function () {
-        if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["b" /* isPresent */])(this._differ)) {
+        if (this._differ) {
             var changes = this._differ.diff(this.ngForOf);
-            if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["b" /* isPresent */])(changes))
+            if (changes)
                 this._applyChanges(changes);
         }
     };
@@ -702,7 +509,7 @@ var NgFor = (function () {
         var insertTuples = [];
         changes.forEachOperation(function (item, adjustedPreviousIndex, currentIndex) {
             if (item.previousIndex == null) {
-                var view = _this._viewContainer.createEmbeddedView(_this._templateRef, new NgForRow(null, null, null), currentIndex);
+                var view = _this._viewContainer.createEmbeddedView(_this._template, new NgForRow(null, null, null), currentIndex);
                 var tuple = new RecordViewTuple(item, view);
                 insertTuples.push(tuple);
             }
@@ -765,7 +572,6 @@ var RecordViewTuple = (function () {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/index.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__facade_lang__ = __webpack_require__("./node_modules/@angular/common/src/facade/lang.js");
 /* harmony export (binding) */ __webpack_require__.d(exports, "a", function() { return NgIf; });
 /**
  * @license
@@ -774,7 +580,6 @@ var RecordViewTuple = (function () {
  * Use of this source code is governed by an MIT-style license that can be
  * found in the LICENSE file at https://angular.io/license
  */
-
 
 /**
  * Removes or recreates a portion of the DOM tree based on an {expression}.
@@ -801,19 +606,19 @@ var RecordViewTuple = (function () {
  * @stable
  */
 var NgIf = (function () {
-    function NgIf(_viewContainer, _templateRef) {
+    function NgIf(_viewContainer, _template) {
         this._viewContainer = _viewContainer;
-        this._templateRef = _templateRef;
-        this._prevCondition = null;
+        this._template = _template;
+        this._hasView = false;
     }
     Object.defineProperty(NgIf.prototype, "ngIf", {
-        set: function (newCondition) {
-            if (newCondition && (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["c" /* isBlank */])(this._prevCondition) || !this._prevCondition)) {
-                this._prevCondition = true;
-                this._viewContainer.createEmbeddedView(this._templateRef);
+        set: function (condition) {
+            if (condition && !this._hasView) {
+                this._hasView = true;
+                this._viewContainer.createEmbeddedView(this._template);
             }
-            else if (!newCondition && (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["c" /* isBlank */])(this._prevCondition) || this._prevCondition)) {
-                this._prevCondition = false;
+            else if (!condition && this._hasView) {
+                this._hasView = false;
                 this._viewContainer.clear();
             }
         },
@@ -842,9 +647,8 @@ var NgIf = (function () {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/index.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__facade_lang__ = __webpack_require__("./node_modules/@angular/common/src/facade/lang.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__localization__ = __webpack_require__("./node_modules/@angular/common/src/localization.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ng_switch__ = __webpack_require__("./node_modules/@angular/common/src/directives/ng_switch.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__localization__ = __webpack_require__("./node_modules/@angular/common/src/localization.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ng_switch__ = __webpack_require__("./node_modules/@angular/common/src/directives/ng_switch.js");
 /* harmony export (binding) */ __webpack_require__.d(exports, "a", function() { return NgPlural; });
 /* harmony export (binding) */ __webpack_require__.d(exports, "b", function() { return NgPluralCase; });
 /**
@@ -854,7 +658,6 @@ var NgIf = (function () {
  * Use of this source code is governed by an MIT-style license that can be
  * found in the LICENSE file at https://angular.io/license
  */
-
 
 
 
@@ -920,27 +723,28 @@ var NgPlural = (function () {
     /** @internal */
     NgPlural.prototype._updateView = function () {
         this._clearViews();
-        var key = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2__localization__["a" /* getPluralCategory */])(this._switchValue, Object.keys(this._caseViews), this._localization);
+        var cases = Object.keys(this._caseViews);
+        var key = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__localization__["a" /* getPluralCategory */])(this._switchValue, cases, this._localization);
         this._activateView(this._caseViews[key]);
     };
     /** @internal */
     NgPlural.prototype._clearViews = function () {
-        if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["b" /* isPresent */])(this._activeView))
+        if (this._activeView)
             this._activeView.destroy();
     };
     /** @internal */
     NgPlural.prototype._activateView = function (view) {
-        if (!__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["b" /* isPresent */])(view))
-            return;
-        this._activeView = view;
-        this._activeView.create();
+        if (view) {
+            this._activeView = view;
+            this._activeView.create();
+        }
     };
     NgPlural.decorators = [
         { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["Directive"], args: [{ selector: '[ngPlural]' },] },
     ];
     /** @nocollapse */
     NgPlural.ctorParameters = [
-        { type: __WEBPACK_IMPORTED_MODULE_2__localization__["b" /* NgLocalization */], },
+        { type: __WEBPACK_IMPORTED_MODULE_1__localization__["b" /* NgLocalization */], },
     ];
     NgPlural.propDecorators = {
         'ngPlural': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["Input"] },],
@@ -953,7 +757,7 @@ var NgPlural = (function () {
 var NgPluralCase = (function () {
     function NgPluralCase(value, template, viewContainer, ngPlural) {
         this.value = value;
-        ngPlural.addCase(value, new __WEBPACK_IMPORTED_MODULE_3__ng_switch__["a" /* SwitchView */](viewContainer, template));
+        ngPlural.addCase(value, new __WEBPACK_IMPORTED_MODULE_2__ng_switch__["a" /* SwitchView */](viewContainer, template));
     }
     NgPluralCase.decorators = [
         { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["Directive"], args: [{ selector: '[ngPluralCase]' },] },
@@ -976,7 +780,6 @@ var NgPluralCase = (function () {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/index.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__facade_lang__ = __webpack_require__("./node_modules/@angular/common/src/facade/lang.js");
 /* harmony export (binding) */ __webpack_require__.d(exports, "a", function() { return NgStyle; });
 /**
  * @license
@@ -985,7 +788,6 @@ var NgPluralCase = (function () {
  * Use of this source code is governed by an MIT-style license that can be
  * found in the LICENSE file at https://angular.io/license
  */
-
 
 /**
  * The `NgStyle` directive changes styles based on a result of expression evaluation.
@@ -1050,32 +852,31 @@ var NgStyle = (function () {
     Object.defineProperty(NgStyle.prototype, "ngStyle", {
         set: function (v) {
             this._ngStyle = v;
-            if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["c" /* isBlank */])(this._differ) && __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["b" /* isPresent */])(v)) {
-                this._differ = this._differs.find(this._ngStyle).create(null);
+            if (!this._differ && v) {
+                this._differ = this._differs.find(v).create(null);
             }
         },
         enumerable: true,
         configurable: true
     });
     NgStyle.prototype.ngDoCheck = function () {
-        if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["b" /* isPresent */])(this._differ)) {
+        if (this._differ) {
             var changes = this._differ.diff(this._ngStyle);
-            if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["b" /* isPresent */])(changes)) {
+            if (changes) {
                 this._applyChanges(changes);
             }
         }
     };
     NgStyle.prototype._applyChanges = function (changes) {
         var _this = this;
-        changes.forEachRemovedItem(function (record) { _this._setStyle(record.key, null); });
-        changes.forEachAddedItem(function (record) { _this._setStyle(record.key, record.currentValue); });
-        changes.forEachChangedItem(function (record) { _this._setStyle(record.key, record.currentValue); });
+        changes.forEachRemovedItem(function (record) { return _this._setStyle(record.key, null); });
+        changes.forEachAddedItem(function (record) { return _this._setStyle(record.key, record.currentValue); });
+        changes.forEachChangedItem(function (record) { return _this._setStyle(record.key, record.currentValue); });
     };
-    NgStyle.prototype._setStyle = function (name, val) {
-        var nameParts = name.split('.');
-        var nameToSet = nameParts[0];
-        var valToSet = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["b" /* isPresent */])(val) && nameParts.length === 2 ? "" + val + nameParts[1] : val;
-        this._renderer.setElementStyle(this._ngEl.nativeElement, nameToSet, valToSet);
+    NgStyle.prototype._setStyle = function (nameAndUnit, value) {
+        var _a = nameAndUnit.split('.'), name = _a[0], unit = _a[1];
+        value = value !== null && value !== void (0) && unit ? "" + value + unit : value;
+        this._renderer.setElementStyle(this._ngEl.nativeElement, name, value);
     };
     NgStyle.decorators = [
         { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["Directive"], args: [{ selector: '[ngStyle]' },] },
@@ -1101,7 +902,6 @@ var NgStyle = (function () {
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/index.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__facade_collection__ = __webpack_require__("./node_modules/@angular/common/src/facade/collection.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__facade_lang__ = __webpack_require__("./node_modules/@angular/common/src/facade/lang.js");
 /* harmony export (binding) */ __webpack_require__.d(exports, "a", function() { return SwitchView; });
 /* harmony export (binding) */ __webpack_require__.d(exports, "b", function() { return NgSwitch; });
 /* harmony export (binding) */ __webpack_require__.d(exports, "c", function() { return NgSwitchCase; });
@@ -1113,7 +913,6 @@ var NgStyle = (function () {
  * Use of this source code is governed by an MIT-style license that can be
  * found in the LICENSE file at https://angular.io/license
  */
-
 
 
 var _CASE_DEFAULT = new Object();
@@ -1195,9 +994,9 @@ var NgSwitch = (function () {
             // Add the ViewContainers matching the value (with a fallback to default)
             this._useDefault = false;
             var views = this._valueViews.get(value);
-            if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2__facade_lang__["c" /* isBlank */])(views)) {
+            if (!views) {
                 this._useDefault = true;
-                views = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2__facade_lang__["r" /* normalizeBlank */])(this._valueViews.get(_CASE_DEFAULT));
+                views = this._valueViews.get(_CASE_DEFAULT) || null;
             }
             this._activateViews(views);
             this._switchValue = value;
@@ -1238,7 +1037,7 @@ var NgSwitch = (function () {
     /** @internal */
     NgSwitch.prototype._activateViews = function (views) {
         // TODO(vicb): assert(this._activeViews.length === 0);
-        if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2__facade_lang__["b" /* isPresent */])(views)) {
+        if (views) {
             for (var i = 0; i < views.length; i++) {
                 views[i].create();
             }
@@ -1248,7 +1047,7 @@ var NgSwitch = (function () {
     /** @internal */
     NgSwitch.prototype._registerView = function (value, view) {
         var views = this._valueViews.get(value);
-        if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2__facade_lang__["c" /* isBlank */])(views)) {
+        if (!views) {
             views = [];
             this._valueViews.set(value, views);
         }
@@ -1423,9 +1222,9 @@ var NgTemplateOutlet = (function () {
 /* unused harmony export Map */
 /* unused harmony export Set */
 /* unused harmony export MapWrapper */
-/* harmony export (binding) */ __webpack_require__.d(exports, "a", function() { return StringMapWrapper; });
+/* harmony export (binding) */ __webpack_require__.d(exports, "c", function() { return StringMapWrapper; });
 /* harmony export (binding) */ __webpack_require__.d(exports, "b", function() { return ListWrapper; });
-/* harmony export (immutable) */ exports["c"] = isListLikeIterable;
+/* harmony export (immutable) */ exports["a"] = isListLikeIterable;
 /* unused harmony export areIterablesEqual */
 /* unused harmony export iterateListLike */
 /* unused harmony export SetWrapper */
@@ -1437,8 +1236,8 @@ var NgTemplateOutlet = (function () {
  * found in the LICENSE file at https://angular.io/license
  */
 
-var Map = __WEBPACK_IMPORTED_MODULE_0__lang__["e" /* global */].Map;
-var Set = __WEBPACK_IMPORTED_MODULE_0__lang__["e" /* global */].Set;
+var Map = __WEBPACK_IMPORTED_MODULE_0__lang__["c" /* global */].Map;
+var Set = __WEBPACK_IMPORTED_MODULE_0__lang__["c" /* global */].Set;
 // Safari and Internet Explorer do not support the iterable parameter to the
 // Map constructor.  We work around that by manually adding the items.
 var createMapFromPairs = (function () {
@@ -1586,9 +1385,8 @@ var StringMapWrapper = (function () {
         if (k1.length != k2.length) {
             return false;
         }
-        var key;
         for (var i = 0; i < k1.length; i++) {
-            key = k1[i];
+            var key = k1[i];
             if (m1[key] !== m2[key]) {
                 return false;
             }
@@ -1673,7 +1471,7 @@ var ListWrapper = (function () {
     };
     ListWrapper.splice = function (l, from, length) { return l.splice(from, length); };
     ListWrapper.sort = function (l, compareFn) {
-        if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__lang__["b" /* isPresent */])(compareFn)) {
+        if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__lang__["a" /* isPresent */])(compareFn)) {
             l.sort(compareFn);
         }
         else {
@@ -1690,7 +1488,7 @@ var ListWrapper = (function () {
         var maxValue = -Infinity;
         for (var index = 0; index < list.length; index++) {
             var candidate = list[index];
-            if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__lang__["c" /* isBlank */])(candidate)) {
+            if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__lang__["b" /* isBlank */])(candidate)) {
                 continue;
             }
             var candidateValue = predicate(candidate);
@@ -1714,10 +1512,10 @@ var ListWrapper = (function () {
     return ListWrapper;
 }());
 function _flattenArray(source, target) {
-    if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__lang__["b" /* isPresent */])(source)) {
+    if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__lang__["a" /* isPresent */])(source)) {
         for (var i = 0; i < source.length; i++) {
             var item = source[i];
-            if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__lang__["f" /* isArray */])(item)) {
+            if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__lang__["d" /* isArray */])(item)) {
                 _flattenArray(item, target);
             }
             else {
@@ -1728,15 +1526,15 @@ function _flattenArray(source, target) {
     return target;
 }
 function isListLikeIterable(obj) {
-    if (!__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__lang__["g" /* isJsObject */])(obj))
+    if (!__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__lang__["e" /* isJsObject */])(obj))
         return false;
-    return __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__lang__["f" /* isArray */])(obj) ||
+    return __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__lang__["d" /* isArray */])(obj) ||
         (!(obj instanceof Map) &&
-            __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__lang__["h" /* getSymbolIterator */])() in obj); // JS Iterable have a Symbol.iterator prop
+            __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__lang__["f" /* getSymbolIterator */])() in obj); // JS Iterable have a Symbol.iterator prop
 }
 function areIterablesEqual(a, b, comparator) {
-    var iterator1 = a[__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__lang__["h" /* getSymbolIterator */])()]();
-    var iterator2 = b[__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__lang__["h" /* getSymbolIterator */])()]();
+    var iterator1 = a[__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__lang__["f" /* getSymbolIterator */])()]();
+    var iterator2 = b[__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__lang__["f" /* getSymbolIterator */])()]();
     while (true) {
         var item1 = iterator1.next();
         var item2 = iterator2.next();
@@ -1749,13 +1547,13 @@ function areIterablesEqual(a, b, comparator) {
     }
 }
 function iterateListLike(obj, fn) {
-    if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__lang__["f" /* isArray */])(obj)) {
+    if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__lang__["d" /* isArray */])(obj)) {
         for (var i = 0; i < obj.length; i++) {
             fn(obj[i]);
         }
     }
     else {
-        var iterator = obj[__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__lang__["h" /* getSymbolIterator */])()]();
+        var iterator = obj[__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__lang__["f" /* getSymbolIterator */])()]();
         var item;
         while (!((item = iterator.next()).done)) {
             fn(item.value);
@@ -2080,43 +1878,43 @@ var DateFormatter = (function () {
 
 "use strict";
 /* WEBPACK VAR INJECTION */(function(global) {/* unused harmony export scheduleMicroTask */
-/* harmony export (binding) */ __webpack_require__.d(exports, "e", function() { return _global; });
-/* harmony export (immutable) */ exports["q"] = getTypeNameForDebugging;
+/* harmony export (binding) */ __webpack_require__.d(exports, "c", function() { return _global; });
+/* harmony export (immutable) */ exports["g"] = getTypeNameForDebugging;
 /* unused harmony export Math */
 /* unused harmony export Date */
-/* harmony export (immutable) */ exports["b"] = isPresent;
-/* harmony export (immutable) */ exports["c"] = isBlank;
+/* harmony export (immutable) */ exports["a"] = isPresent;
+/* harmony export (immutable) */ exports["b"] = isBlank;
 /* unused harmony export isBoolean */
-/* harmony export (immutable) */ exports["p"] = isNumber;
-/* harmony export (immutable) */ exports["k"] = isString;
+/* harmony export (immutable) */ exports["q"] = isNumber;
+/* harmony export (immutable) */ exports["l"] = isString;
 /* unused harmony export isFunction */
 /* unused harmony export isType */
-/* harmony export (immutable) */ exports["m"] = isStringMap;
+/* harmony export (immutable) */ exports["n"] = isStringMap;
 /* unused harmony export isStrictStringMap */
-/* harmony export (immutable) */ exports["d"] = isPromise;
-/* harmony export (immutable) */ exports["f"] = isArray;
-/* harmony export (immutable) */ exports["l"] = isDate;
+/* harmony export (immutable) */ exports["i"] = isPromise;
+/* harmony export (immutable) */ exports["d"] = isArray;
+/* harmony export (immutable) */ exports["m"] = isDate;
 /* unused harmony export noop */
-/* harmony export (immutable) */ exports["a"] = stringify;
+/* harmony export (immutable) */ exports["h"] = stringify;
 /* unused harmony export serializeEnum */
 /* unused harmony export deserializeEnum */
 /* unused harmony export resolveEnumToken */
-/* harmony export (binding) */ __webpack_require__.d(exports, "n", function() { return StringWrapper; });
+/* harmony export (binding) */ __webpack_require__.d(exports, "o", function() { return StringWrapper; });
 /* unused harmony export StringJoiner */
-/* harmony export (binding) */ __webpack_require__.d(exports, "i", function() { return NumberWrapper; });
+/* harmony export (binding) */ __webpack_require__.d(exports, "j", function() { return NumberWrapper; });
 /* unused harmony export RegExp */
 /* unused harmony export FunctionWrapper */
 /* unused harmony export looseIdentical */
 /* unused harmony export getMapKey */
-/* harmony export (immutable) */ exports["r"] = normalizeBlank;
+/* unused harmony export normalizeBlank */
 /* unused harmony export normalizeBool */
-/* harmony export (immutable) */ exports["g"] = isJsObject;
+/* harmony export (immutable) */ exports["e"] = isJsObject;
 /* unused harmony export print */
 /* unused harmony export warn */
-/* harmony export (binding) */ __webpack_require__.d(exports, "o", function() { return Json; });
-/* harmony export (binding) */ __webpack_require__.d(exports, "j", function() { return DateWrapper; });
+/* harmony export (binding) */ __webpack_require__.d(exports, "p", function() { return Json; });
+/* harmony export (binding) */ __webpack_require__.d(exports, "k", function() { return DateWrapper; });
 /* unused harmony export setValueOnPath */
-/* harmony export (immutable) */ exports["h"] = getSymbolIterator;
+/* harmony export (immutable) */ exports["f"] = getSymbolIterator;
 /* unused harmony export evalExpression */
 /* unused harmony export isPrimitive */
 /* unused harmony export hasConstructor */
@@ -2339,8 +2137,6 @@ var NumberWrapper = (function () {
         }
         throw new Error('Invalid integer literal when parsing ' + text + ' in base ' + radix);
     };
-    // TODO: NaN is a valid literal but is returned by parseFloat to indicate an error.
-    NumberWrapper.parseFloat = function (text) { return parseFloat(text); };
     Object.defineProperty(NumberWrapper, "NaN", {
         get: function () { return NaN; },
         enumerable: true,
@@ -2584,7 +2380,7 @@ function getPluralCase(locale, nLike) {
     var v = nDecimal.length;
     var f = parseInt(nDecimal, 10);
     var t = parseInt(n.toString().replace(/^[^.]*\.?|0+$/g, ''), 10) || 0;
-    var lang = locale.split('_')[0].toLowerCase();
+    var lang = locale.split('-')[0].toLowerCase();
     switch (lang) {
         case 'af':
         case 'asa':
@@ -2988,10 +2784,10 @@ function getPluralCase(locale, nLike) {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__location_location__ = __webpack_require__("./node_modules/@angular/common/src/location/location.js");
 /* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "a", function() { return __WEBPACK_IMPORTED_MODULE_0__location_platform_location__["a"]; });
 /* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "b", function() { return __WEBPACK_IMPORTED_MODULE_1__location_location_strategy__["a"]; });
-/* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "f", function() { return __WEBPACK_IMPORTED_MODULE_1__location_location_strategy__["b"]; });
+/* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "c", function() { return __WEBPACK_IMPORTED_MODULE_1__location_location_strategy__["b"]; });
 /* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "d", function() { return __WEBPACK_IMPORTED_MODULE_2__location_hash_location_strategy__["a"]; });
-/* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "c", function() { return __WEBPACK_IMPORTED_MODULE_3__location_path_location_strategy__["a"]; });
-/* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "e", function() { return __WEBPACK_IMPORTED_MODULE_4__location_location__["a"]; });
+/* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "e", function() { return __WEBPACK_IMPORTED_MODULE_3__location_path_location_strategy__["a"]; });
+/* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "f", function() { return __WEBPACK_IMPORTED_MODULE_4__location_location__["a"]; });
 /**
  * @license
  * Copyright Google Inc. All Rights Reserved.
@@ -3067,7 +2863,7 @@ var HashLocationStrategy = (function (_super) {
         _super.call(this);
         this._platformLocation = _platformLocation;
         this._baseHref = '';
-        if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["b" /* isPresent */])(_baseHref)) {
+        if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["a" /* isPresent */])(_baseHref)) {
             this._baseHref = _baseHref;
         }
     }
@@ -3081,7 +2877,7 @@ var HashLocationStrategy = (function (_super) {
         // the hash value is always prefixed with a `#`
         // and if it is empty then it will stay empty
         var path = this._platformLocation.hash;
-        if (!__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["b" /* isPresent */])(path))
+        if (!__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["a" /* isPresent */])(path))
             path = '#';
         return path.length > 0 ? path.substring(1) : path;
     };
@@ -3195,7 +2991,7 @@ var Location = (function () {
     };
     /**
      * Given a string representing a URL, returns the normalized URL path without leading or
-     * trailing slashes
+     * trailing slashes.
      */
     Location.prototype.normalize = function (url) {
         return Location.stripTrailingSlash(_stripBaseHref(this._baseHref, _stripIndexHtml(url)));
@@ -3360,6 +3156,7 @@ var LocationStrategy = (function () {
  *
  * ### Example
  *
+ * ```typescript
  * import {Component, NgModule} from '@angular/core';
  * import {APP_BASE_HREF} from '@angular/common';
  *
@@ -3431,10 +3228,10 @@ var PathLocationStrategy = (function (_super) {
     function PathLocationStrategy(_platformLocation, href) {
         _super.call(this);
         this._platformLocation = _platformLocation;
-        if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["c" /* isBlank */])(href)) {
+        if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["b" /* isBlank */])(href)) {
             href = this._platformLocation.getBaseHrefFromDOM();
         }
-        if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["c" /* isBlank */])(href)) {
+        if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["b" /* isBlank */])(href)) {
             throw new Error("No base href set. Please provide a value for the APP_BASE_HREF token or add a base element to the document.");
         }
         this._baseHref = href;
@@ -3540,55 +3337,6 @@ var PlatformLocation = (function () {
 
 /***/ },
 
-/***/ "./node_modules/@angular/common/src/pipes.js":
-/***/ function(module, exports, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__pipes_async_pipe__ = __webpack_require__("./node_modules/@angular/common/src/pipes/async_pipe.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__pipes_date_pipe__ = __webpack_require__("./node_modules/@angular/common/src/pipes/date_pipe.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__pipes_i18n_plural_pipe__ = __webpack_require__("./node_modules/@angular/common/src/pipes/i18n_plural_pipe.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__pipes_i18n_select_pipe__ = __webpack_require__("./node_modules/@angular/common/src/pipes/i18n_select_pipe.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pipes_json_pipe__ = __webpack_require__("./node_modules/@angular/common/src/pipes/json_pipe.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pipes_lowercase_pipe__ = __webpack_require__("./node_modules/@angular/common/src/pipes/lowercase_pipe.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pipes_number_pipe__ = __webpack_require__("./node_modules/@angular/common/src/pipes/number_pipe.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pipes_slice_pipe__ = __webpack_require__("./node_modules/@angular/common/src/pipes/slice_pipe.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pipes_uppercase_pipe__ = __webpack_require__("./node_modules/@angular/common/src/pipes/uppercase_pipe.js");
-/* harmony reexport (binding) */ __webpack_require__.d(exports, "a", function() { return __WEBPACK_IMPORTED_MODULE_0__pipes_async_pipe__["a"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(exports, "b", function() { return __WEBPACK_IMPORTED_MODULE_1__pipes_date_pipe__["a"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(exports, "c", function() { return __WEBPACK_IMPORTED_MODULE_2__pipes_i18n_plural_pipe__["a"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(exports, "d", function() { return __WEBPACK_IMPORTED_MODULE_3__pipes_i18n_select_pipe__["a"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(exports, "e", function() { return __WEBPACK_IMPORTED_MODULE_4__pipes_json_pipe__["a"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(exports, "f", function() { return __WEBPACK_IMPORTED_MODULE_5__pipes_lowercase_pipe__["a"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(exports, "g", function() { return __WEBPACK_IMPORTED_MODULE_6__pipes_number_pipe__["c"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(exports, "h", function() { return __WEBPACK_IMPORTED_MODULE_6__pipes_number_pipe__["a"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(exports, "i", function() { return __WEBPACK_IMPORTED_MODULE_6__pipes_number_pipe__["b"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(exports, "j", function() { return __WEBPACK_IMPORTED_MODULE_7__pipes_slice_pipe__["a"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(exports, "k", function() { return __WEBPACK_IMPORTED_MODULE_8__pipes_uppercase_pipe__["a"]; });
-/**
- * @license
- * Copyright Google Inc. All Rights Reserved.
- *
- * Use of this source code is governed by an MIT-style license that can be
- * found in the LICENSE file at https://angular.io/license
- */
-/**
- * @module
- * @description
- * This module provides a set of common Pipes.
- */
-
-
-
-
-
-
-
-
-
-//# sourceMappingURL=pipes.js.map
-
-/***/ },
-
 /***/ "./node_modules/@angular/common/src/pipes/async_pipe.js":
 /***/ function(module, exports, __webpack_require__) {
 
@@ -3671,13 +3419,13 @@ var AsyncPipe = (function () {
         this._ref = _ref;
     }
     AsyncPipe.prototype.ngOnDestroy = function () {
-        if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["b" /* isPresent */])(this._subscription)) {
+        if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["a" /* isPresent */])(this._subscription)) {
             this._dispose();
         }
     };
     AsyncPipe.prototype.transform = function (obj) {
-        if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["c" /* isBlank */])(this._obj)) {
-            if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["b" /* isPresent */])(obj)) {
+        if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["b" /* isBlank */])(this._obj)) {
+            if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["a" /* isPresent */])(obj)) {
                 this._subscribe(obj);
             }
             this._latestReturnedValue = this._latestValue;
@@ -3704,7 +3452,7 @@ var AsyncPipe = (function () {
     };
     /** @internal */
     AsyncPipe.prototype._selectStrategy = function (obj) {
-        if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["d" /* isPromise */])(obj)) {
+        if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["i" /* isPromise */])(obj)) {
             return _promiseStrategy;
         }
         else if (obj.subscribe) {
@@ -3739,62 +3487,6 @@ var AsyncPipe = (function () {
     return AsyncPipe;
 }());
 //# sourceMappingURL=async_pipe.js.map
-
-/***/ },
-
-/***/ "./node_modules/@angular/common/src/pipes/common_pipes.js":
-/***/ function(module, exports, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__async_pipe__ = __webpack_require__("./node_modules/@angular/common/src/pipes/async_pipe.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__date_pipe__ = __webpack_require__("./node_modules/@angular/common/src/pipes/date_pipe.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__i18n_plural_pipe__ = __webpack_require__("./node_modules/@angular/common/src/pipes/i18n_plural_pipe.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__i18n_select_pipe__ = __webpack_require__("./node_modules/@angular/common/src/pipes/i18n_select_pipe.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__json_pipe__ = __webpack_require__("./node_modules/@angular/common/src/pipes/json_pipe.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__lowercase_pipe__ = __webpack_require__("./node_modules/@angular/common/src/pipes/lowercase_pipe.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__number_pipe__ = __webpack_require__("./node_modules/@angular/common/src/pipes/number_pipe.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__slice_pipe__ = __webpack_require__("./node_modules/@angular/common/src/pipes/slice_pipe.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__uppercase_pipe__ = __webpack_require__("./node_modules/@angular/common/src/pipes/uppercase_pipe.js");
-/* harmony export (binding) */ __webpack_require__.d(exports, "a", function() { return COMMON_PIPES; });
-/**
- * @license
- * Copyright Google Inc. All Rights Reserved.
- *
- * Use of this source code is governed by an MIT-style license that can be
- * found in the LICENSE file at https://angular.io/license
- */
-
-
-
-
-
-
-
-
-
-/**
- * A collection of Angular core pipes that are likely to be used in each and every
- * application.
- *
- * This collection can be used to quickly enumerate all the built-in pipes in the `pipes`
- * property of the `@Component` decorator.
- *
- * @experimental Contains i18n pipes which are experimental
- */
-var COMMON_PIPES = [
-    __WEBPACK_IMPORTED_MODULE_0__async_pipe__["a" /* AsyncPipe */],
-    __WEBPACK_IMPORTED_MODULE_8__uppercase_pipe__["a" /* UpperCasePipe */],
-    __WEBPACK_IMPORTED_MODULE_5__lowercase_pipe__["a" /* LowerCasePipe */],
-    __WEBPACK_IMPORTED_MODULE_4__json_pipe__["a" /* JsonPipe */],
-    __WEBPACK_IMPORTED_MODULE_7__slice_pipe__["a" /* SlicePipe */],
-    __WEBPACK_IMPORTED_MODULE_6__number_pipe__["a" /* DecimalPipe */],
-    __WEBPACK_IMPORTED_MODULE_6__number_pipe__["b" /* PercentPipe */],
-    __WEBPACK_IMPORTED_MODULE_6__number_pipe__["c" /* CurrencyPipe */],
-    __WEBPACK_IMPORTED_MODULE_1__date_pipe__["a" /* DatePipe */],
-    __WEBPACK_IMPORTED_MODULE_2__i18n_plural_pipe__["a" /* I18nPluralPipe */],
-    __WEBPACK_IMPORTED_MODULE_3__i18n_select_pipe__["a" /* I18nSelectPipe */],
-];
-//# sourceMappingURL=common_pipes.js.map
 
 /***/ },
 
@@ -3863,13 +3555,13 @@ var COMMON_PIPES = [
  *  - `'medium'`: equivalent to `'yMMMdjms'` (e.g. Sep 3, 2010, 12:05:08 PM for en-US)
  *  - `'short'`: equivalent to `'yMdjm'` (e.g. 9/3/2010, 12:05 PM for en-US)
  *  - `'fullDate'`: equivalent to `'yMMMMEEEEd'` (e.g. Friday, September 3, 2010 for en-US)
- *  - `'longDate'`: equivalent to `'yMMMMd'` (e.g. September 3, 2010)
+ *  - `'longDate'`: equivalent to `'yMMMMd'` (e.g. September 3, 2010 for en-US)
  *  - `'mediumDate'`: equivalent to `'yMMMd'` (e.g. Sep 3, 2010 for en-US)
  *  - `'shortDate'`: equivalent to `'yMd'` (e.g. 9/3/2010 for en-US)
  *  - `'mediumTime'`: equivalent to `'jms'` (e.g. 12:05:08 PM for en-US)
  *  - `'shortTime'`: equivalent to `'jm'` (e.g. 12:05 PM for en-US)
  *
- * Timezone of the formatted text will be the local system timezone of the end-users machine.
+ * Timezone of the formatted text will be the local system timezone of the end-user's machine.
  *
  * ### Examples
  *
@@ -3893,27 +3585,27 @@ var DatePipe = (function () {
     }
     DatePipe.prototype.transform = function (value, pattern) {
         if (pattern === void 0) { pattern = 'mediumDate'; }
-        if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_3__facade_lang__["c" /* isBlank */])(value))
+        if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_3__facade_lang__["b" /* isBlank */])(value))
             return null;
         if (!this.supports(value)) {
             throw new __WEBPACK_IMPORTED_MODULE_4__invalid_pipe_argument_error__["a" /* InvalidPipeArgumentError */](DatePipe, value);
         }
-        if (__WEBPACK_IMPORTED_MODULE_3__facade_lang__["i" /* NumberWrapper */].isNumeric(value)) {
-            value = __WEBPACK_IMPORTED_MODULE_3__facade_lang__["j" /* DateWrapper */].fromMillis(parseFloat(value));
+        if (__WEBPACK_IMPORTED_MODULE_3__facade_lang__["j" /* NumberWrapper */].isNumeric(value)) {
+            value = __WEBPACK_IMPORTED_MODULE_3__facade_lang__["k" /* DateWrapper */].fromMillis(parseFloat(value));
         }
-        else if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_3__facade_lang__["k" /* isString */])(value)) {
-            value = __WEBPACK_IMPORTED_MODULE_3__facade_lang__["j" /* DateWrapper */].fromISOString(value);
+        else if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_3__facade_lang__["l" /* isString */])(value)) {
+            value = __WEBPACK_IMPORTED_MODULE_3__facade_lang__["k" /* DateWrapper */].fromISOString(value);
         }
-        if (__WEBPACK_IMPORTED_MODULE_1__facade_collection__["a" /* StringMapWrapper */].contains(DatePipe._ALIASES, pattern)) {
-            pattern = __WEBPACK_IMPORTED_MODULE_1__facade_collection__["a" /* StringMapWrapper */].get(DatePipe._ALIASES, pattern);
+        if (__WEBPACK_IMPORTED_MODULE_1__facade_collection__["c" /* StringMapWrapper */].contains(DatePipe._ALIASES, pattern)) {
+            pattern = __WEBPACK_IMPORTED_MODULE_1__facade_collection__["c" /* StringMapWrapper */].get(DatePipe._ALIASES, pattern);
         }
         return __WEBPACK_IMPORTED_MODULE_2__facade_intl__["a" /* DateFormatter */].format(value, this._locale, pattern);
     };
     DatePipe.prototype.supports = function (obj) {
-        if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_3__facade_lang__["l" /* isDate */])(obj) || __WEBPACK_IMPORTED_MODULE_3__facade_lang__["i" /* NumberWrapper */].isNumeric(obj)) {
+        if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_3__facade_lang__["m" /* isDate */])(obj) || __WEBPACK_IMPORTED_MODULE_3__facade_lang__["j" /* NumberWrapper */].isNumeric(obj)) {
             return true;
         }
-        if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_3__facade_lang__["k" /* isString */])(obj) && __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_3__facade_lang__["l" /* isDate */])(__WEBPACK_IMPORTED_MODULE_3__facade_lang__["j" /* DateWrapper */].fromISOString(obj))) {
+        if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_3__facade_lang__["l" /* isString */])(obj) && __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_3__facade_lang__["m" /* isDate */])(__WEBPACK_IMPORTED_MODULE_3__facade_lang__["k" /* DateWrapper */].fromISOString(obj))) {
             return true;
         }
         return false;
@@ -3968,7 +3660,7 @@ var _INTERPOLATION_REGEXP = /#/g;
  *
  *  ## Usage
  *
- *  expression | i18nPlural:mapping
+ *      expression | i18nPlural:mapping
  *
  *  where `expression` is a number and `mapping` is an object that mimics the ICU format,
  *  see http://userguide.icu-project.org/formatparse/messages
@@ -4005,13 +3697,13 @@ var I18nPluralPipe = (function () {
         this._localization = _localization;
     }
     I18nPluralPipe.prototype.transform = function (value, pluralMap) {
-        if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["c" /* isBlank */])(value))
+        if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["b" /* isBlank */])(value))
             return '';
-        if (!__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["m" /* isStringMap */])(pluralMap)) {
+        if (!__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["n" /* isStringMap */])(pluralMap)) {
             throw new __WEBPACK_IMPORTED_MODULE_3__invalid_pipe_argument_error__["a" /* InvalidPipeArgumentError */](I18nPluralPipe, pluralMap);
         }
         var key = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2__localization__["a" /* getPluralCategory */])(value, Object.keys(pluralMap), this._localization);
-        return __WEBPACK_IMPORTED_MODULE_1__facade_lang__["n" /* StringWrapper */].replaceAll(pluralMap[key], _INTERPOLATION_REGEXP, value.toString());
+        return __WEBPACK_IMPORTED_MODULE_1__facade_lang__["o" /* StringWrapper */].replaceAll(pluralMap[key], _INTERPOLATION_REGEXP, value.toString());
     };
     I18nPluralPipe.decorators = [
         { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["Pipe"], args: [{ name: 'i18nPlural', pure: true },] },
@@ -4079,9 +3771,9 @@ var I18nSelectPipe = (function () {
     function I18nSelectPipe() {
     }
     I18nSelectPipe.prototype.transform = function (value, mapping) {
-        if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["c" /* isBlank */])(value))
+        if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["b" /* isBlank */])(value))
             return '';
-        if (!__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["m" /* isStringMap */])(mapping)) {
+        if (!__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["n" /* isStringMap */])(mapping)) {
             throw new __WEBPACK_IMPORTED_MODULE_2__invalid_pipe_argument_error__["a" /* InvalidPipeArgumentError */](I18nSelectPipe, mapping);
         }
         return mapping.hasOwnProperty(value) ? mapping[value] : '';
@@ -4094,6 +3786,68 @@ var I18nSelectPipe = (function () {
     return I18nSelectPipe;
 }());
 //# sourceMappingURL=i18n_select_pipe.js.map
+
+/***/ },
+
+/***/ "./node_modules/@angular/common/src/pipes/index.js":
+/***/ function(module, exports, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__async_pipe__ = __webpack_require__("./node_modules/@angular/common/src/pipes/async_pipe.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__date_pipe__ = __webpack_require__("./node_modules/@angular/common/src/pipes/date_pipe.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__i18n_plural_pipe__ = __webpack_require__("./node_modules/@angular/common/src/pipes/i18n_plural_pipe.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__i18n_select_pipe__ = __webpack_require__("./node_modules/@angular/common/src/pipes/i18n_select_pipe.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__json_pipe__ = __webpack_require__("./node_modules/@angular/common/src/pipes/json_pipe.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__lowercase_pipe__ = __webpack_require__("./node_modules/@angular/common/src/pipes/lowercase_pipe.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__number_pipe__ = __webpack_require__("./node_modules/@angular/common/src/pipes/number_pipe.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__slice_pipe__ = __webpack_require__("./node_modules/@angular/common/src/pipes/slice_pipe.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__uppercase_pipe__ = __webpack_require__("./node_modules/@angular/common/src/pipes/uppercase_pipe.js");
+/* harmony export (binding) */ __webpack_require__.d(exports, "a", function() { return COMMON_PIPES; });
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
+
+
+
+
+
+
+
+
+
+/* harmony reexport (binding) */ __webpack_require__.d(exports, "g", function() { return __WEBPACK_IMPORTED_MODULE_0__async_pipe__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(exports, "h", function() { return __WEBPACK_IMPORTED_MODULE_6__number_pipe__["c"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(exports, "c", function() { return __WEBPACK_IMPORTED_MODULE_1__date_pipe__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(exports, "i", function() { return __WEBPACK_IMPORTED_MODULE_6__number_pipe__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(exports, "d", function() { return __WEBPACK_IMPORTED_MODULE_2__i18n_plural_pipe__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(exports, "e", function() { return __WEBPACK_IMPORTED_MODULE_3__i18n_select_pipe__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(exports, "f", function() { return __WEBPACK_IMPORTED_MODULE_4__json_pipe__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(exports, "b", function() { return __WEBPACK_IMPORTED_MODULE_5__lowercase_pipe__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(exports, "j", function() { return __WEBPACK_IMPORTED_MODULE_6__number_pipe__["b"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(exports, "k", function() { return __WEBPACK_IMPORTED_MODULE_7__slice_pipe__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(exports, "l", function() { return __WEBPACK_IMPORTED_MODULE_8__uppercase_pipe__["a"]; });
+
+/**
+ * A collection of Angular pipes that are likely to be used in each and every application.
+ */
+var COMMON_PIPES = [
+    __WEBPACK_IMPORTED_MODULE_0__async_pipe__["a" /* AsyncPipe */],
+    __WEBPACK_IMPORTED_MODULE_8__uppercase_pipe__["a" /* UpperCasePipe */],
+    __WEBPACK_IMPORTED_MODULE_5__lowercase_pipe__["a" /* LowerCasePipe */],
+    __WEBPACK_IMPORTED_MODULE_4__json_pipe__["a" /* JsonPipe */],
+    __WEBPACK_IMPORTED_MODULE_7__slice_pipe__["a" /* SlicePipe */],
+    __WEBPACK_IMPORTED_MODULE_6__number_pipe__["a" /* DecimalPipe */],
+    __WEBPACK_IMPORTED_MODULE_6__number_pipe__["b" /* PercentPipe */],
+    __WEBPACK_IMPORTED_MODULE_6__number_pipe__["c" /* CurrencyPipe */],
+    __WEBPACK_IMPORTED_MODULE_1__date_pipe__["a" /* DatePipe */],
+    __WEBPACK_IMPORTED_MODULE_2__i18n_plural_pipe__["a" /* I18nPluralPipe */],
+    __WEBPACK_IMPORTED_MODULE_3__i18n_select_pipe__["a" /* I18nSelectPipe */],
+];
+//# sourceMappingURL=index.js.map
 
 /***/ },
 
@@ -4121,7 +3875,7 @@ var __extends = (this && this.__extends) || function (d, b) {
 var InvalidPipeArgumentError = (function (_super) {
     __extends(InvalidPipeArgumentError, _super);
     function InvalidPipeArgumentError(type, value) {
-        _super.call(this, "Invalid argument '" + value + "' for pipe '" + __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["a" /* stringify */])(type) + "'");
+        _super.call(this, "Invalid argument '" + value + "' for pipe '" + __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["h" /* stringify */])(type) + "'");
     }
     return InvalidPipeArgumentError;
 }(__WEBPACK_IMPORTED_MODULE_0__facade_errors__["a" /* BaseError */]));
@@ -4156,7 +3910,7 @@ var InvalidPipeArgumentError = (function (_super) {
 var JsonPipe = (function () {
     function JsonPipe() {
     }
-    JsonPipe.prototype.transform = function (value) { return __WEBPACK_IMPORTED_MODULE_1__facade_lang__["o" /* Json */].stringify(value); };
+    JsonPipe.prototype.transform = function (value) { return __WEBPACK_IMPORTED_MODULE_1__facade_lang__["p" /* Json */].stringify(value); };
     JsonPipe.decorators = [
         { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["Pipe"], args: [{ name: 'json', pure: false },] },
     ];
@@ -4199,9 +3953,9 @@ var LowerCasePipe = (function () {
     function LowerCasePipe() {
     }
     LowerCasePipe.prototype.transform = function (value) {
-        if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["c" /* isBlank */])(value))
+        if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["b" /* isBlank */])(value))
             return value;
-        if (!__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["k" /* isString */])(value)) {
+        if (!__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["l" /* isString */])(value)) {
             throw new __WEBPACK_IMPORTED_MODULE_2__invalid_pipe_argument_error__["a" /* InvalidPipeArgumentError */](LowerCasePipe, value);
         }
         return value.toLowerCase();
@@ -4243,11 +3997,11 @@ var _NUMBER_FORMAT_REGEXP = /^(\d+)?\.((\d+)(\-(\d+))?)?$/;
 function formatNumber(pipe, locale, value, style, digits, currency, currencyAsSymbol) {
     if (currency === void 0) { currency = null; }
     if (currencyAsSymbol === void 0) { currencyAsSymbol = false; }
-    if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2__facade_lang__["c" /* isBlank */])(value))
+    if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2__facade_lang__["b" /* isBlank */])(value))
         return null;
     // Convert strings to numbers
-    value = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2__facade_lang__["k" /* isString */])(value) && __WEBPACK_IMPORTED_MODULE_2__facade_lang__["i" /* NumberWrapper */].isNumeric(value) ? +value : value;
-    if (!__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2__facade_lang__["p" /* isNumber */])(value)) {
+    value = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2__facade_lang__["l" /* isString */])(value) && __WEBPACK_IMPORTED_MODULE_2__facade_lang__["j" /* NumberWrapper */].isNumeric(value) ? +value : value;
+    if (!__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2__facade_lang__["q" /* isNumber */])(value)) {
         throw new __WEBPACK_IMPORTED_MODULE_3__invalid_pipe_argument_error__["a" /* InvalidPipeArgumentError */](pipe, value);
     }
     var minInt;
@@ -4259,19 +4013,19 @@ function formatNumber(pipe, locale, value, style, digits, currency, currencyAsSy
         minFraction = 0;
         maxFraction = 3;
     }
-    if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2__facade_lang__["b" /* isPresent */])(digits)) {
+    if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2__facade_lang__["a" /* isPresent */])(digits)) {
         var parts = digits.match(_NUMBER_FORMAT_REGEXP);
         if (parts === null) {
             throw new Error(digits + " is not a valid digit info for number pipes");
         }
-        if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2__facade_lang__["b" /* isPresent */])(parts[1])) {
-            minInt = __WEBPACK_IMPORTED_MODULE_2__facade_lang__["i" /* NumberWrapper */].parseIntAutoRadix(parts[1]);
+        if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2__facade_lang__["a" /* isPresent */])(parts[1])) {
+            minInt = __WEBPACK_IMPORTED_MODULE_2__facade_lang__["j" /* NumberWrapper */].parseIntAutoRadix(parts[1]);
         }
-        if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2__facade_lang__["b" /* isPresent */])(parts[3])) {
-            minFraction = __WEBPACK_IMPORTED_MODULE_2__facade_lang__["i" /* NumberWrapper */].parseIntAutoRadix(parts[3]);
+        if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2__facade_lang__["a" /* isPresent */])(parts[3])) {
+            minFraction = __WEBPACK_IMPORTED_MODULE_2__facade_lang__["j" /* NumberWrapper */].parseIntAutoRadix(parts[3]);
         }
-        if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2__facade_lang__["b" /* isPresent */])(parts[5])) {
-            maxFraction = __WEBPACK_IMPORTED_MODULE_2__facade_lang__["i" /* NumberWrapper */].parseIntAutoRadix(parts[5]);
+        if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2__facade_lang__["a" /* isPresent */])(parts[5])) {
+            maxFraction = __WEBPACK_IMPORTED_MODULE_2__facade_lang__["j" /* NumberWrapper */].parseIntAutoRadix(parts[5]);
         }
     }
     return __WEBPACK_IMPORTED_MODULE_1__facade_intl__["c" /* NumberFormatter */].format(value, locale, style, {
@@ -4284,7 +4038,7 @@ function formatNumber(pipe, locale, value, style, digits, currency, currencyAsSy
 }
 /**
  * WARNING: this pipe uses the Internationalization API.
- * Therefore it is only reliable in Chrome and Opera browsers. For other browsers please use an
+ * Therefore it is only reliable in Chrome and Opera browsers. For other browsers please use a
  * polyfill, for example: [https://github.com/andyearnshaw/Intl.js/].
  *
  * Formats a number as local text. i.e. group sizing and separator and other locale-specific
@@ -4330,7 +4084,7 @@ var DecimalPipe = (function () {
 }());
 /**
  * WARNING: this pipe uses the Internationalization API.
- * Therefore it is only reliable in Chrome and Opera browsers. For other browsers please use an
+ * Therefore it is only reliable in Chrome and Opera browsers. For other browsers please use a
  * polyfill, for example: [https://github.com/andyearnshaw/Intl.js/].
  *
  * Formats a number as local percent.
@@ -4366,7 +4120,7 @@ var PercentPipe = (function () {
 }());
 /**
  * WARNING: this pipe uses the Internationalization API.
- * Therefore it is only reliable in Chrome and Opera browsers. For other browsers please use an
+ * Therefore it is only reliable in Chrome and Opera browsers. For other browsers please use a
  * polyfill, for example: [https://github.com/andyearnshaw/Intl.js/].
  *
  *
@@ -4380,7 +4134,7 @@ var PercentPipe = (function () {
  * "EUR" for the euro. `symbolDisplay` is a boolean indicating whether to use the currency
  * symbol (e.g. $) or the currency code (e.g. USD) in the output. The default for this value
  * is `false`.
- * For more information about `digitInfo` see {@link DecimalPipe}
+ * For more information about `digitInfo` see {@link DecimalPipe}.
  *
  * ### Example
  *
@@ -4491,17 +4245,17 @@ var SlicePipe = (function () {
     }
     SlicePipe.prototype.transform = function (value, start, end) {
         if (end === void 0) { end = null; }
-        if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2__facade_lang__["c" /* isBlank */])(value))
+        if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2__facade_lang__["b" /* isBlank */])(value))
             return value;
         if (!this.supports(value)) {
             throw new __WEBPACK_IMPORTED_MODULE_3__invalid_pipe_argument_error__["a" /* InvalidPipeArgumentError */](SlicePipe, value);
         }
-        if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2__facade_lang__["k" /* isString */])(value)) {
-            return __WEBPACK_IMPORTED_MODULE_2__facade_lang__["n" /* StringWrapper */].slice(value, start, end);
+        if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2__facade_lang__["l" /* isString */])(value)) {
+            return __WEBPACK_IMPORTED_MODULE_2__facade_lang__["o" /* StringWrapper */].slice(value, start, end);
         }
         return __WEBPACK_IMPORTED_MODULE_1__facade_collection__["b" /* ListWrapper */].slice(value, start, end);
     };
-    SlicePipe.prototype.supports = function (obj) { return __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2__facade_lang__["k" /* isString */])(obj) || __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2__facade_lang__["f" /* isArray */])(obj); };
+    SlicePipe.prototype.supports = function (obj) { return __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2__facade_lang__["l" /* isString */])(obj) || __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2__facade_lang__["d" /* isArray */])(obj); };
     SlicePipe.decorators = [
         { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["Pipe"], args: [{ name: 'slice', pure: false },] },
     ];
@@ -4544,9 +4298,9 @@ var UpperCasePipe = (function () {
     function UpperCasePipe() {
     }
     UpperCasePipe.prototype.transform = function (value) {
-        if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["c" /* isBlank */])(value))
+        if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["b" /* isBlank */])(value))
             return value;
-        if (!__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["k" /* isString */])(value)) {
+        if (!__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["l" /* isString */])(value)) {
             throw new __WEBPACK_IMPORTED_MODULE_2__invalid_pipe_argument_error__["a" /* InvalidPipeArgumentError */](UpperCasePipe, value);
         }
         return value.toUpperCase();
@@ -4604,14 +4358,14 @@ var UpperCasePipe = (function () {
 /* unused harmony export AnimationStateAst */
 /* harmony export (binding) */ __webpack_require__.d(exports, "a", function() { return AnimationEntryAst; });
 /* harmony export (binding) */ __webpack_require__.d(exports, "c", function() { return AnimationStateDeclarationAst; });
-/* harmony export (binding) */ __webpack_require__.d(exports, "f", function() { return AnimationStateTransitionExpression; });
-/* harmony export (binding) */ __webpack_require__.d(exports, "e", function() { return AnimationStateTransitionAst; });
-/* harmony export (binding) */ __webpack_require__.d(exports, "h", function() { return AnimationStepAst; });
+/* harmony export (binding) */ __webpack_require__.d(exports, "g", function() { return AnimationStateTransitionExpression; });
+/* harmony export (binding) */ __webpack_require__.d(exports, "f", function() { return AnimationStateTransitionAst; });
+/* harmony export (binding) */ __webpack_require__.d(exports, "i", function() { return AnimationStepAst; });
 /* harmony export (binding) */ __webpack_require__.d(exports, "b", function() { return AnimationStylesAst; });
-/* harmony export (binding) */ __webpack_require__.d(exports, "g", function() { return AnimationKeyframeAst; });
-/* harmony export (binding) */ __webpack_require__.d(exports, "j", function() { return AnimationWithStepsAst; });
-/* harmony export (binding) */ __webpack_require__.d(exports, "i", function() { return AnimationGroupAst; });
-/* harmony export (binding) */ __webpack_require__.d(exports, "d", function() { return AnimationSequenceAst; });
+/* harmony export (binding) */ __webpack_require__.d(exports, "h", function() { return AnimationKeyframeAst; });
+/* harmony export (binding) */ __webpack_require__.d(exports, "d", function() { return AnimationWithStepsAst; });
+/* harmony export (binding) */ __webpack_require__.d(exports, "j", function() { return AnimationGroupAst; });
+/* harmony export (binding) */ __webpack_require__.d(exports, "e", function() { return AnimationSequenceAst; });
 /**
  * @license
  * Copyright Google Inc. All Rights Reserved.
@@ -4940,10 +4694,10 @@ var _AnimationBuilder = (function () {
         ast.stateChanges.forEach(function (stateChange) {
             stateChangePreconditions.push(_compareToAnimationStateExpr(_ANIMATION_CURRENT_STATE_VAR, stateChange.fromState)
                 .and(_compareToAnimationStateExpr(_ANIMATION_NEXT_STATE_VAR, stateChange.toState)));
-            if (stateChange.fromState != __WEBPACK_IMPORTED_MODULE_4__private_import_core__["S" /* ANY_STATE */]) {
+            if (stateChange.fromState != __WEBPACK_IMPORTED_MODULE_4__private_import_core__["T" /* ANY_STATE */]) {
                 context.stateMap.registerState(stateChange.fromState);
             }
-            if (stateChange.toState != __WEBPACK_IMPORTED_MODULE_4__private_import_core__["S" /* ANY_STATE */]) {
+            if (stateChange.toState != __WEBPACK_IMPORTED_MODULE_4__private_import_core__["T" /* ANY_STATE */]) {
                 context.stateMap.registerState(stateChange.toState);
             }
         });
@@ -4959,18 +4713,18 @@ var _AnimationBuilder = (function () {
         // visit each of the declarations first to build the context state map
         ast.stateDeclarations.forEach(function (def) { return def.visit(_this, context); });
         // this should always be defined even if the user overrides it
-        context.stateMap.registerState(__WEBPACK_IMPORTED_MODULE_4__private_import_core__["U" /* DEFAULT_STATE */], {});
+        context.stateMap.registerState(__WEBPACK_IMPORTED_MODULE_4__private_import_core__["V" /* DEFAULT_STATE */], {});
         var statements = [];
         statements.push(_ANIMATION_FACTORY_VIEW_VAR
             .callMethod('cancelActiveAnimation', [
             _ANIMATION_FACTORY_ELEMENT_VAR, __WEBPACK_IMPORTED_MODULE_3__output_output_ast__["a" /* literal */](this.animationName),
-            _ANIMATION_NEXT_STATE_VAR.equals(__WEBPACK_IMPORTED_MODULE_3__output_output_ast__["a" /* literal */](__WEBPACK_IMPORTED_MODULE_4__private_import_core__["V" /* EMPTY_STATE */]))
+            _ANIMATION_NEXT_STATE_VAR.equals(__WEBPACK_IMPORTED_MODULE_3__output_output_ast__["a" /* literal */](__WEBPACK_IMPORTED_MODULE_4__private_import_core__["W" /* EMPTY_STATE */]))
         ])
             .toStmt());
         statements.push(_ANIMATION_COLLECTED_STYLES.set(EMPTY_MAP).toDeclStmt());
         statements.push(_ANIMATION_PLAYER_VAR.set(__WEBPACK_IMPORTED_MODULE_3__output_output_ast__["h" /* NULL_EXPR */]).toDeclStmt());
         statements.push(_ANIMATION_TIME_VAR.set(__WEBPACK_IMPORTED_MODULE_3__output_output_ast__["a" /* literal */](0)).toDeclStmt());
-        statements.push(_ANIMATION_DEFAULT_STATE_VAR.set(this._statesMapVar.key(__WEBPACK_IMPORTED_MODULE_3__output_output_ast__["a" /* literal */](__WEBPACK_IMPORTED_MODULE_4__private_import_core__["U" /* DEFAULT_STATE */])))
+        statements.push(_ANIMATION_DEFAULT_STATE_VAR.set(this._statesMapVar.key(__WEBPACK_IMPORTED_MODULE_3__output_output_ast__["a" /* literal */](__WEBPACK_IMPORTED_MODULE_4__private_import_core__["V" /* DEFAULT_STATE */])))
             .toDeclStmt());
         statements.push(_ANIMATION_START_STATE_STYLES_VAR.set(this._statesMapVar.key(_ANIMATION_CURRENT_STATE_VAR))
             .toDeclStmt());
@@ -5072,11 +4826,11 @@ var _AnimationBuilderStateMap = (function () {
     return _AnimationBuilderStateMap;
 }());
 function _compareToAnimationStateExpr(value, animationState) {
-    var emptyStateLiteral = __WEBPACK_IMPORTED_MODULE_3__output_output_ast__["a" /* literal */](__WEBPACK_IMPORTED_MODULE_4__private_import_core__["V" /* EMPTY_STATE */]);
+    var emptyStateLiteral = __WEBPACK_IMPORTED_MODULE_3__output_output_ast__["a" /* literal */](__WEBPACK_IMPORTED_MODULE_4__private_import_core__["W" /* EMPTY_STATE */]);
     switch (animationState) {
-        case __WEBPACK_IMPORTED_MODULE_4__private_import_core__["V" /* EMPTY_STATE */]:
+        case __WEBPACK_IMPORTED_MODULE_4__private_import_core__["W" /* EMPTY_STATE */]:
             return value.equals(emptyStateLiteral);
-        case __WEBPACK_IMPORTED_MODULE_4__private_import_core__["S" /* ANY_STATE */]:
+        case __WEBPACK_IMPORTED_MODULE_4__private_import_core__["T" /* ANY_STATE */]:
             return __WEBPACK_IMPORTED_MODULE_3__output_output_ast__["a" /* literal */](true);
         default:
             return value.equals(__WEBPACK_IMPORTED_MODULE_3__output_output_ast__["a" /* literal */](animationState));
@@ -5085,7 +4839,7 @@ function _compareToAnimationStateExpr(value, animationState) {
 function _isEndStateAnimateStep(step) {
     // the final animation step is characterized by having only TWO
     // keyframe values and it must have zero styles for both keyframes
-    if (step instanceof __WEBPACK_IMPORTED_MODULE_6__animation_ast__["h" /* AnimationStepAst */] && step.duration > 0 && step.keyframes.length == 2) {
+    if (step instanceof __WEBPACK_IMPORTED_MODULE_6__animation_ast__["i" /* AnimationStepAst */] && step.duration > 0 && step.keyframes.length == 2) {
         var styles1 = _getStylesArray(step.keyframes[0])[0];
         var styles2 = _getStylesArray(step.keyframes[1])[0];
         return __WEBPACK_IMPORTED_MODULE_0__facade_collection__["b" /* StringMapWrapper */].isEmpty(styles1) && __WEBPACK_IMPORTED_MODULE_0__facade_collection__["b" /* StringMapWrapper */].isEmpty(styles2);
@@ -5273,7 +5027,7 @@ function parseAnimationOutputName(outputName, errors) {
         name = outputName;
         errors.push(new AnimationParseError("The animation trigger output event (@" + name + ") is missing its phase value name (start or done are currently supported)"));
     }
-    return new __WEBPACK_IMPORTED_MODULE_5__private_import_core__["O" /* AnimationOutput */](name, phase, outputName);
+    return new __WEBPACK_IMPORTED_MODULE_5__private_import_core__["P" /* AnimationOutput */](name, phase, outputName);
 }
 function _parseAnimationDeclarationStates(stateMetadata, errors) {
     var styleValues = [];
@@ -5305,10 +5059,10 @@ function _parseAnimationStateTransition(transitionStateMetadata, stateStyles, er
     if (errors.length == 0) {
         _fillAnimationAstStartingKeyframes(animationAst, styles, errors);
     }
-    var sequenceAst = (animationAst instanceof __WEBPACK_IMPORTED_MODULE_6__animation_ast__["d" /* AnimationSequenceAst */]) ?
+    var stepsAst = (animationAst instanceof __WEBPACK_IMPORTED_MODULE_6__animation_ast__["d" /* AnimationWithStepsAst */]) ?
         animationAst :
-        new __WEBPACK_IMPORTED_MODULE_6__animation_ast__["d" /* AnimationSequenceAst */]([animationAst]);
-    return new __WEBPACK_IMPORTED_MODULE_6__animation_ast__["e" /* AnimationStateTransitionAst */](transitionExprs, sequenceAst);
+        new __WEBPACK_IMPORTED_MODULE_6__animation_ast__["e" /* AnimationSequenceAst */]([animationAst]);
+    return new __WEBPACK_IMPORTED_MODULE_6__animation_ast__["f" /* AnimationStateTransitionAst */](transitionExprs, stepsAst);
 }
 function _parseAnimationTransitionExpr(eventStr, errors) {
     var expressions = [];
@@ -5320,10 +5074,10 @@ function _parseAnimationTransitionExpr(eventStr, errors) {
     var fromState = match[1];
     var separator = match[2];
     var toState = match[3];
-    expressions.push(new __WEBPACK_IMPORTED_MODULE_6__animation_ast__["f" /* AnimationStateTransitionExpression */](fromState, toState));
-    var isFullAnyStateExpr = fromState == __WEBPACK_IMPORTED_MODULE_5__private_import_core__["S" /* ANY_STATE */] && toState == __WEBPACK_IMPORTED_MODULE_5__private_import_core__["S" /* ANY_STATE */];
+    expressions.push(new __WEBPACK_IMPORTED_MODULE_6__animation_ast__["g" /* AnimationStateTransitionExpression */](fromState, toState));
+    var isFullAnyStateExpr = fromState == __WEBPACK_IMPORTED_MODULE_5__private_import_core__["T" /* ANY_STATE */] && toState == __WEBPACK_IMPORTED_MODULE_5__private_import_core__["T" /* ANY_STATE */];
     if (separator[0] == '<' && !isFullAnyStateExpr) {
-        expressions.push(new __WEBPACK_IMPORTED_MODULE_6__animation_ast__["f" /* AnimationStateTransitionExpression */](toState, fromState));
+        expressions.push(new __WEBPACK_IMPORTED_MODULE_6__animation_ast__["g" /* AnimationStateTransitionExpression */](toState, fromState));
     }
     return expressions;
 }
@@ -5353,7 +5107,9 @@ function _normalizeStyleMetadata(entry, stateStyles, errors) {
 }
 function _normalizeStyleSteps(entry, stateStyles, errors) {
     var steps = _normalizeStyleStepEntry(entry, stateStyles, errors);
-    return new __WEBPACK_IMPORTED_MODULE_0__compile_metadata__["i" /* CompileAnimationSequenceMetadata */](steps);
+    return (entry instanceof __WEBPACK_IMPORTED_MODULE_0__compile_metadata__["j" /* CompileAnimationGroupMetadata */]) ?
+        new __WEBPACK_IMPORTED_MODULE_0__compile_metadata__["j" /* CompileAnimationGroupMetadata */](steps) :
+        new __WEBPACK_IMPORTED_MODULE_0__compile_metadata__["i" /* CompileAnimationSequenceMetadata */](steps);
 }
 function _mergeAnimationStyles(stylesList, newItem) {
     if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2__facade_lang__["m" /* isStringMap */])(newItem) && stylesList.length > 0) {
@@ -5368,7 +5124,7 @@ function _mergeAnimationStyles(stylesList, newItem) {
 }
 function _normalizeStyleStepEntry(entry, stateStyles, errors) {
     var steps;
-    if (entry instanceof __WEBPACK_IMPORTED_MODULE_0__compile_metadata__["j" /* CompileAnimationWithStepsMetadata */]) {
+    if (entry instanceof __WEBPACK_IMPORTED_MODULE_0__compile_metadata__["k" /* CompileAnimationWithStepsMetadata */]) {
         steps = entry.steps;
     }
     else {
@@ -5397,7 +5153,7 @@ function _normalizeStyleStepEntry(entry, stateStyles, errors) {
                 newSteps.push(new __WEBPACK_IMPORTED_MODULE_0__compile_metadata__["h" /* CompileAnimationStyleMetadata */](0, combinedStyles));
                 combinedStyles = null;
             }
-            if (step instanceof __WEBPACK_IMPORTED_MODULE_0__compile_metadata__["k" /* CompileAnimationAnimateMetadata */]) {
+            if (step instanceof __WEBPACK_IMPORTED_MODULE_0__compile_metadata__["l" /* CompileAnimationAnimateMetadata */]) {
                 // we do not recurse into CompileAnimationAnimateMetadata since
                 // those style steps are not going to be squashed
                 var animateStyleValue = step.styles;
@@ -5405,14 +5161,14 @@ function _normalizeStyleStepEntry(entry, stateStyles, errors) {
                     animateStyleValue.styles =
                         _normalizeStyleMetadata(animateStyleValue, stateStyles, errors);
                 }
-                else if (animateStyleValue instanceof __WEBPACK_IMPORTED_MODULE_0__compile_metadata__["l" /* CompileAnimationKeyframesSequenceMetadata */]) {
+                else if (animateStyleValue instanceof __WEBPACK_IMPORTED_MODULE_0__compile_metadata__["m" /* CompileAnimationKeyframesSequenceMetadata */]) {
                     animateStyleValue.steps.forEach(function (step) { step.styles = _normalizeStyleMetadata(step, stateStyles, errors); });
                 }
             }
-            else if (step instanceof __WEBPACK_IMPORTED_MODULE_0__compile_metadata__["j" /* CompileAnimationWithStepsMetadata */]) {
+            else if (step instanceof __WEBPACK_IMPORTED_MODULE_0__compile_metadata__["k" /* CompileAnimationWithStepsMetadata */]) {
                 var innerSteps = _normalizeStyleStepEntry(step, stateStyles, errors);
-                step = step instanceof __WEBPACK_IMPORTED_MODULE_0__compile_metadata__["m" /* CompileAnimationGroupMetadata */] ?
-                    new __WEBPACK_IMPORTED_MODULE_0__compile_metadata__["m" /* CompileAnimationGroupMetadata */](innerSteps) :
+                step = step instanceof __WEBPACK_IMPORTED_MODULE_0__compile_metadata__["j" /* CompileAnimationGroupMetadata */] ?
+                    new __WEBPACK_IMPORTED_MODULE_0__compile_metadata__["j" /* CompileAnimationGroupMetadata */](innerSteps) :
                     new __WEBPACK_IMPORTED_MODULE_0__compile_metadata__["i" /* CompileAnimationSequenceMetadata */](innerSteps);
             }
             newSteps.push(step);
@@ -5508,7 +5264,7 @@ function _parseAnimationKeyframes(keyframeSequence, currentTime, collectedStyles
         var styles = entry[1];
         __WEBPACK_IMPORTED_MODULE_1__facade_collection__["b" /* StringMapWrapper */].forEach(styles, function (value /** TODO #9100 */, prop /** TODO #9100 */) {
             if (!__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2__facade_lang__["a" /* isPresent */])(firstKeyframeStyles[prop])) {
-                firstKeyframeStyles[prop] = __WEBPACK_IMPORTED_MODULE_5__private_import_core__["T" /* FILL_STYLE_FLAG */];
+                firstKeyframeStyles[prop] = __WEBPACK_IMPORTED_MODULE_5__private_import_core__["U" /* FILL_STYLE_FLAG */];
             }
         });
     }
@@ -5521,16 +5277,16 @@ function _parseAnimationKeyframes(keyframeSequence, currentTime, collectedStyles
             }
         });
     }
-    return rawKeyframes.map(function (entry) { return new __WEBPACK_IMPORTED_MODULE_6__animation_ast__["g" /* AnimationKeyframeAst */](entry[0], new __WEBPACK_IMPORTED_MODULE_6__animation_ast__["b" /* AnimationStylesAst */]([entry[1]])); });
+    return rawKeyframes.map(function (entry) { return new __WEBPACK_IMPORTED_MODULE_6__animation_ast__["h" /* AnimationKeyframeAst */](entry[0], new __WEBPACK_IMPORTED_MODULE_6__animation_ast__["b" /* AnimationStylesAst */]([entry[1]])); });
 }
 function _parseTransitionAnimation(entry, currentTime, collectedStyles, stateStyles, errors) {
     var ast;
     var playTime = 0;
     var startingTime = currentTime;
-    if (entry instanceof __WEBPACK_IMPORTED_MODULE_0__compile_metadata__["j" /* CompileAnimationWithStepsMetadata */]) {
+    if (entry instanceof __WEBPACK_IMPORTED_MODULE_0__compile_metadata__["k" /* CompileAnimationWithStepsMetadata */]) {
         var maxDuration = 0;
         var steps = [];
-        var isGroup = entry instanceof __WEBPACK_IMPORTED_MODULE_0__compile_metadata__["m" /* CompileAnimationGroupMetadata */];
+        var isGroup = entry instanceof __WEBPACK_IMPORTED_MODULE_0__compile_metadata__["j" /* CompileAnimationGroupMetadata */];
         var previousStyles;
         entry.steps.forEach(function (entry) {
             // these will get picked up by the next step...
@@ -5548,9 +5304,9 @@ function _parseTransitionAnimation(entry, currentTime, collectedStyles, stateSty
             }
             var innerAst = _parseTransitionAnimation(entry, time, collectedStyles, stateStyles, errors);
             if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2__facade_lang__["a" /* isPresent */])(previousStyles)) {
-                if (entry instanceof __WEBPACK_IMPORTED_MODULE_0__compile_metadata__["j" /* CompileAnimationWithStepsMetadata */]) {
+                if (entry instanceof __WEBPACK_IMPORTED_MODULE_0__compile_metadata__["k" /* CompileAnimationWithStepsMetadata */]) {
                     var startingStyles = new __WEBPACK_IMPORTED_MODULE_6__animation_ast__["b" /* AnimationStylesAst */](previousStyles);
-                    steps.push(new __WEBPACK_IMPORTED_MODULE_6__animation_ast__["h" /* AnimationStepAst */](startingStyles, [], 0, 0, ''));
+                    steps.push(new __WEBPACK_IMPORTED_MODULE_6__animation_ast__["i" /* AnimationStepAst */](startingStyles, [], 0, 0, ''));
                 }
                 else {
                     var innerStep = innerAst;
@@ -5566,22 +5322,22 @@ function _parseTransitionAnimation(entry, currentTime, collectedStyles, stateSty
         });
         if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2__facade_lang__["a" /* isPresent */])(previousStyles)) {
             var startingStyles = new __WEBPACK_IMPORTED_MODULE_6__animation_ast__["b" /* AnimationStylesAst */](previousStyles);
-            steps.push(new __WEBPACK_IMPORTED_MODULE_6__animation_ast__["h" /* AnimationStepAst */](startingStyles, [], 0, 0, ''));
+            steps.push(new __WEBPACK_IMPORTED_MODULE_6__animation_ast__["i" /* AnimationStepAst */](startingStyles, [], 0, 0, ''));
         }
         if (isGroup) {
-            ast = new __WEBPACK_IMPORTED_MODULE_6__animation_ast__["i" /* AnimationGroupAst */](steps);
+            ast = new __WEBPACK_IMPORTED_MODULE_6__animation_ast__["j" /* AnimationGroupAst */](steps);
             playTime = maxDuration;
             currentTime = startingTime + playTime;
         }
         else {
-            ast = new __WEBPACK_IMPORTED_MODULE_6__animation_ast__["d" /* AnimationSequenceAst */](steps);
+            ast = new __WEBPACK_IMPORTED_MODULE_6__animation_ast__["e" /* AnimationSequenceAst */](steps);
         }
     }
-    else if (entry instanceof __WEBPACK_IMPORTED_MODULE_0__compile_metadata__["k" /* CompileAnimationAnimateMetadata */]) {
+    else if (entry instanceof __WEBPACK_IMPORTED_MODULE_0__compile_metadata__["l" /* CompileAnimationAnimateMetadata */]) {
         var timings = _parseTimeExpression(entry.timings, errors);
         var styles = entry.styles;
         var keyframes;
-        if (styles instanceof __WEBPACK_IMPORTED_MODULE_0__compile_metadata__["l" /* CompileAnimationKeyframesSequenceMetadata */]) {
+        if (styles instanceof __WEBPACK_IMPORTED_MODULE_0__compile_metadata__["m" /* CompileAnimationKeyframesSequenceMetadata */]) {
             keyframes =
                 _parseAnimationKeyframes(styles, currentTime, collectedStyles, stateStyles, errors);
         }
@@ -5589,10 +5345,10 @@ function _parseTransitionAnimation(entry, currentTime, collectedStyles, stateSty
             var styleData = styles;
             var offset = _TERMINAL_KEYFRAME;
             var styleAst = new __WEBPACK_IMPORTED_MODULE_6__animation_ast__["b" /* AnimationStylesAst */](styleData.styles);
-            var keyframe = new __WEBPACK_IMPORTED_MODULE_6__animation_ast__["g" /* AnimationKeyframeAst */](offset, styleAst);
+            var keyframe = new __WEBPACK_IMPORTED_MODULE_6__animation_ast__["h" /* AnimationKeyframeAst */](offset, styleAst);
             keyframes = [keyframe];
         }
-        ast = new __WEBPACK_IMPORTED_MODULE_6__animation_ast__["h" /* AnimationStepAst */](new __WEBPACK_IMPORTED_MODULE_6__animation_ast__["b" /* AnimationStylesAst */]([]), keyframes, timings.duration, timings.delay, timings.easing);
+        ast = new __WEBPACK_IMPORTED_MODULE_6__animation_ast__["i" /* AnimationStepAst */](new __WEBPACK_IMPORTED_MODULE_6__animation_ast__["b" /* AnimationStylesAst */]([]), keyframes, timings.duration, timings.delay, timings.easing);
         playTime = timings.duration + timings.delay;
         currentTime += playTime;
         keyframes.forEach(function (keyframe /** TODO #9100 */) { return keyframe.styles.styles.forEach(function (entry /** TODO #9100 */) { return __WEBPACK_IMPORTED_MODULE_1__facade_collection__["b" /* StringMapWrapper */].forEach(entry, function (value /** TODO #9100 */, prop /** TODO #9100 */) {
@@ -5603,7 +5359,7 @@ function _parseTransitionAnimation(entry, currentTime, collectedStyles, stateSty
         // if the code reaches this stage then an error
         // has already been populated within the _normalizeStyleSteps()
         // operation...
-        ast = new __WEBPACK_IMPORTED_MODULE_6__animation_ast__["h" /* AnimationStepAst */](null, [], 0, 0, '');
+        ast = new __WEBPACK_IMPORTED_MODULE_6__animation_ast__["i" /* AnimationStepAst */](null, [], 0, 0, '');
     }
     ast.playTime = playTime;
     ast.startTime = startingTime;
@@ -5611,7 +5367,7 @@ function _parseTransitionAnimation(entry, currentTime, collectedStyles, stateSty
 }
 function _fillAnimationAstStartingKeyframes(ast, collectedStyles, errors) {
     // steps that only contain style will not be filled
-    if ((ast instanceof __WEBPACK_IMPORTED_MODULE_6__animation_ast__["h" /* AnimationStepAst */]) && ast.keyframes.length > 0) {
+    if ((ast instanceof __WEBPACK_IMPORTED_MODULE_6__animation_ast__["i" /* AnimationStepAst */]) && ast.keyframes.length > 0) {
         var keyframes = ast.keyframes;
         if (keyframes.length == 1) {
             var endKeyframe = keyframes[0];
@@ -5619,7 +5375,7 @@ function _fillAnimationAstStartingKeyframes(ast, collectedStyles, errors) {
             ast.keyframes = [startKeyframe, endKeyframe];
         }
     }
-    else if (ast instanceof __WEBPACK_IMPORTED_MODULE_6__animation_ast__["j" /* AnimationWithStepsAst */]) {
+    else if (ast instanceof __WEBPACK_IMPORTED_MODULE_6__animation_ast__["d" /* AnimationWithStepsAst */]) {
         ast.steps.forEach(function (entry) { return _fillAnimationAstStartingKeyframes(entry, collectedStyles, errors); });
     }
 }
@@ -5634,7 +5390,7 @@ function _parseTimeExpression(exp, errors) {
             errors.push(new AnimationParseError("The provided timing value \"" + exp + "\" is invalid."));
             return new _AnimationTimings(0, 0, null);
         }
-        var durationMatch = __WEBPACK_IMPORTED_MODULE_2__facade_lang__["n" /* NumberWrapper */].parseFloat(matches[1]);
+        var durationMatch = parseFloat(matches[1]);
         var durationUnit = matches[2];
         if (durationUnit == 's') {
             durationMatch *= _ONE_SECOND;
@@ -5643,7 +5399,7 @@ function _parseTimeExpression(exp, errors) {
         var delayMatch = matches[3];
         var delayUnit = matches[4];
         if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2__facade_lang__["a" /* isPresent */])(delayMatch)) {
-            var delayVal = __WEBPACK_IMPORTED_MODULE_2__facade_lang__["n" /* NumberWrapper */].parseFloat(delayMatch);
+            var delayVal = parseFloat(delayMatch);
             if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2__facade_lang__["a" /* isPresent */])(delayUnit) && delayUnit == 's') {
                 delayVal *= _ONE_SECOND;
             }
@@ -5677,7 +5433,7 @@ function _createStartKeyframeFromEndKeyframe(endKeyframe, startTime, duration, c
                 // this is a flag that the runtime code uses to pass
                 // in a value either from the state declaration styles
                 // or using the AUTO_STYLE value (e.g. getComputedStyle)
-                value = __WEBPACK_IMPORTED_MODULE_5__private_import_core__["T" /* FILL_STYLE_FLAG */];
+                value = __WEBPACK_IMPORTED_MODULE_5__private_import_core__["U" /* FILL_STYLE_FLAG */];
             }
             if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2__facade_lang__["a" /* isPresent */])(nextEntry) && !nextEntry.matches(endTime, val)) {
                 errors.push(new AnimationParseError("The animated CSS property \"" + prop + "\" unexpectedly changes between steps \"" + resultEntry.time + "ms\" and \"" + endTime + "ms\" at \"" + nextEntry.time + "ms\""));
@@ -5685,7 +5441,7 @@ function _createStartKeyframeFromEndKeyframe(endKeyframe, startTime, duration, c
             values[prop] = value;
         });
     });
-    return new __WEBPACK_IMPORTED_MODULE_6__animation_ast__["g" /* AnimationKeyframeAst */](_INITIAL_KEYFRAME, new __WEBPACK_IMPORTED_MODULE_6__animation_ast__["b" /* AnimationStylesAst */]([values]));
+    return new __WEBPACK_IMPORTED_MODULE_6__animation_ast__["h" /* AnimationKeyframeAst */](_INITIAL_KEYFRAME, new __WEBPACK_IMPORTED_MODULE_6__animation_ast__["b" /* AnimationStylesAst */]([values]));
 }
 //# sourceMappingURL=animation_parser.js.map
 
@@ -5980,12 +5736,12 @@ function isAsciiHexDigit(code) {
 /* harmony export (binding) */ __webpack_require__.d(exports, "g", function() { return CompileAnimationStateDeclarationMetadata; });
 /* harmony export (binding) */ __webpack_require__.d(exports, "s", function() { return CompileAnimationStateTransitionMetadata; });
 /* unused harmony export CompileAnimationMetadata */
-/* harmony export (binding) */ __webpack_require__.d(exports, "l", function() { return CompileAnimationKeyframesSequenceMetadata; });
+/* harmony export (binding) */ __webpack_require__.d(exports, "m", function() { return CompileAnimationKeyframesSequenceMetadata; });
 /* harmony export (binding) */ __webpack_require__.d(exports, "h", function() { return CompileAnimationStyleMetadata; });
-/* harmony export (binding) */ __webpack_require__.d(exports, "k", function() { return CompileAnimationAnimateMetadata; });
-/* harmony export (binding) */ __webpack_require__.d(exports, "j", function() { return CompileAnimationWithStepsMetadata; });
+/* harmony export (binding) */ __webpack_require__.d(exports, "l", function() { return CompileAnimationAnimateMetadata; });
+/* harmony export (binding) */ __webpack_require__.d(exports, "k", function() { return CompileAnimationWithStepsMetadata; });
 /* harmony export (binding) */ __webpack_require__.d(exports, "i", function() { return CompileAnimationSequenceMetadata; });
-/* harmony export (binding) */ __webpack_require__.d(exports, "m", function() { return CompileAnimationGroupMetadata; });
+/* harmony export (binding) */ __webpack_require__.d(exports, "j", function() { return CompileAnimationGroupMetadata; });
 /* harmony export (binding) */ __webpack_require__.d(exports, "a", function() { return CompileIdentifierMetadata; });
 /* harmony export (binding) */ __webpack_require__.d(exports, "c", function() { return CompileDiDependencyMetadata; });
 /* harmony export (binding) */ __webpack_require__.d(exports, "d", function() { return CompileProviderMetadata; });
@@ -6406,7 +6162,7 @@ var CompilePipeMetadata = (function () {
  */
 var CompileNgModuleMetadata = (function () {
     function CompileNgModuleMetadata(_a) {
-        var _b = _a === void 0 ? {} : _a, type = _b.type, providers = _b.providers, declaredDirectives = _b.declaredDirectives, exportedDirectives = _b.exportedDirectives, declaredPipes = _b.declaredPipes, exportedPipes = _b.exportedPipes, entryComponents = _b.entryComponents, bootstrapComponents = _b.bootstrapComponents, importedModules = _b.importedModules, exportedModules = _b.exportedModules, schemas = _b.schemas, transitiveModule = _b.transitiveModule;
+        var _b = _a === void 0 ? {} : _a, type = _b.type, providers = _b.providers, declaredDirectives = _b.declaredDirectives, exportedDirectives = _b.exportedDirectives, declaredPipes = _b.declaredPipes, exportedPipes = _b.exportedPipes, entryComponents = _b.entryComponents, bootstrapComponents = _b.bootstrapComponents, importedModules = _b.importedModules, exportedModules = _b.exportedModules, schemas = _b.schemas, transitiveModule = _b.transitiveModule, id = _b.id;
         this.type = type;
         this.declaredDirectives = _normalizeArray(declaredDirectives);
         this.exportedDirectives = _normalizeArray(exportedDirectives);
@@ -6418,6 +6174,7 @@ var CompileNgModuleMetadata = (function () {
         this.importedModules = _normalizeArray(importedModules);
         this.exportedModules = _normalizeArray(exportedModules);
         this.schemas = _normalizeArray(schemas);
+        this.id = id;
         this.transitiveModule = transitiveModule;
     }
     Object.defineProperty(CompileNgModuleMetadata.prototype, "identifier", {
@@ -6566,10 +6323,10 @@ var _NO_RESOURCE_LOADER = {
  * template compilation.
  */
 var COMPILER_PROVIDERS = [
-    { provide: __WEBPACK_IMPORTED_MODULE_18__private_import_core__["_1" /* Reflector */], useValue: __WEBPACK_IMPORTED_MODULE_18__private_import_core__["P" /* reflector */] },
-    { provide: __WEBPACK_IMPORTED_MODULE_18__private_import_core__["Y" /* ReflectorReader */], useExisting: __WEBPACK_IMPORTED_MODULE_18__private_import_core__["_1" /* Reflector */] },
+    { provide: __WEBPACK_IMPORTED_MODULE_18__private_import_core__["_2" /* Reflector */], useValue: __WEBPACK_IMPORTED_MODULE_18__private_import_core__["Q" /* reflector */] },
+    { provide: __WEBPACK_IMPORTED_MODULE_18__private_import_core__["Z" /* ReflectorReader */], useExisting: __WEBPACK_IMPORTED_MODULE_18__private_import_core__["_2" /* Reflector */] },
     { provide: __WEBPACK_IMPORTED_MODULE_19__resource_loader__["a" /* ResourceLoader */], useValue: _NO_RESOURCE_LOADER },
-    __WEBPACK_IMPORTED_MODULE_18__private_import_core__["Q" /* Console */],
+    __WEBPACK_IMPORTED_MODULE_18__private_import_core__["R" /* Console */],
     __WEBPACK_IMPORTED_MODULE_14__expression_parser_lexer__["c" /* Lexer */],
     __WEBPACK_IMPORTED_MODULE_13__expression_parser_parser__["a" /* Parser */],
     __WEBPACK_IMPORTED_MODULE_2__ml_parser_html_parser__["b" /* HtmlParser */],
@@ -6580,8 +6337,8 @@ var COMPILER_PROVIDERS = [
         },
         deps: [
             __WEBPACK_IMPORTED_MODULE_2__ml_parser_html_parser__["b" /* HtmlParser */],
-            [new __WEBPACK_IMPORTED_MODULE_0__angular_core__["OptionalMetadata"](), new __WEBPACK_IMPORTED_MODULE_0__angular_core__["Inject"](__WEBPACK_IMPORTED_MODULE_0__angular_core__["TRANSLATIONS"])],
-            [new __WEBPACK_IMPORTED_MODULE_0__angular_core__["OptionalMetadata"](), new __WEBPACK_IMPORTED_MODULE_0__angular_core__["Inject"](__WEBPACK_IMPORTED_MODULE_0__angular_core__["TRANSLATIONS_FORMAT"])],
+            [new __WEBPACK_IMPORTED_MODULE_0__angular_core__["Optional"](), new __WEBPACK_IMPORTED_MODULE_0__angular_core__["Inject"](__WEBPACK_IMPORTED_MODULE_0__angular_core__["TRANSLATIONS"])],
+            [new __WEBPACK_IMPORTED_MODULE_0__angular_core__["Optional"](), new __WEBPACK_IMPORTED_MODULE_0__angular_core__["Inject"](__WEBPACK_IMPORTED_MODULE_0__angular_core__["TRANSLATIONS_FORMAT"])],
         ]
     },
     __WEBPACK_IMPORTED_MODULE_1__template_parser_template_parser__["a" /* TemplateParser */],
@@ -6645,7 +6402,7 @@ var RuntimeCompilerFactory = (function () {
     return RuntimeCompilerFactory;
 }());
 function _initReflector() {
-    __WEBPACK_IMPORTED_MODULE_18__private_import_core__["P" /* reflector */].reflectionCapabilities = new __WEBPACK_IMPORTED_MODULE_18__private_import_core__["_2" /* ReflectionCapabilities */]();
+    __WEBPACK_IMPORTED_MODULE_18__private_import_core__["Q" /* reflector */].reflectionCapabilities = new __WEBPACK_IMPORTED_MODULE_18__private_import_core__["_3" /* ReflectionCapabilities */]();
 }
 /**
  * A platform that included corePlatform and the compiler.
@@ -7071,10 +6828,10 @@ function _cloneDirectiveWithTemplate(directive, template) {
 
 
 function _isDirectiveMetadata(type) {
-    return type instanceof __WEBPACK_IMPORTED_MODULE_0__angular_core__["DirectiveMetadata"];
+    return type instanceof __WEBPACK_IMPORTED_MODULE_0__angular_core__["Directive"];
 }
 /*
- * Resolve a `Type` for {@link DirectiveMetadata}.
+ * Resolve a `Type` for {@link Directive}.
  *
  * This interface can be overridden by the application developer to create custom behavior.
  *
@@ -7082,11 +6839,11 @@ function _isDirectiveMetadata(type) {
  */
 var DirectiveResolver = (function () {
     function DirectiveResolver(_reflector) {
-        if (_reflector === void 0) { _reflector = __WEBPACK_IMPORTED_MODULE_3__private_import_core__["P" /* reflector */]; }
+        if (_reflector === void 0) { _reflector = __WEBPACK_IMPORTED_MODULE_3__private_import_core__["Q" /* reflector */]; }
         this._reflector = _reflector;
     }
     /**
-     * Return {@link DirectiveMetadata} for a given `Type`.
+     * Return {@link Directive} for a given `Type`.
      */
     DirectiveResolver.prototype.resolve = function (type, throwIfNotFound) {
         if (throwIfNotFound === void 0) { throwIfNotFound = true; }
@@ -7110,7 +6867,7 @@ var DirectiveResolver = (function () {
         var queries = {};
         __WEBPACK_IMPORTED_MODULE_1__facade_collection__["b" /* StringMapWrapper */].forEach(propertyMetadata, function (metadata, propName) {
             metadata.forEach(function (a) {
-                if (a instanceof __WEBPACK_IMPORTED_MODULE_0__angular_core__["InputMetadata"]) {
+                if (a instanceof __WEBPACK_IMPORTED_MODULE_0__angular_core__["Input"]) {
                     if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2__facade_lang__["a" /* isPresent */])(a.bindingPropertyName)) {
                         inputs.push(propName + ": " + a.bindingPropertyName);
                     }
@@ -7118,27 +6875,30 @@ var DirectiveResolver = (function () {
                         inputs.push(propName);
                     }
                 }
-                else if (a instanceof __WEBPACK_IMPORTED_MODULE_0__angular_core__["OutputMetadata"]) {
-                    if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2__facade_lang__["a" /* isPresent */])(a.bindingPropertyName)) {
-                        outputs.push(propName + ": " + a.bindingPropertyName);
+                else if (a instanceof __WEBPACK_IMPORTED_MODULE_0__angular_core__["Output"]) {
+                    var output = a;
+                    if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2__facade_lang__["a" /* isPresent */])(output.bindingPropertyName)) {
+                        outputs.push(propName + ": " + output.bindingPropertyName);
                     }
                     else {
                         outputs.push(propName);
                     }
                 }
-                else if (a instanceof __WEBPACK_IMPORTED_MODULE_0__angular_core__["HostBindingMetadata"]) {
-                    if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2__facade_lang__["a" /* isPresent */])(a.hostPropertyName)) {
-                        host[("[" + a.hostPropertyName + "]")] = propName;
+                else if (a instanceof __WEBPACK_IMPORTED_MODULE_0__angular_core__["HostBinding"]) {
+                    var hostBinding = a;
+                    if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2__facade_lang__["a" /* isPresent */])(hostBinding.hostPropertyName)) {
+                        host[("[" + hostBinding.hostPropertyName + "]")] = propName;
                     }
                     else {
                         host[("[" + propName + "]")] = propName;
                     }
                 }
-                else if (a instanceof __WEBPACK_IMPORTED_MODULE_0__angular_core__["HostListenerMetadata"]) {
-                    var args = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2__facade_lang__["a" /* isPresent */])(a.args) ? a.args.join(', ') : '';
-                    host[("(" + a.eventName + ")")] = propName + "(" + args + ")";
+                else if (a instanceof __WEBPACK_IMPORTED_MODULE_0__angular_core__["HostListener"]) {
+                    var hostListener = a;
+                    var args = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2__facade_lang__["a" /* isPresent */])(hostListener.args) ? hostListener.args.join(', ') : '';
+                    host[("(" + hostListener.eventName + ")")] = propName + "(" + args + ")";
                 }
-                else if (a instanceof __WEBPACK_IMPORTED_MODULE_0__angular_core__["QueryMetadata"]) {
+                else if (a instanceof __WEBPACK_IMPORTED_MODULE_0__angular_core__["Query"]) {
                     queries[propName] = a;
                 }
             });
@@ -7178,8 +6938,8 @@ var DirectiveResolver = (function () {
         }
         var mergedHost = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2__facade_lang__["a" /* isPresent */])(dm.host) ? __WEBPACK_IMPORTED_MODULE_1__facade_collection__["b" /* StringMapWrapper */].merge(dm.host, host) : host;
         var mergedQueries = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2__facade_lang__["a" /* isPresent */])(dm.queries) ? __WEBPACK_IMPORTED_MODULE_1__facade_collection__["b" /* StringMapWrapper */].merge(dm.queries, queries) : queries;
-        if (dm instanceof __WEBPACK_IMPORTED_MODULE_0__angular_core__["ComponentMetadata"]) {
-            return new __WEBPACK_IMPORTED_MODULE_0__angular_core__["ComponentMetadata"]({
+        if (dm instanceof __WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"]) {
+            return new __WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"]({
                 selector: dm.selector,
                 inputs: mergedInputs,
                 outputs: mergedOutputs,
@@ -7201,7 +6961,7 @@ var DirectiveResolver = (function () {
             });
         }
         else {
-            return new __WEBPACK_IMPORTED_MODULE_0__angular_core__["DirectiveMetadata"]({
+            return new __WEBPACK_IMPORTED_MODULE_0__angular_core__["Directive"]({
                 selector: dm.selector,
                 inputs: mergedInputs,
                 outputs: mergedOutputs,
@@ -7217,7 +6977,7 @@ var DirectiveResolver = (function () {
     ];
     /** @nocollapse */
     DirectiveResolver.ctorParameters = [
-        { type: __WEBPACK_IMPORTED_MODULE_3__private_import_core__["Y" /* ReflectorReader */], },
+        { type: __WEBPACK_IMPORTED_MODULE_3__private_import_core__["Z" /* ReflectorReader */], },
     ];
     return DirectiveResolver;
 }());
@@ -8015,7 +7775,7 @@ var _Scanner = (function () {
             this.advance();
         }
         var str = this.input.substring(start, this.index);
-        var value = simple ? __WEBPACK_IMPORTED_MODULE_2__facade_lang__["n" /* NumberWrapper */].parseIntAutoRadix(str) : __WEBPACK_IMPORTED_MODULE_2__facade_lang__["n" /* NumberWrapper */].parseFloat(str);
+        var value = simple ? __WEBPACK_IMPORTED_MODULE_2__facade_lang__["n" /* NumberWrapper */].parseIntAutoRadix(str) : parseFloat(str);
         return newNumberToken(start, value);
     };
     _Scanner.prototype.scanString = function () {
@@ -9037,9 +8797,8 @@ var StringMapWrapper = (function () {
         if (k1.length != k2.length) {
             return false;
         }
-        var key;
         for (var i = 0; i < k1.length; i++) {
-            key = k1[i];
+            var key = k1[i];
             if (m1[key] !== m2[key]) {
                 return false;
             }
@@ -9508,8 +9267,6 @@ var NumberWrapper = (function () {
         }
         throw new Error('Invalid integer literal when parsing ' + text + ' in base ' + radix);
     };
-    // TODO: NaN is a valid literal but is returned by parseFloat to indicate an error.
-    NumberWrapper.parseFloat = function (text) { return parseFloat(text); };
     Object.defineProperty(NumberWrapper, "NaN", {
         get: function () { return NaN; },
         enumerable: true,
@@ -11597,7 +11354,12 @@ var Identifiers = (function () {
         runtime: __WEBPACK_IMPORTED_MODULE_2__private_import_core__["g" /* NgModuleInjector */],
         moduleUrl: __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_3__util__["c" /* assetUrl */])('core', 'linker/ng_module_factory')
     };
-    Identifiers.ValueUnwrapper = { name: 'ValueUnwrapper', moduleUrl: CD_MODULE_URL, runtime: __WEBPACK_IMPORTED_MODULE_2__private_import_core__["h" /* ValueUnwrapper */] };
+    Identifiers.RegisterModuleFactoryFn = {
+        name: 'registerModuleFactory',
+        runtime: __WEBPACK_IMPORTED_MODULE_2__private_import_core__["h" /* registerModuleFactory */],
+        moduleUrl: __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_3__util__["c" /* assetUrl */])('core', 'linker/ng_module_factory_loader')
+    };
+    Identifiers.ValueUnwrapper = { name: 'ValueUnwrapper', moduleUrl: CD_MODULE_URL, runtime: __WEBPACK_IMPORTED_MODULE_2__private_import_core__["i" /* ValueUnwrapper */] };
     Identifiers.Injector = {
         name: 'Injector',
         moduleUrl: __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_3__util__["c" /* assetUrl */])('core', 'di/injector'),
@@ -11611,7 +11373,7 @@ var Identifiers = (function () {
     Identifiers.ViewType = {
         name: 'ViewType',
         moduleUrl: __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_3__util__["c" /* assetUrl */])('core', 'linker/view_type'),
-        runtime: __WEBPACK_IMPORTED_MODULE_2__private_import_core__["i" /* ViewType */]
+        runtime: __WEBPACK_IMPORTED_MODULE_2__private_import_core__["j" /* ViewType */]
     };
     Identifiers.ChangeDetectionStrategy = {
         name: 'ChangeDetectionStrategy',
@@ -11621,12 +11383,12 @@ var Identifiers = (function () {
     Identifiers.StaticNodeDebugInfo = {
         name: 'StaticNodeDebugInfo',
         moduleUrl: __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_3__util__["c" /* assetUrl */])('core', 'linker/debug_context'),
-        runtime: __WEBPACK_IMPORTED_MODULE_2__private_import_core__["j" /* StaticNodeDebugInfo */]
+        runtime: __WEBPACK_IMPORTED_MODULE_2__private_import_core__["k" /* StaticNodeDebugInfo */]
     };
     Identifiers.DebugContext = {
         name: 'DebugContext',
         moduleUrl: __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_3__util__["c" /* assetUrl */])('core', 'linker/debug_context'),
-        runtime: __WEBPACK_IMPORTED_MODULE_2__private_import_core__["k" /* DebugContext */]
+        runtime: __WEBPACK_IMPORTED_MODULE_2__private_import_core__["l" /* DebugContext */]
     };
     Identifiers.Renderer = {
         name: 'Renderer',
@@ -11634,51 +11396,51 @@ var Identifiers = (function () {
         runtime: __WEBPACK_IMPORTED_MODULE_0__angular_core__["Renderer"]
     };
     Identifiers.SimpleChange = { name: 'SimpleChange', moduleUrl: CD_MODULE_URL, runtime: __WEBPACK_IMPORTED_MODULE_0__angular_core__["SimpleChange"] };
-    Identifiers.UNINITIALIZED = { name: 'UNINITIALIZED', moduleUrl: CD_MODULE_URL, runtime: __WEBPACK_IMPORTED_MODULE_2__private_import_core__["l" /* UNINITIALIZED */] };
+    Identifiers.UNINITIALIZED = { name: 'UNINITIALIZED', moduleUrl: CD_MODULE_URL, runtime: __WEBPACK_IMPORTED_MODULE_2__private_import_core__["m" /* UNINITIALIZED */] };
     Identifiers.ChangeDetectorStatus = {
         name: 'ChangeDetectorStatus',
         moduleUrl: CD_MODULE_URL,
-        runtime: __WEBPACK_IMPORTED_MODULE_2__private_import_core__["m" /* ChangeDetectorStatus */]
+        runtime: __WEBPACK_IMPORTED_MODULE_2__private_import_core__["n" /* ChangeDetectorStatus */]
     };
     Identifiers.checkBinding = {
         name: 'checkBinding',
         moduleUrl: VIEW_UTILS_MODULE_URL,
-        runtime: __WEBPACK_IMPORTED_MODULE_2__private_import_core__["n" /* checkBinding */]
+        runtime: __WEBPACK_IMPORTED_MODULE_2__private_import_core__["o" /* checkBinding */]
     };
     Identifiers.flattenNestedViewRenderNodes = {
         name: 'flattenNestedViewRenderNodes',
         moduleUrl: VIEW_UTILS_MODULE_URL,
-        runtime: __WEBPACK_IMPORTED_MODULE_2__private_import_core__["o" /* flattenNestedViewRenderNodes */]
+        runtime: __WEBPACK_IMPORTED_MODULE_2__private_import_core__["p" /* flattenNestedViewRenderNodes */]
     };
-    Identifiers.devModeEqual = { name: 'devModeEqual', moduleUrl: CD_MODULE_URL, runtime: __WEBPACK_IMPORTED_MODULE_2__private_import_core__["p" /* devModeEqual */] };
+    Identifiers.devModeEqual = { name: 'devModeEqual', moduleUrl: CD_MODULE_URL, runtime: __WEBPACK_IMPORTED_MODULE_2__private_import_core__["q" /* devModeEqual */] };
     Identifiers.interpolate = {
         name: 'interpolate',
         moduleUrl: VIEW_UTILS_MODULE_URL,
-        runtime: __WEBPACK_IMPORTED_MODULE_2__private_import_core__["q" /* interpolate */]
+        runtime: __WEBPACK_IMPORTED_MODULE_2__private_import_core__["r" /* interpolate */]
     };
     Identifiers.castByValue = {
         name: 'castByValue',
         moduleUrl: VIEW_UTILS_MODULE_URL,
-        runtime: __WEBPACK_IMPORTED_MODULE_2__private_import_core__["r" /* castByValue */]
+        runtime: __WEBPACK_IMPORTED_MODULE_2__private_import_core__["s" /* castByValue */]
     };
     Identifiers.EMPTY_ARRAY = {
         name: 'EMPTY_ARRAY',
         moduleUrl: VIEW_UTILS_MODULE_URL,
-        runtime: __WEBPACK_IMPORTED_MODULE_2__private_import_core__["s" /* EMPTY_ARRAY */]
+        runtime: __WEBPACK_IMPORTED_MODULE_2__private_import_core__["t" /* EMPTY_ARRAY */]
     };
-    Identifiers.EMPTY_MAP = { name: 'EMPTY_MAP', moduleUrl: VIEW_UTILS_MODULE_URL, runtime: __WEBPACK_IMPORTED_MODULE_2__private_import_core__["t" /* EMPTY_MAP */] };
+    Identifiers.EMPTY_MAP = { name: 'EMPTY_MAP', moduleUrl: VIEW_UTILS_MODULE_URL, runtime: __WEBPACK_IMPORTED_MODULE_2__private_import_core__["u" /* EMPTY_MAP */] };
     Identifiers.pureProxies = [
         null,
-        { name: 'pureProxy1', moduleUrl: VIEW_UTILS_MODULE_URL, runtime: __WEBPACK_IMPORTED_MODULE_2__private_import_core__["u" /* pureProxy1 */] },
-        { name: 'pureProxy2', moduleUrl: VIEW_UTILS_MODULE_URL, runtime: __WEBPACK_IMPORTED_MODULE_2__private_import_core__["v" /* pureProxy2 */] },
-        { name: 'pureProxy3', moduleUrl: VIEW_UTILS_MODULE_URL, runtime: __WEBPACK_IMPORTED_MODULE_2__private_import_core__["w" /* pureProxy3 */] },
-        { name: 'pureProxy4', moduleUrl: VIEW_UTILS_MODULE_URL, runtime: __WEBPACK_IMPORTED_MODULE_2__private_import_core__["x" /* pureProxy4 */] },
-        { name: 'pureProxy5', moduleUrl: VIEW_UTILS_MODULE_URL, runtime: __WEBPACK_IMPORTED_MODULE_2__private_import_core__["y" /* pureProxy5 */] },
-        { name: 'pureProxy6', moduleUrl: VIEW_UTILS_MODULE_URL, runtime: __WEBPACK_IMPORTED_MODULE_2__private_import_core__["z" /* pureProxy6 */] },
-        { name: 'pureProxy7', moduleUrl: VIEW_UTILS_MODULE_URL, runtime: __WEBPACK_IMPORTED_MODULE_2__private_import_core__["A" /* pureProxy7 */] },
-        { name: 'pureProxy8', moduleUrl: VIEW_UTILS_MODULE_URL, runtime: __WEBPACK_IMPORTED_MODULE_2__private_import_core__["B" /* pureProxy8 */] },
-        { name: 'pureProxy9', moduleUrl: VIEW_UTILS_MODULE_URL, runtime: __WEBPACK_IMPORTED_MODULE_2__private_import_core__["C" /* pureProxy9 */] },
-        { name: 'pureProxy10', moduleUrl: VIEW_UTILS_MODULE_URL, runtime: __WEBPACK_IMPORTED_MODULE_2__private_import_core__["D" /* pureProxy10 */] },
+        { name: 'pureProxy1', moduleUrl: VIEW_UTILS_MODULE_URL, runtime: __WEBPACK_IMPORTED_MODULE_2__private_import_core__["v" /* pureProxy1 */] },
+        { name: 'pureProxy2', moduleUrl: VIEW_UTILS_MODULE_URL, runtime: __WEBPACK_IMPORTED_MODULE_2__private_import_core__["w" /* pureProxy2 */] },
+        { name: 'pureProxy3', moduleUrl: VIEW_UTILS_MODULE_URL, runtime: __WEBPACK_IMPORTED_MODULE_2__private_import_core__["x" /* pureProxy3 */] },
+        { name: 'pureProxy4', moduleUrl: VIEW_UTILS_MODULE_URL, runtime: __WEBPACK_IMPORTED_MODULE_2__private_import_core__["y" /* pureProxy4 */] },
+        { name: 'pureProxy5', moduleUrl: VIEW_UTILS_MODULE_URL, runtime: __WEBPACK_IMPORTED_MODULE_2__private_import_core__["z" /* pureProxy5 */] },
+        { name: 'pureProxy6', moduleUrl: VIEW_UTILS_MODULE_URL, runtime: __WEBPACK_IMPORTED_MODULE_2__private_import_core__["A" /* pureProxy6 */] },
+        { name: 'pureProxy7', moduleUrl: VIEW_UTILS_MODULE_URL, runtime: __WEBPACK_IMPORTED_MODULE_2__private_import_core__["B" /* pureProxy7 */] },
+        { name: 'pureProxy8', moduleUrl: VIEW_UTILS_MODULE_URL, runtime: __WEBPACK_IMPORTED_MODULE_2__private_import_core__["C" /* pureProxy8 */] },
+        { name: 'pureProxy9', moduleUrl: VIEW_UTILS_MODULE_URL, runtime: __WEBPACK_IMPORTED_MODULE_2__private_import_core__["D" /* pureProxy9 */] },
+        { name: 'pureProxy10', moduleUrl: VIEW_UTILS_MODULE_URL, runtime: __WEBPACK_IMPORTED_MODULE_2__private_import_core__["E" /* pureProxy10 */] },
     ];
     Identifiers.SecurityContext = {
         name: 'SecurityContext',
@@ -11688,52 +11450,52 @@ var Identifiers = (function () {
     Identifiers.AnimationKeyframe = {
         name: 'AnimationKeyframe',
         moduleUrl: __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_3__util__["c" /* assetUrl */])('core', 'animation/animation_keyframe'),
-        runtime: __WEBPACK_IMPORTED_MODULE_2__private_import_core__["E" /* AnimationKeyframe */]
+        runtime: __WEBPACK_IMPORTED_MODULE_2__private_import_core__["F" /* AnimationKeyframe */]
     };
     Identifiers.AnimationStyles = {
         name: 'AnimationStyles',
         moduleUrl: __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_3__util__["c" /* assetUrl */])('core', 'animation/animation_styles'),
-        runtime: __WEBPACK_IMPORTED_MODULE_2__private_import_core__["F" /* AnimationStyles */]
+        runtime: __WEBPACK_IMPORTED_MODULE_2__private_import_core__["G" /* AnimationStyles */]
     };
     Identifiers.NoOpAnimationPlayer = {
         name: 'NoOpAnimationPlayer',
         moduleUrl: __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_3__util__["c" /* assetUrl */])('core', 'animation/animation_player'),
-        runtime: __WEBPACK_IMPORTED_MODULE_2__private_import_core__["G" /* NoOpAnimationPlayer */]
+        runtime: __WEBPACK_IMPORTED_MODULE_2__private_import_core__["H" /* NoOpAnimationPlayer */]
     };
     Identifiers.AnimationGroupPlayer = {
         name: 'AnimationGroupPlayer',
         moduleUrl: __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_3__util__["c" /* assetUrl */])('core', 'animation/animation_group_player'),
-        runtime: __WEBPACK_IMPORTED_MODULE_2__private_import_core__["H" /* AnimationGroupPlayer */]
+        runtime: __WEBPACK_IMPORTED_MODULE_2__private_import_core__["I" /* AnimationGroupPlayer */]
     };
     Identifiers.AnimationSequencePlayer = {
         name: 'AnimationSequencePlayer',
         moduleUrl: __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_3__util__["c" /* assetUrl */])('core', 'animation/animation_sequence_player'),
-        runtime: __WEBPACK_IMPORTED_MODULE_2__private_import_core__["I" /* AnimationSequencePlayer */]
+        runtime: __WEBPACK_IMPORTED_MODULE_2__private_import_core__["J" /* AnimationSequencePlayer */]
     };
     Identifiers.prepareFinalAnimationStyles = {
         name: 'prepareFinalAnimationStyles',
         moduleUrl: ANIMATION_STYLE_UTIL_ASSET_URL,
-        runtime: __WEBPACK_IMPORTED_MODULE_2__private_import_core__["J" /* prepareFinalAnimationStyles */]
+        runtime: __WEBPACK_IMPORTED_MODULE_2__private_import_core__["K" /* prepareFinalAnimationStyles */]
     };
     Identifiers.balanceAnimationKeyframes = {
         name: 'balanceAnimationKeyframes',
         moduleUrl: ANIMATION_STYLE_UTIL_ASSET_URL,
-        runtime: __WEBPACK_IMPORTED_MODULE_2__private_import_core__["K" /* balanceAnimationKeyframes */]
+        runtime: __WEBPACK_IMPORTED_MODULE_2__private_import_core__["L" /* balanceAnimationKeyframes */]
     };
     Identifiers.clearStyles = {
         name: 'clearStyles',
         moduleUrl: ANIMATION_STYLE_UTIL_ASSET_URL,
-        runtime: __WEBPACK_IMPORTED_MODULE_2__private_import_core__["L" /* clearStyles */]
+        runtime: __WEBPACK_IMPORTED_MODULE_2__private_import_core__["M" /* clearStyles */]
     };
     Identifiers.renderStyles = {
         name: 'renderStyles',
         moduleUrl: ANIMATION_STYLE_UTIL_ASSET_URL,
-        runtime: __WEBPACK_IMPORTED_MODULE_2__private_import_core__["M" /* renderStyles */]
+        runtime: __WEBPACK_IMPORTED_MODULE_2__private_import_core__["N" /* renderStyles */]
     };
     Identifiers.collectAndResolveStyles = {
         name: 'collectAndResolveStyles',
         moduleUrl: ANIMATION_STYLE_UTIL_ASSET_URL,
-        runtime: __WEBPACK_IMPORTED_MODULE_2__private_import_core__["N" /* collectAndResolveStyles */]
+        runtime: __WEBPACK_IMPORTED_MODULE_2__private_import_core__["O" /* collectAndResolveStyles */]
     };
     Identifiers.LOCALE_ID = {
         name: 'LOCALE_ID',
@@ -11748,7 +11510,7 @@ var Identifiers = (function () {
     Identifiers.AnimationOutput = {
         name: 'AnimationOutput',
         moduleUrl: __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_3__util__["c" /* assetUrl */])('core', 'animation/animation_output'),
-        runtime: __WEBPACK_IMPORTED_MODULE_2__private_import_core__["O" /* AnimationOutput */]
+        runtime: __WEBPACK_IMPORTED_MODULE_2__private_import_core__["P" /* AnimationOutput */]
     };
     return Identifiers;
 }());
@@ -11756,7 +11518,7 @@ function resolveIdentifier(identifier) {
     return new __WEBPACK_IMPORTED_MODULE_1__compile_metadata__["a" /* CompileIdentifierMetadata */]({
         name: identifier.name,
         moduleUrl: identifier.moduleUrl,
-        reference: __WEBPACK_IMPORTED_MODULE_2__private_import_core__["P" /* reflector */].resolveIdentifier(identifier.name, identifier.moduleUrl, identifier.runtime)
+        reference: __WEBPACK_IMPORTED_MODULE_2__private_import_core__["Q" /* reflector */].resolveIdentifier(identifier.name, identifier.moduleUrl, identifier.runtime)
     });
 }
 function identifierToken(identifier) {
@@ -11766,7 +11528,7 @@ function resolveIdentifierToken(identifier) {
     return identifierToken(resolveIdentifier(identifier));
 }
 function resolveEnumIdentifier(enumType, name) {
-    var resolvedEnum = __WEBPACK_IMPORTED_MODULE_2__private_import_core__["P" /* reflector */].resolveEnum(enumType.reference, name);
+    var resolvedEnum = __WEBPACK_IMPORTED_MODULE_2__private_import_core__["Q" /* reflector */].resolveEnum(enumType.reference, name);
     return new __WEBPACK_IMPORTED_MODULE_1__compile_metadata__["a" /* CompileIdentifierMetadata */]({ name: enumType.name + "." + name, moduleUrl: enumType.moduleUrl, reference: resolvedEnum });
 }
 //# sourceMappingURL=identifiers.js.map
@@ -11856,29 +11618,29 @@ function resolveEnumIdentifier(enumType, name) {
 
 
 var LIFECYCLE_INTERFACES = __WEBPACK_IMPORTED_MODULE_1__facade_collection__["c" /* MapWrapper */].createFromPairs([
-    [__WEBPACK_IMPORTED_MODULE_2__private_import_core__["W" /* LifecycleHooks */].OnInit, __WEBPACK_IMPORTED_MODULE_0__angular_core__["OnInit"]],
-    [__WEBPACK_IMPORTED_MODULE_2__private_import_core__["W" /* LifecycleHooks */].OnDestroy, __WEBPACK_IMPORTED_MODULE_0__angular_core__["OnDestroy"]],
-    [__WEBPACK_IMPORTED_MODULE_2__private_import_core__["W" /* LifecycleHooks */].DoCheck, __WEBPACK_IMPORTED_MODULE_0__angular_core__["DoCheck"]],
-    [__WEBPACK_IMPORTED_MODULE_2__private_import_core__["W" /* LifecycleHooks */].OnChanges, __WEBPACK_IMPORTED_MODULE_0__angular_core__["OnChanges"]],
-    [__WEBPACK_IMPORTED_MODULE_2__private_import_core__["W" /* LifecycleHooks */].AfterContentInit, __WEBPACK_IMPORTED_MODULE_0__angular_core__["AfterContentInit"]],
-    [__WEBPACK_IMPORTED_MODULE_2__private_import_core__["W" /* LifecycleHooks */].AfterContentChecked, __WEBPACK_IMPORTED_MODULE_0__angular_core__["AfterContentChecked"]],
-    [__WEBPACK_IMPORTED_MODULE_2__private_import_core__["W" /* LifecycleHooks */].AfterViewInit, __WEBPACK_IMPORTED_MODULE_0__angular_core__["AfterViewInit"]],
-    [__WEBPACK_IMPORTED_MODULE_2__private_import_core__["W" /* LifecycleHooks */].AfterViewChecked, __WEBPACK_IMPORTED_MODULE_0__angular_core__["AfterViewChecked"]],
+    [__WEBPACK_IMPORTED_MODULE_2__private_import_core__["X" /* LifecycleHooks */].OnInit, __WEBPACK_IMPORTED_MODULE_0__angular_core__["OnInit"]],
+    [__WEBPACK_IMPORTED_MODULE_2__private_import_core__["X" /* LifecycleHooks */].OnDestroy, __WEBPACK_IMPORTED_MODULE_0__angular_core__["OnDestroy"]],
+    [__WEBPACK_IMPORTED_MODULE_2__private_import_core__["X" /* LifecycleHooks */].DoCheck, __WEBPACK_IMPORTED_MODULE_0__angular_core__["DoCheck"]],
+    [__WEBPACK_IMPORTED_MODULE_2__private_import_core__["X" /* LifecycleHooks */].OnChanges, __WEBPACK_IMPORTED_MODULE_0__angular_core__["OnChanges"]],
+    [__WEBPACK_IMPORTED_MODULE_2__private_import_core__["X" /* LifecycleHooks */].AfterContentInit, __WEBPACK_IMPORTED_MODULE_0__angular_core__["AfterContentInit"]],
+    [__WEBPACK_IMPORTED_MODULE_2__private_import_core__["X" /* LifecycleHooks */].AfterContentChecked, __WEBPACK_IMPORTED_MODULE_0__angular_core__["AfterContentChecked"]],
+    [__WEBPACK_IMPORTED_MODULE_2__private_import_core__["X" /* LifecycleHooks */].AfterViewInit, __WEBPACK_IMPORTED_MODULE_0__angular_core__["AfterViewInit"]],
+    [__WEBPACK_IMPORTED_MODULE_2__private_import_core__["X" /* LifecycleHooks */].AfterViewChecked, __WEBPACK_IMPORTED_MODULE_0__angular_core__["AfterViewChecked"]],
 ]);
 var LIFECYCLE_PROPS = __WEBPACK_IMPORTED_MODULE_1__facade_collection__["c" /* MapWrapper */].createFromPairs([
-    [__WEBPACK_IMPORTED_MODULE_2__private_import_core__["W" /* LifecycleHooks */].OnInit, 'ngOnInit'],
-    [__WEBPACK_IMPORTED_MODULE_2__private_import_core__["W" /* LifecycleHooks */].OnDestroy, 'ngOnDestroy'],
-    [__WEBPACK_IMPORTED_MODULE_2__private_import_core__["W" /* LifecycleHooks */].DoCheck, 'ngDoCheck'],
-    [__WEBPACK_IMPORTED_MODULE_2__private_import_core__["W" /* LifecycleHooks */].OnChanges, 'ngOnChanges'],
-    [__WEBPACK_IMPORTED_MODULE_2__private_import_core__["W" /* LifecycleHooks */].AfterContentInit, 'ngAfterContentInit'],
-    [__WEBPACK_IMPORTED_MODULE_2__private_import_core__["W" /* LifecycleHooks */].AfterContentChecked, 'ngAfterContentChecked'],
-    [__WEBPACK_IMPORTED_MODULE_2__private_import_core__["W" /* LifecycleHooks */].AfterViewInit, 'ngAfterViewInit'],
-    [__WEBPACK_IMPORTED_MODULE_2__private_import_core__["W" /* LifecycleHooks */].AfterViewChecked, 'ngAfterViewChecked'],
+    [__WEBPACK_IMPORTED_MODULE_2__private_import_core__["X" /* LifecycleHooks */].OnInit, 'ngOnInit'],
+    [__WEBPACK_IMPORTED_MODULE_2__private_import_core__["X" /* LifecycleHooks */].OnDestroy, 'ngOnDestroy'],
+    [__WEBPACK_IMPORTED_MODULE_2__private_import_core__["X" /* LifecycleHooks */].DoCheck, 'ngDoCheck'],
+    [__WEBPACK_IMPORTED_MODULE_2__private_import_core__["X" /* LifecycleHooks */].OnChanges, 'ngOnChanges'],
+    [__WEBPACK_IMPORTED_MODULE_2__private_import_core__["X" /* LifecycleHooks */].AfterContentInit, 'ngAfterContentInit'],
+    [__WEBPACK_IMPORTED_MODULE_2__private_import_core__["X" /* LifecycleHooks */].AfterContentChecked, 'ngAfterContentChecked'],
+    [__WEBPACK_IMPORTED_MODULE_2__private_import_core__["X" /* LifecycleHooks */].AfterViewInit, 'ngAfterViewInit'],
+    [__WEBPACK_IMPORTED_MODULE_2__private_import_core__["X" /* LifecycleHooks */].AfterViewChecked, 'ngAfterViewChecked'],
 ]);
 function hasLifecycleHook(hook, token) {
     var lcInterface = LIFECYCLE_INTERFACES.get(hook);
     var lcProp = LIFECYCLE_PROPS.get(hook);
-    return __WEBPACK_IMPORTED_MODULE_2__private_import_core__["P" /* reflector */].hasLifecycleHook(token, lcInterface, lcProp);
+    return __WEBPACK_IMPORTED_MODULE_2__private_import_core__["Q" /* reflector */].hasLifecycleHook(token, lcInterface, lcProp);
 }
 //# sourceMappingURL=lifecycle_reflector.js.map
 
@@ -11931,7 +11693,7 @@ var __extends = (this && this.__extends) || function (d, b) {
 
 var CompileMetadataResolver = (function () {
     function CompileMetadataResolver(_ngModuleResolver, _directiveResolver, _pipeResolver, _schemaRegistry, _reflector) {
-        if (_reflector === void 0) { _reflector = __WEBPACK_IMPORTED_MODULE_10__private_import_core__["P" /* reflector */]; }
+        if (_reflector === void 0) { _reflector = __WEBPACK_IMPORTED_MODULE_10__private_import_core__["Q" /* reflector */]; }
         this._ngModuleResolver = _ngModuleResolver;
         this._directiveResolver = _directiveResolver;
         this._pipeResolver = _pipeResolver;
@@ -11961,7 +11723,7 @@ var CompileMetadataResolver = (function () {
         this._directiveCache.delete(type);
         this._pipeCache.delete(type);
         this._ngModuleOfTypes.delete(type);
-        // Clear all of the NgModuleMetadata as they contain transitive information!
+        // Clear all of the NgModule as they contain transitive information!
         this._ngModuleCache.clear();
     };
     CompileMetadataResolver.prototype.clearCache = function () {
@@ -11994,17 +11756,17 @@ var CompileMetadataResolver = (function () {
             return this.getAnimationStyleMetadata(value);
         }
         else if (value instanceof __WEBPACK_IMPORTED_MODULE_0__angular_core__["AnimationKeyframesSequenceMetadata"]) {
-            return new __WEBPACK_IMPORTED_MODULE_3__compile_metadata__["l" /* CompileAnimationKeyframesSequenceMetadata */](value.steps.map(function (entry) { return _this.getAnimationStyleMetadata(entry); }));
+            return new __WEBPACK_IMPORTED_MODULE_3__compile_metadata__["m" /* CompileAnimationKeyframesSequenceMetadata */](value.steps.map(function (entry) { return _this.getAnimationStyleMetadata(entry); }));
         }
         else if (value instanceof __WEBPACK_IMPORTED_MODULE_0__angular_core__["AnimationAnimateMetadata"]) {
             var animateData = this
                 .getAnimationMetadata(value.styles);
-            return new __WEBPACK_IMPORTED_MODULE_3__compile_metadata__["k" /* CompileAnimationAnimateMetadata */](value.timings, animateData);
+            return new __WEBPACK_IMPORTED_MODULE_3__compile_metadata__["l" /* CompileAnimationAnimateMetadata */](value.timings, animateData);
         }
         else if (value instanceof __WEBPACK_IMPORTED_MODULE_0__angular_core__["AnimationWithStepsMetadata"]) {
             var steps = value.steps.map(function (step) { return _this.getAnimationMetadata(step); });
             if (value instanceof __WEBPACK_IMPORTED_MODULE_0__angular_core__["AnimationGroupMetadata"]) {
-                return new __WEBPACK_IMPORTED_MODULE_3__compile_metadata__["m" /* CompileAnimationGroupMetadata */](steps);
+                return new __WEBPACK_IMPORTED_MODULE_3__compile_metadata__["j" /* CompileAnimationGroupMetadata */](steps);
             }
             else {
                 return new __WEBPACK_IMPORTED_MODULE_3__compile_metadata__["i" /* CompileAnimationSequenceMetadata */](steps);
@@ -12028,7 +11790,7 @@ var CompileMetadataResolver = (function () {
             var moduleUrl = staticTypeModuleUrl(directiveType);
             var entryComponentMetadata = [];
             var selector = dirMeta.selector;
-            if (dirMeta instanceof __WEBPACK_IMPORTED_MODULE_0__angular_core__["ComponentMetadata"]) {
+            if (dirMeta instanceof __WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"]) {
                 var cmpMeta = dirMeta;
                 __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2__assertions__["b" /* assertArrayOfStrings */])('styles', cmpMeta.styles);
                 __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2__assertions__["a" /* assertInterpolationSymbols */])('interpolation', cmpMeta.interpolation);
@@ -12194,8 +11956,13 @@ var CompileMetadataResolver = (function () {
                     .map(function (type) { return _this.getTypeMetadata(type, staticTypeModuleUrl(type)); }));
             }
             if (meta.bootstrap) {
-                bootstrapComponents.push.apply(bootstrapComponents, flattenArray(meta.bootstrap)
-                    .map(function (type) { return _this.getTypeMetadata(type, staticTypeModuleUrl(type)); }));
+                var typeMetadata = flattenArray(meta.bootstrap).map(function (type) {
+                    if (!isValidType(type)) {
+                        throw new Error("Unexpected value '" + __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_5__facade_lang__["q" /* stringify */])(type) + "' used in the bootstrap property of module '" + __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_5__facade_lang__["q" /* stringify */])(moduleType) + "'");
+                    }
+                    return _this.getTypeMetadata(type, staticTypeModuleUrl(type));
+                });
+                bootstrapComponents.push.apply(bootstrapComponents, typeMetadata);
             }
             entryComponents_1.push.apply(entryComponents_1, bootstrapComponents);
             if (meta.schemas) {
@@ -12215,7 +11982,8 @@ var CompileMetadataResolver = (function () {
                 exportedPipes: exportedPipes_1,
                 importedModules: importedModules_1,
                 exportedModules: exportedModules_1,
-                transitiveModule: transitiveModule_1
+                transitiveModule: transitiveModule_1,
+                id: meta.id,
             });
             transitiveModule_1.modules.push(compileMeta);
             this._verifyModule(compileMeta);
@@ -12256,7 +12024,9 @@ var CompileMetadataResolver = (function () {
     CompileMetadataResolver.prototype._addTypeToModule = function (type, moduleType) {
         var oldModule = this._ngModuleOfTypes.get(type);
         if (oldModule && oldModule !== moduleType) {
-            throw new Error("Type " + __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_5__facade_lang__["q" /* stringify */])(type) + " is part of the declarations of 2 modules: " + __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_5__facade_lang__["q" /* stringify */])(oldModule) + " and " + __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_5__facade_lang__["q" /* stringify */])(moduleType) + "!");
+            throw new Error(("Type " + __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_5__facade_lang__["q" /* stringify */])(type) + " is part of the declarations of 2 modules: " + __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_5__facade_lang__["q" /* stringify */])(oldModule) + " and " + __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_5__facade_lang__["q" /* stringify */])(moduleType) + "! ") +
+                ("Please consider moving " + __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_5__facade_lang__["q" /* stringify */])(type) + " to a higher module that imports " + __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_5__facade_lang__["q" /* stringify */])(oldModule) + " and " + __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_5__facade_lang__["q" /* stringify */])(moduleType) + ". ") +
+                ("You can also create a new NgModule that exports and includes " + __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_5__facade_lang__["q" /* stringify */])(type) + " then import that NgModule in " + __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_5__facade_lang__["q" /* stringify */])(oldModule) + " and " + __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_5__facade_lang__["q" /* stringify */])(moduleType) + "."));
         }
         this._ngModuleOfTypes.set(type, moduleType);
     };
@@ -12300,7 +12070,7 @@ var CompileMetadataResolver = (function () {
             moduleUrl: moduleUrl,
             reference: type,
             diDeps: this.getDependenciesMetadata(type, dependencies),
-            lifecycleHooks: __WEBPACK_IMPORTED_MODULE_10__private_import_core__["Z" /* LIFECYCLE_HOOKS_VALUES */].filter(function (hook) { return __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_7__lifecycle_reflector__["a" /* hasLifecycleHook */])(hook, type); }),
+            lifecycleHooks: __WEBPACK_IMPORTED_MODULE_10__private_import_core__["_0" /* LIFECYCLE_HOOKS_VALUES */].filter(function (hook) { return __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_7__lifecycle_reflector__["a" /* hasLifecycleHook */])(hook, type); }),
         });
     };
     CompileMetadataResolver.prototype.getFactoryMetadata = function (factory, moduleUrl, dependencies) {
@@ -12349,23 +12119,23 @@ var CompileMetadataResolver = (function () {
             var token = null;
             if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_5__facade_lang__["d" /* isArray */])(param)) {
                 param.forEach(function (paramEntry) {
-                    if (paramEntry instanceof __WEBPACK_IMPORTED_MODULE_0__angular_core__["HostMetadata"]) {
+                    if (paramEntry instanceof __WEBPACK_IMPORTED_MODULE_0__angular_core__["Host"]) {
                         isHost = true;
                     }
-                    else if (paramEntry instanceof __WEBPACK_IMPORTED_MODULE_0__angular_core__["SelfMetadata"]) {
+                    else if (paramEntry instanceof __WEBPACK_IMPORTED_MODULE_0__angular_core__["Self"]) {
                         isSelf = true;
                     }
-                    else if (paramEntry instanceof __WEBPACK_IMPORTED_MODULE_0__angular_core__["SkipSelfMetadata"]) {
+                    else if (paramEntry instanceof __WEBPACK_IMPORTED_MODULE_0__angular_core__["SkipSelf"]) {
                         isSkipSelf = true;
                     }
-                    else if (paramEntry instanceof __WEBPACK_IMPORTED_MODULE_0__angular_core__["OptionalMetadata"]) {
+                    else if (paramEntry instanceof __WEBPACK_IMPORTED_MODULE_0__angular_core__["Optional"]) {
                         isOptional = true;
                     }
-                    else if (paramEntry instanceof __WEBPACK_IMPORTED_MODULE_0__angular_core__["AttributeMetadata"]) {
+                    else if (paramEntry instanceof __WEBPACK_IMPORTED_MODULE_0__angular_core__["Attribute"]) {
                         isAttribute = true;
                         token = paramEntry.attributeName;
                     }
-                    else if (paramEntry instanceof __WEBPACK_IMPORTED_MODULE_0__angular_core__["QueryMetadata"]) {
+                    else if (paramEntry instanceof __WEBPACK_IMPORTED_MODULE_0__angular_core__["Query"]) {
                         if (paramEntry.isViewQuery) {
                             viewQuery = paramEntry;
                         }
@@ -12373,7 +12143,7 @@ var CompileMetadataResolver = (function () {
                             query = paramEntry;
                         }
                     }
-                    else if (paramEntry instanceof __WEBPACK_IMPORTED_MODULE_0__angular_core__["InjectMetadata"]) {
+                    else if (paramEntry instanceof __WEBPACK_IMPORTED_MODULE_0__angular_core__["Inject"]) {
                         token = paramEntry.token;
                     }
                     else if (isValidType(paramEntry) && __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_5__facade_lang__["c" /* isBlank */])(token)) {
@@ -12522,11 +12292,14 @@ var CompileMetadataResolver = (function () {
         });
         return res;
     };
+    CompileMetadataResolver.prototype._queryVarBindings = function (selector) {
+        return __WEBPACK_IMPORTED_MODULE_5__facade_lang__["g" /* StringWrapper */].split(selector, /\s*,\s*/g);
+    };
     CompileMetadataResolver.prototype.getQueryMetadata = function (q, propertyName, typeOrFunc) {
         var _this = this;
         var selectors;
-        if (q.isVarBindingQuery) {
-            selectors = q.varBindings.map(function (varName) { return _this.getTokenMetadata(varName); });
+        if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_5__facade_lang__["h" /* isString */])(q.selector)) {
+            selectors = this._queryVarBindings(q.selector).map(function (varName) { return _this.getTokenMetadata(varName); });
         }
         else {
             if (!__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_5__facade_lang__["a" /* isPresent */])(q.selector)) {
@@ -12551,7 +12324,7 @@ var CompileMetadataResolver = (function () {
         { type: __WEBPACK_IMPORTED_MODULE_4__directive_resolver__["a" /* DirectiveResolver */], },
         { type: __WEBPACK_IMPORTED_MODULE_9__pipe_resolver__["a" /* PipeResolver */], },
         { type: __WEBPACK_IMPORTED_MODULE_11__schema_element_schema_registry__["a" /* ElementSchemaRegistry */], },
-        { type: __WEBPACK_IMPORTED_MODULE_10__private_import_core__["Y" /* ReflectorReader */], },
+        { type: __WEBPACK_IMPORTED_MODULE_10__private_import_core__["Z" /* ReflectorReader */], },
     ];
     return CompileMetadataResolver;
 }());
@@ -12789,7 +12562,7 @@ var HtmlParser = (function (_super) {
 var HtmlTagDefinition = (function () {
     function HtmlTagDefinition(_a) {
         var _this = this;
-        var _b = _a === void 0 ? {} : _a, closedByChildren = _b.closedByChildren, requiredParents = _b.requiredParents, implicitNamespacePrefix = _b.implicitNamespacePrefix, _c = _b.contentType, contentType = _c === void 0 ? __WEBPACK_IMPORTED_MODULE_0__tags__["b" /* TagContentType */].PARSABLE_DATA : _c, _d = _b.closedByParent, closedByParent = _d === void 0 ? false : _d, _e = _b.isVoid, isVoid = _e === void 0 ? false : _e, _f = _b.ignoreFirstLf, ignoreFirstLf = _f === void 0 ? false : _f;
+        var _b = _a === void 0 ? {} : _a, closedByChildren = _b.closedByChildren, requiredParents = _b.requiredParents, implicitNamespacePrefix = _b.implicitNamespacePrefix, _c = _b.contentType, contentType = _c === void 0 ? __WEBPACK_IMPORTED_MODULE_0__tags__["a" /* TagContentType */].PARSABLE_DATA : _c, _d = _b.closedByParent, closedByParent = _d === void 0 ? false : _d, _e = _b.isVoid, isVoid = _e === void 0 ? false : _e, _f = _b.ignoreFirstLf, ignoreFirstLf = _f === void 0 ? false : _f;
         this.closedByChildren = {};
         this.closedByParent = false;
         this.canSelfClose = false;
@@ -12871,10 +12644,10 @@ var TAG_DEFINITIONS = {
     'option': new HtmlTagDefinition({ closedByChildren: ['option', 'optgroup'], closedByParent: true }),
     'pre': new HtmlTagDefinition({ ignoreFirstLf: true }),
     'listing': new HtmlTagDefinition({ ignoreFirstLf: true }),
-    'style': new HtmlTagDefinition({ contentType: __WEBPACK_IMPORTED_MODULE_0__tags__["b" /* TagContentType */].RAW_TEXT }),
-    'script': new HtmlTagDefinition({ contentType: __WEBPACK_IMPORTED_MODULE_0__tags__["b" /* TagContentType */].RAW_TEXT }),
-    'title': new HtmlTagDefinition({ contentType: __WEBPACK_IMPORTED_MODULE_0__tags__["b" /* TagContentType */].ESCAPABLE_RAW_TEXT }),
-    'textarea': new HtmlTagDefinition({ contentType: __WEBPACK_IMPORTED_MODULE_0__tags__["b" /* TagContentType */].ESCAPABLE_RAW_TEXT, ignoreFirstLf: true }),
+    'style': new HtmlTagDefinition({ contentType: __WEBPACK_IMPORTED_MODULE_0__tags__["a" /* TagContentType */].RAW_TEXT }),
+    'script': new HtmlTagDefinition({ contentType: __WEBPACK_IMPORTED_MODULE_0__tags__["a" /* TagContentType */].RAW_TEXT }),
+    'title': new HtmlTagDefinition({ contentType: __WEBPACK_IMPORTED_MODULE_0__tags__["a" /* TagContentType */].ESCAPABLE_RAW_TEXT }),
+    'textarea': new HtmlTagDefinition({ contentType: __WEBPACK_IMPORTED_MODULE_0__tags__["a" /* TagContentType */].ESCAPABLE_RAW_TEXT, ignoreFirstLf: true }),
 };
 var _DEFAULT_TAG_DEFINITION = new HtmlTagDefinition();
 function getHtmlTagDefinition(tagName) {
@@ -13385,7 +13158,7 @@ var _Tokenizer = (function () {
             }
             this._advance();
             var name_1 = this._input.substring(start.offset + 1, this._index - 1);
-            var char = __WEBPACK_IMPORTED_MODULE_3__tags__["a" /* NAMED_ENTITIES */][name_1];
+            var char = __WEBPACK_IMPORTED_MODULE_3__tags__["b" /* NAMED_ENTITIES */][name_1];
             if (!char) {
                 throw this._createError(_unknownEntityErrorMsg(name_1), this._getSpan(start));
             }
@@ -13491,10 +13264,10 @@ var _Tokenizer = (function () {
             throw e;
         }
         var contentTokenType = this._getTagDefinition(tagName).contentType;
-        if (contentTokenType === __WEBPACK_IMPORTED_MODULE_3__tags__["b" /* TagContentType */].RAW_TEXT) {
+        if (contentTokenType === __WEBPACK_IMPORTED_MODULE_3__tags__["a" /* TagContentType */].RAW_TEXT) {
             this._consumeRawTextWithTagClose(lowercaseTagName, false);
         }
-        else if (contentTokenType === __WEBPACK_IMPORTED_MODULE_3__tags__["b" /* TagContentType */].ESCAPABLE_RAW_TEXT) {
+        else if (contentTokenType === __WEBPACK_IMPORTED_MODULE_3__tags__["a" /* TagContentType */].ESCAPABLE_RAW_TEXT) {
             this._consumeRawTextWithTagClose(lowercaseTagName, true);
         }
     };
@@ -14101,11 +13874,11 @@ function lastOnStack(stack, element) {
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
-/* harmony export (binding) */ __webpack_require__.d(exports, "b", function() { return TagContentType; });
+/* harmony export (binding) */ __webpack_require__.d(exports, "a", function() { return TagContentType; });
 /* harmony export (immutable) */ exports["e"] = splitNsName;
 /* harmony export (immutable) */ exports["c"] = getNsPrefix;
 /* harmony export (immutable) */ exports["d"] = mergeNsAndName;
-/* harmony export (binding) */ __webpack_require__.d(exports, "a", function() { return NAMED_ENTITIES; });
+/* harmony export (binding) */ __webpack_require__.d(exports, "b", function() { return NAMED_ENTITIES; });
 /**
  * @license
  * Copyright Google Inc. All Rights Reserved.
@@ -14454,7 +14227,7 @@ var XmlParser = (function (_super) {
 var XmlTagDefinition = (function () {
     function XmlTagDefinition() {
         this.closedByParent = false;
-        this.contentType = __WEBPACK_IMPORTED_MODULE_0__tags__["b" /* TagContentType */].PARSABLE_DATA;
+        this.contentType = __WEBPACK_IMPORTED_MODULE_0__tags__["a" /* TagContentType */].PARSABLE_DATA;
         this.isVoid = false;
         this.ignoreFirstLf = false;
         this.canSelfClose = true;
@@ -14548,7 +14321,14 @@ var NgModuleCompiler = (function () {
             .set(__WEBPACK_IMPORTED_MODULE_4__output_output_ast__["b" /* importExpr */](__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_3__identifiers__["d" /* resolveIdentifier */])(__WEBPACK_IMPORTED_MODULE_3__identifiers__["b" /* Identifiers */].NgModuleFactory))
             .instantiate([__WEBPACK_IMPORTED_MODULE_4__output_output_ast__["e" /* variable */](injectorClass.name), __WEBPACK_IMPORTED_MODULE_4__output_output_ast__["b" /* importExpr */](ngModuleMeta.type)], __WEBPACK_IMPORTED_MODULE_4__output_output_ast__["c" /* importType */](__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_3__identifiers__["d" /* resolveIdentifier */])(__WEBPACK_IMPORTED_MODULE_3__identifiers__["b" /* Identifiers */].NgModuleFactory), [__WEBPACK_IMPORTED_MODULE_4__output_output_ast__["c" /* importType */](ngModuleMeta.type)], [__WEBPACK_IMPORTED_MODULE_4__output_output_ast__["d" /* TypeModifier */].Const])))
             .toDeclStmt(null, [__WEBPACK_IMPORTED_MODULE_4__output_output_ast__["u" /* StmtModifier */].Final]);
-        return new NgModuleCompileResult([injectorClass, ngModuleFactoryStmt], ngModuleFactoryVar, deps);
+        var stmts = [injectorClass, ngModuleFactoryStmt];
+        if (ngModuleMeta.id) {
+            var registerFactoryStmt = __WEBPACK_IMPORTED_MODULE_4__output_output_ast__["b" /* importExpr */](__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_3__identifiers__["d" /* resolveIdentifier */])(__WEBPACK_IMPORTED_MODULE_3__identifiers__["b" /* Identifiers */].RegisterModuleFactoryFn))
+                .callFn([__WEBPACK_IMPORTED_MODULE_4__output_output_ast__["a" /* literal */](ngModuleMeta.id), __WEBPACK_IMPORTED_MODULE_4__output_output_ast__["e" /* variable */](ngModuleFactoryVar)])
+                .toStmt();
+            stmts.push(registerFactoryStmt);
+        }
+        return new NgModuleCompileResult(stmts, ngModuleFactoryVar, deps);
     };
     NgModuleCompiler.decorators = [
         { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["Injectable"] },
@@ -14575,7 +14355,7 @@ var _InjectorBuilder = (function () {
         var providerValueExpressions = resolvedProvider.providers.map(function (provider) { return _this._getProviderValue(provider); });
         var propName = "_" + resolvedProvider.token.name + "_" + this._instances.size;
         var instance = this._createProviderProperty(propName, resolvedProvider, providerValueExpressions, resolvedProvider.multiProvider, resolvedProvider.eager);
-        if (resolvedProvider.lifecycleHooks.indexOf(__WEBPACK_IMPORTED_MODULE_7__private_import_core__["W" /* LifecycleHooks */].OnDestroy) !== -1) {
+        if (resolvedProvider.lifecycleHooks.indexOf(__WEBPACK_IMPORTED_MODULE_7__private_import_core__["X" /* LifecycleHooks */].OnDestroy) !== -1) {
             this._destroyStmts.push(instance.callMethod('ngOnDestroy', []).toStmt());
         }
         this._tokens.push(resolvedProvider.token);
@@ -14720,14 +14500,14 @@ var InjectMethodVars = (function () {
 
 
 function _isNgModuleMetadata(obj) {
-    return obj instanceof __WEBPACK_IMPORTED_MODULE_0__angular_core__["NgModuleMetadata"];
+    return obj instanceof __WEBPACK_IMPORTED_MODULE_0__angular_core__["NgModule"];
 }
 /**
- * Resolves types to {@link NgModuleMetadata}.
+ * Resolves types to {@link NgModule}.
  */
 var NgModuleResolver = (function () {
     function NgModuleResolver(_reflector) {
-        if (_reflector === void 0) { _reflector = __WEBPACK_IMPORTED_MODULE_2__private_import_core__["P" /* reflector */]; }
+        if (_reflector === void 0) { _reflector = __WEBPACK_IMPORTED_MODULE_2__private_import_core__["Q" /* reflector */]; }
         this._reflector = _reflector;
     }
     NgModuleResolver.prototype.resolve = function (type, throwIfNotFound) {
@@ -14748,7 +14528,7 @@ var NgModuleResolver = (function () {
     ];
     /** @nocollapse */
     NgModuleResolver.ctorParameters = [
-        { type: __WEBPACK_IMPORTED_MODULE_2__private_import_core__["Y" /* ReflectorReader */], },
+        { type: __WEBPACK_IMPORTED_MODULE_2__private_import_core__["Z" /* ReflectorReader */], },
     ];
     return NgModuleResolver;
 }());
@@ -17550,10 +17330,10 @@ var ParseError = (function () {
 
 
 function _isPipeMetadata(type) {
-    return type instanceof __WEBPACK_IMPORTED_MODULE_0__angular_core__["PipeMetadata"];
+    return type instanceof __WEBPACK_IMPORTED_MODULE_0__angular_core__["Pipe"];
 }
 /**
- * Resolve a `Type` for {@link PipeMetadata}.
+ * Resolve a `Type` for {@link Pipe}.
  *
  * This interface can be overridden by the application developer to create custom behavior.
  *
@@ -17561,11 +17341,11 @@ function _isPipeMetadata(type) {
  */
 var PipeResolver = (function () {
     function PipeResolver(_reflector) {
-        if (_reflector === void 0) { _reflector = __WEBPACK_IMPORTED_MODULE_2__private_import_core__["P" /* reflector */]; }
+        if (_reflector === void 0) { _reflector = __WEBPACK_IMPORTED_MODULE_2__private_import_core__["Q" /* reflector */]; }
         this._reflector = _reflector;
     }
     /**
-     * Return {@link PipeMetadata} for a given `Type`.
+     * Return {@link Pipe} for a given `Type`.
      */
     PipeResolver.prototype.resolve = function (type, throwIfNotFound) {
         if (throwIfNotFound === void 0) { throwIfNotFound = true; }
@@ -17586,7 +17366,7 @@ var PipeResolver = (function () {
     ];
     /** @nocollapse */
     PipeResolver.ctorParameters = [
-        { type: __WEBPACK_IMPORTED_MODULE_2__private_import_core__["Y" /* ReflectorReader */], },
+        { type: __WEBPACK_IMPORTED_MODULE_2__private_import_core__["Z" /* ReflectorReader */], },
     ];
     return PipeResolver;
 }());
@@ -17668,64 +17448,65 @@ var __compiler_private__ = {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/index.js");
-/* harmony export (binding) */ __webpack_require__.d(exports, "X", function() { return isDefaultChangeDetectionStrategy; });
-/* harmony export (binding) */ __webpack_require__.d(exports, "m", function() { return ChangeDetectorStatus; });
-/* harmony export (binding) */ __webpack_require__.d(exports, "W", function() { return LifecycleHooks; });
-/* harmony export (binding) */ __webpack_require__.d(exports, "Z", function() { return LIFECYCLE_HOOKS_VALUES; });
-/* harmony export (binding) */ __webpack_require__.d(exports, "Y", function() { return ReflectorReader; });
+/* harmony export (binding) */ __webpack_require__.d(exports, "Y", function() { return isDefaultChangeDetectionStrategy; });
+/* harmony export (binding) */ __webpack_require__.d(exports, "n", function() { return ChangeDetectorStatus; });
+/* harmony export (binding) */ __webpack_require__.d(exports, "X", function() { return LifecycleHooks; });
+/* harmony export (binding) */ __webpack_require__.d(exports, "_0", function() { return LIFECYCLE_HOOKS_VALUES; });
+/* harmony export (binding) */ __webpack_require__.d(exports, "Z", function() { return ReflectorReader; });
 /* harmony export (binding) */ __webpack_require__.d(exports, "d", function() { return AppElement; });
 /* harmony export (binding) */ __webpack_require__.d(exports, "f", function() { return CodegenComponentFactoryResolver; });
 /* harmony export (binding) */ __webpack_require__.d(exports, "b", function() { return AppView; });
 /* harmony export (binding) */ __webpack_require__.d(exports, "c", function() { return DebugAppView; });
 /* harmony export (binding) */ __webpack_require__.d(exports, "g", function() { return NgModuleInjector; });
-/* harmony export (binding) */ __webpack_require__.d(exports, "i", function() { return ViewType; });
-/* harmony export (binding) */ __webpack_require__.d(exports, "R", function() { return MAX_INTERPOLATION_VALUES; });
-/* harmony export (binding) */ __webpack_require__.d(exports, "n", function() { return checkBinding; });
-/* harmony export (binding) */ __webpack_require__.d(exports, "o", function() { return flattenNestedViewRenderNodes; });
-/* harmony export (binding) */ __webpack_require__.d(exports, "q", function() { return interpolate; });
+/* harmony export (binding) */ __webpack_require__.d(exports, "h", function() { return registerModuleFactory; });
+/* harmony export (binding) */ __webpack_require__.d(exports, "j", function() { return ViewType; });
+/* harmony export (binding) */ __webpack_require__.d(exports, "S", function() { return MAX_INTERPOLATION_VALUES; });
+/* harmony export (binding) */ __webpack_require__.d(exports, "o", function() { return checkBinding; });
+/* harmony export (binding) */ __webpack_require__.d(exports, "p", function() { return flattenNestedViewRenderNodes; });
+/* harmony export (binding) */ __webpack_require__.d(exports, "r", function() { return interpolate; });
 /* harmony export (binding) */ __webpack_require__.d(exports, "a", function() { return ViewUtils; });
-/* harmony export (binding) */ __webpack_require__.d(exports, "k", function() { return DebugContext; });
-/* harmony export (binding) */ __webpack_require__.d(exports, "j", function() { return StaticNodeDebugInfo; });
-/* harmony export (binding) */ __webpack_require__.d(exports, "p", function() { return devModeEqual; });
-/* harmony export (binding) */ __webpack_require__.d(exports, "l", function() { return UNINITIALIZED; });
-/* harmony export (binding) */ __webpack_require__.d(exports, "h", function() { return ValueUnwrapper; });
+/* harmony export (binding) */ __webpack_require__.d(exports, "l", function() { return DebugContext; });
+/* harmony export (binding) */ __webpack_require__.d(exports, "k", function() { return StaticNodeDebugInfo; });
+/* harmony export (binding) */ __webpack_require__.d(exports, "q", function() { return devModeEqual; });
+/* harmony export (binding) */ __webpack_require__.d(exports, "m", function() { return UNINITIALIZED; });
+/* harmony export (binding) */ __webpack_require__.d(exports, "i", function() { return ValueUnwrapper; });
 /* harmony export (binding) */ __webpack_require__.d(exports, "e", function() { return TemplateRef_; });
 /* unused harmony export RenderDebugInfo */
-/* harmony export (binding) */ __webpack_require__.d(exports, "s", function() { return EMPTY_ARRAY; });
-/* harmony export (binding) */ __webpack_require__.d(exports, "t", function() { return EMPTY_MAP; });
-/* harmony export (binding) */ __webpack_require__.d(exports, "u", function() { return pureProxy1; });
-/* harmony export (binding) */ __webpack_require__.d(exports, "v", function() { return pureProxy2; });
-/* harmony export (binding) */ __webpack_require__.d(exports, "w", function() { return pureProxy3; });
-/* harmony export (binding) */ __webpack_require__.d(exports, "x", function() { return pureProxy4; });
-/* harmony export (binding) */ __webpack_require__.d(exports, "y", function() { return pureProxy5; });
-/* harmony export (binding) */ __webpack_require__.d(exports, "z", function() { return pureProxy6; });
-/* harmony export (binding) */ __webpack_require__.d(exports, "A", function() { return pureProxy7; });
-/* harmony export (binding) */ __webpack_require__.d(exports, "B", function() { return pureProxy8; });
-/* harmony export (binding) */ __webpack_require__.d(exports, "C", function() { return pureProxy9; });
-/* harmony export (binding) */ __webpack_require__.d(exports, "D", function() { return pureProxy10; });
-/* harmony export (binding) */ __webpack_require__.d(exports, "r", function() { return castByValue; });
-/* harmony export (binding) */ __webpack_require__.d(exports, "Q", function() { return Console; });
-/* harmony export (binding) */ __webpack_require__.d(exports, "P", function() { return reflector; });
-/* harmony export (binding) */ __webpack_require__.d(exports, "_1", function() { return Reflector; });
-/* harmony export (binding) */ __webpack_require__.d(exports, "_2", function() { return ReflectionCapabilities; });
-/* harmony export (binding) */ __webpack_require__.d(exports, "G", function() { return NoOpAnimationPlayer; });
+/* harmony export (binding) */ __webpack_require__.d(exports, "t", function() { return EMPTY_ARRAY; });
+/* harmony export (binding) */ __webpack_require__.d(exports, "u", function() { return EMPTY_MAP; });
+/* harmony export (binding) */ __webpack_require__.d(exports, "v", function() { return pureProxy1; });
+/* harmony export (binding) */ __webpack_require__.d(exports, "w", function() { return pureProxy2; });
+/* harmony export (binding) */ __webpack_require__.d(exports, "x", function() { return pureProxy3; });
+/* harmony export (binding) */ __webpack_require__.d(exports, "y", function() { return pureProxy4; });
+/* harmony export (binding) */ __webpack_require__.d(exports, "z", function() { return pureProxy5; });
+/* harmony export (binding) */ __webpack_require__.d(exports, "A", function() { return pureProxy6; });
+/* harmony export (binding) */ __webpack_require__.d(exports, "B", function() { return pureProxy7; });
+/* harmony export (binding) */ __webpack_require__.d(exports, "C", function() { return pureProxy8; });
+/* harmony export (binding) */ __webpack_require__.d(exports, "D", function() { return pureProxy9; });
+/* harmony export (binding) */ __webpack_require__.d(exports, "E", function() { return pureProxy10; });
+/* harmony export (binding) */ __webpack_require__.d(exports, "s", function() { return castByValue; });
+/* harmony export (binding) */ __webpack_require__.d(exports, "R", function() { return Console; });
+/* harmony export (binding) */ __webpack_require__.d(exports, "Q", function() { return reflector; });
+/* harmony export (binding) */ __webpack_require__.d(exports, "_2", function() { return Reflector; });
+/* harmony export (binding) */ __webpack_require__.d(exports, "_3", function() { return ReflectionCapabilities; });
+/* harmony export (binding) */ __webpack_require__.d(exports, "H", function() { return NoOpAnimationPlayer; });
 /* unused harmony export AnimationPlayer */
-/* harmony export (binding) */ __webpack_require__.d(exports, "I", function() { return AnimationSequencePlayer; });
-/* harmony export (binding) */ __webpack_require__.d(exports, "H", function() { return AnimationGroupPlayer; });
-/* harmony export (binding) */ __webpack_require__.d(exports, "E", function() { return AnimationKeyframe; });
-/* harmony export (binding) */ __webpack_require__.d(exports, "F", function() { return AnimationStyles; });
-/* harmony export (binding) */ __webpack_require__.d(exports, "O", function() { return AnimationOutput; });
-/* harmony export (binding) */ __webpack_require__.d(exports, "S", function() { return ANY_STATE; });
-/* harmony export (binding) */ __webpack_require__.d(exports, "U", function() { return DEFAULT_STATE; });
-/* harmony export (binding) */ __webpack_require__.d(exports, "V", function() { return EMPTY_STATE; });
-/* harmony export (binding) */ __webpack_require__.d(exports, "T", function() { return FILL_STYLE_FLAG; });
-/* harmony export (binding) */ __webpack_require__.d(exports, "J", function() { return prepareFinalAnimationStyles; });
-/* harmony export (binding) */ __webpack_require__.d(exports, "K", function() { return balanceAnimationKeyframes; });
-/* harmony export (binding) */ __webpack_require__.d(exports, "L", function() { return clearStyles; });
-/* harmony export (binding) */ __webpack_require__.d(exports, "N", function() { return collectAndResolveStyles; });
-/* harmony export (binding) */ __webpack_require__.d(exports, "M", function() { return renderStyles; });
+/* harmony export (binding) */ __webpack_require__.d(exports, "J", function() { return AnimationSequencePlayer; });
+/* harmony export (binding) */ __webpack_require__.d(exports, "I", function() { return AnimationGroupPlayer; });
+/* harmony export (binding) */ __webpack_require__.d(exports, "F", function() { return AnimationKeyframe; });
+/* harmony export (binding) */ __webpack_require__.d(exports, "G", function() { return AnimationStyles; });
+/* harmony export (binding) */ __webpack_require__.d(exports, "P", function() { return AnimationOutput; });
+/* harmony export (binding) */ __webpack_require__.d(exports, "T", function() { return ANY_STATE; });
+/* harmony export (binding) */ __webpack_require__.d(exports, "V", function() { return DEFAULT_STATE; });
+/* harmony export (binding) */ __webpack_require__.d(exports, "W", function() { return EMPTY_STATE; });
+/* harmony export (binding) */ __webpack_require__.d(exports, "U", function() { return FILL_STYLE_FLAG; });
+/* harmony export (binding) */ __webpack_require__.d(exports, "K", function() { return prepareFinalAnimationStyles; });
+/* harmony export (binding) */ __webpack_require__.d(exports, "L", function() { return balanceAnimationKeyframes; });
+/* harmony export (binding) */ __webpack_require__.d(exports, "M", function() { return clearStyles; });
+/* harmony export (binding) */ __webpack_require__.d(exports, "O", function() { return collectAndResolveStyles; });
+/* harmony export (binding) */ __webpack_require__.d(exports, "N", function() { return renderStyles; });
 /* unused harmony export ViewMetadata */
-/* harmony export (binding) */ __webpack_require__.d(exports, "_0", function() { return ComponentStillLoadingError; });
+/* harmony export (binding) */ __webpack_require__.d(exports, "_1", function() { return ComponentStillLoadingError; });
 /**
  * @license
  * Copyright Google Inc. All Rights Reserved.
@@ -17745,6 +17526,7 @@ var CodegenComponentFactoryResolver = __WEBPACK_IMPORTED_MODULE_0__angular_core_
 var AppView = __WEBPACK_IMPORTED_MODULE_0__angular_core__["__core_private__"].AppView;
 var DebugAppView = __WEBPACK_IMPORTED_MODULE_0__angular_core__["__core_private__"].DebugAppView;
 var NgModuleInjector = __WEBPACK_IMPORTED_MODULE_0__angular_core__["__core_private__"].NgModuleInjector;
+var registerModuleFactory = __WEBPACK_IMPORTED_MODULE_0__angular_core__["__core_private__"].registerModuleFactory;
 var ViewType = __WEBPACK_IMPORTED_MODULE_0__angular_core__["__core_private__"].ViewType;
 var MAX_INTERPOLATION_VALUES = __WEBPACK_IMPORTED_MODULE_0__angular_core__["__core_private__"].MAX_INTERPOLATION_VALUES;
 var checkBinding = __WEBPACK_IMPORTED_MODULE_0__angular_core__["__core_private__"].checkBinding;
@@ -18491,7 +18273,7 @@ var RuntimeCompiler = (function () {
         templates.forEach(function (template) {
             if (template.loading) {
                 if (isSync) {
-                    throw new __WEBPACK_IMPORTED_MODULE_10__private_import_core__["_0" /* ComponentStillLoadingError */](template.compType.reference);
+                    throw new __WEBPACK_IMPORTED_MODULE_10__private_import_core__["_1" /* ComponentStillLoadingError */](template.compType.reference);
                 }
                 else {
                     loadingPromises.push(template.loading);
@@ -18786,7 +18568,8 @@ var OBJECT = 'object';
  * An `element` may inherit additional properties from `parentElement` If no `^parentElement` is
  * specified then `""` (blank) element is assumed.
  *
- * NOTE: The blank element inherits from root `*` element, the super element of all elements.
+ * NOTE: The blank element inherits from root `[Element]` element, the super element of all
+ * elements.
  *
  * NOTE an element prefix such as `:svg:` has no special meaning to the schema.
  *
@@ -18822,11 +18605,12 @@ var OBJECT = 'object';
 // dom_security_schema.ts. Reach out to mprobst & rjamet for details.
 //
 // =================================================================================================
-var SCHEMA = ([
-    '*|textContent,%classList,className,id,innerHTML,*beforecopy,*beforecut,*beforepaste,*copy,*cut,*paste,*search,*selectstart,*webkitfullscreenchange,*webkitfullscreenerror,*wheel,outerHTML,#scrollLeft,#scrollTop',
-    'abbr,address,article,aside,b,bdi,bdo,cite,code,dd,dfn,dt,em,figcaption,figure,footer,header,i,kbd,main,mark,nav,noscript,rb,rp,rt,rtc,ruby,s,samp,section,small,strong,sub,sup,u,var,wbr^*|accessKey,contentEditable,dir,!draggable,!hidden,innerText,lang,*abort,*beforecopy,*beforecut,*beforepaste,*blur,*cancel,*canplay,*canplaythrough,*change,*click,*close,*contextmenu,*copy,*cuechange,*cut,*dblclick,*drag,*dragend,*dragenter,*dragleave,*dragover,*dragstart,*drop,*durationchange,*emptied,*ended,*error,*focus,*input,*invalid,*keydown,*keypress,*keyup,*load,*loadeddata,*loadedmetadata,*loadstart,*message,*mousedown,*mouseenter,*mouseleave,*mousemove,*mouseout,*mouseover,*mouseup,*mousewheel,*mozfullscreenchange,*mozfullscreenerror,*mozpointerlockchange,*mozpointerlockerror,*paste,*pause,*play,*playing,*progress,*ratechange,*reset,*resize,*scroll,*search,*seeked,*seeking,*select,*selectstart,*show,*stalled,*submit,*suspend,*timeupdate,*toggle,*volumechange,*waiting,*webglcontextcreationerror,*webglcontextlost,*webglcontextrestored,*webkitfullscreenchange,*webkitfullscreenerror,*wheel,outerText,!spellcheck,%style,#tabIndex,title,!translate',
-    'media^abbr|!autoplay,!controls,%crossOrigin,#currentTime,!defaultMuted,#defaultPlaybackRate,!disableRemotePlayback,!loop,!muted,*encrypted,#playbackRate,preload,src,%srcObject,#volume',
-    ':svg:^abbr|*abort,*blur,*cancel,*canplay,*canplaythrough,*change,*click,*close,*contextmenu,*cuechange,*dblclick,*drag,*dragend,*dragenter,*dragleave,*dragover,*dragstart,*drop,*durationchange,*emptied,*ended,*error,*focus,*input,*invalid,*keydown,*keypress,*keyup,*load,*loadeddata,*loadedmetadata,*loadstart,*mousedown,*mouseenter,*mouseleave,*mousemove,*mouseout,*mouseover,*mouseup,*mousewheel,*pause,*play,*playing,*progress,*ratechange,*reset,*resize,*scroll,*seeked,*seeking,*select,*show,*stalled,*submit,*suspend,*timeupdate,*toggle,*volumechange,*waiting,%style,#tabIndex',
+var SCHEMA = [
+    '[Element]|textContent,%classList,className,id,innerHTML,*beforecopy,*beforecut,*beforepaste,*copy,*cut,*paste,*search,*selectstart,*webkitfullscreenchange,*webkitfullscreenerror,*wheel,outerHTML,#scrollLeft,#scrollTop',
+    '[HTMLElement]^[Element]|accessKey,contentEditable,dir,!draggable,!hidden,innerText,lang,*abort,*beforecopy,*beforecut,*beforepaste,*blur,*cancel,*canplay,*canplaythrough,*change,*click,*close,*contextmenu,*copy,*cuechange,*cut,*dblclick,*drag,*dragend,*dragenter,*dragleave,*dragover,*dragstart,*drop,*durationchange,*emptied,*ended,*error,*focus,*input,*invalid,*keydown,*keypress,*keyup,*load,*loadeddata,*loadedmetadata,*loadstart,*message,*mousedown,*mouseenter,*mouseleave,*mousemove,*mouseout,*mouseover,*mouseup,*mousewheel,*mozfullscreenchange,*mozfullscreenerror,*mozpointerlockchange,*mozpointerlockerror,*paste,*pause,*play,*playing,*progress,*ratechange,*reset,*resize,*scroll,*search,*seeked,*seeking,*select,*selectstart,*show,*stalled,*submit,*suspend,*timeupdate,*toggle,*volumechange,*waiting,*webglcontextcreationerror,*webglcontextlost,*webglcontextrestored,*webkitfullscreenchange,*webkitfullscreenerror,*wheel,outerText,!spellcheck,%style,#tabIndex,title,!translate',
+    'abbr,address,article,aside,b,bdi,bdo,cite,code,dd,dfn,dt,em,figcaption,figure,footer,header,i,kbd,main,mark,nav,noscript,rb,rp,rt,rtc,ruby,s,samp,section,small,strong,sub,sup,u,var,wbr^[HTMLElement]|accessKey,contentEditable,dir,!draggable,!hidden,innerText,lang,*abort,*beforecopy,*beforecut,*beforepaste,*blur,*cancel,*canplay,*canplaythrough,*change,*click,*close,*contextmenu,*copy,*cuechange,*cut,*dblclick,*drag,*dragend,*dragenter,*dragleave,*dragover,*dragstart,*drop,*durationchange,*emptied,*ended,*error,*focus,*input,*invalid,*keydown,*keypress,*keyup,*load,*loadeddata,*loadedmetadata,*loadstart,*message,*mousedown,*mouseenter,*mouseleave,*mousemove,*mouseout,*mouseover,*mouseup,*mousewheel,*mozfullscreenchange,*mozfullscreenerror,*mozpointerlockchange,*mozpointerlockerror,*paste,*pause,*play,*playing,*progress,*ratechange,*reset,*resize,*scroll,*search,*seeked,*seeking,*select,*selectstart,*show,*stalled,*submit,*suspend,*timeupdate,*toggle,*volumechange,*waiting,*webglcontextcreationerror,*webglcontextlost,*webglcontextrestored,*webkitfullscreenchange,*webkitfullscreenerror,*wheel,outerText,!spellcheck,%style,#tabIndex,title,!translate',
+    'media^[HTMLElement]|!autoplay,!controls,%crossOrigin,#currentTime,!defaultMuted,#defaultPlaybackRate,!disableRemotePlayback,!loop,!muted,*encrypted,#playbackRate,preload,src,%srcObject,#volume',
+    ':svg:^[HTMLElement]|*abort,*blur,*cancel,*canplay,*canplaythrough,*change,*click,*close,*contextmenu,*cuechange,*dblclick,*drag,*dragend,*dragenter,*dragleave,*dragover,*dragstart,*drop,*durationchange,*emptied,*ended,*error,*focus,*input,*invalid,*keydown,*keypress,*keyup,*load,*loadeddata,*loadedmetadata,*loadstart,*mousedown,*mouseenter,*mouseleave,*mousemove,*mouseout,*mouseover,*mouseup,*mousewheel,*pause,*play,*playing,*progress,*ratechange,*reset,*resize,*scroll,*seeked,*seeking,*select,*show,*stalled,*submit,*suspend,*timeupdate,*toggle,*volumechange,*waiting,%style,#tabIndex',
     ':svg:graphics^:svg:|',
     ':svg:animation^:svg:|*begin,*end,*repeat',
     ':svg:geometry^:svg:|',
@@ -18834,75 +18618,74 @@ var SCHEMA = ([
     ':svg:gradient^:svg:|',
     ':svg:textContent^:svg:graphics|',
     ':svg:textPositioning^:svg:textContent|',
-    'abbr^*|accessKey,contentEditable,dir,!draggable,!hidden,innerText,lang,*abort,*beforecopy,*beforecut,*beforepaste,*blur,*cancel,*canplay,*canplaythrough,*change,*click,*close,*contextmenu,*copy,*cuechange,*cut,*dblclick,*drag,*dragend,*dragenter,*dragleave,*dragover,*dragstart,*drop,*durationchange,*emptied,*ended,*error,*focus,*input,*invalid,*keydown,*keypress,*keyup,*load,*loadeddata,*loadedmetadata,*loadstart,*message,*mousedown,*mouseenter,*mouseleave,*mousemove,*mouseout,*mouseover,*mouseup,*mousewheel,*mozfullscreenchange,*mozfullscreenerror,*mozpointerlockchange,*mozpointerlockerror,*paste,*pause,*play,*playing,*progress,*ratechange,*reset,*resize,*scroll,*search,*seeked,*seeking,*select,*selectstart,*show,*stalled,*submit,*suspend,*timeupdate,*toggle,*volumechange,*waiting,*webglcontextcreationerror,*webglcontextlost,*webglcontextrestored,*webkitfullscreenchange,*webkitfullscreenerror,*wheel,outerText,!spellcheck,%style,#tabIndex,title,!translate',
-    'a^abbr|charset,coords,download,hash,host,hostname,href,hreflang,name,password,pathname,ping,port,protocol,referrerPolicy,rel,rev,search,shape,target,text,type,username',
-    'area^abbr|alt,coords,hash,host,hostname,href,!noHref,password,pathname,ping,port,protocol,referrerPolicy,search,shape,target,username',
+    'a^[HTMLElement]|charset,coords,download,hash,host,hostname,href,hreflang,name,password,pathname,ping,port,protocol,referrerPolicy,rel,rev,search,shape,target,text,type,username',
+    'area^[HTMLElement]|alt,coords,hash,host,hostname,href,!noHref,password,pathname,ping,port,protocol,referrerPolicy,search,shape,target,username',
     'audio^media|',
-    'br^abbr|clear',
-    'base^abbr|href,target',
-    'body^abbr|aLink,background,bgColor,link,*beforeunload,*blur,*error,*focus,*hashchange,*languagechange,*load,*message,*offline,*online,*pagehide,*pageshow,*popstate,*rejectionhandled,*resize,*scroll,*storage,*unhandledrejection,*unload,text,vLink',
-    'button^abbr|!autofocus,!disabled,formAction,formEnctype,formMethod,!formNoValidate,formTarget,name,type,value',
-    'canvas^abbr|#height,#width',
-    'content^abbr|select',
-    'dl^abbr|!compact',
-    'datalist^abbr|',
-    'details^abbr|!open',
-    'dialog^abbr|!open,returnValue',
-    'dir^abbr|!compact',
-    'div^abbr|align',
-    'embed^abbr|align,height,name,src,type,width',
-    'fieldset^abbr|!disabled,name',
-    'font^abbr|color,face,size',
-    'form^abbr|acceptCharset,action,autocomplete,encoding,enctype,method,name,!noValidate,target',
-    'frame^abbr|frameBorder,longDesc,marginHeight,marginWidth,name,!noResize,scrolling,src',
-    'frameset^abbr|cols,*beforeunload,*blur,*error,*focus,*hashchange,*languagechange,*load,*message,*offline,*online,*pagehide,*pageshow,*popstate,*rejectionhandled,*resize,*scroll,*storage,*unhandledrejection,*unload,rows',
-    'hr^abbr|align,color,!noShade,size,width',
-    'head^abbr|',
-    'h1,h2,h3,h4,h5,h6^abbr|align',
-    'html^abbr|version',
-    'iframe^abbr|align,!allowFullscreen,frameBorder,height,longDesc,marginHeight,marginWidth,name,referrerPolicy,%sandbox,scrolling,src,srcdoc,width',
-    'img^abbr|align,alt,border,%crossOrigin,#height,#hspace,!isMap,longDesc,lowsrc,name,referrerPolicy,sizes,src,srcset,useMap,#vspace,#width',
-    'input^abbr|accept,align,alt,autocapitalize,autocomplete,!autofocus,!checked,!defaultChecked,defaultValue,dirName,!disabled,%files,formAction,formEnctype,formMethod,!formNoValidate,formTarget,#height,!incremental,!indeterminate,max,#maxLength,min,#minLength,!multiple,name,pattern,placeholder,!readOnly,!required,selectionDirection,#selectionEnd,#selectionStart,#size,src,step,type,useMap,value,%valueAsDate,#valueAsNumber,#width',
-    'keygen^abbr|!autofocus,challenge,!disabled,keytype,name',
-    'li^abbr|type,#value',
-    'label^abbr|htmlFor',
-    'legend^abbr|align',
-    'link^abbr|as,charset,%crossOrigin,!disabled,href,hreflang,integrity,media,rel,%relList,rev,%sizes,target,type',
-    'map^abbr|name',
-    'marquee^abbr|behavior,bgColor,direction,height,#hspace,#loop,#scrollAmount,#scrollDelay,!trueSpeed,#vspace,width',
-    'menu^abbr|!compact',
-    'meta^abbr|content,httpEquiv,name,scheme',
-    'meter^abbr|#high,#low,#max,#min,#optimum,#value',
-    'ins,del^abbr|cite,dateTime',
-    'ol^abbr|!compact,!reversed,#start,type',
-    'object^abbr|align,archive,border,code,codeBase,codeType,data,!declare,height,#hspace,name,standby,type,useMap,#vspace,width',
-    'optgroup^abbr|!disabled,label',
-    'option^abbr|!defaultSelected,!disabled,label,!selected,text,value',
-    'output^abbr|defaultValue,%htmlFor,name,value',
-    'p^abbr|align',
-    'param^abbr|name,type,value,valueType',
-    'picture^abbr|',
-    'pre^abbr|#width',
-    'progress^abbr|#max,#value',
-    'q,blockquote,cite^abbr|',
-    'script^abbr|!async,charset,%crossOrigin,!defer,event,htmlFor,integrity,src,text,type',
-    'select^abbr|!autofocus,!disabled,#length,!multiple,name,!required,#selectedIndex,#size,value',
-    'shadow^abbr|',
-    'source^abbr|media,sizes,src,srcset,type',
-    'span^abbr|',
-    'style^abbr|!disabled,media,type',
-    'caption^abbr|align',
-    'th,td^abbr|abbr,align,axis,bgColor,ch,chOff,#colSpan,headers,height,!noWrap,#rowSpan,scope,vAlign,width',
-    'col,colgroup^abbr|align,ch,chOff,#span,vAlign,width',
-    'table^abbr|align,bgColor,border,%caption,cellPadding,cellSpacing,frame,rules,summary,%tFoot,%tHead,width',
-    'tr^abbr|align,bgColor,ch,chOff,vAlign',
-    'tfoot,thead,tbody^abbr|align,ch,chOff,vAlign',
-    'template^abbr|',
-    'textarea^abbr|autocapitalize,!autofocus,#cols,defaultValue,dirName,!disabled,#maxLength,#minLength,name,placeholder,!readOnly,!required,#rows,selectionDirection,#selectionEnd,#selectionStart,value,wrap',
-    'title^abbr|text',
-    'track^abbr|!default,kind,label,src,srclang',
-    'ul^abbr|!compact,type',
-    'unknown^abbr|',
+    'br^[HTMLElement]|clear',
+    'base^[HTMLElement]|href,target',
+    'body^[HTMLElement]|aLink,background,bgColor,link,*beforeunload,*blur,*error,*focus,*hashchange,*languagechange,*load,*message,*offline,*online,*pagehide,*pageshow,*popstate,*rejectionhandled,*resize,*scroll,*storage,*unhandledrejection,*unload,text,vLink',
+    'button^[HTMLElement]|!autofocus,!disabled,formAction,formEnctype,formMethod,!formNoValidate,formTarget,name,type,value',
+    'canvas^[HTMLElement]|#height,#width',
+    'content^[HTMLElement]|select',
+    'dl^[HTMLElement]|!compact',
+    'datalist^[HTMLElement]|',
+    'details^[HTMLElement]|!open',
+    'dialog^[HTMLElement]|!open,returnValue',
+    'dir^[HTMLElement]|!compact',
+    'div^[HTMLElement]|align',
+    'embed^[HTMLElement]|align,height,name,src,type,width',
+    'fieldset^[HTMLElement]|!disabled,name',
+    'font^[HTMLElement]|color,face,size',
+    'form^[HTMLElement]|acceptCharset,action,autocomplete,encoding,enctype,method,name,!noValidate,target',
+    'frame^[HTMLElement]|frameBorder,longDesc,marginHeight,marginWidth,name,!noResize,scrolling,src',
+    'frameset^[HTMLElement]|cols,*beforeunload,*blur,*error,*focus,*hashchange,*languagechange,*load,*message,*offline,*online,*pagehide,*pageshow,*popstate,*rejectionhandled,*resize,*scroll,*storage,*unhandledrejection,*unload,rows',
+    'hr^[HTMLElement]|align,color,!noShade,size,width',
+    'head^[HTMLElement]|',
+    'h1,h2,h3,h4,h5,h6^[HTMLElement]|align',
+    'html^[HTMLElement]|version',
+    'iframe^[HTMLElement]|align,!allowFullscreen,frameBorder,height,longDesc,marginHeight,marginWidth,name,referrerPolicy,%sandbox,scrolling,src,srcdoc,width',
+    'img^[HTMLElement]|align,alt,border,%crossOrigin,#height,#hspace,!isMap,longDesc,lowsrc,name,referrerPolicy,sizes,src,srcset,useMap,#vspace,#width',
+    'input^[HTMLElement]|accept,align,alt,autocapitalize,autocomplete,!autofocus,!checked,!defaultChecked,defaultValue,dirName,!disabled,%files,formAction,formEnctype,formMethod,!formNoValidate,formTarget,#height,!incremental,!indeterminate,max,#maxLength,min,#minLength,!multiple,name,pattern,placeholder,!readOnly,!required,selectionDirection,#selectionEnd,#selectionStart,#size,src,step,type,useMap,value,%valueAsDate,#valueAsNumber,#width',
+    'keygen^[HTMLElement]|!autofocus,challenge,!disabled,keytype,name',
+    'li^[HTMLElement]|type,#value',
+    'label^[HTMLElement]|htmlFor',
+    'legend^[HTMLElement]|align',
+    'link^[HTMLElement]|as,charset,%crossOrigin,!disabled,href,hreflang,integrity,media,rel,%relList,rev,%sizes,target,type',
+    'map^[HTMLElement]|name',
+    'marquee^[HTMLElement]|behavior,bgColor,direction,height,#hspace,#loop,#scrollAmount,#scrollDelay,!trueSpeed,#vspace,width',
+    'menu^[HTMLElement]|!compact',
+    'meta^[HTMLElement]|content,httpEquiv,name,scheme',
+    'meter^[HTMLElement]|#high,#low,#max,#min,#optimum,#value',
+    'ins,del^[HTMLElement]|cite,dateTime',
+    'ol^[HTMLElement]|!compact,!reversed,#start,type',
+    'object^[HTMLElement]|align,archive,border,code,codeBase,codeType,data,!declare,height,#hspace,name,standby,type,useMap,#vspace,width',
+    'optgroup^[HTMLElement]|!disabled,label',
+    'option^[HTMLElement]|!defaultSelected,!disabled,label,!selected,text,value',
+    'output^[HTMLElement]|defaultValue,%htmlFor,name,value',
+    'p^[HTMLElement]|align',
+    'param^[HTMLElement]|name,type,value,valueType',
+    'picture^[HTMLElement]|',
+    'pre^[HTMLElement]|#width',
+    'progress^[HTMLElement]|#max,#value',
+    'q,blockquote,cite^[HTMLElement]|',
+    'script^[HTMLElement]|!async,charset,%crossOrigin,!defer,event,htmlFor,integrity,src,text,type',
+    'select^[HTMLElement]|!autofocus,!disabled,#length,!multiple,name,!required,#selectedIndex,#size,value',
+    'shadow^[HTMLElement]|',
+    'source^[HTMLElement]|media,sizes,src,srcset,type',
+    'span^[HTMLElement]|',
+    'style^[HTMLElement]|!disabled,media,type',
+    'caption^[HTMLElement]|align',
+    'th,td^[HTMLElement]|abbr,align,axis,bgColor,ch,chOff,#colSpan,headers,height,!noWrap,#rowSpan,scope,vAlign,width',
+    'col,colgroup^[HTMLElement]|align,ch,chOff,#span,vAlign,width',
+    'table^[HTMLElement]|align,bgColor,border,%caption,cellPadding,cellSpacing,frame,rules,summary,%tFoot,%tHead,width',
+    'tr^[HTMLElement]|align,bgColor,ch,chOff,vAlign',
+    'tfoot,thead,tbody^[HTMLElement]|align,ch,chOff,vAlign',
+    'template^[HTMLElement]|',
+    'textarea^[HTMLElement]|autocapitalize,!autofocus,#cols,defaultValue,dirName,!disabled,#maxLength,#minLength,name,placeholder,!readOnly,!required,#rows,selectionDirection,#selectionEnd,#selectionStart,value,wrap',
+    'title^[HTMLElement]|text',
+    'track^[HTMLElement]|!default,kind,label,src,srclang',
+    'ul^[HTMLElement]|!compact,type',
+    'unknown^[HTMLElement]|',
     'video^media|#height,poster,#width',
     ':svg:a^:svg:graphics|',
     ':svg:animate^:svg:animation|',
@@ -18969,13 +18752,17 @@ var SCHEMA = ([
     ':svg:title^:svg:|',
     ':svg:use^:svg:graphics|',
     ':svg:view^:svg:|#zoomAndPan',
-]);
+    'data^[HTMLElement]|value',
+    'menuitem^[HTMLElement]|type,label,icon,!disabled,!checked,radiogroup,!default',
+    'summary^[HTMLElement]|',
+    'time^[HTMLElement]|dateTime',
+];
 var _ATTR_TO_PROP = {
     'class': 'className',
     'formaction': 'formAction',
     'innerHtml': 'innerHTML',
     'readonly': 'readOnly',
-    'tabindex': 'tabIndex'
+    'tabindex': 'tabIndex',
 };
 var DomElementSchemaRegistry = (function (_super) {
     __extends(DomElementSchemaRegistry, _super);
@@ -18984,12 +18771,12 @@ var DomElementSchemaRegistry = (function (_super) {
         _super.call(this);
         this._schema = {};
         SCHEMA.forEach(function (encodedType) {
+            var type = {};
             var _a = encodedType.split('|'), strType = _a[0], strProperties = _a[1];
             var properties = strProperties.split(',');
             var _b = strType.split('^'), typeNames = _b[0], superName = _b[1];
-            var type = {};
             typeNames.split(',').forEach(function (tag) { return _this._schema[tag.toLowerCase()] = type; });
-            var superType = _this._schema[superName];
+            var superType = superName && _this._schema[superName.toLowerCase()];
             if (superType) {
                 Object.keys(superType).forEach(function (prop) { type[prop] = superType[prop]; });
             }
@@ -19178,6 +18965,7 @@ var ElementSchemaRegistry = (function () {
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__facade_collection__ = __webpack_require__("./node_modules/@angular/compiler/src/facade/collection.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__facade_lang__ = __webpack_require__("./node_modules/@angular/compiler/src/facade/lang.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ml_parser_html_tags__ = __webpack_require__("./node_modules/@angular/compiler/src/ml_parser/html_tags.js");
 /* harmony export (binding) */ __webpack_require__.d(exports, "a", function() { return CssSelector; });
 /* harmony export (binding) */ __webpack_require__.d(exports, "b", function() { return SelectorMatcher; });
 /* unused harmony export SelectorListContext */
@@ -19189,6 +18977,7 @@ var ElementSchemaRegistry = (function () {
  * Use of this source code is governed by an MIT-style license that can be
  * found in the LICENSE file at https://angular.io/license
  */
+
 
 
 var _EMPTY_ATTR_VALUE = '';
@@ -19269,7 +19058,7 @@ var CssSelector = (function () {
     };
     /** Gets a template string for an element that matches the selector. */
     CssSelector.prototype.getMatchingElementTemplate = function () {
-        var tagName = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["a" /* isPresent */])(this.element) ? this.element : 'div';
+        var tagName = this.element || 'div';
         var classAttr = this.classNames.length > 0 ? " class=\"" + this.classNames.join(' ') + "\"" : '';
         var attrs = '';
         for (var i = 0; i < this.attrs.length; i += 2) {
@@ -19277,7 +19066,8 @@ var CssSelector = (function () {
             var attrValue = this.attrs[i + 1] !== '' ? "=\"" + this.attrs[i + 1] + "\"" : '';
             attrs += " " + attrName + attrValue;
         }
-        return "<" + tagName + classAttr + attrs + "></" + tagName + ">";
+        return __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2__ml_parser_html_tags__["a" /* getHtmlTagDefinition */])(tagName).isVoid ? "<" + tagName + classAttr + attrs + "/>" :
+            "<" + tagName + classAttr + attrs + "></" + tagName + ">";
     };
     CssSelector.prototype.addAttribute = function (name, value) {
         if (value === void 0) { value = _EMPTY_ATTR_VALUE; }
@@ -20010,10 +19800,10 @@ function stripComments(input) {
     return __WEBPACK_IMPORTED_MODULE_0__facade_lang__["g" /* StringWrapper */].replaceAllMapped(input, _commentRe, function (_ /** TODO #9100 */) { return ''; });
 }
 // all comments except inline source mapping ("/* #sourceMappingURL= ... */")
-var _sourceMappingUrlRe = /[\s\S]*(\/\*\s*#\s*sourceMappingURL=[\s\S]+?\*\/)\s*$/;
+var _sourceMappingUrlRe = /\/\*\s*#\s*sourceMappingURL=[\s\S]+?\*\//;
 function extractSourceMappingUrl(input) {
     var matcher = input.match(_sourceMappingUrlRe);
-    return matcher ? matcher[1] : '';
+    return matcher ? matcher[0] : '';
 }
 var _ruleRe = /(\s*)([^;\{\}]+?)(\s*)((?:{%BLOCK%}?\s*;?)|(?:\s*;))/g;
 var _curlyRe = /([{}])/g;
@@ -20747,7 +20537,7 @@ var TemplateParser = (function () {
         { type: __WEBPACK_IMPORTED_MODULE_3__expression_parser_parser__["a" /* Parser */], },
         { type: __WEBPACK_IMPORTED_MODULE_16__schema_element_schema_registry__["a" /* ElementSchemaRegistry */], },
         { type: __WEBPACK_IMPORTED_MODULE_6__i18n_i18n_html_parser__["a" /* I18NHtmlParser */], },
-        { type: __WEBPACK_IMPORTED_MODULE_14__private_import_core__["Q" /* Console */], },
+        { type: __WEBPACK_IMPORTED_MODULE_14__private_import_core__["R" /* Console */], },
         { type: Array, decorators: [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["Optional"] }, { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["Inject"], args: [TEMPLATE_TRANSFORMS,] },] },
     ];
     return TemplateParser;
@@ -20796,8 +20586,8 @@ var TemplateParseVisitor = (function () {
                 this._reportParserErrors(ast.errors, sourceSpan);
             this._checkPipes(ast, sourceSpan);
             if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_5__facade_lang__["a" /* isPresent */])(ast) &&
-                ast.ast.expressions.length > __WEBPACK_IMPORTED_MODULE_14__private_import_core__["R" /* MAX_INTERPOLATION_VALUES */]) {
-                throw new Error("Only support at most " + __WEBPACK_IMPORTED_MODULE_14__private_import_core__["R" /* MAX_INTERPOLATION_VALUES */] + " interpolation values!");
+                ast.ast.expressions.length > __WEBPACK_IMPORTED_MODULE_14__private_import_core__["S" /* MAX_INTERPOLATION_VALUES */]) {
+                throw new Error("Only support at most " + __WEBPACK_IMPORTED_MODULE_14__private_import_core__["S" /* MAX_INTERPOLATION_VALUES */] + " interpolation values!");
             }
             return ast;
         }
@@ -22852,6 +22642,7 @@ var CompileView = (function () {
         this.literalMapCount = 0;
         this.pipeCount = 0;
         this.createMethod = new __WEBPACK_IMPORTED_MODULE_6__compile_method__["a" /* CompileMethod */](this);
+        this.animationBindingsMethod = new __WEBPACK_IMPORTED_MODULE_6__compile_method__["a" /* CompileMethod */](this);
         this.injectorGetMethod = new __WEBPACK_IMPORTED_MODULE_6__compile_method__["a" /* CompileMethod */](this);
         this.updateContentQueriesMethod = new __WEBPACK_IMPORTED_MODULE_6__compile_method__["a" /* CompileMethod */](this);
         this.dirtyParentQueriesMethod = new __WEBPACK_IMPORTED_MODULE_6__compile_method__["a" /* CompileMethod */](this);
@@ -22866,7 +22657,7 @@ var CompileView = (function () {
         this.className = "_View_" + component.type.name + viewIndex;
         this.classType = __WEBPACK_IMPORTED_MODULE_4__output_output_ast__["c" /* importType */](new __WEBPACK_IMPORTED_MODULE_0__compile_metadata__["a" /* CompileIdentifierMetadata */]({ name: this.className }));
         this.viewFactory = __WEBPACK_IMPORTED_MODULE_4__output_output_ast__["e" /* variable */](__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_10__util__["d" /* getViewFactoryName */])(component, viewIndex));
-        if (this.viewType === __WEBPACK_IMPORTED_MODULE_5__private_import_core__["i" /* ViewType */].COMPONENT || this.viewType === __WEBPACK_IMPORTED_MODULE_5__private_import_core__["i" /* ViewType */].HOST) {
+        if (this.viewType === __WEBPACK_IMPORTED_MODULE_5__private_import_core__["j" /* ViewType */].COMPONENT || this.viewType === __WEBPACK_IMPORTED_MODULE_5__private_import_core__["j" /* ViewType */].HOST) {
             this.componentView = this;
         }
         else {
@@ -22875,7 +22666,7 @@ var CompileView = (function () {
         this.componentContext =
             __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_10__util__["a" /* getPropertyInView */])(__WEBPACK_IMPORTED_MODULE_4__output_output_ast__["n" /* THIS_EXPR */].prop('context'), this, this.componentView);
         var viewQueries = new Map();
-        if (this.viewType === __WEBPACK_IMPORTED_MODULE_5__private_import_core__["i" /* ViewType */].COMPONENT) {
+        if (this.viewType === __WEBPACK_IMPORTED_MODULE_5__private_import_core__["j" /* ViewType */].COMPONENT) {
             var directiveInstance = __WEBPACK_IMPORTED_MODULE_4__output_output_ast__["n" /* THIS_EXPR */].prop('context');
             __WEBPACK_IMPORTED_MODULE_1__facade_collection__["a" /* ListWrapper */].forEachWithIndex(this.component.viewQueries, function (queryMeta, queryIndex) {
                 var propName = "_viewQuery_" + queryMeta.selectors[0].name + "_" + queryIndex;
@@ -22961,13 +22752,13 @@ var CompileView = (function () {
 }());
 function getViewType(component, embeddedTemplateIndex) {
     if (embeddedTemplateIndex > 0) {
-        return __WEBPACK_IMPORTED_MODULE_5__private_import_core__["i" /* ViewType */].EMBEDDED;
+        return __WEBPACK_IMPORTED_MODULE_5__private_import_core__["j" /* ViewType */].EMBEDDED;
     }
     else if (component.type.isHost) {
-        return __WEBPACK_IMPORTED_MODULE_5__private_import_core__["i" /* ViewType */].HOST;
+        return __WEBPACK_IMPORTED_MODULE_5__private_import_core__["j" /* ViewType */].HOST;
     }
     else {
-        return __WEBPACK_IMPORTED_MODULE_5__private_import_core__["i" /* ViewType */].COMPONENT;
+        return __WEBPACK_IMPORTED_MODULE_5__private_import_core__["j" /* ViewType */].COMPONENT;
     }
 }
 //# sourceMappingURL=compile_view.js.map
@@ -23011,11 +22802,11 @@ var ViewTypeEnum = (function () {
     ViewTypeEnum.fromValue = function (value) {
         var viewType = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__identifiers__["d" /* resolveIdentifier */])(__WEBPACK_IMPORTED_MODULE_1__identifiers__["b" /* Identifiers */].ViewType);
         switch (value) {
-            case __WEBPACK_IMPORTED_MODULE_3__private_import_core__["i" /* ViewType */].HOST:
+            case __WEBPACK_IMPORTED_MODULE_3__private_import_core__["j" /* ViewType */].HOST:
                 return _enumExpression(viewType, 'HOST');
-            case __WEBPACK_IMPORTED_MODULE_3__private_import_core__["i" /* ViewType */].COMPONENT:
+            case __WEBPACK_IMPORTED_MODULE_3__private_import_core__["j" /* ViewType */].COMPONENT:
                 return _enumExpression(viewType, 'COMPONENT');
-            case __WEBPACK_IMPORTED_MODULE_3__private_import_core__["i" /* ViewType */].EMBEDDED:
+            case __WEBPACK_IMPORTED_MODULE_3__private_import_core__["j" /* ViewType */].EMBEDDED:
                 return _enumExpression(viewType, 'EMBEDDED');
             default:
                 throw Error("Inavlid ViewType value: " + value);
@@ -23063,17 +22854,17 @@ var ChangeDetectorStatusEnum = (function () {
     ChangeDetectorStatusEnum.fromValue = function (value) {
         var changeDetectorStatus = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__identifiers__["d" /* resolveIdentifier */])(__WEBPACK_IMPORTED_MODULE_1__identifiers__["b" /* Identifiers */].ChangeDetectorStatus);
         switch (value) {
-            case __WEBPACK_IMPORTED_MODULE_3__private_import_core__["m" /* ChangeDetectorStatus */].CheckOnce:
+            case __WEBPACK_IMPORTED_MODULE_3__private_import_core__["n" /* ChangeDetectorStatus */].CheckOnce:
                 return _enumExpression(changeDetectorStatus, 'CheckOnce');
-            case __WEBPACK_IMPORTED_MODULE_3__private_import_core__["m" /* ChangeDetectorStatus */].Checked:
+            case __WEBPACK_IMPORTED_MODULE_3__private_import_core__["n" /* ChangeDetectorStatus */].Checked:
                 return _enumExpression(changeDetectorStatus, 'Checked');
-            case __WEBPACK_IMPORTED_MODULE_3__private_import_core__["m" /* ChangeDetectorStatus */].CheckAlways:
+            case __WEBPACK_IMPORTED_MODULE_3__private_import_core__["n" /* ChangeDetectorStatus */].CheckAlways:
                 return _enumExpression(changeDetectorStatus, 'CheckAlways');
-            case __WEBPACK_IMPORTED_MODULE_3__private_import_core__["m" /* ChangeDetectorStatus */].Detached:
+            case __WEBPACK_IMPORTED_MODULE_3__private_import_core__["n" /* ChangeDetectorStatus */].Detached:
                 return _enumExpression(changeDetectorStatus, 'Detached');
-            case __WEBPACK_IMPORTED_MODULE_3__private_import_core__["m" /* ChangeDetectorStatus */].Errored:
+            case __WEBPACK_IMPORTED_MODULE_3__private_import_core__["n" /* ChangeDetectorStatus */].Errored:
                 return _enumExpression(changeDetectorStatus, 'Errored');
-            case __WEBPACK_IMPORTED_MODULE_3__private_import_core__["m" /* ChangeDetectorStatus */].Destroyed:
+            case __WEBPACK_IMPORTED_MODULE_3__private_import_core__["n" /* ChangeDetectorStatus */].Destroyed:
                 return _enumExpression(changeDetectorStatus, 'Destroyed');
             default:
                 throw Error("Inavlid ChangeDetectorStatus value: " + value);
@@ -23770,13 +23561,13 @@ function bindDirectiveDetectChangesLifecycleCallbacks(directiveAst, directiveIns
     var view = compileElement.view;
     var detectChangesInInputsMethod = view.detectChangesInInputsMethod;
     var lifecycleHooks = directiveAst.directive.type.lifecycleHooks;
-    if (lifecycleHooks.indexOf(__WEBPACK_IMPORTED_MODULE_1__private_import_core__["W" /* LifecycleHooks */].OnChanges) !== -1 && directiveAst.inputs.length > 0) {
+    if (lifecycleHooks.indexOf(__WEBPACK_IMPORTED_MODULE_1__private_import_core__["X" /* LifecycleHooks */].OnChanges) !== -1 && directiveAst.inputs.length > 0) {
         detectChangesInInputsMethod.addStmt(new __WEBPACK_IMPORTED_MODULE_0__output_output_ast__["i" /* IfStmt */](__WEBPACK_IMPORTED_MODULE_2__constants__["d" /* DetectChangesVars */].changes.notIdentical(__WEBPACK_IMPORTED_MODULE_0__output_output_ast__["h" /* NULL_EXPR */]), [directiveInstance.callMethod('ngOnChanges', [__WEBPACK_IMPORTED_MODULE_2__constants__["d" /* DetectChangesVars */].changes]).toStmt()]));
     }
-    if (lifecycleHooks.indexOf(__WEBPACK_IMPORTED_MODULE_1__private_import_core__["W" /* LifecycleHooks */].OnInit) !== -1) {
+    if (lifecycleHooks.indexOf(__WEBPACK_IMPORTED_MODULE_1__private_import_core__["X" /* LifecycleHooks */].OnInit) !== -1) {
         detectChangesInInputsMethod.addStmt(new __WEBPACK_IMPORTED_MODULE_0__output_output_ast__["i" /* IfStmt */](STATE_IS_NEVER_CHECKED.and(NOT_THROW_ON_CHANGES), [directiveInstance.callMethod('ngOnInit', []).toStmt()]));
     }
-    if (lifecycleHooks.indexOf(__WEBPACK_IMPORTED_MODULE_1__private_import_core__["W" /* LifecycleHooks */].DoCheck) !== -1) {
+    if (lifecycleHooks.indexOf(__WEBPACK_IMPORTED_MODULE_1__private_import_core__["X" /* LifecycleHooks */].DoCheck) !== -1) {
         detectChangesInInputsMethod.addStmt(new __WEBPACK_IMPORTED_MODULE_0__output_output_ast__["i" /* IfStmt */](NOT_THROW_ON_CHANGES, [directiveInstance.callMethod('ngDoCheck', []).toStmt()]));
     }
 }
@@ -23785,10 +23576,10 @@ function bindDirectiveAfterContentLifecycleCallbacks(directiveMeta, directiveIns
     var lifecycleHooks = directiveMeta.type.lifecycleHooks;
     var afterContentLifecycleCallbacksMethod = view.afterContentLifecycleCallbacksMethod;
     afterContentLifecycleCallbacksMethod.resetDebugInfo(compileElement.nodeIndex, compileElement.sourceAst);
-    if (lifecycleHooks.indexOf(__WEBPACK_IMPORTED_MODULE_1__private_import_core__["W" /* LifecycleHooks */].AfterContentInit) !== -1) {
+    if (lifecycleHooks.indexOf(__WEBPACK_IMPORTED_MODULE_1__private_import_core__["X" /* LifecycleHooks */].AfterContentInit) !== -1) {
         afterContentLifecycleCallbacksMethod.addStmt(new __WEBPACK_IMPORTED_MODULE_0__output_output_ast__["i" /* IfStmt */](STATE_IS_NEVER_CHECKED, [directiveInstance.callMethod('ngAfterContentInit', []).toStmt()]));
     }
-    if (lifecycleHooks.indexOf(__WEBPACK_IMPORTED_MODULE_1__private_import_core__["W" /* LifecycleHooks */].AfterContentChecked) !== -1) {
+    if (lifecycleHooks.indexOf(__WEBPACK_IMPORTED_MODULE_1__private_import_core__["X" /* LifecycleHooks */].AfterContentChecked) !== -1) {
         afterContentLifecycleCallbacksMethod.addStmt(directiveInstance.callMethod('ngAfterContentChecked', []).toStmt());
     }
 }
@@ -23797,23 +23588,23 @@ function bindDirectiveAfterViewLifecycleCallbacks(directiveMeta, directiveInstan
     var lifecycleHooks = directiveMeta.type.lifecycleHooks;
     var afterViewLifecycleCallbacksMethod = view.afterViewLifecycleCallbacksMethod;
     afterViewLifecycleCallbacksMethod.resetDebugInfo(compileElement.nodeIndex, compileElement.sourceAst);
-    if (lifecycleHooks.indexOf(__WEBPACK_IMPORTED_MODULE_1__private_import_core__["W" /* LifecycleHooks */].AfterViewInit) !== -1) {
+    if (lifecycleHooks.indexOf(__WEBPACK_IMPORTED_MODULE_1__private_import_core__["X" /* LifecycleHooks */].AfterViewInit) !== -1) {
         afterViewLifecycleCallbacksMethod.addStmt(new __WEBPACK_IMPORTED_MODULE_0__output_output_ast__["i" /* IfStmt */](STATE_IS_NEVER_CHECKED, [directiveInstance.callMethod('ngAfterViewInit', []).toStmt()]));
     }
-    if (lifecycleHooks.indexOf(__WEBPACK_IMPORTED_MODULE_1__private_import_core__["W" /* LifecycleHooks */].AfterViewChecked) !== -1) {
+    if (lifecycleHooks.indexOf(__WEBPACK_IMPORTED_MODULE_1__private_import_core__["X" /* LifecycleHooks */].AfterViewChecked) !== -1) {
         afterViewLifecycleCallbacksMethod.addStmt(directiveInstance.callMethod('ngAfterViewChecked', []).toStmt());
     }
 }
 function bindInjectableDestroyLifecycleCallbacks(provider, providerInstance, compileElement) {
     var onDestroyMethod = compileElement.view.destroyMethod;
     onDestroyMethod.resetDebugInfo(compileElement.nodeIndex, compileElement.sourceAst);
-    if (provider.lifecycleHooks.indexOf(__WEBPACK_IMPORTED_MODULE_1__private_import_core__["W" /* LifecycleHooks */].OnDestroy) !== -1) {
+    if (provider.lifecycleHooks.indexOf(__WEBPACK_IMPORTED_MODULE_1__private_import_core__["X" /* LifecycleHooks */].OnDestroy) !== -1) {
         onDestroyMethod.addStmt(providerInstance.callMethod('ngOnDestroy', []).toStmt());
     }
 }
 function bindPipeDestroyLifecycleCallbacks(pipeMeta, pipeInstance, view) {
     var onDestroyMethod = view.destroyMethod;
-    if (pipeMeta.type.lifecycleHooks.indexOf(__WEBPACK_IMPORTED_MODULE_1__private_import_core__["W" /* LifecycleHooks */].OnDestroy) !== -1) {
+    if (pipeMeta.type.lifecycleHooks.indexOf(__WEBPACK_IMPORTED_MODULE_1__private_import_core__["X" /* LifecycleHooks */].OnDestroy) !== -1) {
         onDestroyMethod.addStmt(pipeInstance.callMethod('ngOnDestroy', []).toStmt());
     }
 }
@@ -23915,6 +23706,7 @@ function bindAndWriteToRenderer(boundProps, context, compileElement, isHostProp)
         var oldRenderValue = sanitizedValue(boundProp, fieldExpr);
         var renderValue = sanitizedValue(boundProp, currValExpr);
         var updateStmts = [];
+        var compileMethod = view.detectChangesRenderPropertiesMethod;
         switch (boundProp.type) {
             case __WEBPACK_IMPORTED_MODULE_5__template_parser_template_ast__["l" /* PropertyBindingType */].Property:
                 if (view.genConfig.logBindingUpdate) {
@@ -23952,10 +23744,11 @@ function bindAndWriteToRenderer(boundProps, context, compileElement, isHostProp)
                 if (isHostProp) {
                     targetViewExpr = compileElement.appElement.prop('componentView');
                 }
+                compileMethod = view.animationBindingsMethod;
                 var animationFnExpr = targetViewExpr.prop('componentType').prop('animations').key(__WEBPACK_IMPORTED_MODULE_3__output_output_ast__["a" /* literal */](animationName));
                 // it's important to normalize the void value as `void` explicitly
                 // so that the styles data can be obtained from the stringmap
-                var emptyStateValue = __WEBPACK_IMPORTED_MODULE_3__output_output_ast__["a" /* literal */](__WEBPACK_IMPORTED_MODULE_4__private_import_core__["V" /* EMPTY_STATE */]);
+                var emptyStateValue = __WEBPACK_IMPORTED_MODULE_3__output_output_ast__["a" /* literal */](__WEBPACK_IMPORTED_MODULE_4__private_import_core__["W" /* EMPTY_STATE */]);
                 // void => ...
                 var oldRenderVar = __WEBPACK_IMPORTED_MODULE_3__output_output_ast__["e" /* variable */]('oldRenderVar');
                 updateStmts.push(oldRenderVar.set(oldRenderValue).toDeclStmt());
@@ -23967,15 +23760,9 @@ function bindAndWriteToRenderer(boundProps, context, compileElement, isHostProp)
                 updateStmts.push(animationFnExpr.callFn([__WEBPACK_IMPORTED_MODULE_3__output_output_ast__["n" /* THIS_EXPR */], renderNode, oldRenderVar, newRenderVar]).toStmt());
                 view.detachMethod.addStmt(animationFnExpr.callFn([__WEBPACK_IMPORTED_MODULE_3__output_output_ast__["n" /* THIS_EXPR */], renderNode, oldRenderValue, emptyStateValue])
                     .toStmt());
-                if (!_animationViewCheckedFlagMap.get(view)) {
-                    _animationViewCheckedFlagMap.set(view, true);
-                    var triggerStmt = __WEBPACK_IMPORTED_MODULE_3__output_output_ast__["n" /* THIS_EXPR */].callMethod('triggerQueuedAnimations', []).toStmt();
-                    view.afterViewLifecycleCallbacksMethod.addStmt(triggerStmt);
-                    view.detachMethod.addStmt(triggerStmt);
-                }
                 break;
         }
-        bind(view, currValExpr, fieldExpr, boundProp.value, context, updateStmts, view.detectChangesRenderPropertiesMethod, view.bindings.length);
+        bind(view, currValExpr, fieldExpr, boundProp.value, context, updateStmts, compileMethod, view.bindings.length);
     });
 }
 function sanitizedValue(boundProp, renderValue) {
@@ -24019,9 +23806,9 @@ function bindDirectiveInputs(directiveAst, directiveInstance, compileElement) {
     var detectChangesInInputsMethod = view.detectChangesInInputsMethod;
     detectChangesInInputsMethod.resetDebugInfo(compileElement.nodeIndex, compileElement.sourceAst);
     var lifecycleHooks = directiveAst.directive.type.lifecycleHooks;
-    var calcChangesMap = lifecycleHooks.indexOf(__WEBPACK_IMPORTED_MODULE_4__private_import_core__["W" /* LifecycleHooks */].OnChanges) !== -1;
+    var calcChangesMap = lifecycleHooks.indexOf(__WEBPACK_IMPORTED_MODULE_4__private_import_core__["X" /* LifecycleHooks */].OnChanges) !== -1;
     var isOnPushComp = directiveAst.directive.isComponent &&
-        !__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_4__private_import_core__["X" /* isDefaultChangeDetectionStrategy */])(directiveAst.directive.changeDetection);
+        !__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_4__private_import_core__["Y" /* isDefaultChangeDetectionStrategy */])(directiveAst.directive.changeDetection);
     if (calcChangesMap) {
         detectChangesInInputsMethod.addStmt(__WEBPACK_IMPORTED_MODULE_8__constants__["d" /* DetectChangesVars */].changes.set(__WEBPACK_IMPORTED_MODULE_3__output_output_ast__["h" /* NULL_EXPR */]).toStmt());
     }
@@ -24379,7 +24166,7 @@ var ViewBuilderVisitor = (function () {
         var vcAppEl = (node instanceof __WEBPACK_IMPORTED_MODULE_10__compile_element__["a" /* CompileElement */] && node.hasViewContainer) ? node.appElement : null;
         if (this._isRootNode(parent)) {
             // store appElement as root node only for ViewContainers
-            if (this.view.viewType !== __WEBPACK_IMPORTED_MODULE_7__private_import_core__["i" /* ViewType */].COMPONENT) {
+            if (this.view.viewType !== __WEBPACK_IMPORTED_MODULE_7__private_import_core__["j" /* ViewType */].COMPONENT) {
                 this.view.rootNodesOrAppElements.push(__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_4__facade_lang__["a" /* isPresent */])(vcAppEl) ? vcAppEl : node.renderNode);
             }
         }
@@ -24390,7 +24177,7 @@ var ViewBuilderVisitor = (function () {
     ViewBuilderVisitor.prototype._getParentRenderNode = function (parent) {
         parent = _getOuterContainerParentOrSelf(parent);
         if (this._isRootNode(parent)) {
-            if (this.view.viewType === __WEBPACK_IMPORTED_MODULE_7__private_import_core__["i" /* ViewType */].COMPONENT) {
+            if (this.view.viewType === __WEBPACK_IMPORTED_MODULE_7__private_import_core__["j" /* ViewType */].COMPONENT) {
                 return parentRenderNodeVar;
             }
             else {
@@ -24443,7 +24230,7 @@ var ViewBuilderVisitor = (function () {
                 .toStmt());
         }
         else if (this._isRootNode(parent)) {
-            if (this.view.viewType !== __WEBPACK_IMPORTED_MODULE_7__private_import_core__["i" /* ViewType */].COMPONENT) {
+            if (this.view.viewType !== __WEBPACK_IMPORTED_MODULE_7__private_import_core__["j" /* ViewType */].COMPONENT) {
                 // store root nodes only for embedded/host views
                 this.view.rootNodesOrAppElements.push(nodesExpression);
             }
@@ -24460,7 +24247,7 @@ var ViewBuilderVisitor = (function () {
         var nodeIndex = this.view.nodes.length;
         var createRenderNodeExpr;
         var debugContextExpr = this.view.createMethod.resetDebugInfoExpr(nodeIndex, ast);
-        if (nodeIndex === 0 && this.view.viewType === __WEBPACK_IMPORTED_MODULE_7__private_import_core__["i" /* ViewType */].HOST) {
+        if (nodeIndex === 0 && this.view.viewType === __WEBPACK_IMPORTED_MODULE_7__private_import_core__["j" /* ViewType */].HOST) {
             createRenderNodeExpr = __WEBPACK_IMPORTED_MODULE_6__output_output_ast__["n" /* THIS_EXPR */].callMethod('selectOrCreateHostElement', [__WEBPACK_IMPORTED_MODULE_6__output_output_ast__["a" /* literal */](ast.name), rootSelectorVar, debugContextExpr]);
         }
         else {
@@ -24734,14 +24521,14 @@ function createViewFactory(view, viewClass, renderCompTypeVar) {
 function generateCreateMethod(view) {
     var parentRenderNodeExpr = __WEBPACK_IMPORTED_MODULE_6__output_output_ast__["h" /* NULL_EXPR */];
     var parentRenderNodeStmts = [];
-    if (view.viewType === __WEBPACK_IMPORTED_MODULE_7__private_import_core__["i" /* ViewType */].COMPONENT) {
+    if (view.viewType === __WEBPACK_IMPORTED_MODULE_7__private_import_core__["j" /* ViewType */].COMPONENT) {
         parentRenderNodeExpr = __WEBPACK_IMPORTED_MODULE_12__constants__["c" /* ViewProperties */].renderer.callMethod('createViewRoot', [__WEBPACK_IMPORTED_MODULE_6__output_output_ast__["n" /* THIS_EXPR */].prop('declarationAppElement').prop('nativeElement')]);
         parentRenderNodeStmts =
             [parentRenderNodeVar.set(parentRenderNodeExpr)
                     .toDeclStmt(__WEBPACK_IMPORTED_MODULE_6__output_output_ast__["c" /* importType */](view.genConfig.renderTypes.renderNode), [__WEBPACK_IMPORTED_MODULE_6__output_output_ast__["u" /* StmtModifier */].Final])];
     }
     var resultExpr;
-    if (view.viewType === __WEBPACK_IMPORTED_MODULE_7__private_import_core__["i" /* ViewType */].HOST) {
+    if (view.viewType === __WEBPACK_IMPORTED_MODULE_7__private_import_core__["j" /* ViewType */].HOST) {
         resultExpr = view.nodes[0].appElement;
     }
     else {
@@ -24760,12 +24547,14 @@ function generateCreateMethod(view) {
 }
 function generateDetectChangesMethod(view) {
     var stmts = [];
-    if (view.detectChangesInInputsMethod.isEmpty() && view.updateContentQueriesMethod.isEmpty() &&
+    if (view.animationBindingsMethod.isEmpty() && view.detectChangesInInputsMethod.isEmpty() &&
+        view.updateContentQueriesMethod.isEmpty() &&
         view.afterContentLifecycleCallbacksMethod.isEmpty() &&
         view.detectChangesRenderPropertiesMethod.isEmpty() &&
         view.updateViewQueriesMethod.isEmpty() && view.afterViewLifecycleCallbacksMethod.isEmpty()) {
         return stmts;
     }
+    __WEBPACK_IMPORTED_MODULE_3__facade_collection__["a" /* ListWrapper */].addAll(stmts, view.animationBindingsMethod.finish());
     __WEBPACK_IMPORTED_MODULE_3__facade_collection__["a" /* ListWrapper */].addAll(stmts, view.detectChangesInInputsMethod.finish());
     stmts.push(__WEBPACK_IMPORTED_MODULE_6__output_output_ast__["n" /* THIS_EXPR */].callMethod('detectContentChildrenChanges', [__WEBPACK_IMPORTED_MODULE_12__constants__["d" /* DetectChangesVars */].throwOnChange])
         .toStmt());
@@ -24805,20 +24594,20 @@ function addReturnValuefNotEmpty(statements, value) {
     }
 }
 function getContextType(view) {
-    if (view.viewType === __WEBPACK_IMPORTED_MODULE_7__private_import_core__["i" /* ViewType */].COMPONENT) {
+    if (view.viewType === __WEBPACK_IMPORTED_MODULE_7__private_import_core__["j" /* ViewType */].COMPONENT) {
         return __WEBPACK_IMPORTED_MODULE_6__output_output_ast__["c" /* importType */](view.component.type);
     }
     return __WEBPACK_IMPORTED_MODULE_6__output_output_ast__["l" /* DYNAMIC_TYPE */];
 }
 function getChangeDetectionMode(view) {
     var mode;
-    if (view.viewType === __WEBPACK_IMPORTED_MODULE_7__private_import_core__["i" /* ViewType */].COMPONENT) {
-        mode = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_7__private_import_core__["X" /* isDefaultChangeDetectionStrategy */])(view.component.changeDetection) ?
-            __WEBPACK_IMPORTED_MODULE_7__private_import_core__["m" /* ChangeDetectorStatus */].CheckAlways :
-            __WEBPACK_IMPORTED_MODULE_7__private_import_core__["m" /* ChangeDetectorStatus */].CheckOnce;
+    if (view.viewType === __WEBPACK_IMPORTED_MODULE_7__private_import_core__["j" /* ViewType */].COMPONENT) {
+        mode = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_7__private_import_core__["Y" /* isDefaultChangeDetectionStrategy */])(view.component.changeDetection) ?
+            __WEBPACK_IMPORTED_MODULE_7__private_import_core__["n" /* ChangeDetectorStatus */].CheckAlways :
+            __WEBPACK_IMPORTED_MODULE_7__private_import_core__["n" /* ChangeDetectorStatus */].CheckOnce;
     }
     else {
-        mode = __WEBPACK_IMPORTED_MODULE_7__private_import_core__["m" /* ChangeDetectorStatus */].CheckAlways;
+        mode = __WEBPACK_IMPORTED_MODULE_7__private_import_core__["n" /* ChangeDetectorStatus */].CheckAlways;
     }
     return mode;
 }
@@ -24904,156 +24693,137 @@ var ViewCompiler = (function () {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__src_core__ = __webpack_require__("./node_modules/@angular/core/src/core.js");
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "assertPlatform", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["_37"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "destroyPlatform", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["_38"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "getPlatform", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["_39"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "createPlatform", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["_40"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "ApplicationRef", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["_29"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "enableProdMode", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["_41"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "assertPlatform", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["_28"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "destroyPlatform", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["_29"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "getPlatform", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["_30"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "createPlatform", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["_31"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "ApplicationRef", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["_21"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "enableProdMode", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["_32"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "isDevMode", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["c"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "createPlatformFactory", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["_12"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "PlatformRef", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["_42"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "APP_ID", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["_43"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "createPlatformFactory", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["_10"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "PlatformRef", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["_33"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "APP_ID", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["_34"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "PACKAGE_ROOT_URL", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["y"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "APP_BOOTSTRAP_LISTENER", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["_44"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "PLATFORM_INITIALIZER", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["_15"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "ApplicationInitStatus", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["_45"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "APP_INITIALIZER", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["_46"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "DebugElement", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["_47"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "DebugNode", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["_48"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "asNativeElements", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["_49"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "getDebugNode", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["_30"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "Testability", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["_34"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "TestabilityRegistry", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["_50"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "setTestabilityGetter", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["_27"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "TRANSLATIONS", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["_9"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "APP_BOOTSTRAP_LISTENER", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["_35"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "PLATFORM_INITIALIZER", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["_13"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "ApplicationInitStatus", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["_36"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "APP_INITIALIZER", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["_37"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "DebugElement", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["_38"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "DebugNode", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["_39"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "asNativeElements", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["_40"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "getDebugNode", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["_22"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "Testability", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["_26"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "TestabilityRegistry", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["_41"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "setTestabilityGetter", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["_19"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "TRANSLATIONS", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["_7"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "TRANSLATIONS_FORMAT", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["u"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "LOCALE_ID", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["t"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "ApplicationModule", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["_35"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "wtfCreateScope", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["_51"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "wtfLeave", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["_52"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "wtfStartTimeRange", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["_53"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "wtfEndTimeRange", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["_54"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "Type", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["_4"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "EventEmitter", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["_24"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "ErrorHandler", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["_33"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "AnimationTransitionEvent", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["_55"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "AnimationPlayer", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["_56"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "Sanitizer", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["_32"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "ApplicationModule", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["_27"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "wtfCreateScope", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["_42"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "wtfLeave", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["_43"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "wtfStartTimeRange", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["_44"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "wtfEndTimeRange", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["_45"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "Type", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["_2"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "EventEmitter", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["_14"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "ErrorHandler", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["_25"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "AnimationTransitionEvent", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["_46"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "AnimationPlayer", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["_47"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "Sanitizer", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["_24"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "SecurityContext", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["s"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "AttributeMetadata", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["_2"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "ContentChildMetadata", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["_57"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "ContentChildrenMetadata", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["_58"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "QueryMetadata", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["F"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "ViewChildMetadata", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["_59"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "ViewChildrenMetadata", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["_60"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "ViewQueryMetadata", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["_61"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "Attribute", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["_1"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "ContentChild", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["_48"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "ContentChildren", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["_49"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "Query", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["F"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "ViewChild", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["_50"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "ViewChildren", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["_51"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "ANALYZE_FOR_ENTRY_COMPONENTS", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["f"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "DirectiveMetadata", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["z"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "HostBindingMetadata", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["D"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "HostListenerMetadata", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["E"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "InputMetadata", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["B"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "OutputMetadata", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["C"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "PipeMetadata", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["Q"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "ComponentMetadata", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["G"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "AfterContentChecked", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["M"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "Component", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["G"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "Directive", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["z"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "HostBinding", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["D"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "HostListener", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["E"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "Input", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["B"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "Output", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["C"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "Pipe", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["Q"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "OnDestroy", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["I"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "AfterContentInit", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["L"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "AfterViewChecked", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["O"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "AfterViewInit", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["N"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "DoCheck", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["J"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "OnChanges", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["K"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "OnDestroy", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["I"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "AfterContentChecked", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["M"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "OnInit", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["H"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "AfterViewChecked", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["O"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "NO_ERRORS_SCHEMA", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["_7"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "NgModuleMetadata", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["P"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "CUSTOM_ELEMENTS_SCHEMA", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["_8"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "CUSTOM_ELEMENTS_SCHEMA", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["_6"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "NO_ERRORS_SCHEMA", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["_5"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "NgModule", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["P"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "ViewEncapsulation", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["a"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "Component", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["_62"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "Directive", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["_18"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "Attribute", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["_23"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "ContentChildren", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["_63"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "ContentChild", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["_64"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "ViewChildren", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["_65"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "ViewChild", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["_66"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "Pipe", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["_17"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "Input", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["_21"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "Output", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["_67"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "HostBinding", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["_68"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "HostListener", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["_69"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "NgModule", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["_25"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "Class", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["_70"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "InjectMetadata", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["_3"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "InjectableMetadata", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["_71"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "OptionalMetadata", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["_1"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "SelfMetadata", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["Z"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "SkipSelfMetadata", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["_0"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "HostMetadata", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["Y"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "forwardRef", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["_72"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "Class", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["_52"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "forwardRef", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["_53"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "resolveForwardRef", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["A"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "Injector", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["p"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "ReflectiveInjector", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["_10"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "ResolvedReflectiveFactory", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["_73"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "ReflectiveKey", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["_74"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "ReflectiveInjector", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["_8"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "ResolvedReflectiveFactory", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["_54"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "ReflectiveKey", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["_55"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "OpaqueToken", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["v"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "NgZone", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["_28"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "NgZone", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["_20"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "RenderComponentType", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["j"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "Renderer", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["q"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "RootRenderer", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["_31"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "COMPILER_OPTIONS", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["_11"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "CompilerFactory", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["_14"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "ModuleWithComponentFactories", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["_5"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "Compiler", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["_6"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "RootRenderer", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["_23"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "COMPILER_OPTIONS", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["_9"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "CompilerFactory", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["_12"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "ModuleWithComponentFactories", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["_3"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "Compiler", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["_4"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "ComponentFactory", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["n"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "ComponentRef", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["_75"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "ComponentRef", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["_56"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "ComponentFactoryResolver", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["m"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "ElementRef", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["g"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "NgModuleFactory", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["o"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "NgModuleRef", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["_76"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "NgModuleFactoryLoader", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["_77"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "NgModuleRef", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["_57"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "NgModuleFactoryLoader", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["_58"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "getModuleFactory", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["_59"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "QueryList", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["k"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "SystemJsNgModuleLoader", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["_78"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "SystemJsNgModuleLoaderConfig", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["_79"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "SystemJsNgModuleLoader", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["_60"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "SystemJsNgModuleLoaderConfig", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["_61"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "TemplateRef", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["l"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "ViewContainerRef", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["h"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "EmbeddedViewRef", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["_80"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "ViewRef", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["_81"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "EmbeddedViewRef", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["_62"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "ViewRef", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["_63"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "ChangeDetectionStrategy", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["b"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "ChangeDetectorRef", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["i"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "CollectionChangeRecord", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["_82"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "DefaultIterableDiffer", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["_83"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "IterableDiffers", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["_19"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "KeyValueChangeRecord", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["_84"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "KeyValueDiffers", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["_20"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "CollectionChangeRecord", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["_64"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "DefaultIterableDiffer", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["_65"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "IterableDiffers", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["_15"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "KeyValueChangeRecord", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["_66"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "KeyValueDiffers", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["_16"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "SimpleChange", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["r"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "WrappedValue", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["_16"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "platformCore", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["_13"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "WrappedValue", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["_17"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "platformCore", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["_11"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "__core_private__", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["e"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "AUTO_STYLE", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["_26"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "AnimationEntryMetadata", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["_85"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "AnimationStateMetadata", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["_86"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "AUTO_STYLE", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["_18"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "AnimationEntryMetadata", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["_67"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "AnimationStateMetadata", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["_68"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "AnimationStateDeclarationMetadata", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["R"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "AnimationStateTransitionMetadata", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["S"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "AnimationMetadata", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["_87"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "AnimationMetadata", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["_69"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "AnimationKeyframesSequenceMetadata", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["U"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "AnimationStyleMetadata", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["T"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "AnimationAnimateMetadata", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["V"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "AnimationWithStepsMetadata", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["W"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "AnimationSequenceMetadata", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["_88"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "AnimationSequenceMetadata", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["_70"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "AnimationGroupMetadata", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["X"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "animate", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["_89"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "group", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["_90"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "sequence", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["_91"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "style", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["_92"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "state", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["_93"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "keyframes", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["_94"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "transition", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["_95"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "trigger", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["_96"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "animate", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["_71"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "group", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["_72"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "sequence", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["_73"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "style", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["_74"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "state", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["_75"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "keyframes", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["_76"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "transition", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["_77"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "trigger", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["_78"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "Inject", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["x"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "Optional", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["w"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "Injectable", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["d"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "Self", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["_97"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "Host", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["_22"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "SkipSelf", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["_36"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "Self", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["Z"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "SkipSelf", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["_0"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "Host", function() { return __WEBPACK_IMPORTED_MODULE_0__src_core__["Y"]; });
 /**
  * @license
  * Copyright Google Inc. All Rights Reserved.
@@ -25122,7 +24892,7 @@ var AnimationGroupPlayer = (function () {
         var count = 0;
         var total = this._players.length;
         if (total == 0) {
-            __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__facade_lang__["s" /* scheduleMicroTask */])(function () { return _this._onFinish(); });
+            __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__facade_lang__["r" /* scheduleMicroTask */])(function () { return _this._onFinish(); });
         }
         else {
             this._players.forEach(function (player) {
@@ -25138,7 +24908,7 @@ var AnimationGroupPlayer = (function () {
     AnimationGroupPlayer.prototype._onFinish = function () {
         if (!this._finished) {
             this._finished = true;
-            if (!__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__facade_lang__["g" /* isPresent */])(this.parentPlayer)) {
+            if (!__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__facade_lang__["e" /* isPresent */])(this.parentPlayer)) {
                 this.destroy();
             }
             this._onDoneFns.forEach(function (fn) { return fn(); });
@@ -25150,7 +24920,7 @@ var AnimationGroupPlayer = (function () {
     AnimationGroupPlayer.prototype.onDone = function (fn) { this._onDoneFns.push(fn); };
     AnimationGroupPlayer.prototype.hasStarted = function () { return this._started; };
     AnimationGroupPlayer.prototype.play = function () {
-        if (!__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__facade_lang__["g" /* isPresent */])(this.parentPlayer)) {
+        if (!__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__facade_lang__["e" /* isPresent */])(this.parentPlayer)) {
             this.init();
         }
         if (!this.hasStarted()) {
@@ -25271,7 +25041,7 @@ var NoOpAnimationPlayer = (function () {
         this._onStartFns = [];
         this._started = false;
         this.parentPlayer = null;
-        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__facade_lang__["s" /* scheduleMicroTask */])(function () { return _this._onFinish(); });
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__facade_lang__["r" /* scheduleMicroTask */])(function () { return _this._onFinish(); });
     }
     /** @internal */
     NoOpAnimationPlayer.prototype._onFinish = function () {
@@ -25299,6 +25069,36 @@ var NoOpAnimationPlayer = (function () {
     return NoOpAnimationPlayer;
 }());
 //# sourceMappingURL=animation_player.js.map
+
+/***/ },
+
+/***/ "./node_modules/@angular/core/src/animation/animation_queue.js":
+/***/ function(module, exports, __webpack_require__) {
+
+"use strict";
+/* harmony export (immutable) */ exports["b"] = queueAnimation;
+/* harmony export (immutable) */ exports["a"] = triggerQueuedAnimations;
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
+var _queuedAnimations = [];
+/** @internal */
+function queueAnimation(player) {
+    _queuedAnimations.push(player);
+}
+/** @internal */
+function triggerQueuedAnimations() {
+    for (var i = 0; i < _queuedAnimations.length; i++) {
+        var player = _queuedAnimations[i];
+        player.play();
+    }
+    _queuedAnimations = [];
+}
+//# sourceMappingURL=animation_queue.js.map
 
 /***/ },
 
@@ -25337,7 +25137,7 @@ var AnimationSequencePlayer = (function () {
             return;
         if (this._players.length == 0) {
             this._activePlayer = new __WEBPACK_IMPORTED_MODULE_1__animation_player__["a" /* NoOpAnimationPlayer */]();
-            __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__facade_lang__["s" /* scheduleMicroTask */])(function () { return _this._onFinish(); });
+            __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__facade_lang__["r" /* scheduleMicroTask */])(function () { return _this._onFinish(); });
         }
         else if (this._currentIndex >= this._players.length) {
             this._activePlayer = new __WEBPACK_IMPORTED_MODULE_1__animation_player__["a" /* NoOpAnimationPlayer */]();
@@ -25355,7 +25155,7 @@ var AnimationSequencePlayer = (function () {
     AnimationSequencePlayer.prototype._onFinish = function () {
         if (!this._finished) {
             this._finished = true;
-            if (!__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__facade_lang__["g" /* isPresent */])(this.parentPlayer)) {
+            if (!__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__facade_lang__["e" /* isPresent */])(this.parentPlayer)) {
                 this.destroy();
             }
             this._onDoneFns.forEach(function (fn) { return fn(); });
@@ -25367,7 +25167,7 @@ var AnimationSequencePlayer = (function () {
     AnimationSequencePlayer.prototype.onDone = function (fn) { this._onDoneFns.push(fn); };
     AnimationSequencePlayer.prototype.hasStarted = function () { return this._started; };
     AnimationSequencePlayer.prototype.play = function () {
-        if (!__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__facade_lang__["g" /* isPresent */])(this.parentPlayer)) {
+        if (!__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__facade_lang__["e" /* isPresent */])(this.parentPlayer)) {
             this.init();
         }
         if (!this.hasStarted()) {
@@ -25433,7 +25233,7 @@ function prepareFinalAnimationStyles(previousStyles, newStyles, nullValue) {
         finalStyles[prop] = value == __WEBPACK_IMPORTED_MODULE_3__metadata__["a" /* AUTO_STYLE */] ? nullValue : value.toString();
     });
     __WEBPACK_IMPORTED_MODULE_0__facade_collection__["f" /* StringMapWrapper */].forEach(previousStyles, function (value, prop) {
-        if (!__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["g" /* isPresent */])(finalStyles[prop])) {
+        if (!__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["e" /* isPresent */])(finalStyles[prop])) {
             finalStyles[prop] = nullValue;
         }
     });
@@ -25463,7 +25263,7 @@ function balanceAnimationKeyframes(collectedStyles, finalStateStyles, keyframes)
     var extraFinalKeyframeStyles = {};
     var hasExtraFinalStyles = false;
     __WEBPACK_IMPORTED_MODULE_0__facade_collection__["f" /* StringMapWrapper */].forEach(keyframeCollectedStyles, function (value, prop) {
-        if (!__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["g" /* isPresent */])(flatenedFinalKeyframeStyles[prop])) {
+        if (!__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["e" /* isPresent */])(flatenedFinalKeyframeStyles[prop])) {
             extraFinalKeyframeStyles[prop] = __WEBPACK_IMPORTED_MODULE_3__metadata__["a" /* AUTO_STYLE */];
             hasExtraFinalStyles = true;
         }
@@ -25472,7 +25272,7 @@ function balanceAnimationKeyframes(collectedStyles, finalStateStyles, keyframes)
         finalKeyframe.styles.styles.push(extraFinalKeyframeStyles);
     }
     __WEBPACK_IMPORTED_MODULE_0__facade_collection__["f" /* StringMapWrapper */].forEach(flatenedFinalKeyframeStyles, function (value, prop) {
-        if (!__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["g" /* isPresent */])(flatenedFirstKeyframeStyles[prop])) {
+        if (!__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["e" /* isPresent */])(flatenedFirstKeyframeStyles[prop])) {
             extraFirstKeyframeStyles[prop] = __WEBPACK_IMPORTED_MODULE_3__metadata__["a" /* AUTO_STYLE */];
             hasExtraFirstStyles = true;
         }
@@ -25493,7 +25293,7 @@ function collectAndResolveStyles(collection, styles) {
         __WEBPACK_IMPORTED_MODULE_0__facade_collection__["f" /* StringMapWrapper */].forEach(entry, function (value, prop) {
             if (value == __WEBPACK_IMPORTED_MODULE_2__animation_constants__["a" /* FILL_STYLE_FLAG */]) {
                 value = collection[prop];
-                if (!__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["g" /* isPresent */])(value)) {
+                if (!__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["e" /* isPresent */])(value)) {
                     value = __WEBPACK_IMPORTED_MODULE_3__metadata__["a" /* AUTO_STYLE */];
                 }
             }
@@ -25806,7 +25606,7 @@ var AnimationGroupMetadata = (function (_super) {
  * `animate` is an animation-specific function that is designed to be used inside of Angular2's
  * animation
  * DSL language. If this information is new, please navigate to the
- * {@link ComponentMetadata#animations-anchor component animations metadata
+ * {@link Component#animations-anchor component animations metadata
  * page} to gain a better understanding of how animations in Angular2 are used.
  *
  * `animate` specifies an animation step that will apply the provided `styles` data for a given
@@ -25857,7 +25657,7 @@ var AnimationGroupMetadata = (function (_super) {
 function animate(timing, styles) {
     if (styles === void 0) { styles = null; }
     var stylesEntry = styles;
-    if (!__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__facade_lang__["g" /* isPresent */])(stylesEntry)) {
+    if (!__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__facade_lang__["e" /* isPresent */])(stylesEntry)) {
         var EMPTY_STYLE = {};
         stylesEntry = new AnimationStyleMetadata([EMPTY_STYLE], 1);
     }
@@ -25867,7 +25667,7 @@ function animate(timing, styles) {
  * `group` is an animation-specific function that is designed to be used inside of Angular2's
  * animation
  * DSL language. If this information is new, please navigate to the
- * {@link ComponentMetadata#animations-anchor component animations metadata
+ * {@link Component#animations-anchor component animations metadata
  * page} to gain a better understanding of how animations in Angular2 are used.
  *
  * `group` specifies a list of animation steps that are all run in parallel. Grouped animations
@@ -25908,7 +25708,7 @@ function group(steps) {
  * `sequence` is an animation-specific function that is designed to be used inside of Angular2's
  * animation
  * DSL language. If this information is new, please navigate to the
- * {@link ComponentMetadata#animations-anchor component animations metadata
+ * {@link Component#animations-anchor component animations metadata
  * page} to gain a better understanding of how animations in Angular2 are used.
  *
  * `sequence` Specifies a list of animation steps that are run one by one. (`sequence` is used
@@ -25950,7 +25750,7 @@ function sequence(steps) {
  * `style` is an animation-specific function that is designed to be used inside of Angular2's
  * animation
  * DSL language. If this information is new, please navigate to the
- * {@link ComponentMetadata#animations-anchor component animations metadata
+ * {@link Component#animations-anchor component animations metadata
  * page} to gain a better understanding of how animations in Angular2 are used.
  *
  * `style` declares a key/value object containing CSS properties/styles that can then
@@ -25996,11 +25796,11 @@ function sequence(steps) {
 function style(tokens) {
     var input;
     var offset = null;
-    if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__facade_lang__["d" /* isString */])(tokens)) {
+    if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__facade_lang__["s" /* isString */])(tokens)) {
         input = [tokens];
     }
     else {
-        if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__facade_lang__["h" /* isArray */])(tokens)) {
+        if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__facade_lang__["f" /* isArray */])(tokens)) {
             input = tokens;
         }
         else {
@@ -26008,8 +25808,8 @@ function style(tokens) {
         }
         input.forEach(function (entry) {
             var entryOffset = entry['offset'];
-            if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__facade_lang__["g" /* isPresent */])(entryOffset)) {
-                offset = offset == null ? __WEBPACK_IMPORTED_MODULE_0__facade_lang__["t" /* NumberWrapper */].parseFloat(entryOffset) : offset;
+            if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__facade_lang__["e" /* isPresent */])(entryOffset)) {
+                offset = offset == null ? parseFloat(entryOffset) : offset;
             }
         });
     }
@@ -26019,7 +25819,7 @@ function style(tokens) {
  * `state` is an animation-specific function that is designed to be used inside of Angular2's
  * animation
  * DSL language. If this information is new, please navigate to the
- * {@link ComponentMetadata#animations-anchor component animations metadata
+ * {@link Component#animations-anchor component animations metadata
  * page} to gain a better understanding of how animations in Angular2 are used.
  *
  * `state` declares an animation state within the given trigger. When a state is
@@ -26076,7 +25876,7 @@ function state(stateNameExpr, styles) {
  * `keyframes` is an animation-specific function that is designed to be used inside of Angular2's
  * animation
  * DSL language. If this information is new, please navigate to the
- * {@link ComponentMetadata#animations-anchor component animations metadata
+ * {@link Component#animations-anchor component animations metadata
  * page} to gain a better understanding of how animations in Angular2 are used.
  *
  * `keyframes` specifies a collection of {@link style style} entries each optionally characterized
@@ -26128,7 +25928,7 @@ function keyframes(steps) {
  * `transition` is an animation-specific function that is designed to be used inside of Angular2's
  * animation
  * DSL language. If this information is new, please navigate to the
- * {@link ComponentMetadata#animations-anchor component animations metadata
+ * {@link Component#animations-anchor component animations metadata
  * page} to gain a better understanding of how animations in Angular2 are used.
  *
  * `transition` declares the {@link sequence sequence of animation steps} that will be run when the
@@ -26213,7 +26013,7 @@ function keyframes(steps) {
  * @experimental Animation support is experimental.
  */
 function transition(stateChangeExpr, steps) {
-    var animationData = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__facade_lang__["h" /* isArray */])(steps) ? new AnimationSequenceMetadata(steps) :
+    var animationData = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__facade_lang__["f" /* isArray */])(steps) ? new AnimationSequenceMetadata(steps) :
         steps;
     return new AnimationStateTransitionMetadata(stateChangeExpr, animationData);
 }
@@ -26221,7 +26021,7 @@ function transition(stateChangeExpr, steps) {
  * `trigger` is an animation-specific function that is designed to be used inside of Angular2's
  * animation
  * DSL language. If this information is new, please navigate to the
- * {@link ComponentMetadata#animations-anchor component animations metadata
+ * {@link Component#animations-anchor component animations metadata
  * page} to gain a better understanding of how animations in Angular2 are used.
  *
  * `trigger` Creates an animation trigger which will a list of {@link state state} and {@link
@@ -26229,7 +26029,7 @@ function transition(stateChangeExpr, steps) {
  * entries that will be evaluated when the expression bound to the trigger changes.
  *
  * Triggers are registered within the component annotation data under the
- * {@link ComponentMetadata#animations-anchor animations section}. An animation trigger can
+ * {@link Component#animations-anchor animations section}. An animation trigger can
  * be placed on an element within a template by referencing the name of the
  * trigger followed by the expression value that the trigger is bound to
  * (in the form of `[@triggerName]="expression"`.
@@ -26308,7 +26108,7 @@ var ViewAnimationMap = (function () {
     });
     ViewAnimationMap.prototype.find = function (element, animationName) {
         var playersByAnimation = this._map.get(element);
-        if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["g" /* isPresent */])(playersByAnimation)) {
+        if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["e" /* isPresent */])(playersByAnimation)) {
             return playersByAnimation[animationName];
         }
     };
@@ -26318,11 +26118,11 @@ var ViewAnimationMap = (function () {
     };
     ViewAnimationMap.prototype.set = function (element, animationName, player) {
         var playersByAnimation = this._map.get(element);
-        if (!__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["g" /* isPresent */])(playersByAnimation)) {
+        if (!__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["e" /* isPresent */])(playersByAnimation)) {
             playersByAnimation = {};
         }
         var existingEntry = playersByAnimation[animationName];
-        if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["g" /* isPresent */])(existingEntry)) {
+        if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["e" /* isPresent */])(existingEntry)) {
             this.remove(element, animationName);
         }
         playersByAnimation[animationName] = player;
@@ -26332,7 +26132,7 @@ var ViewAnimationMap = (function () {
     ViewAnimationMap.prototype.getAllPlayers = function () { return this._allPlayers; };
     ViewAnimationMap.prototype.remove = function (element, animationName) {
         var playersByAnimation = this._map.get(element);
-        if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["g" /* isPresent */])(playersByAnimation)) {
+        if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["e" /* isPresent */])(playersByAnimation)) {
             var player = playersByAnimation[animationName];
             delete playersByAnimation[animationName];
             var index = this._allPlayers.indexOf(player);
@@ -26369,7 +26169,7 @@ var ViewAnimationMap = (function () {
  * A function that will be executed when an application is initialized.
  * @experimental
  */
-var APP_INITIALIZER = new __WEBPACK_IMPORTED_MODULE_1__di__["b" /* OpaqueToken */]('Application Initializer');
+var APP_INITIALIZER = new __WEBPACK_IMPORTED_MODULE_1__di__["a" /* OpaqueToken */]('Application Initializer');
 /**
  * A class that reflects the state of running {@link APP_INITIALIZER}s.
  *
@@ -26383,7 +26183,7 @@ var ApplicationInitStatus = (function () {
         if (appInits) {
             for (var i = 0; i < appInits.length; i++) {
                 var initResult = appInits[i]();
-                if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__src_facade_lang__["k" /* isPromise */])(initResult)) {
+                if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__src_facade_lang__["i" /* isPromise */])(initResult)) {
                     asyncInitPromises.push(initResult);
                 }
             }
@@ -26404,11 +26204,11 @@ var ApplicationInitStatus = (function () {
         configurable: true
     });
     ApplicationInitStatus.decorators = [
-        { type: __WEBPACK_IMPORTED_MODULE_1__di__["c" /* Injectable */] },
+        { type: __WEBPACK_IMPORTED_MODULE_1__di__["b" /* Injectable */] },
     ];
     /** @nocollapse */
     ApplicationInitStatus.ctorParameters = [
-        { type: Array, decorators: [{ type: __WEBPACK_IMPORTED_MODULE_1__di__["d" /* Inject */], args: [APP_INITIALIZER,] }, { type: __WEBPACK_IMPORTED_MODULE_1__di__["e" /* Optional */] },] },
+        { type: Array, decorators: [{ type: __WEBPACK_IMPORTED_MODULE_1__di__["c" /* Inject */], args: [APP_INITIALIZER,] }, { type: __WEBPACK_IMPORTED_MODULE_1__di__["d" /* Optional */] },] },
     ];
     return ApplicationInitStatus;
 }());
@@ -26577,12 +26377,12 @@ function isDevMode() {
  * @experimental APIs related to application bootstrap are currently under review.
  */
 function createPlatform(injector) {
-    if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_3__src_facade_lang__["g" /* isPresent */])(_platform) && !_platform.destroyed) {
+    if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_3__src_facade_lang__["e" /* isPresent */])(_platform) && !_platform.destroyed) {
         throw new Error('There can be only one platform. Destroy the previous one to create a new one.');
     }
     _platform = injector.get(PlatformRef);
     var inits = injector.get(__WEBPACK_IMPORTED_MODULE_5__application_tokens__["b" /* PLATFORM_INITIALIZER */], null);
-    if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_3__src_facade_lang__["g" /* isPresent */])(inits))
+    if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_3__src_facade_lang__["e" /* isPresent */])(inits))
         inits.forEach(function (init) { return init(); });
     return _platform;
 }
@@ -26593,7 +26393,7 @@ function createPlatform(injector) {
  */
 function createPlatformFactory(parentPlaformFactory, name, providers) {
     if (providers === void 0) { providers = []; }
-    var marker = new __WEBPACK_IMPORTED_MODULE_7__di__["b" /* OpaqueToken */]("Platform: " + name);
+    var marker = new __WEBPACK_IMPORTED_MODULE_7__di__["a" /* OpaqueToken */]("Platform: " + name);
     return function (extraProviders) {
         if (extraProviders === void 0) { extraProviders = []; }
         if (!getPlatform()) {
@@ -26601,7 +26401,7 @@ function createPlatformFactory(parentPlaformFactory, name, providers) {
                 parentPlaformFactory(providers.concat(extraProviders).concat({ provide: marker, useValue: true }));
             }
             else {
-                createPlatform(__WEBPACK_IMPORTED_MODULE_7__di__["h" /* ReflectiveInjector */].resolveAndCreate(providers.concat(extraProviders).concat({ provide: marker, useValue: true })));
+                createPlatform(__WEBPACK_IMPORTED_MODULE_7__di__["f" /* ReflectiveInjector */].resolveAndCreate(providers.concat(extraProviders).concat({ provide: marker, useValue: true })));
             }
         }
         return assertPlatform(marker);
@@ -26615,10 +26415,10 @@ function createPlatformFactory(parentPlaformFactory, name, providers) {
  */
 function assertPlatform(requiredToken) {
     var platform = getPlatform();
-    if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_3__src_facade_lang__["f" /* isBlank */])(platform)) {
+    if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_3__src_facade_lang__["d" /* isBlank */])(platform)) {
         throw new Error('No platform exists!');
     }
-    if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_3__src_facade_lang__["g" /* isPresent */])(platform) && __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_3__src_facade_lang__["f" /* isBlank */])(platform.injector.get(requiredToken, null))) {
+    if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_3__src_facade_lang__["e" /* isPresent */])(platform) && __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_3__src_facade_lang__["d" /* isBlank */])(platform.injector.get(requiredToken, null))) {
         throw new Error('A platform with a different configuration has been created. Please destroy it first.');
     }
     return platform;
@@ -26629,7 +26429,7 @@ function assertPlatform(requiredToken) {
  * @experimental APIs related to application bootstrap are currently under review.
  */
 function destroyPlatform() {
-    if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_3__src_facade_lang__["g" /* isPresent */])(_platform) && !_platform.destroyed) {
+    if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_3__src_facade_lang__["e" /* isPresent */])(_platform) && !_platform.destroyed) {
         _platform.destroy();
     }
 }
@@ -26639,7 +26439,7 @@ function destroyPlatform() {
  * @experimental APIs related to application bootstrap are currently under review.
  */
 function getPlatform() {
-    return __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_3__src_facade_lang__["g" /* isPresent */])(_platform) && !_platform.destroyed ? _platform : null;
+    return __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_3__src_facade_lang__["e" /* isPresent */])(_platform) && !_platform.destroyed ? _platform : null;
 }
 /**
  * The Angular platform is the entry point for Angular on a web page. Each page
@@ -26719,7 +26519,7 @@ var PlatformRef = (function () {
 function _callAndReportToErrorHandler(errorHandler, callback) {
     try {
         var result = callback();
-        if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_3__src_facade_lang__["k" /* isPromise */])(result)) {
+        if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_3__src_facade_lang__["i" /* isPromise */])(result)) {
             return result.catch(function (e) {
                 errorHandler.handleError(e);
                 // rethrow as the exception handler might not do it
@@ -26778,7 +26578,7 @@ var PlatformRef_ = (function (_super) {
         // Attention: Don't use ApplicationRef.run here,
         // as we want to be sure that all possible constructor calls are inside `ngZone.run`!
         return ngZone.run(function () {
-            var ngZoneInjector = __WEBPACK_IMPORTED_MODULE_7__di__["h" /* ReflectiveInjector */].resolveAndCreate([{ provide: __WEBPACK_IMPORTED_MODULE_13__zone_ng_zone__["a" /* NgZone */], useValue: ngZone }], _this.injector);
+            var ngZoneInjector = __WEBPACK_IMPORTED_MODULE_7__di__["f" /* ReflectiveInjector */].resolveAndCreate([{ provide: __WEBPACK_IMPORTED_MODULE_13__zone_ng_zone__["a" /* NgZone */], useValue: ngZone }], _this.injector);
             var moduleRef = moduleFactory.create(ngZoneInjector);
             var exceptionHandler = moduleRef.injector.get(__WEBPACK_IMPORTED_MODULE_0__src_error_handler__["a" /* ErrorHandler */], null);
             if (!exceptionHandler) {
@@ -26827,16 +26627,16 @@ var PlatformRef_ = (function (_super) {
             moduleRef.instance.ngDoBootstrap(appRef);
         }
         else {
-            throw new Error(("The module " + __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_3__src_facade_lang__["a" /* stringify */])(moduleRef.instance.constructor) + " was bootstrapped, but it does not declare \"@NgModule.bootstrap\" components nor a \"ngDoBootstrap\" method. ") +
+            throw new Error(("The module " + __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_3__src_facade_lang__["b" /* stringify */])(moduleRef.instance.constructor) + " was bootstrapped, but it does not declare \"@NgModule.bootstrap\" components nor a \"ngDoBootstrap\" method. ") +
                 "Please define one of these.");
         }
     };
     PlatformRef_.decorators = [
-        { type: __WEBPACK_IMPORTED_MODULE_7__di__["c" /* Injectable */] },
+        { type: __WEBPACK_IMPORTED_MODULE_7__di__["b" /* Injectable */] },
     ];
     /** @nocollapse */
     PlatformRef_.ctorParameters = [
-        { type: __WEBPACK_IMPORTED_MODULE_7__di__["i" /* Injector */], },
+        { type: __WEBPACK_IMPORTED_MODULE_7__di__["g" /* Injector */], },
     ];
     return PlatformRef_;
 }(PlatformRef));
@@ -26915,7 +26715,7 @@ var ApplicationRef_ = (function (_super) {
         var compRef = componentFactory.create(this._injector, [], componentFactory.selector);
         compRef.onDestroy(function () { _this._unloadComponent(compRef); });
         var testability = compRef.injector.get(__WEBPACK_IMPORTED_MODULE_12__testability_testability__["a" /* Testability */], null);
-        if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_3__src_facade_lang__["g" /* isPresent */])(testability)) {
+        if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_3__src_facade_lang__["e" /* isPresent */])(testability)) {
             compRef.injector.get(__WEBPACK_IMPORTED_MODULE_12__testability_testability__["b" /* TestabilityRegistry */])
                 .registerApplication(compRef.location.nativeElement, testability);
         }
@@ -26977,18 +26777,18 @@ var ApplicationRef_ = (function (_super) {
     /** @internal */
     ApplicationRef_._tickScope = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_11__profile_profile__["a" /* wtfCreateScope */])('ApplicationRef#tick()');
     ApplicationRef_.decorators = [
-        { type: __WEBPACK_IMPORTED_MODULE_7__di__["c" /* Injectable */] },
+        { type: __WEBPACK_IMPORTED_MODULE_7__di__["b" /* Injectable */] },
     ];
     /** @nocollapse */
     ApplicationRef_.ctorParameters = [
         { type: __WEBPACK_IMPORTED_MODULE_13__zone_ng_zone__["a" /* NgZone */], },
         { type: __WEBPACK_IMPORTED_MODULE_6__console__["a" /* Console */], },
-        { type: __WEBPACK_IMPORTED_MODULE_7__di__["i" /* Injector */], },
+        { type: __WEBPACK_IMPORTED_MODULE_7__di__["g" /* Injector */], },
         { type: __WEBPACK_IMPORTED_MODULE_0__src_error_handler__["a" /* ErrorHandler */], },
         { type: __WEBPACK_IMPORTED_MODULE_10__linker_component_factory_resolver__["a" /* ComponentFactoryResolver */], },
         { type: __WEBPACK_IMPORTED_MODULE_4__application_init__["a" /* ApplicationInitStatus */], },
-        { type: __WEBPACK_IMPORTED_MODULE_12__testability_testability__["b" /* TestabilityRegistry */], decorators: [{ type: __WEBPACK_IMPORTED_MODULE_7__di__["e" /* Optional */] },] },
-        { type: __WEBPACK_IMPORTED_MODULE_12__testability_testability__["a" /* Testability */], decorators: [{ type: __WEBPACK_IMPORTED_MODULE_7__di__["e" /* Optional */] },] },
+        { type: __WEBPACK_IMPORTED_MODULE_12__testability_testability__["b" /* TestabilityRegistry */], decorators: [{ type: __WEBPACK_IMPORTED_MODULE_7__di__["d" /* Optional */] },] },
+        { type: __WEBPACK_IMPORTED_MODULE_12__testability_testability__["a" /* Testability */], decorators: [{ type: __WEBPACK_IMPORTED_MODULE_7__di__["d" /* Optional */] },] },
     ];
     return ApplicationRef_;
 }(ApplicationRef));
@@ -27027,7 +26827,7 @@ var ApplicationRef_ = (function (_super) {
  * using this token.
  * @experimental
  */
-var APP_ID = new __WEBPACK_IMPORTED_MODULE_1__di__["b" /* OpaqueToken */]('AppId');
+var APP_ID = new __WEBPACK_IMPORTED_MODULE_1__di__["a" /* OpaqueToken */]('AppId');
 function _appIdRandomProviderFactory() {
     return "" + _randomChar() + _randomChar() + _randomChar();
 }
@@ -27041,13 +26841,13 @@ var APP_ID_RANDOM_PROVIDER = {
     deps: []
 };
 function _randomChar() {
-    return __WEBPACK_IMPORTED_MODULE_0__src_facade_lang__["e" /* StringWrapper */].fromCharCode(97 + __WEBPACK_IMPORTED_MODULE_0__src_facade_lang__["l" /* Math */].floor(__WEBPACK_IMPORTED_MODULE_0__src_facade_lang__["l" /* Math */].random() * 25));
+    return __WEBPACK_IMPORTED_MODULE_0__src_facade_lang__["j" /* StringWrapper */].fromCharCode(97 + __WEBPACK_IMPORTED_MODULE_0__src_facade_lang__["k" /* Math */].floor(__WEBPACK_IMPORTED_MODULE_0__src_facade_lang__["k" /* Math */].random() * 25));
 }
 /**
  * A function that will be executed when a platform is initialized.
  * @experimental
  */
-var PLATFORM_INITIALIZER = new __WEBPACK_IMPORTED_MODULE_1__di__["b" /* OpaqueToken */]('Platform Initializer');
+var PLATFORM_INITIALIZER = new __WEBPACK_IMPORTED_MODULE_1__di__["a" /* OpaqueToken */]('Platform Initializer');
 /**
  * All callbacks provided via this token will be called for every component that is bootstrapped.
  * Signature of the callback:
@@ -27056,12 +26856,12 @@ var PLATFORM_INITIALIZER = new __WEBPACK_IMPORTED_MODULE_1__di__["b" /* OpaqueTo
  *
  * @experimental
  */
-var APP_BOOTSTRAP_LISTENER = new __WEBPACK_IMPORTED_MODULE_1__di__["b" /* OpaqueToken */]('appBootstrapListener');
+var APP_BOOTSTRAP_LISTENER = new __WEBPACK_IMPORTED_MODULE_1__di__["a" /* OpaqueToken */]('appBootstrapListener');
 /**
  * A token which indicates the root directory of the application
  * @experimental
  */
-var PACKAGE_ROOT_URL = new __WEBPACK_IMPORTED_MODULE_1__di__["b" /* OpaqueToken */]('Application Packages Root URL');
+var PACKAGE_ROOT_URL = new __WEBPACK_IMPORTED_MODULE_1__di__["a" /* OpaqueToken */]('Application Packages Root URL');
 //# sourceMappingURL=application_tokens.js.map
 
 /***/ },
@@ -27075,11 +26875,11 @@ var PACKAGE_ROOT_URL = new __WEBPACK_IMPORTED_MODULE_1__di__["b" /* OpaqueToken 
 /* harmony reexport (binding) */ __webpack_require__.d(exports, "b", function() { return __WEBPACK_IMPORTED_MODULE_0__change_detection_change_detection__["h"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(exports, "g", function() { return __WEBPACK_IMPORTED_MODULE_0__change_detection_change_detection__["k"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(exports, "h", function() { return __WEBPACK_IMPORTED_MODULE_0__change_detection_change_detection__["l"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(exports, "e", function() { return __WEBPACK_IMPORTED_MODULE_0__change_detection_change_detection__["d"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(exports, "d", function() { return __WEBPACK_IMPORTED_MODULE_0__change_detection_change_detection__["d"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(exports, "i", function() { return __WEBPACK_IMPORTED_MODULE_0__change_detection_change_detection__["m"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(exports, "f", function() { return __WEBPACK_IMPORTED_MODULE_0__change_detection_change_detection__["e"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(exports, "e", function() { return __WEBPACK_IMPORTED_MODULE_0__change_detection_change_detection__["e"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(exports, "c", function() { return __WEBPACK_IMPORTED_MODULE_0__change_detection_change_detection__["i"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(exports, "d", function() { return __WEBPACK_IMPORTED_MODULE_0__change_detection_change_detection__["j"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(exports, "f", function() { return __WEBPACK_IMPORTED_MODULE_0__change_detection_change_detection__["j"]; });
 /**
  * @license
  * Copyright Google Inc. All Rights Reserved.
@@ -27192,15 +26992,15 @@ function devModeEqual(a, b) {
     if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__facade_collection__["g" /* isListLikeIterable */])(a) && __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__facade_collection__["g" /* isListLikeIterable */])(b)) {
         return __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__facade_collection__["i" /* areIterablesEqual */])(a, b, devModeEqual);
     }
-    else if (!__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__facade_collection__["g" /* isListLikeIterable */])(a) && !__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["r" /* isPrimitive */])(a) && !__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__facade_collection__["g" /* isListLikeIterable */])(b) && !__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["r" /* isPrimitive */])(b)) {
+    else if (!__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__facade_collection__["g" /* isListLikeIterable */])(a) && !__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["q" /* isPrimitive */])(a) && !__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__facade_collection__["g" /* isListLikeIterable */])(b) && !__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["q" /* isPrimitive */])(b)) {
         return true;
     }
     else {
-        return __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["o" /* looseIdentical */])(a, b);
+        return __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["n" /* looseIdentical */])(a, b);
     }
 }
 /**
- * Indicates that the result of a {@link PipeMetadata} transformation has changed even though the
+ * Indicates that the result of a {@link Pipe} transformation has changed even though the
  * reference
  * has not changed.
  *
@@ -27374,7 +27174,7 @@ var CHANGE_DETECTOR_STATUS_VALUES = [
     ChangeDetectorStatus.Destroyed,
 ];
 function isDefaultChangeDetectionStrategy(changeDetectionStrategy) {
-    return __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__facade_lang__["f" /* isBlank */])(changeDetectionStrategy) ||
+    return __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__facade_lang__["d" /* isBlank */])(changeDetectionStrategy) ||
         changeDetectionStrategy === ChangeDetectionStrategy.Default;
 }
 //# sourceMappingURL=constants.js.map
@@ -27433,7 +27233,7 @@ var DefaultIterableDiffer = (function () {
         // Keeps track of records where custom track by is the same, but item identity has changed
         this._identityChangesHead = null;
         this._identityChangesTail = null;
-        this._trackByFn = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["g" /* isPresent */])(this._trackByFn) ? this._trackByFn : trackByIdentity;
+        this._trackByFn = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["e" /* isPresent */])(this._trackByFn) ? this._trackByFn : trackByIdentity;
     }
     Object.defineProperty(DefaultIterableDiffer.prototype, "collection", {
         get: function () { return this._collection; },
@@ -27531,7 +27331,7 @@ var DefaultIterableDiffer = (function () {
         }
     };
     DefaultIterableDiffer.prototype.diff = function (collection) {
-        if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["f" /* isBlank */])(collection))
+        if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["d" /* isBlank */])(collection))
             collection = [];
         if (!__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__facade_collection__["g" /* isListLikeIterable */])(collection)) {
             throw new Error("Error trying to diff '" + collection + "'");
@@ -27553,13 +27353,13 @@ var DefaultIterableDiffer = (function () {
         var index;
         var item;
         var itemTrackBy;
-        if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["h" /* isArray */])(collection)) {
+        if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["f" /* isArray */])(collection)) {
             var list = collection;
             this._length = collection.length;
             for (index = 0; index < this._length; index++) {
                 item = list[index];
                 itemTrackBy = this._trackByFn(index, item);
-                if (record === null || !__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["o" /* looseIdentical */])(record.trackById, itemTrackBy)) {
+                if (record === null || !__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["n" /* looseIdentical */])(record.trackById, itemTrackBy)) {
                     record = this._mismatch(record, item, itemTrackBy, index);
                     mayBeDirty = true;
                 }
@@ -27568,7 +27368,7 @@ var DefaultIterableDiffer = (function () {
                         // TODO(misko): can we limit this to duplicates only?
                         record = this._verifyReinsertion(record, item, itemTrackBy, index);
                     }
-                    if (!__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["o" /* looseIdentical */])(record.item, item))
+                    if (!__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["n" /* looseIdentical */])(record.item, item))
                         this._addIdentityChange(record, item);
                 }
                 record = record._next;
@@ -27578,7 +27378,7 @@ var DefaultIterableDiffer = (function () {
             index = 0;
             __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__facade_collection__["h" /* iterateListLike */])(collection, function (item /** TODO #9100 */) {
                 itemTrackBy = _this._trackByFn(index, item);
-                if (record === null || !__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["o" /* looseIdentical */])(record.trackById, itemTrackBy)) {
+                if (record === null || !__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["n" /* looseIdentical */])(record.trackById, itemTrackBy)) {
                     record = _this._mismatch(record, item, itemTrackBy, index);
                     mayBeDirty = true;
                 }
@@ -27587,7 +27387,7 @@ var DefaultIterableDiffer = (function () {
                         // TODO(misko): can we limit this to duplicates only?
                         record = _this._verifyReinsertion(record, item, itemTrackBy, index);
                     }
-                    if (!__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["o" /* looseIdentical */])(record.item, item))
+                    if (!__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["n" /* looseIdentical */])(record.item, item))
                         _this._addIdentityChange(record, item);
                 }
                 record = record._next;
@@ -27664,7 +27464,7 @@ var DefaultIterableDiffer = (function () {
         if (record !== null) {
             // We have seen this before, we need to move it forward in the collection.
             // But first we need to check if identity changed, so we can update in view if necessary
-            if (!__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["o" /* looseIdentical */])(record.item, item))
+            if (!__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["n" /* looseIdentical */])(record.item, item))
                 this._addIdentityChange(record, item);
             this._moveAfter(record, previousRecord, index);
         }
@@ -27674,7 +27474,7 @@ var DefaultIterableDiffer = (function () {
             if (record !== null) {
                 // It is an item which we have evicted earlier: reinsert it back into the list.
                 // But first we need to check if identity changed, so we can update in view if necessary
-                if (!__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["o" /* looseIdentical */])(record.item, item))
+                if (!__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["n" /* looseIdentical */])(record.item, item))
                     this._addIdentityChange(record, item);
                 this._reinsertAfter(record, previousRecord, index);
             }
@@ -27968,9 +27768,9 @@ var CollectionChangeRecord = (function () {
         this._nextIdentityChange = null;
     }
     CollectionChangeRecord.prototype.toString = function () {
-        return this.previousIndex === this.currentIndex ? __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["a" /* stringify */])(this.item) :
-            __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["a" /* stringify */])(this.item) + '[' +
-                __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["a" /* stringify */])(this.previousIndex) + '->' + __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["a" /* stringify */])(this.currentIndex) + ']';
+        return this.previousIndex === this.currentIndex ? __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["b" /* stringify */])(this.item) :
+            __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["b" /* stringify */])(this.item) + '[' +
+                __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["b" /* stringify */])(this.previousIndex) + '->' + __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["b" /* stringify */])(this.currentIndex) + ']';
     };
     return CollectionChangeRecord;
 }());
@@ -28009,7 +27809,7 @@ var _DuplicateItemRecordList = (function () {
         var record;
         for (record = this._head; record !== null; record = record._nextDup) {
             if ((afterIndex === null || afterIndex < record.currentIndex) &&
-                __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["o" /* looseIdentical */])(record.trackById, trackById)) {
+                __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["n" /* looseIdentical */])(record.trackById, trackById)) {
                 return record;
             }
         }
@@ -28053,9 +27853,9 @@ var _DuplicateMap = (function () {
     }
     _DuplicateMap.prototype.put = function (record) {
         // todo(vicb) handle corner cases
-        var key = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["p" /* getMapKey */])(record.trackById);
+        var key = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["o" /* getMapKey */])(record.trackById);
         var duplicates = this.map.get(key);
-        if (!__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["g" /* isPresent */])(duplicates)) {
+        if (!__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["e" /* isPresent */])(duplicates)) {
             duplicates = new _DuplicateItemRecordList();
             this.map.set(key, duplicates);
         }
@@ -28070,9 +27870,9 @@ var _DuplicateMap = (function () {
      */
     _DuplicateMap.prototype.get = function (trackById, afterIndex) {
         if (afterIndex === void 0) { afterIndex = null; }
-        var key = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["p" /* getMapKey */])(trackById);
+        var key = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["o" /* getMapKey */])(trackById);
         var recordList = this.map.get(key);
-        return __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["f" /* isBlank */])(recordList) ? null : recordList.get(trackById, afterIndex);
+        return __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["d" /* isBlank */])(recordList) ? null : recordList.get(trackById, afterIndex);
     };
     /**
      * Removes a {@link CollectionChangeRecord} from the list of duplicates.
@@ -28080,7 +27880,7 @@ var _DuplicateMap = (function () {
      * The list of duplicates also is removed from the map if it gets empty.
      */
     _DuplicateMap.prototype.remove = function (record) {
-        var key = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["p" /* getMapKey */])(record.trackById);
+        var key = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["o" /* getMapKey */])(record.trackById);
         // todo(vicb)
         // assert(this.map.containsKey(key));
         var recordList = this.map.get(key);
@@ -28096,7 +27896,7 @@ var _DuplicateMap = (function () {
         configurable: true
     });
     _DuplicateMap.prototype.clear = function () { this.map.clear(); };
-    _DuplicateMap.prototype.toString = function () { return '_DuplicateMap(' + __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["a" /* stringify */])(this.map) + ')'; };
+    _DuplicateMap.prototype.toString = function () { return '_DuplicateMap(' + __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["b" /* stringify */])(this.map) + ')'; };
     return _DuplicateMap;
 }());
 function getPreviousIndex(item, addRemoveOffset, moveOffsets) {
@@ -28134,7 +27934,7 @@ function getPreviousIndex(item, addRemoveOffset, moveOffsets) {
 var DefaultKeyValueDifferFactory = (function () {
     function DefaultKeyValueDifferFactory() {
     }
-    DefaultKeyValueDifferFactory.prototype.supports = function (obj) { return obj instanceof Map || __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["i" /* isJsObject */])(obj); };
+    DefaultKeyValueDifferFactory.prototype.supports = function (obj) { return obj instanceof Map || __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["g" /* isJsObject */])(obj); };
     DefaultKeyValueDifferFactory.prototype.create = function (cdRef) { return new DefaultKeyValueDiffer(); };
     return DefaultKeyValueDifferFactory;
 }());
@@ -28192,7 +27992,7 @@ var DefaultKeyValueDiffer = (function () {
         if (!map) {
             map = new Map();
         }
-        else if (!(map instanceof Map || __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["i" /* isJsObject */])(map))) {
+        else if (!(map instanceof Map || __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["g" /* isJsObject */])(map))) {
             throw new Error("Error trying to diff '" + map + "'");
         }
         return this.check(map) ? this : null;
@@ -28287,7 +28087,7 @@ var DefaultKeyValueDiffer = (function () {
         }
     };
     DefaultKeyValueDiffer.prototype._maybeAddToChanges = function (record, newValue) {
-        if (!__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["o" /* looseIdentical */])(newValue, record.currentValue)) {
+        if (!__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["n" /* looseIdentical */])(newValue, record.currentValue)) {
             record.previousValue = record.currentValue;
             record.currentValue = newValue;
             this._addToChanges(record);
@@ -28366,19 +28166,19 @@ var DefaultKeyValueDiffer = (function () {
         var removals = [];
         var record;
         for (record = this._mapHead; record !== null; record = record._next) {
-            items.push(__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["a" /* stringify */])(record));
+            items.push(__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["b" /* stringify */])(record));
         }
         for (record = this._previousMapHead; record !== null; record = record._nextPrevious) {
-            previous.push(__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["a" /* stringify */])(record));
+            previous.push(__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["b" /* stringify */])(record));
         }
         for (record = this._changesHead; record !== null; record = record._nextChanged) {
-            changes.push(__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["a" /* stringify */])(record));
+            changes.push(__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["b" /* stringify */])(record));
         }
         for (record = this._additionsHead; record !== null; record = record._nextAdded) {
-            additions.push(__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["a" /* stringify */])(record));
+            additions.push(__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["b" /* stringify */])(record));
         }
         for (record = this._removalsHead; record !== null; record = record._nextRemoved) {
-            removals.push(__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["a" /* stringify */])(record));
+            removals.push(__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["b" /* stringify */])(record));
         }
         return 'map: ' + items.join(', ') + '\n' +
             'previous: ' + previous.join(', ') + '\n' +
@@ -28419,10 +28219,10 @@ var KeyValueChangeRecord = (function () {
         this._nextChanged = null;
     }
     KeyValueChangeRecord.prototype.toString = function () {
-        return __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["o" /* looseIdentical */])(this.previousValue, this.currentValue) ?
-            __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["a" /* stringify */])(this.key) :
-            (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["a" /* stringify */])(this.key) + '[' + __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["a" /* stringify */])(this.previousValue) + '->' +
-                __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["a" /* stringify */])(this.currentValue) + ']');
+        return __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["n" /* looseIdentical */])(this.previousValue, this.currentValue) ?
+            __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["b" /* stringify */])(this.key) :
+            (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["b" /* stringify */])(this.key) + '[' + __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["b" /* stringify */])(this.previousValue) + '->' +
+                __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["b" /* stringify */])(this.currentValue) + ']');
     };
     return KeyValueChangeRecord;
 }());
@@ -28457,7 +28257,7 @@ var IterableDiffers = (function () {
         this.factories = factories;
     }
     IterableDiffers.create = function (factories, parent) {
-        if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2__facade_lang__["g" /* isPresent */])(parent)) {
+        if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2__facade_lang__["e" /* isPresent */])(parent)) {
             var copied = __WEBPACK_IMPORTED_MODULE_1__facade_collection__["a" /* ListWrapper */].clone(parent.factories);
             factories = factories.concat(copied);
             return new IterableDiffers(factories);
@@ -28489,7 +28289,7 @@ var IterableDiffers = (function () {
         return {
             provide: IterableDiffers,
             useFactory: function (parent) {
-                if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2__facade_lang__["f" /* isBlank */])(parent)) {
+                if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2__facade_lang__["d" /* isBlank */])(parent)) {
                     // Typically would occur when calling IterableDiffers.extend inside of dependencies passed
                     // to
                     // bootstrap(), which would override default pipes instead of extending them.
@@ -28498,16 +28298,16 @@ var IterableDiffers = (function () {
                 return IterableDiffers.create(factories, parent);
             },
             // Dependency technically isn't optional, but we can provide a better error message this way.
-            deps: [[IterableDiffers, new __WEBPACK_IMPORTED_MODULE_0__di__["f" /* SkipSelfMetadata */](), new __WEBPACK_IMPORTED_MODULE_0__di__["g" /* OptionalMetadata */]()]]
+            deps: [[IterableDiffers, new __WEBPACK_IMPORTED_MODULE_0__di__["e" /* SkipSelf */](), new __WEBPACK_IMPORTED_MODULE_0__di__["d" /* Optional */]()]]
         };
     };
     IterableDiffers.prototype.find = function (iterable) {
         var factory = this.factories.find(function (f) { return f.supports(iterable); });
-        if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2__facade_lang__["g" /* isPresent */])(factory)) {
+        if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2__facade_lang__["e" /* isPresent */])(factory)) {
             return factory;
         }
         else {
-            throw new Error("Cannot find a differ supporting object '" + iterable + "' of type '" + __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2__facade_lang__["q" /* getTypeNameForDebugging */])(iterable) + "'");
+            throw new Error("Cannot find a differ supporting object '" + iterable + "' of type '" + __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2__facade_lang__["p" /* getTypeNameForDebugging */])(iterable) + "'");
         }
     };
     return IterableDiffers;
@@ -28543,7 +28343,7 @@ var KeyValueDiffers = (function () {
         this.factories = factories;
     }
     KeyValueDiffers.create = function (factories, parent) {
-        if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2__facade_lang__["g" /* isPresent */])(parent)) {
+        if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2__facade_lang__["e" /* isPresent */])(parent)) {
             var copied = __WEBPACK_IMPORTED_MODULE_1__facade_collection__["a" /* ListWrapper */].clone(parent.factories);
             factories = factories.concat(copied);
             return new KeyValueDiffers(factories);
@@ -28575,7 +28375,7 @@ var KeyValueDiffers = (function () {
         return {
             provide: KeyValueDiffers,
             useFactory: function (parent) {
-                if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2__facade_lang__["f" /* isBlank */])(parent)) {
+                if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2__facade_lang__["d" /* isBlank */])(parent)) {
                     // Typically would occur when calling KeyValueDiffers.extend inside of dependencies passed
                     // to
                     // bootstrap(), which would override default pipes instead of extending them.
@@ -28584,12 +28384,12 @@ var KeyValueDiffers = (function () {
                 return KeyValueDiffers.create(factories, parent);
             },
             // Dependency technically isn't optional, but we can provide a better error message this way.
-            deps: [[KeyValueDiffers, new __WEBPACK_IMPORTED_MODULE_0__di__["f" /* SkipSelfMetadata */](), new __WEBPACK_IMPORTED_MODULE_0__di__["g" /* OptionalMetadata */]()]]
+            deps: [[KeyValueDiffers, new __WEBPACK_IMPORTED_MODULE_0__di__["e" /* SkipSelf */](), new __WEBPACK_IMPORTED_MODULE_0__di__["d" /* Optional */]()]]
         };
     };
     KeyValueDiffers.prototype.find = function (kv) {
         var factory = this.factories.find(function (f) { return f.supports(kv); });
-        if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2__facade_lang__["g" /* isPresent */])(factory)) {
+        if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2__facade_lang__["e" /* isPresent */])(factory)) {
             return factory;
         }
         else {
@@ -28606,7 +28406,7 @@ var KeyValueDiffers = (function () {
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__di_decorators__ = __webpack_require__("./node_modules/@angular/core/src/di/decorators.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__di__ = __webpack_require__("./node_modules/@angular/core/src/di.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__facade_lang__ = __webpack_require__("./node_modules/@angular/core/src/facade/lang.js");
 /* harmony export (binding) */ __webpack_require__.d(exports, "a", function() { return Console; });
 /**
@@ -28621,11 +28421,11 @@ var KeyValueDiffers = (function () {
 var Console = (function () {
     function Console() {
     }
-    Console.prototype.log = function (message) { __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["m" /* print */])(message); };
+    Console.prototype.log = function (message) { __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["l" /* print */])(message); };
     // Note: for reporting errors use `DOM.logError()` as it is platform specific
-    Console.prototype.warn = function (message) { __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["n" /* warn */])(message); };
+    Console.prototype.warn = function (message) { __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["m" /* warn */])(message); };
     Console.decorators = [
-        { type: __WEBPACK_IMPORTED_MODULE_0__di_decorators__["a" /* Injectable */] },
+        { type: __WEBPACK_IMPORTED_MODULE_0__di__["b" /* Injectable */] },
     ];
     /** @nocollapse */
     Console.ctorParameters = [];
@@ -28680,68 +28480,48 @@ var Console = (function () {
 /* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "M", function() { return __WEBPACK_IMPORTED_MODULE_0__metadata__["p"]; });
 /* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "N", function() { return __WEBPACK_IMPORTED_MODULE_0__metadata__["q"]; });
 /* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "O", function() { return __WEBPACK_IMPORTED_MODULE_0__metadata__["r"]; });
-/* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "P", function() { return __WEBPACK_IMPORTED_MODULE_0__metadata__["s"]; });
-/* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "Q", function() { return __WEBPACK_IMPORTED_MODULE_0__metadata__["t"]; });
-/* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "_2", function() { return __WEBPACK_IMPORTED_MODULE_0__metadata__["u"]; });
-/* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "_7", function() { return __WEBPACK_IMPORTED_MODULE_0__metadata__["v"]; });
-/* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "_8", function() { return __WEBPACK_IMPORTED_MODULE_0__metadata__["w"]; });
-/* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "_17", function() { return __WEBPACK_IMPORTED_MODULE_0__metadata__["x"]; });
-/* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "_18", function() { return __WEBPACK_IMPORTED_MODULE_0__metadata__["y"]; });
-/* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "_21", function() { return __WEBPACK_IMPORTED_MODULE_0__metadata__["z"]; });
-/* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "_23", function() { return __WEBPACK_IMPORTED_MODULE_0__metadata__["A"]; });
-/* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "_25", function() { return __WEBPACK_IMPORTED_MODULE_0__metadata__["a"]; });
-/* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "_57", function() { return __WEBPACK_IMPORTED_MODULE_0__metadata__["B"]; });
-/* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "_58", function() { return __WEBPACK_IMPORTED_MODULE_0__metadata__["C"]; });
-/* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "_59", function() { return __WEBPACK_IMPORTED_MODULE_0__metadata__["D"]; });
-/* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "_60", function() { return __WEBPACK_IMPORTED_MODULE_0__metadata__["E"]; });
-/* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "_61", function() { return __WEBPACK_IMPORTED_MODULE_0__metadata__["F"]; });
-/* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "_62", function() { return __WEBPACK_IMPORTED_MODULE_0__metadata__["G"]; });
-/* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "_63", function() { return __WEBPACK_IMPORTED_MODULE_0__metadata__["H"]; });
-/* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "_64", function() { return __WEBPACK_IMPORTED_MODULE_0__metadata__["I"]; });
-/* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "_65", function() { return __WEBPACK_IMPORTED_MODULE_0__metadata__["J"]; });
-/* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "_66", function() { return __WEBPACK_IMPORTED_MODULE_0__metadata__["K"]; });
-/* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "_67", function() { return __WEBPACK_IMPORTED_MODULE_0__metadata__["L"]; });
-/* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "_68", function() { return __WEBPACK_IMPORTED_MODULE_0__metadata__["M"]; });
-/* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "_69", function() { return __WEBPACK_IMPORTED_MODULE_0__metadata__["N"]; });
-/* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "_70", function() { return __WEBPACK_IMPORTED_MODULE_1__util__["a"]; });
-/* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "d", function() { return __WEBPACK_IMPORTED_MODULE_2__di__["c"]; });
-/* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "p", function() { return __WEBPACK_IMPORTED_MODULE_2__di__["i"]; });
-/* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "v", function() { return __WEBPACK_IMPORTED_MODULE_2__di__["b"]; });
-/* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "w", function() { return __WEBPACK_IMPORTED_MODULE_2__di__["e"]; });
-/* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "x", function() { return __WEBPACK_IMPORTED_MODULE_2__di__["d"]; });
-/* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "A", function() { return __WEBPACK_IMPORTED_MODULE_2__di__["j"]; });
-/* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "Y", function() { return __WEBPACK_IMPORTED_MODULE_2__di__["k"]; });
-/* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "Z", function() { return __WEBPACK_IMPORTED_MODULE_2__di__["l"]; });
-/* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "_0", function() { return __WEBPACK_IMPORTED_MODULE_2__di__["f"]; });
-/* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "_1", function() { return __WEBPACK_IMPORTED_MODULE_2__di__["g"]; });
-/* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "_3", function() { return __WEBPACK_IMPORTED_MODULE_2__di__["m"]; });
-/* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "_10", function() { return __WEBPACK_IMPORTED_MODULE_2__di__["h"]; });
-/* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "_22", function() { return __WEBPACK_IMPORTED_MODULE_2__di__["n"]; });
-/* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "_36", function() { return __WEBPACK_IMPORTED_MODULE_2__di__["o"]; });
-/* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "_71", function() { return __WEBPACK_IMPORTED_MODULE_2__di__["a"]; });
-/* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "_72", function() { return __WEBPACK_IMPORTED_MODULE_2__di__["p"]; });
-/* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "_73", function() { return __WEBPACK_IMPORTED_MODULE_2__di__["q"]; });
-/* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "_74", function() { return __WEBPACK_IMPORTED_MODULE_2__di__["r"]; });
-/* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "_97", function() { return __WEBPACK_IMPORTED_MODULE_2__di__["s"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(exports, "_37", function() { return __WEBPACK_IMPORTED_MODULE_3__application_ref__["g"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(exports, "_38", function() { return __WEBPACK_IMPORTED_MODULE_3__application_ref__["h"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(exports, "_39", function() { return __WEBPACK_IMPORTED_MODULE_3__application_ref__["i"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(exports, "_40", function() { return __WEBPACK_IMPORTED_MODULE_3__application_ref__["j"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(exports, "_29", function() { return __WEBPACK_IMPORTED_MODULE_3__application_ref__["e"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(exports, "_41", function() { return __WEBPACK_IMPORTED_MODULE_3__application_ref__["k"]; });
+/* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "P", function() { return __WEBPACK_IMPORTED_MODULE_0__metadata__["a"]; });
+/* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "Q", function() { return __WEBPACK_IMPORTED_MODULE_0__metadata__["s"]; });
+/* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "_1", function() { return __WEBPACK_IMPORTED_MODULE_0__metadata__["t"]; });
+/* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "_5", function() { return __WEBPACK_IMPORTED_MODULE_0__metadata__["u"]; });
+/* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "_6", function() { return __WEBPACK_IMPORTED_MODULE_0__metadata__["v"]; });
+/* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "_48", function() { return __WEBPACK_IMPORTED_MODULE_0__metadata__["w"]; });
+/* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "_49", function() { return __WEBPACK_IMPORTED_MODULE_0__metadata__["x"]; });
+/* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "_50", function() { return __WEBPACK_IMPORTED_MODULE_0__metadata__["y"]; });
+/* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "_51", function() { return __WEBPACK_IMPORTED_MODULE_0__metadata__["z"]; });
+/* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "_52", function() { return __WEBPACK_IMPORTED_MODULE_1__util__["a"]; });
+/* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "d", function() { return __WEBPACK_IMPORTED_MODULE_2__di__["b"]; });
+/* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "p", function() { return __WEBPACK_IMPORTED_MODULE_2__di__["g"]; });
+/* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "v", function() { return __WEBPACK_IMPORTED_MODULE_2__di__["a"]; });
+/* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "w", function() { return __WEBPACK_IMPORTED_MODULE_2__di__["d"]; });
+/* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "x", function() { return __WEBPACK_IMPORTED_MODULE_2__di__["c"]; });
+/* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "A", function() { return __WEBPACK_IMPORTED_MODULE_2__di__["h"]; });
+/* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "Y", function() { return __WEBPACK_IMPORTED_MODULE_2__di__["i"]; });
+/* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "Z", function() { return __WEBPACK_IMPORTED_MODULE_2__di__["j"]; });
+/* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "_0", function() { return __WEBPACK_IMPORTED_MODULE_2__di__["e"]; });
+/* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "_8", function() { return __WEBPACK_IMPORTED_MODULE_2__di__["f"]; });
+/* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "_53", function() { return __WEBPACK_IMPORTED_MODULE_2__di__["k"]; });
+/* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "_54", function() { return __WEBPACK_IMPORTED_MODULE_2__di__["l"]; });
+/* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "_55", function() { return __WEBPACK_IMPORTED_MODULE_2__di__["m"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(exports, "_28", function() { return __WEBPACK_IMPORTED_MODULE_3__application_ref__["g"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(exports, "_29", function() { return __WEBPACK_IMPORTED_MODULE_3__application_ref__["h"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(exports, "_30", function() { return __WEBPACK_IMPORTED_MODULE_3__application_ref__["i"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(exports, "_31", function() { return __WEBPACK_IMPORTED_MODULE_3__application_ref__["j"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(exports, "_21", function() { return __WEBPACK_IMPORTED_MODULE_3__application_ref__["e"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(exports, "_32", function() { return __WEBPACK_IMPORTED_MODULE_3__application_ref__["k"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(exports, "c", function() { return __WEBPACK_IMPORTED_MODULE_3__application_ref__["f"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(exports, "_12", function() { return __WEBPACK_IMPORTED_MODULE_3__application_ref__["c"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(exports, "_42", function() { return __WEBPACK_IMPORTED_MODULE_3__application_ref__["b"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(exports, "_43", function() { return __WEBPACK_IMPORTED_MODULE_4__application_tokens__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(exports, "_10", function() { return __WEBPACK_IMPORTED_MODULE_3__application_ref__["c"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(exports, "_33", function() { return __WEBPACK_IMPORTED_MODULE_3__application_ref__["b"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(exports, "_34", function() { return __WEBPACK_IMPORTED_MODULE_4__application_tokens__["a"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(exports, "y", function() { return __WEBPACK_IMPORTED_MODULE_4__application_tokens__["e"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(exports, "_44", function() { return __WEBPACK_IMPORTED_MODULE_4__application_tokens__["c"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(exports, "_15", function() { return __WEBPACK_IMPORTED_MODULE_4__application_tokens__["b"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(exports, "_45", function() { return __WEBPACK_IMPORTED_MODULE_5__application_init__["a"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(exports, "_46", function() { return __WEBPACK_IMPORTED_MODULE_5__application_init__["b"]; });
-/* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "_28", function() { return __WEBPACK_IMPORTED_MODULE_6__zone__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(exports, "_35", function() { return __WEBPACK_IMPORTED_MODULE_4__application_tokens__["c"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(exports, "_13", function() { return __WEBPACK_IMPORTED_MODULE_4__application_tokens__["b"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(exports, "_36", function() { return __WEBPACK_IMPORTED_MODULE_5__application_init__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(exports, "_37", function() { return __WEBPACK_IMPORTED_MODULE_5__application_init__["b"]; });
+/* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "_20", function() { return __WEBPACK_IMPORTED_MODULE_6__zone__["a"]; });
 /* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "j", function() { return __WEBPACK_IMPORTED_MODULE_7__render__["a"]; });
 /* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "q", function() { return __WEBPACK_IMPORTED_MODULE_7__render__["b"]; });
-/* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "_31", function() { return __WEBPACK_IMPORTED_MODULE_7__render__["c"]; });
+/* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "_23", function() { return __WEBPACK_IMPORTED_MODULE_7__render__["c"]; });
 /* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "g", function() { return __WEBPACK_IMPORTED_MODULE_8__linker__["a"]; });
 /* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "h", function() { return __WEBPACK_IMPORTED_MODULE_8__linker__["b"]; });
 /* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "k", function() { return __WEBPACK_IMPORTED_MODULE_8__linker__["c"]; });
@@ -28749,45 +28529,46 @@ var Console = (function () {
 /* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "m", function() { return __WEBPACK_IMPORTED_MODULE_8__linker__["e"]; });
 /* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "n", function() { return __WEBPACK_IMPORTED_MODULE_8__linker__["f"]; });
 /* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "o", function() { return __WEBPACK_IMPORTED_MODULE_8__linker__["g"]; });
-/* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "_5", function() { return __WEBPACK_IMPORTED_MODULE_8__linker__["h"]; });
-/* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "_6", function() { return __WEBPACK_IMPORTED_MODULE_8__linker__["i"]; });
-/* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "_11", function() { return __WEBPACK_IMPORTED_MODULE_8__linker__["j"]; });
-/* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "_14", function() { return __WEBPACK_IMPORTED_MODULE_8__linker__["k"]; });
-/* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "_75", function() { return __WEBPACK_IMPORTED_MODULE_8__linker__["l"]; });
-/* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "_76", function() { return __WEBPACK_IMPORTED_MODULE_8__linker__["m"]; });
-/* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "_77", function() { return __WEBPACK_IMPORTED_MODULE_8__linker__["n"]; });
-/* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "_78", function() { return __WEBPACK_IMPORTED_MODULE_8__linker__["o"]; });
-/* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "_79", function() { return __WEBPACK_IMPORTED_MODULE_8__linker__["p"]; });
-/* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "_80", function() { return __WEBPACK_IMPORTED_MODULE_8__linker__["q"]; });
-/* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "_81", function() { return __WEBPACK_IMPORTED_MODULE_8__linker__["r"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(exports, "_47", function() { return __WEBPACK_IMPORTED_MODULE_9__debug_debug_node__["a"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(exports, "_48", function() { return __WEBPACK_IMPORTED_MODULE_9__debug_debug_node__["d"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(exports, "_49", function() { return __WEBPACK_IMPORTED_MODULE_9__debug_debug_node__["g"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(exports, "_30", function() { return __WEBPACK_IMPORTED_MODULE_9__debug_debug_node__["c"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(exports, "_34", function() { return __WEBPACK_IMPORTED_MODULE_10__testability_testability__["a"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(exports, "_50", function() { return __WEBPACK_IMPORTED_MODULE_10__testability_testability__["b"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(exports, "_27", function() { return __WEBPACK_IMPORTED_MODULE_10__testability_testability__["c"]; });
+/* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "_3", function() { return __WEBPACK_IMPORTED_MODULE_8__linker__["h"]; });
+/* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "_4", function() { return __WEBPACK_IMPORTED_MODULE_8__linker__["i"]; });
+/* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "_9", function() { return __WEBPACK_IMPORTED_MODULE_8__linker__["j"]; });
+/* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "_12", function() { return __WEBPACK_IMPORTED_MODULE_8__linker__["k"]; });
+/* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "_56", function() { return __WEBPACK_IMPORTED_MODULE_8__linker__["l"]; });
+/* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "_57", function() { return __WEBPACK_IMPORTED_MODULE_8__linker__["m"]; });
+/* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "_58", function() { return __WEBPACK_IMPORTED_MODULE_8__linker__["n"]; });
+/* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "_59", function() { return __WEBPACK_IMPORTED_MODULE_8__linker__["o"]; });
+/* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "_60", function() { return __WEBPACK_IMPORTED_MODULE_8__linker__["p"]; });
+/* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "_61", function() { return __WEBPACK_IMPORTED_MODULE_8__linker__["q"]; });
+/* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "_62", function() { return __WEBPACK_IMPORTED_MODULE_8__linker__["r"]; });
+/* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "_63", function() { return __WEBPACK_IMPORTED_MODULE_8__linker__["s"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(exports, "_38", function() { return __WEBPACK_IMPORTED_MODULE_9__debug_debug_node__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(exports, "_39", function() { return __WEBPACK_IMPORTED_MODULE_9__debug_debug_node__["d"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(exports, "_40", function() { return __WEBPACK_IMPORTED_MODULE_9__debug_debug_node__["g"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(exports, "_22", function() { return __WEBPACK_IMPORTED_MODULE_9__debug_debug_node__["c"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(exports, "_26", function() { return __WEBPACK_IMPORTED_MODULE_10__testability_testability__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(exports, "_41", function() { return __WEBPACK_IMPORTED_MODULE_10__testability_testability__["b"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(exports, "_19", function() { return __WEBPACK_IMPORTED_MODULE_10__testability_testability__["c"]; });
 /* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "b", function() { return __WEBPACK_IMPORTED_MODULE_11__change_detection__["a"]; });
 /* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "i", function() { return __WEBPACK_IMPORTED_MODULE_11__change_detection__["b"]; });
 /* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "r", function() { return __WEBPACK_IMPORTED_MODULE_11__change_detection__["c"]; });
-/* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "_16", function() { return __WEBPACK_IMPORTED_MODULE_11__change_detection__["d"]; });
-/* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "_19", function() { return __WEBPACK_IMPORTED_MODULE_11__change_detection__["e"]; });
-/* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "_20", function() { return __WEBPACK_IMPORTED_MODULE_11__change_detection__["f"]; });
-/* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "_82", function() { return __WEBPACK_IMPORTED_MODULE_11__change_detection__["g"]; });
-/* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "_83", function() { return __WEBPACK_IMPORTED_MODULE_11__change_detection__["h"]; });
-/* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "_84", function() { return __WEBPACK_IMPORTED_MODULE_11__change_detection__["i"]; });
-/* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "_13", function() { return __WEBPACK_IMPORTED_MODULE_12__platform_core_providers__["a"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(exports, "_9", function() { return __WEBPACK_IMPORTED_MODULE_13__i18n_tokens__["c"]; });
+/* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "_15", function() { return __WEBPACK_IMPORTED_MODULE_11__change_detection__["d"]; });
+/* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "_16", function() { return __WEBPACK_IMPORTED_MODULE_11__change_detection__["e"]; });
+/* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "_17", function() { return __WEBPACK_IMPORTED_MODULE_11__change_detection__["f"]; });
+/* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "_64", function() { return __WEBPACK_IMPORTED_MODULE_11__change_detection__["g"]; });
+/* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "_65", function() { return __WEBPACK_IMPORTED_MODULE_11__change_detection__["h"]; });
+/* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "_66", function() { return __WEBPACK_IMPORTED_MODULE_11__change_detection__["i"]; });
+/* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "_11", function() { return __WEBPACK_IMPORTED_MODULE_12__platform_core_providers__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(exports, "_7", function() { return __WEBPACK_IMPORTED_MODULE_13__i18n_tokens__["c"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(exports, "u", function() { return __WEBPACK_IMPORTED_MODULE_13__i18n_tokens__["b"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(exports, "t", function() { return __WEBPACK_IMPORTED_MODULE_13__i18n_tokens__["a"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(exports, "_35", function() { return __WEBPACK_IMPORTED_MODULE_14__application_module__["a"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(exports, "_51", function() { return __WEBPACK_IMPORTED_MODULE_15__profile_profile__["a"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(exports, "_52", function() { return __WEBPACK_IMPORTED_MODULE_15__profile_profile__["b"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(exports, "_53", function() { return __WEBPACK_IMPORTED_MODULE_15__profile_profile__["c"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(exports, "_54", function() { return __WEBPACK_IMPORTED_MODULE_15__profile_profile__["d"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(exports, "_4", function() { return __WEBPACK_IMPORTED_MODULE_16__type__["a"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(exports, "_24", function() { return __WEBPACK_IMPORTED_MODULE_17__facade_async__["a"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(exports, "_33", function() { return __WEBPACK_IMPORTED_MODULE_18__error_handler__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(exports, "_27", function() { return __WEBPACK_IMPORTED_MODULE_14__application_module__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(exports, "_42", function() { return __WEBPACK_IMPORTED_MODULE_15__profile_profile__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(exports, "_43", function() { return __WEBPACK_IMPORTED_MODULE_15__profile_profile__["b"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(exports, "_44", function() { return __WEBPACK_IMPORTED_MODULE_15__profile_profile__["c"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(exports, "_45", function() { return __WEBPACK_IMPORTED_MODULE_15__profile_profile__["d"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(exports, "_2", function() { return __WEBPACK_IMPORTED_MODULE_16__type__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(exports, "_14", function() { return __WEBPACK_IMPORTED_MODULE_17__facade_async__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(exports, "_25", function() { return __WEBPACK_IMPORTED_MODULE_18__error_handler__["a"]; });
 /* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "e", function() { return __WEBPACK_IMPORTED_MODULE_19__core_private_export__["a"]; });
 /* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "R", function() { return __WEBPACK_IMPORTED_MODULE_20__animation_metadata__["b"]; });
 /* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "S", function() { return __WEBPACK_IMPORTED_MODULE_20__animation_metadata__["c"]; });
@@ -28796,22 +28577,22 @@ var Console = (function () {
 /* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "V", function() { return __WEBPACK_IMPORTED_MODULE_20__animation_metadata__["f"]; });
 /* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "W", function() { return __WEBPACK_IMPORTED_MODULE_20__animation_metadata__["g"]; });
 /* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "X", function() { return __WEBPACK_IMPORTED_MODULE_20__animation_metadata__["h"]; });
-/* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "_26", function() { return __WEBPACK_IMPORTED_MODULE_20__animation_metadata__["a"]; });
-/* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "_85", function() { return __WEBPACK_IMPORTED_MODULE_20__animation_metadata__["i"]; });
-/* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "_86", function() { return __WEBPACK_IMPORTED_MODULE_20__animation_metadata__["j"]; });
-/* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "_87", function() { return __WEBPACK_IMPORTED_MODULE_20__animation_metadata__["k"]; });
-/* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "_88", function() { return __WEBPACK_IMPORTED_MODULE_20__animation_metadata__["l"]; });
-/* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "_89", function() { return __WEBPACK_IMPORTED_MODULE_20__animation_metadata__["m"]; });
-/* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "_90", function() { return __WEBPACK_IMPORTED_MODULE_20__animation_metadata__["n"]; });
-/* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "_91", function() { return __WEBPACK_IMPORTED_MODULE_20__animation_metadata__["o"]; });
-/* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "_92", function() { return __WEBPACK_IMPORTED_MODULE_20__animation_metadata__["p"]; });
-/* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "_93", function() { return __WEBPACK_IMPORTED_MODULE_20__animation_metadata__["q"]; });
-/* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "_94", function() { return __WEBPACK_IMPORTED_MODULE_20__animation_metadata__["r"]; });
-/* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "_95", function() { return __WEBPACK_IMPORTED_MODULE_20__animation_metadata__["s"]; });
-/* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "_96", function() { return __WEBPACK_IMPORTED_MODULE_20__animation_metadata__["t"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(exports, "_55", function() { return __WEBPACK_IMPORTED_MODULE_21__animation_animation_transition_event__["a"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(exports, "_56", function() { return __WEBPACK_IMPORTED_MODULE_22__animation_animation_player__["b"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(exports, "_32", function() { return __WEBPACK_IMPORTED_MODULE_23__security__["a"]; });
+/* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "_18", function() { return __WEBPACK_IMPORTED_MODULE_20__animation_metadata__["a"]; });
+/* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "_67", function() { return __WEBPACK_IMPORTED_MODULE_20__animation_metadata__["i"]; });
+/* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "_68", function() { return __WEBPACK_IMPORTED_MODULE_20__animation_metadata__["j"]; });
+/* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "_69", function() { return __WEBPACK_IMPORTED_MODULE_20__animation_metadata__["k"]; });
+/* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "_70", function() { return __WEBPACK_IMPORTED_MODULE_20__animation_metadata__["l"]; });
+/* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "_71", function() { return __WEBPACK_IMPORTED_MODULE_20__animation_metadata__["m"]; });
+/* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "_72", function() { return __WEBPACK_IMPORTED_MODULE_20__animation_metadata__["n"]; });
+/* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "_73", function() { return __WEBPACK_IMPORTED_MODULE_20__animation_metadata__["o"]; });
+/* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "_74", function() { return __WEBPACK_IMPORTED_MODULE_20__animation_metadata__["p"]; });
+/* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "_75", function() { return __WEBPACK_IMPORTED_MODULE_20__animation_metadata__["q"]; });
+/* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "_76", function() { return __WEBPACK_IMPORTED_MODULE_20__animation_metadata__["r"]; });
+/* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "_77", function() { return __WEBPACK_IMPORTED_MODULE_20__animation_metadata__["s"]; });
+/* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "_78", function() { return __WEBPACK_IMPORTED_MODULE_20__animation_metadata__["t"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(exports, "_46", function() { return __WEBPACK_IMPORTED_MODULE_21__animation_animation_transition_event__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(exports, "_47", function() { return __WEBPACK_IMPORTED_MODULE_22__animation_animation_player__["b"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(exports, "_24", function() { return __WEBPACK_IMPORTED_MODULE_23__security__["a"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(exports, "s", function() { return __WEBPACK_IMPORTED_MODULE_23__security__["b"]; });
 /**
  * @license
@@ -28875,17 +28656,18 @@ var Console = (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__linker_debug_context__ = __webpack_require__("./node_modules/@angular/core/src/linker/debug_context.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__linker_element__ = __webpack_require__("./node_modules/@angular/core/src/linker/element.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__linker_ng_module_factory__ = __webpack_require__("./node_modules/@angular/core/src/linker/ng_module_factory.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__linker_template_ref__ = __webpack_require__("./node_modules/@angular/core/src/linker/template_ref.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__linker_view__ = __webpack_require__("./node_modules/@angular/core/src/linker/view.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__linker_view_type__ = __webpack_require__("./node_modules/@angular/core/src/linker/view_type.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__linker_view_utils__ = __webpack_require__("./node_modules/@angular/core/src/linker/view_utils.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__metadata_lifecycle_hooks__ = __webpack_require__("./node_modules/@angular/core/src/metadata/lifecycle_hooks.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__metadata_view__ = __webpack_require__("./node_modules/@angular/core/src/metadata/view.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__reflection_reflection__ = __webpack_require__("./node_modules/@angular/core/src/reflection/reflection.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__reflection_reflection_capabilities__ = __webpack_require__("./node_modules/@angular/core/src/reflection/reflection_capabilities.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__reflection_reflector_reader__ = __webpack_require__("./node_modules/@angular/core/src/reflection/reflector_reader.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_27__render_api__ = __webpack_require__("./node_modules/@angular/core/src/render/api.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_28__util_decorators__ = __webpack_require__("./node_modules/@angular/core/src/util/decorators.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__linker_ng_module_factory_loader__ = __webpack_require__("./node_modules/@angular/core/src/linker/ng_module_factory_loader.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__linker_template_ref__ = __webpack_require__("./node_modules/@angular/core/src/linker/template_ref.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__linker_view__ = __webpack_require__("./node_modules/@angular/core/src/linker/view.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__linker_view_type__ = __webpack_require__("./node_modules/@angular/core/src/linker/view_type.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__linker_view_utils__ = __webpack_require__("./node_modules/@angular/core/src/linker/view_utils.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__metadata_lifecycle_hooks__ = __webpack_require__("./node_modules/@angular/core/src/metadata/lifecycle_hooks.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__metadata_view__ = __webpack_require__("./node_modules/@angular/core/src/metadata/view.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__reflection_reflection__ = __webpack_require__("./node_modules/@angular/core/src/reflection/reflection.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__reflection_reflection_capabilities__ = __webpack_require__("./node_modules/@angular/core/src/reflection/reflection_capabilities.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_27__reflection_reflector_reader__ = __webpack_require__("./node_modules/@angular/core/src/reflection/reflector_reader.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_28__render_api__ = __webpack_require__("./node_modules/@angular/core/src/render/api.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_29__util_decorators__ = __webpack_require__("./node_modules/@angular/core/src/util/decorators.js");
 /* harmony export (binding) */ __webpack_require__.d(exports, "a", function() { return __core_private__; });
 /**
  * @license
@@ -28923,53 +28705,55 @@ var Console = (function () {
 
 
 
+
 var __core_private__ = {
     isDefaultChangeDetectionStrategy: __WEBPACK_IMPORTED_MODULE_9__change_detection_constants__["c" /* isDefaultChangeDetectionStrategy */],
     ChangeDetectorStatus: __WEBPACK_IMPORTED_MODULE_9__change_detection_constants__["b" /* ChangeDetectorStatus */],
     CHANGE_DETECTION_STRATEGY_VALUES: __WEBPACK_IMPORTED_MODULE_9__change_detection_constants__["d" /* CHANGE_DETECTION_STRATEGY_VALUES */],
     constructDependencies: __WEBPACK_IMPORTED_MODULE_12__di_reflective_provider__["b" /* constructDependencies */],
-    LifecycleHooks: __WEBPACK_IMPORTED_MODULE_22__metadata_lifecycle_hooks__["a" /* LifecycleHooks */],
-    LIFECYCLE_HOOKS_VALUES: __WEBPACK_IMPORTED_MODULE_22__metadata_lifecycle_hooks__["b" /* LIFECYCLE_HOOKS_VALUES */],
-    ReflectorReader: __WEBPACK_IMPORTED_MODULE_26__reflection_reflector_reader__["a" /* ReflectorReader */],
+    LifecycleHooks: __WEBPACK_IMPORTED_MODULE_23__metadata_lifecycle_hooks__["a" /* LifecycleHooks */],
+    LIFECYCLE_HOOKS_VALUES: __WEBPACK_IMPORTED_MODULE_23__metadata_lifecycle_hooks__["b" /* LIFECYCLE_HOOKS_VALUES */],
+    ReflectorReader: __WEBPACK_IMPORTED_MODULE_27__reflection_reflector_reader__["a" /* ReflectorReader */],
     CodegenComponentFactoryResolver: __WEBPACK_IMPORTED_MODULE_14__linker_component_factory_resolver__["b" /* CodegenComponentFactoryResolver */],
     AppElement: __WEBPACK_IMPORTED_MODULE_16__linker_element__["a" /* AppElement */],
-    AppView: __WEBPACK_IMPORTED_MODULE_19__linker_view__["a" /* AppView */],
-    DebugAppView: __WEBPACK_IMPORTED_MODULE_19__linker_view__["b" /* DebugAppView */],
+    AppView: __WEBPACK_IMPORTED_MODULE_20__linker_view__["a" /* AppView */],
+    DebugAppView: __WEBPACK_IMPORTED_MODULE_20__linker_view__["b" /* DebugAppView */],
     NgModuleInjector: __WEBPACK_IMPORTED_MODULE_17__linker_ng_module_factory__["a" /* NgModuleInjector */],
-    ViewType: __WEBPACK_IMPORTED_MODULE_20__linker_view_type__["a" /* ViewType */],
-    MAX_INTERPOLATION_VALUES: __WEBPACK_IMPORTED_MODULE_21__linker_view_utils__["d" /* MAX_INTERPOLATION_VALUES */],
-    checkBinding: __WEBPACK_IMPORTED_MODULE_21__linker_view_utils__["e" /* checkBinding */],
-    flattenNestedViewRenderNodes: __WEBPACK_IMPORTED_MODULE_21__linker_view_utils__["c" /* flattenNestedViewRenderNodes */],
-    interpolate: __WEBPACK_IMPORTED_MODULE_21__linker_view_utils__["f" /* interpolate */],
-    ViewUtils: __WEBPACK_IMPORTED_MODULE_21__linker_view_utils__["a" /* ViewUtils */],
-    VIEW_ENCAPSULATION_VALUES: __WEBPACK_IMPORTED_MODULE_23__metadata_view__["a" /* VIEW_ENCAPSULATION_VALUES */],
-    ViewMetadata: __WEBPACK_IMPORTED_MODULE_23__metadata_view__["b" /* ViewMetadata */],
+    registerModuleFactory: __WEBPACK_IMPORTED_MODULE_18__linker_ng_module_factory_loader__["a" /* registerModuleFactory */],
+    ViewType: __WEBPACK_IMPORTED_MODULE_21__linker_view_type__["a" /* ViewType */],
+    MAX_INTERPOLATION_VALUES: __WEBPACK_IMPORTED_MODULE_22__linker_view_utils__["d" /* MAX_INTERPOLATION_VALUES */],
+    checkBinding: __WEBPACK_IMPORTED_MODULE_22__linker_view_utils__["e" /* checkBinding */],
+    flattenNestedViewRenderNodes: __WEBPACK_IMPORTED_MODULE_22__linker_view_utils__["c" /* flattenNestedViewRenderNodes */],
+    interpolate: __WEBPACK_IMPORTED_MODULE_22__linker_view_utils__["f" /* interpolate */],
+    ViewUtils: __WEBPACK_IMPORTED_MODULE_22__linker_view_utils__["a" /* ViewUtils */],
+    VIEW_ENCAPSULATION_VALUES: __WEBPACK_IMPORTED_MODULE_24__metadata_view__["a" /* VIEW_ENCAPSULATION_VALUES */],
+    ViewMetadata: __WEBPACK_IMPORTED_MODULE_24__metadata_view__["b" /* ViewMetadata */],
     DebugContext: __WEBPACK_IMPORTED_MODULE_15__linker_debug_context__["a" /* DebugContext */],
     StaticNodeDebugInfo: __WEBPACK_IMPORTED_MODULE_15__linker_debug_context__["b" /* StaticNodeDebugInfo */],
     devModeEqual: __WEBPACK_IMPORTED_MODULE_8__change_detection_change_detection_util__["b" /* devModeEqual */],
     UNINITIALIZED: __WEBPACK_IMPORTED_MODULE_8__change_detection_change_detection_util__["a" /* UNINITIALIZED */],
     ValueUnwrapper: __WEBPACK_IMPORTED_MODULE_8__change_detection_change_detection_util__["c" /* ValueUnwrapper */],
-    RenderDebugInfo: __WEBPACK_IMPORTED_MODULE_27__render_api__["c" /* RenderDebugInfo */],
-    TemplateRef_: __WEBPACK_IMPORTED_MODULE_18__linker_template_ref__["a" /* TemplateRef_ */],
-    ReflectionCapabilities: __WEBPACK_IMPORTED_MODULE_25__reflection_reflection_capabilities__["a" /* ReflectionCapabilities */],
-    makeDecorator: __WEBPACK_IMPORTED_MODULE_28__util_decorators__["b" /* makeDecorator */],
+    RenderDebugInfo: __WEBPACK_IMPORTED_MODULE_28__render_api__["c" /* RenderDebugInfo */],
+    TemplateRef_: __WEBPACK_IMPORTED_MODULE_19__linker_template_ref__["a" /* TemplateRef_ */],
+    ReflectionCapabilities: __WEBPACK_IMPORTED_MODULE_26__reflection_reflection_capabilities__["a" /* ReflectionCapabilities */],
+    makeDecorator: __WEBPACK_IMPORTED_MODULE_29__util_decorators__["c" /* makeDecorator */],
     DebugDomRootRenderer: __WEBPACK_IMPORTED_MODULE_11__debug_debug_renderer__["a" /* DebugDomRootRenderer */],
-    EMPTY_ARRAY: __WEBPACK_IMPORTED_MODULE_21__linker_view_utils__["g" /* EMPTY_ARRAY */],
-    EMPTY_MAP: __WEBPACK_IMPORTED_MODULE_21__linker_view_utils__["h" /* EMPTY_MAP */],
-    pureProxy1: __WEBPACK_IMPORTED_MODULE_21__linker_view_utils__["i" /* pureProxy1 */],
-    pureProxy2: __WEBPACK_IMPORTED_MODULE_21__linker_view_utils__["j" /* pureProxy2 */],
-    pureProxy3: __WEBPACK_IMPORTED_MODULE_21__linker_view_utils__["k" /* pureProxy3 */],
-    pureProxy4: __WEBPACK_IMPORTED_MODULE_21__linker_view_utils__["l" /* pureProxy4 */],
-    pureProxy5: __WEBPACK_IMPORTED_MODULE_21__linker_view_utils__["m" /* pureProxy5 */],
-    pureProxy6: __WEBPACK_IMPORTED_MODULE_21__linker_view_utils__["n" /* pureProxy6 */],
-    pureProxy7: __WEBPACK_IMPORTED_MODULE_21__linker_view_utils__["o" /* pureProxy7 */],
-    pureProxy8: __WEBPACK_IMPORTED_MODULE_21__linker_view_utils__["p" /* pureProxy8 */],
-    pureProxy9: __WEBPACK_IMPORTED_MODULE_21__linker_view_utils__["q" /* pureProxy9 */],
-    pureProxy10: __WEBPACK_IMPORTED_MODULE_21__linker_view_utils__["r" /* pureProxy10 */],
-    castByValue: __WEBPACK_IMPORTED_MODULE_21__linker_view_utils__["s" /* castByValue */],
+    EMPTY_ARRAY: __WEBPACK_IMPORTED_MODULE_22__linker_view_utils__["g" /* EMPTY_ARRAY */],
+    EMPTY_MAP: __WEBPACK_IMPORTED_MODULE_22__linker_view_utils__["h" /* EMPTY_MAP */],
+    pureProxy1: __WEBPACK_IMPORTED_MODULE_22__linker_view_utils__["i" /* pureProxy1 */],
+    pureProxy2: __WEBPACK_IMPORTED_MODULE_22__linker_view_utils__["j" /* pureProxy2 */],
+    pureProxy3: __WEBPACK_IMPORTED_MODULE_22__linker_view_utils__["k" /* pureProxy3 */],
+    pureProxy4: __WEBPACK_IMPORTED_MODULE_22__linker_view_utils__["l" /* pureProxy4 */],
+    pureProxy5: __WEBPACK_IMPORTED_MODULE_22__linker_view_utils__["m" /* pureProxy5 */],
+    pureProxy6: __WEBPACK_IMPORTED_MODULE_22__linker_view_utils__["n" /* pureProxy6 */],
+    pureProxy7: __WEBPACK_IMPORTED_MODULE_22__linker_view_utils__["o" /* pureProxy7 */],
+    pureProxy8: __WEBPACK_IMPORTED_MODULE_22__linker_view_utils__["p" /* pureProxy8 */],
+    pureProxy9: __WEBPACK_IMPORTED_MODULE_22__linker_view_utils__["q" /* pureProxy9 */],
+    pureProxy10: __WEBPACK_IMPORTED_MODULE_22__linker_view_utils__["r" /* pureProxy10 */],
+    castByValue: __WEBPACK_IMPORTED_MODULE_22__linker_view_utils__["s" /* castByValue */],
     Console: __WEBPACK_IMPORTED_MODULE_10__console__["a" /* Console */],
-    reflector: __WEBPACK_IMPORTED_MODULE_24__reflection_reflection__["a" /* reflector */],
-    Reflector: __WEBPACK_IMPORTED_MODULE_24__reflection_reflection__["b" /* Reflector */],
+    reflector: __WEBPACK_IMPORTED_MODULE_25__reflection_reflection__["a" /* reflector */],
+    Reflector: __WEBPACK_IMPORTED_MODULE_25__reflection_reflection__["b" /* Reflector */],
     NoOpAnimationPlayer: __WEBPACK_IMPORTED_MODULE_4__animation_animation_player__["a" /* NoOpAnimationPlayer */],
     AnimationPlayer: __WEBPACK_IMPORTED_MODULE_4__animation_animation_player__["b" /* AnimationPlayer */],
     AnimationSequencePlayer: __WEBPACK_IMPORTED_MODULE_5__animation_animation_sequence_player__["a" /* AnimationSequencePlayer */],
@@ -29036,7 +28820,7 @@ var DebugNode = (function () {
     function DebugNode(nativeNode, parent, _debugInfo) {
         this._debugInfo = _debugInfo;
         this.nativeNode = nativeNode;
-        if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["g" /* isPresent */])(parent) && parent instanceof DebugElement) {
+        if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["e" /* isPresent */])(parent) && parent instanceof DebugElement) {
             parent.addChild(this);
         }
         else {
@@ -29045,38 +28829,38 @@ var DebugNode = (function () {
         this.listeners = [];
     }
     Object.defineProperty(DebugNode.prototype, "injector", {
-        get: function () { return __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["g" /* isPresent */])(this._debugInfo) ? this._debugInfo.injector : null; },
+        get: function () { return __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["e" /* isPresent */])(this._debugInfo) ? this._debugInfo.injector : null; },
         enumerable: true,
         configurable: true
     });
     Object.defineProperty(DebugNode.prototype, "componentInstance", {
         get: function () {
-            return __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["g" /* isPresent */])(this._debugInfo) ? this._debugInfo.component : null;
+            return __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["e" /* isPresent */])(this._debugInfo) ? this._debugInfo.component : null;
         },
         enumerable: true,
         configurable: true
     });
     Object.defineProperty(DebugNode.prototype, "context", {
-        get: function () { return __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["g" /* isPresent */])(this._debugInfo) ? this._debugInfo.context : null; },
+        get: function () { return __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["e" /* isPresent */])(this._debugInfo) ? this._debugInfo.context : null; },
         enumerable: true,
         configurable: true
     });
     Object.defineProperty(DebugNode.prototype, "references", {
         get: function () {
-            return __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["g" /* isPresent */])(this._debugInfo) ? this._debugInfo.references : null;
+            return __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["e" /* isPresent */])(this._debugInfo) ? this._debugInfo.references : null;
         },
         enumerable: true,
         configurable: true
     });
     Object.defineProperty(DebugNode.prototype, "providerTokens", {
         get: function () {
-            return __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["g" /* isPresent */])(this._debugInfo) ? this._debugInfo.providerTokens : null;
+            return __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["e" /* isPresent */])(this._debugInfo) ? this._debugInfo.providerTokens : null;
         },
         enumerable: true,
         configurable: true
     });
     Object.defineProperty(DebugNode.prototype, "source", {
-        get: function () { return __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["g" /* isPresent */])(this._debugInfo) ? this._debugInfo.source : null; },
+        get: function () { return __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["e" /* isPresent */])(this._debugInfo) ? this._debugInfo.source : null; },
         enumerable: true,
         configurable: true
     });
@@ -29097,7 +28881,7 @@ var DebugElement = (function (_super) {
         this.nativeElement = nativeNode;
     }
     DebugElement.prototype.addChild = function (child) {
-        if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["g" /* isPresent */])(child)) {
+        if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["e" /* isPresent */])(child)) {
             this.childNodes.push(child);
             child.parent = this;
         }
@@ -29118,7 +28902,7 @@ var DebugElement = (function (_super) {
                 __WEBPACK_IMPORTED_MODULE_0__facade_collection__["a" /* ListWrapper */].concat(__WEBPACK_IMPORTED_MODULE_0__facade_collection__["a" /* ListWrapper */].concat(previousChildren, newChildren), nextChildren);
             for (var i = 0; i < newChildren.length; ++i) {
                 var newChild = newChildren[i];
-                if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["g" /* isPresent */])(newChild.parent)) {
+                if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["e" /* isPresent */])(newChild.parent)) {
                     newChild.parent.removeChild(newChild);
                 }
                 newChild.parent = this;
@@ -29268,7 +29052,7 @@ var DebugDomRenderer = (function () {
     };
     DebugDomRenderer.prototype.projectNodes = function (parentElement, nodes) {
         var debugParent = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__debug_node__["c" /* getDebugNode */])(parentElement);
-        if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__facade_lang__["g" /* isPresent */])(debugParent) && debugParent instanceof __WEBPACK_IMPORTED_MODULE_1__debug_node__["a" /* DebugElement */]) {
+        if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__facade_lang__["e" /* isPresent */])(debugParent) && debugParent instanceof __WEBPACK_IMPORTED_MODULE_1__debug_node__["a" /* DebugElement */]) {
             var debugElement_1 = debugParent;
             nodes.forEach(function (node) { debugElement_1.addChild(__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__debug_node__["c" /* getDebugNode */])(node)); });
         }
@@ -29276,9 +29060,9 @@ var DebugDomRenderer = (function () {
     };
     DebugDomRenderer.prototype.attachViewAfter = function (node, viewRootNodes) {
         var debugNode = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__debug_node__["c" /* getDebugNode */])(node);
-        if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__facade_lang__["g" /* isPresent */])(debugNode)) {
+        if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__facade_lang__["e" /* isPresent */])(debugNode)) {
             var debugParent = debugNode.parent;
-            if (viewRootNodes.length > 0 && __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__facade_lang__["g" /* isPresent */])(debugParent)) {
+            if (viewRootNodes.length > 0 && __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__facade_lang__["e" /* isPresent */])(debugParent)) {
                 var debugViewRootNodes = [];
                 viewRootNodes.forEach(function (rootNode) { return debugViewRootNodes.push(__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__debug_node__["c" /* getDebugNode */])(rootNode)); });
                 debugParent.insertChildrenAfter(debugNode, debugViewRootNodes);
@@ -29289,7 +29073,7 @@ var DebugDomRenderer = (function () {
     DebugDomRenderer.prototype.detachView = function (viewRootNodes) {
         viewRootNodes.forEach(function (node) {
             var debugNode = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__debug_node__["c" /* getDebugNode */])(node);
-            if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__facade_lang__["g" /* isPresent */])(debugNode) && __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__facade_lang__["g" /* isPresent */])(debugNode.parent)) {
+            if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__facade_lang__["e" /* isPresent */])(debugNode) && __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__facade_lang__["e" /* isPresent */])(debugNode.parent)) {
                 debugNode.parent.removeChild(debugNode);
             }
         });
@@ -29301,7 +29085,7 @@ var DebugDomRenderer = (function () {
     };
     DebugDomRenderer.prototype.listen = function (renderElement, name, callback) {
         var debugEl = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__debug_node__["c" /* getDebugNode */])(renderElement);
-        if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__facade_lang__["g" /* isPresent */])(debugEl)) {
+        if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__facade_lang__["e" /* isPresent */])(debugEl)) {
             debugEl.listeners.push(new __WEBPACK_IMPORTED_MODULE_1__debug_node__["f" /* EventListener */](name, callback));
         }
         return this._delegate.listen(renderElement, name, callback);
@@ -29311,14 +29095,14 @@ var DebugDomRenderer = (function () {
     };
     DebugDomRenderer.prototype.setElementProperty = function (renderElement, propertyName, propertyValue) {
         var debugEl = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__debug_node__["c" /* getDebugNode */])(renderElement);
-        if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__facade_lang__["g" /* isPresent */])(debugEl) && debugEl instanceof __WEBPACK_IMPORTED_MODULE_1__debug_node__["a" /* DebugElement */]) {
+        if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__facade_lang__["e" /* isPresent */])(debugEl) && debugEl instanceof __WEBPACK_IMPORTED_MODULE_1__debug_node__["a" /* DebugElement */]) {
             debugEl.properties[propertyName] = propertyValue;
         }
         this._delegate.setElementProperty(renderElement, propertyName, propertyValue);
     };
     DebugDomRenderer.prototype.setElementAttribute = function (renderElement, attributeName, attributeValue) {
         var debugEl = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__debug_node__["c" /* getDebugNode */])(renderElement);
-        if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__facade_lang__["g" /* isPresent */])(debugEl) && debugEl instanceof __WEBPACK_IMPORTED_MODULE_1__debug_node__["a" /* DebugElement */]) {
+        if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__facade_lang__["e" /* isPresent */])(debugEl) && debugEl instanceof __WEBPACK_IMPORTED_MODULE_1__debug_node__["a" /* DebugElement */]) {
             debugEl.attributes[attributeName] = attributeValue;
         }
         this._delegate.setElementAttribute(renderElement, attributeName, attributeValue);
@@ -29328,14 +29112,14 @@ var DebugDomRenderer = (function () {
     };
     DebugDomRenderer.prototype.setElementClass = function (renderElement, className, isAdd) {
         var debugEl = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__debug_node__["c" /* getDebugNode */])(renderElement);
-        if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__facade_lang__["g" /* isPresent */])(debugEl) && debugEl instanceof __WEBPACK_IMPORTED_MODULE_1__debug_node__["a" /* DebugElement */]) {
+        if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__facade_lang__["e" /* isPresent */])(debugEl) && debugEl instanceof __WEBPACK_IMPORTED_MODULE_1__debug_node__["a" /* DebugElement */]) {
             debugEl.classes[className] = isAdd;
         }
         this._delegate.setElementClass(renderElement, className, isAdd);
     };
     DebugDomRenderer.prototype.setElementStyle = function (renderElement, styleName, styleValue) {
         var debugEl = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__debug_node__["c" /* getDebugNode */])(renderElement);
-        if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__facade_lang__["g" /* isPresent */])(debugEl) && debugEl instanceof __WEBPACK_IMPORTED_MODULE_1__debug_node__["a" /* DebugElement */]) {
+        if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__facade_lang__["e" /* isPresent */])(debugEl) && debugEl instanceof __WEBPACK_IMPORTED_MODULE_1__debug_node__["a" /* DebugElement */]) {
             debugEl.styles[styleName] = styleValue;
         }
         this._delegate.setElementStyle(renderElement, styleName, styleValue);
@@ -29358,32 +29142,25 @@ var DebugDomRenderer = (function () {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__di_metadata__ = __webpack_require__("./node_modules/@angular/core/src/di/metadata.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__di_decorators__ = __webpack_require__("./node_modules/@angular/core/src/di/decorators.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__di_forward_ref__ = __webpack_require__("./node_modules/@angular/core/src/di/forward_ref.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__di_injector__ = __webpack_require__("./node_modules/@angular/core/src/di/injector.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__di_reflective_injector__ = __webpack_require__("./node_modules/@angular/core/src/di/reflective_injector.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__di_reflective_provider__ = __webpack_require__("./node_modules/@angular/core/src/di/reflective_provider.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__di_reflective_key__ = __webpack_require__("./node_modules/@angular/core/src/di/reflective_key.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__di_opaque_token__ = __webpack_require__("./node_modules/@angular/core/src/di/opaque_token.js");
-/* harmony reexport (binding) */ __webpack_require__.d(exports, "m", function() { return __WEBPACK_IMPORTED_MODULE_0__di_metadata__["a"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(exports, "a", function() { return __WEBPACK_IMPORTED_MODULE_0__di_metadata__["c"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(exports, "g", function() { return __WEBPACK_IMPORTED_MODULE_0__di_metadata__["b"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(exports, "l", function() { return __WEBPACK_IMPORTED_MODULE_0__di_metadata__["d"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(exports, "f", function() { return __WEBPACK_IMPORTED_MODULE_0__di_metadata__["f"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(exports, "k", function() { return __WEBPACK_IMPORTED_MODULE_0__di_metadata__["e"]; });
-/* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "c", function() { return __WEBPACK_IMPORTED_MODULE_1__di_decorators__["a"]; });
-/* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "d", function() { return __WEBPACK_IMPORTED_MODULE_1__di_decorators__["b"]; });
-/* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "e", function() { return __WEBPACK_IMPORTED_MODULE_1__di_decorators__["c"]; });
-/* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "n", function() { return __WEBPACK_IMPORTED_MODULE_1__di_decorators__["d"]; });
-/* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "o", function() { return __WEBPACK_IMPORTED_MODULE_1__di_decorators__["e"]; });
-/* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "s", function() { return __WEBPACK_IMPORTED_MODULE_1__di_decorators__["f"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(exports, "p", function() { return __WEBPACK_IMPORTED_MODULE_2__di_forward_ref__["b"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(exports, "j", function() { return __WEBPACK_IMPORTED_MODULE_2__di_forward_ref__["a"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(exports, "i", function() { return __WEBPACK_IMPORTED_MODULE_3__di_injector__["b"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(exports, "h", function() { return __WEBPACK_IMPORTED_MODULE_4__di_reflective_injector__["a"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(exports, "q", function() { return __WEBPACK_IMPORTED_MODULE_5__di_reflective_provider__["c"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(exports, "r", function() { return __WEBPACK_IMPORTED_MODULE_6__di_reflective_key__["a"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(exports, "b", function() { return __WEBPACK_IMPORTED_MODULE_7__di_opaque_token__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__di_forward_ref__ = __webpack_require__("./node_modules/@angular/core/src/di/forward_ref.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__di_injector__ = __webpack_require__("./node_modules/@angular/core/src/di/injector.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__di_reflective_injector__ = __webpack_require__("./node_modules/@angular/core/src/di/reflective_injector.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__di_reflective_provider__ = __webpack_require__("./node_modules/@angular/core/src/di/reflective_provider.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__di_reflective_key__ = __webpack_require__("./node_modules/@angular/core/src/di/reflective_key.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__di_opaque_token__ = __webpack_require__("./node_modules/@angular/core/src/di/opaque_token.js");
+/* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "b", function() { return __WEBPACK_IMPORTED_MODULE_0__di_metadata__["a"]; });
+/* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "c", function() { return __WEBPACK_IMPORTED_MODULE_0__di_metadata__["b"]; });
+/* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "d", function() { return __WEBPACK_IMPORTED_MODULE_0__di_metadata__["c"]; });
+/* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "e", function() { return __WEBPACK_IMPORTED_MODULE_0__di_metadata__["f"]; });
+/* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "i", function() { return __WEBPACK_IMPORTED_MODULE_0__di_metadata__["e"]; });
+/* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "j", function() { return __WEBPACK_IMPORTED_MODULE_0__di_metadata__["d"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(exports, "k", function() { return __WEBPACK_IMPORTED_MODULE_1__di_forward_ref__["b"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(exports, "h", function() { return __WEBPACK_IMPORTED_MODULE_1__di_forward_ref__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(exports, "g", function() { return __WEBPACK_IMPORTED_MODULE_2__di_injector__["b"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(exports, "f", function() { return __WEBPACK_IMPORTED_MODULE_3__di_reflective_injector__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(exports, "l", function() { return __WEBPACK_IMPORTED_MODULE_4__di_reflective_provider__["c"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(exports, "m", function() { return __WEBPACK_IMPORTED_MODULE_5__di_reflective_key__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(exports, "a", function() { return __WEBPACK_IMPORTED_MODULE_6__di_opaque_token__["a"]; });
 /**
  * @license
  * Copyright Google Inc. All Rights Reserved.
@@ -29397,8 +29174,6 @@ var DebugDomRenderer = (function () {
  * The `di` module provides dependency injection container services.
  */
 
-// we have to reexport * because Dart and TS export two different sets of types
-
 
 
 
@@ -29406,67 +29181,6 @@ var DebugDomRenderer = (function () {
 
 
 //# sourceMappingURL=di.js.map
-
-/***/ },
-
-/***/ "./node_modules/@angular/core/src/di/decorators.js":
-/***/ function(module, exports, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__util_decorators__ = __webpack_require__("./node_modules/@angular/core/src/util/decorators.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__metadata__ = __webpack_require__("./node_modules/@angular/core/src/di/metadata.js");
-/* harmony export (binding) */ __webpack_require__.d(exports, "b", function() { return Inject; });
-/* harmony export (binding) */ __webpack_require__.d(exports, "c", function() { return Optional; });
-/* harmony export (binding) */ __webpack_require__.d(exports, "a", function() { return Injectable; });
-/* harmony export (binding) */ __webpack_require__.d(exports, "f", function() { return Self; });
-/* harmony export (binding) */ __webpack_require__.d(exports, "d", function() { return Host; });
-/* harmony export (binding) */ __webpack_require__.d(exports, "e", function() { return SkipSelf; });
-/**
- * @license
- * Copyright Google Inc. All Rights Reserved.
- *
- * Use of this source code is governed by an MIT-style license that can be
- * found in the LICENSE file at https://angular.io/license
- */
-
-
-/**
- * Factory for creating {@link InjectMetadata}.
- * @stable
- * @Annotation
- */
-var Inject = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__util_decorators__["a" /* makeParamDecorator */])(__WEBPACK_IMPORTED_MODULE_1__metadata__["a" /* InjectMetadata */]);
-/**
- * Factory for creating {@link OptionalMetadata}.
- * @stable
- * @Annotation
- */
-var Optional = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__util_decorators__["a" /* makeParamDecorator */])(__WEBPACK_IMPORTED_MODULE_1__metadata__["b" /* OptionalMetadata */]);
-/**
- * Factory for creating {@link InjectableMetadata}.
- * @stable
- * @Annotation
- */
-var Injectable = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__util_decorators__["b" /* makeDecorator */])(__WEBPACK_IMPORTED_MODULE_1__metadata__["c" /* InjectableMetadata */]);
-/**
- * Factory for creating {@link SelfMetadata}.
- * @stable
- * @Annotation
- */
-var Self = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__util_decorators__["a" /* makeParamDecorator */])(__WEBPACK_IMPORTED_MODULE_1__metadata__["d" /* SelfMetadata */]);
-/**
- * Factory for creating {@link HostMetadata}.
- * @stable
- * @Annotation
- */
-var Host = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__util_decorators__["a" /* makeParamDecorator */])(__WEBPACK_IMPORTED_MODULE_1__metadata__["e" /* HostMetadata */]);
-/**
- * Factory for creating {@link SkipSelfMetadata}.
- * @stable
- * @Annotation
- */
-var SkipSelf = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__util_decorators__["a" /* makeParamDecorator */])(__WEBPACK_IMPORTED_MODULE_1__metadata__["f" /* SkipSelfMetadata */]);
-//# sourceMappingURL=decorators.js.map
 
 /***/ },
 
@@ -29499,7 +29213,7 @@ var SkipSelf = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__util_decorator
  */
 function forwardRef(forwardRefFn) {
     forwardRefFn.__forward_ref__ = forwardRef;
-    forwardRefFn.toString = function () { return __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__facade_lang__["a" /* stringify */])(this()); };
+    forwardRefFn.toString = function () { return __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__facade_lang__["b" /* stringify */])(this()); };
     return forwardRefFn;
 }
 /**
@@ -29515,7 +29229,7 @@ function forwardRef(forwardRefFn) {
  * @experimental
  */
 function resolveForwardRef(type) {
-    if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__facade_lang__["b" /* isFunction */])(type) && type.hasOwnProperty('__forward_ref__') &&
+    if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__facade_lang__["a" /* isFunction */])(type) && type.hasOwnProperty('__forward_ref__') &&
         type.__forward_ref__ === forwardRef) {
         return type();
     }
@@ -29552,7 +29266,7 @@ var _NullInjector = (function () {
     _NullInjector.prototype.get = function (token, notFoundValue) {
         if (notFoundValue === void 0) { notFoundValue = _THROW_IF_NOT_FOUND; }
         if (notFoundValue === _THROW_IF_NOT_FOUND) {
-            throw new Error("No provider for " + __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["a" /* stringify */])(token) + "!");
+            throw new Error("No provider for " + __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["b" /* stringify */])(token) + "!");
         }
         return notFoundValue;
     };
@@ -29601,14 +29315,13 @@ var Injector = (function () {
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__facade_lang__ = __webpack_require__("./node_modules/@angular/core/src/facade/lang.js");
-/* harmony export (binding) */ __webpack_require__.d(exports, "a", function() { return InjectMetadata; });
-/* harmony export (binding) */ __webpack_require__.d(exports, "b", function() { return OptionalMetadata; });
-/* harmony export (binding) */ __webpack_require__.d(exports, "g", function() { return DependencyMetadata; });
-/* harmony export (binding) */ __webpack_require__.d(exports, "c", function() { return InjectableMetadata; });
-/* harmony export (binding) */ __webpack_require__.d(exports, "d", function() { return SelfMetadata; });
-/* harmony export (binding) */ __webpack_require__.d(exports, "f", function() { return SkipSelfMetadata; });
-/* harmony export (binding) */ __webpack_require__.d(exports, "e", function() { return HostMetadata; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__util_decorators__ = __webpack_require__("./node_modules/@angular/core/src/util/decorators.js");
+/* harmony export (binding) */ __webpack_require__.d(exports, "b", function() { return Inject; });
+/* harmony export (binding) */ __webpack_require__.d(exports, "c", function() { return Optional; });
+/* harmony export (binding) */ __webpack_require__.d(exports, "a", function() { return Injectable; });
+/* harmony export (binding) */ __webpack_require__.d(exports, "d", function() { return Self; });
+/* harmony export (binding) */ __webpack_require__.d(exports, "f", function() { return SkipSelf; });
+/* harmony export (binding) */ __webpack_require__.d(exports, "e", function() { return Host; });
 /**
  * @license
  * Copyright Google Inc. All Rights Reserved.
@@ -29618,258 +29331,47 @@ var Injector = (function () {
  */
 
 /**
- * A parameter metadata that specifies a dependency.
+ * Inject decorator and metadata.
  *
- * ### Example ([live demo](http://plnkr.co/edit/6uHYJK?p=preview))
- *
- * ```typescript
- * class Engine {}
- *
- * @Injectable()
- * class Car {
- *   engine;
- *   constructor(@Inject("MyEngine") engine:Engine) {
- *     this.engine = engine;
- *   }
- * }
- *
- * var injector = Injector.resolveAndCreate([
- *  {provide: "MyEngine", useClass: Engine},
- *  Car
- * ]);
- *
- * expect(injector.get(Car).engine instanceof Engine).toBe(true);
- * ```
- *
- * When `@Inject()` is not present, {@link Injector} will use the type annotation of the parameter.
- *
- * ### Example
- *
- * ```typescript
- * class Engine {}
- *
- * @Injectable()
- * class Car {
- *   constructor(public engine: Engine) {} //same as constructor(@Inject(Engine) engine:Engine)
- * }
- *
- * var injector = Injector.resolveAndCreate([Engine, Car]);
- * expect(injector.get(Car).engine instanceof Engine).toBe(true);
- * ```
  * @stable
+ * @Annotation
  */
-var InjectMetadata = (function () {
-    function InjectMetadata(token) {
-        this.token = token;
-    }
-    InjectMetadata.prototype.toString = function () { return "@Inject(" + __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__facade_lang__["a" /* stringify */])(this.token) + ")"; };
-    return InjectMetadata;
-}());
+var Inject = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__util_decorators__["a" /* makeParamDecorator */])('Inject', [['token', undefined]]);
 /**
- * A parameter metadata that marks a dependency as optional. {@link Injector} provides `null` if
- * the dependency is not found.
+ * Optional decorator and metadata.
  *
- * ### Example ([live demo](http://plnkr.co/edit/AsryOm?p=preview))
- *
- * ```typescript
- * class Engine {}
- *
- * @Injectable()
- * class Car {
- *   engine;
- *   constructor(@Optional() engine:Engine) {
- *     this.engine = engine;
- *   }
- * }
- *
- * var injector = Injector.resolveAndCreate([Car]);
- * expect(injector.get(Car).engine).toBeNull();
- * ```
  * @stable
+ * @Annotation
  */
-var OptionalMetadata = (function () {
-    function OptionalMetadata() {
-    }
-    OptionalMetadata.prototype.toString = function () { return "@Optional()"; };
-    return OptionalMetadata;
-}());
+var Optional = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__util_decorators__["a" /* makeParamDecorator */])('Optional', []);
 /**
- * `DependencyMetadata` is used by the framework to extend DI.
- * This is internal to Angular and should not be used directly.
+ * Injectable decorator and metadata.
+ *
  * @stable
+ * @Annotation
  */
-var DependencyMetadata = (function () {
-    function DependencyMetadata() {
-    }
-    Object.defineProperty(DependencyMetadata.prototype, "token", {
-        get: function () { return null; },
-        enumerable: true,
-        configurable: true
-    });
-    return DependencyMetadata;
-}());
+var Injectable = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__util_decorators__["a" /* makeParamDecorator */])('Injectable', []);
 /**
- * A marker metadata that marks a class as available to {@link Injector} for creation.
+ * Self decorator and metadata.
  *
- * ### Example ([live demo](http://plnkr.co/edit/Wk4DMQ?p=preview))
- *
- * ```typescript
- * @Injectable()
- * class UsefulService {}
- *
- * @Injectable()
- * class NeedsService {
- *   constructor(public service:UsefulService) {}
- * }
- *
- * var injector = Injector.resolveAndCreate([NeedsService, UsefulService]);
- * expect(injector.get(NeedsService).service instanceof UsefulService).toBe(true);
- * ```
- * {@link Injector} will throw {@link NoAnnotationError} when trying to instantiate a class that
- * does not have `@Injectable` marker, as shown in the example below.
- *
- * ```typescript
- * class UsefulService {}
- *
- * class NeedsService {
- *   constructor(public service:UsefulService) {}
- * }
- *
- * var injector = Injector.resolveAndCreate([NeedsService, UsefulService]);
- * expect(() => injector.get(NeedsService)).toThrowError();
- * ```
  * @stable
+ * @Annotation
  */
-var InjectableMetadata = (function () {
-    function InjectableMetadata() {
-    }
-    return InjectableMetadata;
-}());
+var Self = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__util_decorators__["a" /* makeParamDecorator */])('Self', []);
 /**
- * Specifies that an {@link Injector} should retrieve a dependency only from itself.
+ * SkipSelf decorator and metadata.
  *
- * ### Example ([live demo](http://plnkr.co/edit/NeagAg?p=preview))
- *
- * ```typescript
- * class Dependency {
- * }
- *
- * @Injectable()
- * class NeedsDependency {
- *   dependency;
- *   constructor(@Self() dependency:Dependency) {
- *     this.dependency = dependency;
- *   }
- * }
- *
- * var inj = Injector.resolveAndCreate([Dependency, NeedsDependency]);
- * var nd = inj.get(NeedsDependency);
- *
- * expect(nd.dependency instanceof Dependency).toBe(true);
- *
- * var inj = Injector.resolveAndCreate([Dependency]);
- * var child = inj.resolveAndCreateChild([NeedsDependency]);
- * expect(() => child.get(NeedsDependency)).toThrowError();
- * ```
  * @stable
+ * @Annotation
  */
-var SelfMetadata = (function () {
-    function SelfMetadata() {
-    }
-    SelfMetadata.prototype.toString = function () { return "@Self()"; };
-    return SelfMetadata;
-}());
+var SkipSelf = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__util_decorators__["a" /* makeParamDecorator */])('SkipSelf', []);
 /**
- * Specifies that the dependency resolution should start from the parent injector.
+ * Host decorator and metadata.
  *
- * ### Example ([live demo](http://plnkr.co/edit/Wchdzb?p=preview))
- *
- * ```typescript
- * class Dependency {
- * }
- *
- * @Injectable()
- * class NeedsDependency {
- *   dependency;
- *   constructor(@SkipSelf() dependency:Dependency) {
- *     this.dependency = dependency;
- *   }
- * }
- *
- * var parent = Injector.resolveAndCreate([Dependency]);
- * var child = parent.resolveAndCreateChild([NeedsDependency]);
- * expect(child.get(NeedsDependency).dependency instanceof Depedency).toBe(true);
- *
- * var inj = Injector.resolveAndCreate([Dependency, NeedsDependency]);
- * expect(() => inj.get(NeedsDependency)).toThrowError();
- * ```
  * @stable
+ * @Annotation
  */
-var SkipSelfMetadata = (function () {
-    function SkipSelfMetadata() {
-    }
-    SkipSelfMetadata.prototype.toString = function () { return "@SkipSelf()"; };
-    return SkipSelfMetadata;
-}());
-/**
- * Specifies that an injector should retrieve a dependency from any injector until reaching the
- * closest host.
- *
- * In Angular, a component element is automatically declared as a host for all the injectors in
- * its view.
- *
- * ### Example ([live demo](http://plnkr.co/edit/GX79pV?p=preview))
- *
- * In the following example `App` contains `ParentCmp`, which contains `ChildDirective`.
- * So `ParentCmp` is the host of `ChildDirective`.
- *
- * `ChildDirective` depends on two services: `HostService` and `OtherService`.
- * `HostService` is defined at `ParentCmp`, and `OtherService` is defined at `App`.
- *
- *```typescript
- * class OtherService {}
- * class HostService {}
- *
- * @Directive({
- *   selector: 'child-directive'
- * })
- * class ChildDirective {
- *   constructor(@Optional() @Host() os:OtherService, @Optional() @Host() hs:HostService){
- *     console.log("os is null", os);
- *     console.log("hs is NOT null", hs);
- *   }
- * }
- *
- * @Component({
- *   selector: 'parent-cmp',
- *   providers: [HostService],
- *   template: `
- *     Dir: <child-directive></child-directive>
- *   `,
- *   directives: [ChildDirective]
- * })
- * class ParentCmp {
- * }
- *
- * @Component({
- *   selector: 'app',
- *   providers: [OtherService],
- *   template: `
- *     Parent: <parent-cmp></parent-cmp>
- *   `,
- *   directives: [ParentCmp]
- * })
- * class App {
- * }
- *```
- * @stable
- */
-var HostMetadata = (function () {
-    function HostMetadata() {
-    }
-    HostMetadata.prototype.toString = function () { return "@Host()"; };
-    return HostMetadata;
-}());
+var Host = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__util_decorators__["a" /* makeParamDecorator */])('Host', []);
 //# sourceMappingURL=metadata.js.map
 
 /***/ },
@@ -29878,7 +29380,7 @@ var HostMetadata = (function () {
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__decorators__ = __webpack_require__("./node_modules/@angular/core/src/di/decorators.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__metadata__ = __webpack_require__("./node_modules/@angular/core/src/di/metadata.js");
 /* harmony export (binding) */ __webpack_require__.d(exports, "a", function() { return OpaqueToken; });
 /**
  * @license
@@ -29917,7 +29419,7 @@ var OpaqueToken = (function () {
     }
     OpaqueToken.prototype.toString = function () { return "Token " + this._desc; };
     OpaqueToken.decorators = [
-        { type: __WEBPACK_IMPORTED_MODULE_0__decorators__["a" /* Injectable */] },
+        { type: __WEBPACK_IMPORTED_MODULE_0__metadata__["a" /* Injectable */] },
     ];
     /** @nocollapse */
     OpaqueToken.ctorParameters = [
@@ -29973,7 +29475,7 @@ function findFirstClosedCycle(keys) {
 function constructResolvingPath(keys) {
     if (keys.length > 1) {
         var reversed = findFirstClosedCycle(__WEBPACK_IMPORTED_MODULE_0__facade_collection__["a" /* ListWrapper */].reversed(keys));
-        var tokenStrs = reversed.map(function (k) { return __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2__facade_lang__["a" /* stringify */])(k.token); });
+        var tokenStrs = reversed.map(function (k) { return __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2__facade_lang__["b" /* stringify */])(k.token); });
         return ' (' + tokenStrs.join(' -> ') + ')';
     }
     return '';
@@ -30017,7 +29519,7 @@ var NoProviderError = (function (_super) {
     __extends(NoProviderError, _super);
     function NoProviderError(injector, key) {
         _super.call(this, injector, key, function (keys) {
-            var first = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2__facade_lang__["a" /* stringify */])(__WEBPACK_IMPORTED_MODULE_0__facade_collection__["a" /* ListWrapper */].first(keys).token);
+            var first = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2__facade_lang__["b" /* stringify */])(__WEBPACK_IMPORTED_MODULE_0__facade_collection__["a" /* ListWrapper */].first(keys).token);
             return "No provider for " + first + "!" + constructResolvingPath(keys);
         });
     }
@@ -30089,7 +29591,7 @@ var InstantiationError = (function (_super) {
     };
     Object.defineProperty(InstantiationError.prototype, "message", {
         get: function () {
-            var first = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2__facade_lang__["a" /* stringify */])(__WEBPACK_IMPORTED_MODULE_0__facade_collection__["a" /* ListWrapper */].first(this.keys).token);
+            var first = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2__facade_lang__["b" /* stringify */])(__WEBPACK_IMPORTED_MODULE_0__facade_collection__["a" /* ListWrapper */].first(this.keys).token);
             return this.originalError.message + ": Error during instantiation of " + first + "!" + constructResolvingPath(this.keys) + ".";
         },
         enumerable: true,
@@ -30158,17 +29660,17 @@ var NoAnnotationError = (function (_super) {
         var signature = [];
         for (var i = 0, ii = params.length; i < ii; i++) {
             var parameter = params[i];
-            if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2__facade_lang__["f" /* isBlank */])(parameter) || parameter.length == 0) {
+            if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2__facade_lang__["d" /* isBlank */])(parameter) || parameter.length == 0) {
                 signature.push('?');
             }
             else {
-                signature.push(parameter.map(__WEBPACK_IMPORTED_MODULE_2__facade_lang__["a" /* stringify */]).join(' '));
+                signature.push(parameter.map(__WEBPACK_IMPORTED_MODULE_2__facade_lang__["b" /* stringify */]).join(' '));
             }
         }
-        return 'Cannot resolve all parameters for \'' + __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2__facade_lang__["a" /* stringify */])(typeOrFunc) + '\'(' +
+        return 'Cannot resolve all parameters for \'' + __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2__facade_lang__["b" /* stringify */])(typeOrFunc) + '\'(' +
             signature.join(', ') + '). ' +
             'Make sure that all the parameters are decorated with Inject or have valid type annotations and that \'' +
-            __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2__facade_lang__["a" /* stringify */])(typeOrFunc) + '\' is decorated with Injectable.';
+            __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2__facade_lang__["b" /* stringify */])(typeOrFunc) + '\' is decorated with Injectable.';
     };
     return NoAnnotationError;
 }(__WEBPACK_IMPORTED_MODULE_1__facade_errors__["b" /* BaseError */]));
@@ -30983,7 +30485,7 @@ var ReflectiveInjector_ = (function () {
         if (key === INJECTOR_KEY) {
             return this;
         }
-        if (upperBoundVisibility instanceof __WEBPACK_IMPORTED_MODULE_3__metadata__["d" /* SelfMetadata */]) {
+        if (upperBoundVisibility instanceof __WEBPACK_IMPORTED_MODULE_3__metadata__["d" /* Self */]) {
             return this._getByKeySelf(key, notFoundValue);
         }
         else {
@@ -31007,7 +30509,7 @@ var ReflectiveInjector_ = (function () {
     /** @internal */
     ReflectiveInjector_.prototype._getByKeyDefault = function (key, notFoundValue, lowerBoundVisibility) {
         var inj;
-        if (lowerBoundVisibility instanceof __WEBPACK_IMPORTED_MODULE_3__metadata__["f" /* SkipSelfMetadata */]) {
+        if (lowerBoundVisibility instanceof __WEBPACK_IMPORTED_MODULE_3__metadata__["f" /* SkipSelf */]) {
             inj = this._parent;
         }
         else {
@@ -31091,7 +30593,7 @@ var ReflectiveKey = (function () {
     function ReflectiveKey(token, id) {
         this.token = token;
         this.id = id;
-        if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__facade_lang__["f" /* isBlank */])(token)) {
+        if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__facade_lang__["d" /* isBlank */])(token)) {
             throw new Error('Token must be defined!');
         }
     }
@@ -31099,7 +30601,7 @@ var ReflectiveKey = (function () {
         /**
          * Returns a stringified token.
          */
-        get: function () { return __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__facade_lang__["a" /* stringify */])(this.token); },
+        get: function () { return __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__facade_lang__["b" /* stringify */])(this.token); },
         enumerable: true,
         configurable: true
     });
@@ -31238,16 +30740,16 @@ var ResolvedReflectiveFactory = (function () {
 function resolveReflectiveFactory(provider) {
     var factoryFn;
     var resolvedDeps;
-    if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["g" /* isPresent */])(provider.useClass)) {
+    if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["e" /* isPresent */])(provider.useClass)) {
         var useClass = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_4__forward_ref__["a" /* resolveForwardRef */])(provider.useClass);
         factoryFn = __WEBPACK_IMPORTED_MODULE_2__reflection_reflection__["a" /* reflector */].factory(useClass);
         resolvedDeps = _dependenciesFor(useClass);
     }
-    else if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["g" /* isPresent */])(provider.useExisting)) {
+    else if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["e" /* isPresent */])(provider.useExisting)) {
         factoryFn = function (aliasInstance) { return aliasInstance; };
         resolvedDeps = [ReflectiveDependency.fromKey(__WEBPACK_IMPORTED_MODULE_7__reflective_key__["a" /* ReflectiveKey */].get(provider.useExisting))];
     }
-    else if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["g" /* isPresent */])(provider.useFactory)) {
+    else if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["e" /* isPresent */])(provider.useFactory)) {
         factoryFn = provider.useFactory;
         resolvedDeps = constructDependencies(provider.useFactory, provider.deps);
     }
@@ -31283,7 +30785,7 @@ function mergeResolvedReflectiveProviders(providers, normalizedProvidersMap) {
     for (var i = 0; i < providers.length; i++) {
         var provider = providers[i];
         var existing = normalizedProvidersMap.get(provider.key.id);
-        if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["g" /* isPresent */])(existing)) {
+        if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["e" /* isPresent */])(existing)) {
             if (provider.multiProvider !== existing.multiProvider) {
                 throw new __WEBPACK_IMPORTED_MODULE_6__reflective_errors__["a" /* MixingMultiProvidersWithRegularProvidersError */](existing, provider);
             }
@@ -31327,7 +30829,7 @@ function _normalizeProviders(providers, res) {
     return res;
 }
 function constructDependencies(typeOrFunc, dependencies) {
-    if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["f" /* isBlank */])(dependencies)) {
+    if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["d" /* isBlank */])(dependencies)) {
         return _dependenciesFor(typeOrFunc);
     }
     else {
@@ -31337,9 +30839,9 @@ function constructDependencies(typeOrFunc, dependencies) {
 }
 function _dependenciesFor(typeOrFunc) {
     var params = __WEBPACK_IMPORTED_MODULE_2__reflection_reflection__["a" /* reflector */].parameters(typeOrFunc);
-    if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["f" /* isBlank */])(params))
+    if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["d" /* isBlank */])(params))
         return [];
-    if (params.some(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["f" /* isBlank */])) {
+    if (params.some(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["d" /* isBlank */])) {
         throw new __WEBPACK_IMPORTED_MODULE_6__reflective_errors__["c" /* NoAnnotationError */](typeOrFunc, params);
     }
     return params.map(function (p) { return _extractToken(typeOrFunc, p, params); });
@@ -31348,8 +30850,8 @@ function _extractToken(typeOrFunc /** TODO #9100 */, metadata /** TODO #9100 */ 
     var depProps = [];
     var token = null;
     var optional = false;
-    if (!__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["h" /* isArray */])(metadata)) {
-        if (metadata instanceof __WEBPACK_IMPORTED_MODULE_5__metadata__["a" /* InjectMetadata */]) {
+    if (!__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["f" /* isArray */])(metadata)) {
+        if (metadata instanceof __WEBPACK_IMPORTED_MODULE_5__metadata__["b" /* Inject */]) {
             return _createDependency(metadata.token, optional, null, null, depProps);
         }
         else {
@@ -31363,30 +30865,24 @@ function _extractToken(typeOrFunc /** TODO #9100 */, metadata /** TODO #9100 */ 
         if (paramMetadata instanceof __WEBPACK_IMPORTED_MODULE_3__type__["a" /* Type */]) {
             token = paramMetadata;
         }
-        else if (paramMetadata instanceof __WEBPACK_IMPORTED_MODULE_5__metadata__["a" /* InjectMetadata */]) {
+        else if (paramMetadata instanceof __WEBPACK_IMPORTED_MODULE_5__metadata__["b" /* Inject */]) {
             token = paramMetadata.token;
         }
-        else if (paramMetadata instanceof __WEBPACK_IMPORTED_MODULE_5__metadata__["b" /* OptionalMetadata */]) {
+        else if (paramMetadata instanceof __WEBPACK_IMPORTED_MODULE_5__metadata__["c" /* Optional */]) {
             optional = true;
         }
-        else if (paramMetadata instanceof __WEBPACK_IMPORTED_MODULE_5__metadata__["d" /* SelfMetadata */]) {
+        else if (paramMetadata instanceof __WEBPACK_IMPORTED_MODULE_5__metadata__["d" /* Self */]) {
             upperBoundVisibility = paramMetadata;
         }
-        else if (paramMetadata instanceof __WEBPACK_IMPORTED_MODULE_5__metadata__["e" /* HostMetadata */]) {
+        else if (paramMetadata instanceof __WEBPACK_IMPORTED_MODULE_5__metadata__["e" /* Host */]) {
             upperBoundVisibility = paramMetadata;
         }
-        else if (paramMetadata instanceof __WEBPACK_IMPORTED_MODULE_5__metadata__["f" /* SkipSelfMetadata */]) {
+        else if (paramMetadata instanceof __WEBPACK_IMPORTED_MODULE_5__metadata__["f" /* SkipSelf */]) {
             lowerBoundVisibility = paramMetadata;
-        }
-        else if (paramMetadata instanceof __WEBPACK_IMPORTED_MODULE_5__metadata__["g" /* DependencyMetadata */]) {
-            if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["g" /* isPresent */])(paramMetadata.token)) {
-                token = paramMetadata.token;
-            }
-            depProps.push(paramMetadata);
         }
     }
     token = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_4__forward_ref__["a" /* resolveForwardRef */])(token);
-    if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["g" /* isPresent */])(token)) {
+    if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["e" /* isPresent */])(token)) {
         return _createDependency(token, optional, lowerBoundVisibility, upperBoundVisibility, depProps);
     }
     else {
@@ -31802,9 +31298,8 @@ var StringMapWrapper = (function () {
         if (k1.length != k2.length) {
             return false;
         }
-        var key;
         for (var i = 0; i < k1.length; i++) {
-            key = k1[i];
+            var key = k1[i];
             if (m1[key] !== m2[key]) {
                 return false;
             }
@@ -31889,7 +31384,7 @@ var ListWrapper = (function () {
     };
     ListWrapper.splice = function (l, from, length) { return l.splice(from, length); };
     ListWrapper.sort = function (l, compareFn) {
-        if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__lang__["g" /* isPresent */])(compareFn)) {
+        if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__lang__["e" /* isPresent */])(compareFn)) {
             l.sort(compareFn);
         }
         else {
@@ -31906,7 +31401,7 @@ var ListWrapper = (function () {
         var maxValue = -Infinity;
         for (var index = 0; index < list.length; index++) {
             var candidate = list[index];
-            if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__lang__["f" /* isBlank */])(candidate)) {
+            if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__lang__["d" /* isBlank */])(candidate)) {
                 continue;
             }
             var candidateValue = predicate(candidate);
@@ -31930,10 +31425,10 @@ var ListWrapper = (function () {
     return ListWrapper;
 }());
 function _flattenArray(source, target) {
-    if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__lang__["g" /* isPresent */])(source)) {
+    if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__lang__["e" /* isPresent */])(source)) {
         for (var i = 0; i < source.length; i++) {
             var item = source[i];
-            if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__lang__["h" /* isArray */])(item)) {
+            if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__lang__["f" /* isArray */])(item)) {
                 _flattenArray(item, target);
             }
             else {
@@ -31944,15 +31439,15 @@ function _flattenArray(source, target) {
     return target;
 }
 function isListLikeIterable(obj) {
-    if (!__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__lang__["i" /* isJsObject */])(obj))
+    if (!__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__lang__["g" /* isJsObject */])(obj))
         return false;
-    return __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__lang__["h" /* isArray */])(obj) ||
+    return __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__lang__["f" /* isArray */])(obj) ||
         (!(obj instanceof Map) &&
-            __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__lang__["j" /* getSymbolIterator */])() in obj); // JS Iterable have a Symbol.iterator prop
+            __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__lang__["h" /* getSymbolIterator */])() in obj); // JS Iterable have a Symbol.iterator prop
 }
 function areIterablesEqual(a, b, comparator) {
-    var iterator1 = a[__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__lang__["j" /* getSymbolIterator */])()]();
-    var iterator2 = b[__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__lang__["j" /* getSymbolIterator */])()]();
+    var iterator1 = a[__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__lang__["h" /* getSymbolIterator */])()]();
+    var iterator2 = b[__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__lang__["h" /* getSymbolIterator */])()]();
     while (true) {
         var item1 = iterator1.next();
         var item2 = iterator2.next();
@@ -31965,13 +31460,13 @@ function areIterablesEqual(a, b, comparator) {
     }
 }
 function iterateListLike(obj, fn) {
-    if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__lang__["h" /* isArray */])(obj)) {
+    if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__lang__["f" /* isArray */])(obj)) {
         for (var i = 0; i < obj.length; i++) {
             fn(obj[i]);
         }
     }
     else {
-        var iterator = obj[__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__lang__["j" /* getSymbolIterator */])()]();
+        var iterator = obj[__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__lang__["h" /* getSymbolIterator */])()]();
         var item;
         while (!((item = iterator.next()).done)) {
             fn(item.value);
@@ -32089,46 +31584,46 @@ var WrappedError = (function (_super) {
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
-/* WEBPACK VAR INJECTION */(function(global) {/* harmony export (immutable) */ exports["s"] = scheduleMicroTask;
+/* WEBPACK VAR INJECTION */(function(global) {/* harmony export (immutable) */ exports["r"] = scheduleMicroTask;
 /* harmony export (binding) */ __webpack_require__.d(exports, "c", function() { return _global; });
-/* harmony export (immutable) */ exports["q"] = getTypeNameForDebugging;
-/* harmony export (binding) */ __webpack_require__.d(exports, "l", function() { return Math; });
+/* harmony export (immutable) */ exports["p"] = getTypeNameForDebugging;
+/* harmony export (binding) */ __webpack_require__.d(exports, "k", function() { return Math; });
 /* unused harmony export Date */
-/* harmony export (immutable) */ exports["g"] = isPresent;
-/* harmony export (immutable) */ exports["f"] = isBlank;
+/* harmony export (immutable) */ exports["e"] = isPresent;
+/* harmony export (immutable) */ exports["d"] = isBlank;
 /* unused harmony export isBoolean */
 /* unused harmony export isNumber */
-/* harmony export (immutable) */ exports["d"] = isString;
-/* harmony export (immutable) */ exports["b"] = isFunction;
+/* harmony export (immutable) */ exports["s"] = isString;
+/* harmony export (immutable) */ exports["a"] = isFunction;
 /* unused harmony export isType */
 /* unused harmony export isStringMap */
 /* unused harmony export isStrictStringMap */
-/* harmony export (immutable) */ exports["k"] = isPromise;
-/* harmony export (immutable) */ exports["h"] = isArray;
+/* harmony export (immutable) */ exports["i"] = isPromise;
+/* harmony export (immutable) */ exports["f"] = isArray;
 /* unused harmony export isDate */
 /* unused harmony export noop */
-/* harmony export (immutable) */ exports["a"] = stringify;
+/* harmony export (immutable) */ exports["b"] = stringify;
 /* unused harmony export serializeEnum */
 /* unused harmony export deserializeEnum */
 /* unused harmony export resolveEnumToken */
-/* harmony export (binding) */ __webpack_require__.d(exports, "e", function() { return StringWrapper; });
+/* harmony export (binding) */ __webpack_require__.d(exports, "j", function() { return StringWrapper; });
 /* unused harmony export StringJoiner */
-/* harmony export (binding) */ __webpack_require__.d(exports, "t", function() { return NumberWrapper; });
+/* unused harmony export NumberWrapper */
 /* unused harmony export RegExp */
 /* unused harmony export FunctionWrapper */
-/* harmony export (immutable) */ exports["o"] = looseIdentical;
-/* harmony export (immutable) */ exports["p"] = getMapKey;
+/* harmony export (immutable) */ exports["n"] = looseIdentical;
+/* harmony export (immutable) */ exports["o"] = getMapKey;
 /* unused harmony export normalizeBlank */
 /* unused harmony export normalizeBool */
-/* harmony export (immutable) */ exports["i"] = isJsObject;
-/* harmony export (immutable) */ exports["m"] = print;
-/* harmony export (immutable) */ exports["n"] = warn;
+/* harmony export (immutable) */ exports["g"] = isJsObject;
+/* harmony export (immutable) */ exports["l"] = print;
+/* harmony export (immutable) */ exports["m"] = warn;
 /* unused harmony export Json */
 /* unused harmony export DateWrapper */
 /* unused harmony export setValueOnPath */
-/* harmony export (immutable) */ exports["j"] = getSymbolIterator;
+/* harmony export (immutable) */ exports["h"] = getSymbolIterator;
 /* unused harmony export evalExpression */
-/* harmony export (immutable) */ exports["r"] = isPrimitive;
+/* harmony export (immutable) */ exports["q"] = isPrimitive;
 /* unused harmony export hasConstructor */
 /* unused harmony export escape */
 /* unused harmony export escapeRegExp */
@@ -32349,8 +31844,6 @@ var NumberWrapper = (function () {
         }
         throw new Error('Invalid integer literal when parsing ' + text + ' in base ' + radix);
     };
-    // TODO: NaN is a valid literal but is returned by parseFloat to indicate an error.
-    NumberWrapper.parseFloat = function (text) { return parseFloat(text); };
     Object.defineProperty(NumberWrapper, "NaN", {
         get: function () { return NaN; },
         enumerable: true,
@@ -32565,14 +32058,15 @@ var TRANSLATIONS_FORMAT = new __WEBPACK_IMPORTED_MODULE_0__di_opaque_token__["a"
 /* harmony reexport (binding) */ __webpack_require__.d(exports, "a", function() { return __WEBPACK_IMPORTED_MODULE_3__linker_element_ref__["a"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(exports, "g", function() { return __WEBPACK_IMPORTED_MODULE_4__linker_ng_module_factory__["b"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(exports, "m", function() { return __WEBPACK_IMPORTED_MODULE_4__linker_ng_module_factory__["c"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(exports, "n", function() { return __WEBPACK_IMPORTED_MODULE_5__linker_ng_module_factory_loader__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(exports, "n", function() { return __WEBPACK_IMPORTED_MODULE_5__linker_ng_module_factory_loader__["b"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(exports, "o", function() { return __WEBPACK_IMPORTED_MODULE_5__linker_ng_module_factory_loader__["c"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(exports, "c", function() { return __WEBPACK_IMPORTED_MODULE_6__linker_query_list__["a"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(exports, "o", function() { return __WEBPACK_IMPORTED_MODULE_7__linker_system_js_ng_module_factory_loader__["a"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(exports, "p", function() { return __WEBPACK_IMPORTED_MODULE_7__linker_system_js_ng_module_factory_loader__["b"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(exports, "p", function() { return __WEBPACK_IMPORTED_MODULE_7__linker_system_js_ng_module_factory_loader__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(exports, "q", function() { return __WEBPACK_IMPORTED_MODULE_7__linker_system_js_ng_module_factory_loader__["b"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(exports, "d", function() { return __WEBPACK_IMPORTED_MODULE_8__linker_template_ref__["b"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(exports, "b", function() { return __WEBPACK_IMPORTED_MODULE_9__linker_view_container_ref__["b"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(exports, "q", function() { return __WEBPACK_IMPORTED_MODULE_10__linker_view_ref__["b"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(exports, "r", function() { return __WEBPACK_IMPORTED_MODULE_10__linker_view_ref__["c"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(exports, "r", function() { return __WEBPACK_IMPORTED_MODULE_10__linker_view_ref__["b"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(exports, "s", function() { return __WEBPACK_IMPORTED_MODULE_10__linker_view_ref__["c"]; });
 /**
  * @license
  * Copyright Google Inc. All Rights Reserved.
@@ -32631,7 +32125,7 @@ var __extends = (this && this.__extends) || function (d, b) {
 var ComponentStillLoadingError = (function (_super) {
     __extends(ComponentStillLoadingError, _super);
     function ComponentStillLoadingError(compType) {
-        _super.call(this, "Can't compile synchronously as " + __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2__facade_lang__["a" /* stringify */])(compType) + " is still being loaded!");
+        _super.call(this, "Can't compile synchronously as " + __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2__facade_lang__["b" /* stringify */])(compType) + " is still being loaded!");
         this.compType = compType;
     }
     return ComponentStillLoadingError;
@@ -32675,19 +32169,19 @@ var Compiler = (function () {
      */
     Compiler.prototype.compileModuleAsync = function (moduleType) { throw _throwError(); };
     /**
-     * Same as {@link compileModuleSync} put also creates ComponentFactories for all components.
+     * Same as {@link compileModuleSync} but also creates ComponentFactories for all components.
      */
     Compiler.prototype.compileModuleAndAllComponentsSync = function (moduleType) {
         throw _throwError();
     };
     /**
-     * Same as {@link compileModuleAsync} put also creates ComponentFactories for all components.
+     * Same as {@link compileModuleAsync} but also creates ComponentFactories for all components.
      */
     Compiler.prototype.compileModuleAndAllComponentsAsync = function (moduleType) {
         throw _throwError();
     };
     /**
-     * Clears all caches
+     * Clears all caches.
      */
     Compiler.prototype.clearCache = function () { };
     /**
@@ -32701,7 +32195,7 @@ var Compiler = (function () {
  *
  * @experimental
  */
-var COMPILER_OPTIONS = new __WEBPACK_IMPORTED_MODULE_0__di__["b" /* OpaqueToken */]('compilerOptions');
+var COMPILER_OPTIONS = new __WEBPACK_IMPORTED_MODULE_0__di__["a" /* OpaqueToken */]('compilerOptions');
 /**
  * A factory for creating a Compiler
  *
@@ -32873,7 +32367,7 @@ var ComponentFactory = (function () {
         if (projectableNodes === void 0) { projectableNodes = null; }
         if (rootSelectorOrNode === void 0) { rootSelectorOrNode = null; }
         var vu = injector.get(__WEBPACK_IMPORTED_MODULE_2__view_utils__["a" /* ViewUtils */]);
-        if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["f" /* isBlank */])(projectableNodes)) {
+        if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["d" /* isBlank */])(projectableNodes)) {
             projectableNodes = [];
         }
         // Note: Host views don't need a declarationAppElement!
@@ -32916,7 +32410,7 @@ var __extends = (this && this.__extends) || function (d, b) {
 var NoComponentFactoryError = (function (_super) {
     __extends(NoComponentFactoryError, _super);
     function NoComponentFactoryError(component) {
-        _super.call(this, "No component factory found for " + __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["a" /* stringify */])(component));
+        _super.call(this, "No component factory found for " + __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["b" /* stringify */])(component));
         this.component = component;
     }
     return NoComponentFactoryError;
@@ -32996,7 +32490,7 @@ var DebugContext = (function () {
     }
     Object.defineProperty(DebugContext.prototype, "_staticNodeInfo", {
         get: function () {
-            return __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["g" /* isPresent */])(this._nodeIndex) ? this._view.staticNodeDebugInfos[this._nodeIndex] : null;
+            return __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["e" /* isPresent */])(this._nodeIndex) ? this._view.staticNodeDebugInfos[this._nodeIndex] : null;
         },
         enumerable: true,
         configurable: true
@@ -33009,7 +32503,7 @@ var DebugContext = (function () {
     Object.defineProperty(DebugContext.prototype, "component", {
         get: function () {
             var staticNodeInfo = this._staticNodeInfo;
-            if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["g" /* isPresent */])(staticNodeInfo) && __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["g" /* isPresent */])(staticNodeInfo.componentToken)) {
+            if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["e" /* isPresent */])(staticNodeInfo) && __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["e" /* isPresent */])(staticNodeInfo.componentToken)) {
                 return this.injector.get(staticNodeInfo.componentToken);
             }
             return null;
@@ -33020,11 +32514,11 @@ var DebugContext = (function () {
     Object.defineProperty(DebugContext.prototype, "componentRenderElement", {
         get: function () {
             var componentView = this._view;
-            while (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["g" /* isPresent */])(componentView.declarationAppElement) &&
+            while (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["e" /* isPresent */])(componentView.declarationAppElement) &&
                 componentView.type !== __WEBPACK_IMPORTED_MODULE_2__view_type__["a" /* ViewType */].COMPONENT) {
                 componentView = componentView.declarationAppElement.parentView;
             }
-            return __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["g" /* isPresent */])(componentView.declarationAppElement) ?
+            return __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["e" /* isPresent */])(componentView.declarationAppElement) ?
                 componentView.declarationAppElement.nativeElement :
                 null;
         },
@@ -33038,7 +32532,7 @@ var DebugContext = (function () {
     });
     Object.defineProperty(DebugContext.prototype, "renderNode", {
         get: function () {
-            if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["g" /* isPresent */])(this._nodeIndex) && this._view.allNodes) {
+            if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["e" /* isPresent */])(this._nodeIndex) && this._view.allNodes) {
                 return this._view.allNodes[this._nodeIndex];
             }
             else {
@@ -33051,7 +32545,7 @@ var DebugContext = (function () {
     Object.defineProperty(DebugContext.prototype, "providerTokens", {
         get: function () {
             var staticNodeInfo = this._staticNodeInfo;
-            return __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["g" /* isPresent */])(staticNodeInfo) ? staticNodeInfo.providerTokens : null;
+            return __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["e" /* isPresent */])(staticNodeInfo) ? staticNodeInfo.providerTokens : null;
         },
         enumerable: true,
         configurable: true
@@ -33068,11 +32562,11 @@ var DebugContext = (function () {
             var _this = this;
             var varValues = {};
             var staticNodeInfo = this._staticNodeInfo;
-            if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["g" /* isPresent */])(staticNodeInfo)) {
+            if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["e" /* isPresent */])(staticNodeInfo)) {
                 var refs = staticNodeInfo.refTokens;
                 __WEBPACK_IMPORTED_MODULE_0__facade_collection__["f" /* StringMapWrapper */].forEach(refs, function (refToken, refName) {
                     var varValue;
-                    if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["f" /* isBlank */])(refToken)) {
+                    if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["d" /* isBlank */])(refToken)) {
                         varValue = _this._view.allNodes ? _this._view.allNodes[_this._nodeIndex] : null;
                     }
                     else {
@@ -33155,7 +32649,7 @@ var AppElement = (function () {
     });
     AppElement.prototype.mapNestedViews = function (nestedViewClass, callback) {
         var result = [];
-        if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["g" /* isPresent */])(this.nestedViews)) {
+        if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["e" /* isPresent */])(this.nestedViews)) {
             this.nestedViews.forEach(function (nestedView) {
                 if (nestedView.clazz === nestedViewClass) {
                     result.push(callback(nestedView));
@@ -33184,7 +32678,7 @@ var AppElement = (function () {
         else {
             refRenderNode = this.nativeElement;
         }
-        if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["g" /* isPresent */])(refRenderNode)) {
+        if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["e" /* isPresent */])(refRenderNode)) {
             view.renderer.attachViewAfter(refRenderNode, view.flatRootNodes);
         }
         view.markContentChildAsMoved(this);
@@ -33207,7 +32701,7 @@ var AppElement = (function () {
         else {
             refRenderNode = this.nativeElement;
         }
-        if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["g" /* isPresent */])(refRenderNode)) {
+        if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["e" /* isPresent */])(refRenderNode)) {
             view.renderer.attachViewAfter(refRenderNode, view.flatRootNodes);
         }
         view.addToContentChildren(this);
@@ -33531,7 +33025,7 @@ var NgModuleInjector = (function (_super) {
     });
     NgModuleInjector.prototype.destroy = function () {
         if (this._destroyed) {
-            throw new Error("The ng module " + __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2__facade_lang__["a" /* stringify */])(this.instance.constructor) + " has already been destroyed.");
+            throw new Error("The ng module " + __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2__facade_lang__["b" /* stringify */])(this.instance.constructor) + " has already been destroyed.");
         }
         this._destroyed = true;
         this.destroyInternal();
@@ -33548,7 +33042,10 @@ var NgModuleInjector = (function (_super) {
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
-/* harmony export (binding) */ __webpack_require__.d(exports, "a", function() { return NgModuleFactoryLoader; });
+/* harmony export (binding) */ __webpack_require__.d(exports, "b", function() { return NgModuleFactoryLoader; });
+/* harmony export (immutable) */ exports["a"] = registerModuleFactory;
+/* unused harmony export clearModulesForTest */
+/* harmony export (immutable) */ exports["c"] = getModuleFactory;
 /**
  * @license
  * Copyright Google Inc. All Rights Reserved.
@@ -33565,6 +33062,33 @@ var NgModuleFactoryLoader = (function () {
     }
     return NgModuleFactoryLoader;
 }());
+var moduleFactories = new Map();
+/**
+ * Registers a loaded module. Should only be called from generated NgModuleFactory code.
+ * @experimental
+ */
+function registerModuleFactory(id, factory) {
+    var existing = moduleFactories.get(id);
+    if (existing) {
+        throw new Error("Duplicate module registered for " + id + " - " + existing.moduleType.name + " vs " + factory.moduleType.name);
+    }
+    moduleFactories.set(id, factory);
+}
+function clearModulesForTest() {
+    moduleFactories = new Map();
+}
+/**
+ * Returns the NgModuleFactory with the given id, if it exists and has been loaded.
+ * Factories for modules that do not specify an `id` cannot be retrieved. Throws if the module
+ * cannot be found.
+ * @experimental
+ */
+function getModuleFactory(id) {
+    var factory = moduleFactories.get(id);
+    if (!factory)
+        throw new Error("No module with ID " + id + " loaded");
+    return factory;
+}
 //# sourceMappingURL=ng_module_factory_loader.js.map
 
 /***/ },
@@ -33591,7 +33115,7 @@ var NgModuleFactoryLoader = (function () {
  * An unmodifiable list of items that Angular keeps up to date when the state
  * of the application changes.
  *
- * The type of object that {@link QueryMetadata} and {@link ViewQueryMetadata} provide.
+ * The type of object that {@link Query} and {@link ViewQueryMetadata} provide.
  *
  * Implements an iterable interface, therefore it can be used in both ES6
  * javascript `for (var i of items)` loops as well as in Angular templates with
@@ -33668,7 +33192,7 @@ var QueryList = (function () {
         return this._results.some(fn);
     };
     QueryList.prototype.toArray = function () { return this._results.slice(); };
-    QueryList.prototype[__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2__facade_lang__["j" /* getSymbolIterator */])()] = function () { return this._results[__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2__facade_lang__["j" /* getSymbolIterator */])()](); };
+    QueryList.prototype[__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2__facade_lang__["h" /* getSymbolIterator */])()] = function () { return this._results[__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2__facade_lang__["h" /* getSymbolIterator */])()](); };
     QueryList.prototype.toString = function () { return this._results.toString(); };
     QueryList.prototype.reset = function (res) {
         this._results = __WEBPACK_IMPORTED_MODULE_1__facade_collection__["a" /* ListWrapper */].flatten(res);
@@ -33730,7 +33254,6 @@ var DEFAULT_CONFIG = {
 var SystemJsNgModuleLoader = (function () {
     function SystemJsNgModuleLoader(_compiler, config) {
         this._compiler = _compiler;
-        this._system = function () { return System; };
         this._config = config || DEFAULT_CONFIG;
     }
     SystemJsNgModuleLoader.prototype.load = function (path) {
@@ -33742,8 +33265,7 @@ var SystemJsNgModuleLoader = (function () {
         var _a = path.split(_SEPARATOR), module = _a[0], exportName = _a[1];
         if (exportName === undefined)
             exportName = 'default';
-        return this._system()
-            .import(module)
+        return __webpack_require__(0)(module)
             .then(function (module) { return module[exportName]; })
             .then(function (type) { return checkNotEmpty(type, module, exportName); })
             .then(function (type) { return _this._compiler.compileModuleAsync(type); });
@@ -33755,18 +33277,17 @@ var SystemJsNgModuleLoader = (function () {
             exportName = 'default';
             factoryClassSuffix = '';
         }
-        return this._system()
-            .import(this._config.factoryPathPrefix + module + this._config.factoryPathSuffix)
+        return __webpack_require__(0)(this._config.factoryPathPrefix + module + this._config.factoryPathSuffix)
             .then(function (module) { return module[exportName + factoryClassSuffix]; })
             .then(function (factory) { return checkNotEmpty(factory, module, exportName); });
     };
     SystemJsNgModuleLoader.decorators = [
-        { type: __WEBPACK_IMPORTED_MODULE_0__di__["c" /* Injectable */] },
+        { type: __WEBPACK_IMPORTED_MODULE_0__di__["b" /* Injectable */] },
     ];
     /** @nocollapse */
     SystemJsNgModuleLoader.ctorParameters = [
         { type: __WEBPACK_IMPORTED_MODULE_1__compiler__["b" /* Compiler */], },
-        { type: SystemJsNgModuleLoaderConfig, decorators: [{ type: __WEBPACK_IMPORTED_MODULE_0__di__["e" /* Optional */] },] },
+        { type: SystemJsNgModuleLoaderConfig, decorators: [{ type: __WEBPACK_IMPORTED_MODULE_0__di__["d" /* Optional */] },] },
     ];
     return SystemJsNgModuleLoader;
 }());
@@ -33861,19 +33382,20 @@ var TemplateRef_ = (function (_super) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__animation_animation_group_player__ = __webpack_require__("./node_modules/@angular/core/src/animation/animation_group_player.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__animation_animation_transition_event__ = __webpack_require__("./node_modules/@angular/core/src/animation/animation_transition_event.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__animation_view_animation_map__ = __webpack_require__("./node_modules/@angular/core/src/animation/view_animation_map.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__change_detection_change_detection__ = __webpack_require__("./node_modules/@angular/core/src/change_detection/change_detection.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__facade_collection__ = __webpack_require__("./node_modules/@angular/core/src/facade/collection.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__facade_lang__ = __webpack_require__("./node_modules/@angular/core/src/facade/lang.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__profile_profile__ = __webpack_require__("./node_modules/@angular/core/src/profile/profile.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__debug_context__ = __webpack_require__("./node_modules/@angular/core/src/linker/debug_context.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__element__ = __webpack_require__("./node_modules/@angular/core/src/linker/element.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__element_injector__ = __webpack_require__("./node_modules/@angular/core/src/linker/element_injector.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__errors__ = __webpack_require__("./node_modules/@angular/core/src/linker/errors.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__view_ref__ = __webpack_require__("./node_modules/@angular/core/src/linker/view_ref.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__view_type__ = __webpack_require__("./node_modules/@angular/core/src/linker/view_type.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__view_utils__ = __webpack_require__("./node_modules/@angular/core/src/linker/view_utils.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__animation_animation_queue__ = __webpack_require__("./node_modules/@angular/core/src/animation/animation_queue.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__animation_animation_transition_event__ = __webpack_require__("./node_modules/@angular/core/src/animation/animation_transition_event.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__animation_view_animation_map__ = __webpack_require__("./node_modules/@angular/core/src/animation/view_animation_map.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__change_detection_change_detection__ = __webpack_require__("./node_modules/@angular/core/src/change_detection/change_detection.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__facade_collection__ = __webpack_require__("./node_modules/@angular/core/src/facade/collection.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__facade_lang__ = __webpack_require__("./node_modules/@angular/core/src/facade/lang.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__profile_profile__ = __webpack_require__("./node_modules/@angular/core/src/profile/profile.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__debug_context__ = __webpack_require__("./node_modules/@angular/core/src/linker/debug_context.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__element__ = __webpack_require__("./node_modules/@angular/core/src/linker/element.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__element_injector__ = __webpack_require__("./node_modules/@angular/core/src/linker/element_injector.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__errors__ = __webpack_require__("./node_modules/@angular/core/src/linker/errors.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__view_ref__ = __webpack_require__("./node_modules/@angular/core/src/linker/view_ref.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__view_type__ = __webpack_require__("./node_modules/@angular/core/src/linker/view_type.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__view_utils__ = __webpack_require__("./node_modules/@angular/core/src/linker/view_utils.js");
 /* harmony export (binding) */ __webpack_require__.d(exports, "a", function() { return AppView; });
 /* harmony export (binding) */ __webpack_require__.d(exports, "b", function() { return DebugAppView; });
 /**
@@ -33902,7 +33424,8 @@ var __extends = (this && this.__extends) || function (d, b) {
 
 
 
-var _scope_check = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_6__profile_profile__["a" /* wtfCreateScope */])("AppView#check(ascii id)");
+
+var _scope_check = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_7__profile_profile__["a" /* wtfCreateScope */])("AppView#check(ascii id)");
 /**
  * Cost of making objects: http://jsperf.com/instantiate-size-of-object
  *
@@ -33920,10 +33443,10 @@ var AppView = (function () {
         this.viewChildren = [];
         this.viewContainerElement = null;
         this.numberOfChecks = 0;
-        this.animationPlayers = new __WEBPACK_IMPORTED_MODULE_2__animation_view_animation_map__["a" /* ViewAnimationMap */]();
+        this.animationPlayers = new __WEBPACK_IMPORTED_MODULE_3__animation_view_animation_map__["a" /* ViewAnimationMap */]();
         this._animationListeners = new Map();
-        this.ref = new __WEBPACK_IMPORTED_MODULE_11__view_ref__["a" /* ViewRef_ */](this);
-        if (type === __WEBPACK_IMPORTED_MODULE_12__view_type__["a" /* ViewType */].COMPONENT || type === __WEBPACK_IMPORTED_MODULE_12__view_type__["a" /* ViewType */].HOST) {
+        this.ref = new __WEBPACK_IMPORTED_MODULE_12__view_ref__["a" /* ViewRef_ */](this);
+        if (type === __WEBPACK_IMPORTED_MODULE_13__view_type__["a" /* ViewType */].COMPONENT || type === __WEBPACK_IMPORTED_MODULE_13__view_type__["a" /* ViewType */].HOST) {
             this.renderer = viewUtils.renderComponent(componentType);
         }
         else {
@@ -33931,7 +33454,7 @@ var AppView = (function () {
         }
     }
     Object.defineProperty(AppView.prototype, "destroyed", {
-        get: function () { return this.cdMode === __WEBPACK_IMPORTED_MODULE_3__change_detection_change_detection__["f" /* ChangeDetectorStatus */].Destroyed; },
+        get: function () { return this.cdMode === __WEBPACK_IMPORTED_MODULE_4__change_detection_change_detection__["f" /* ChangeDetectorStatus */].Destroyed; },
         enumerable: true,
         configurable: true
     });
@@ -33942,14 +33465,15 @@ var AppView = (function () {
         }
         else {
             var player = this.animationPlayers.find(element, animationName);
-            if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_5__facade_lang__["g" /* isPresent */])(player)) {
+            if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_6__facade_lang__["e" /* isPresent */])(player)) {
                 player.destroy();
             }
         }
     };
     AppView.prototype.queueAnimation = function (element, animationName, player, totalTime, fromState, toState) {
         var _this = this;
-        var event = new __WEBPACK_IMPORTED_MODULE_1__animation_animation_transition_event__["a" /* AnimationTransitionEvent */]({ 'fromState': fromState, 'toState': toState, 'totalTime': totalTime });
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__animation_animation_queue__["b" /* queueAnimation */])(player);
+        var event = new __WEBPACK_IMPORTED_MODULE_2__animation_animation_transition_event__["a" /* AnimationTransitionEvent */]({ 'fromState': fromState, 'toState': toState, 'totalTime': totalTime });
         this.animationPlayers.set(element, animationName, player);
         player.onDone(function () {
             // TODO: make this into a datastructure for done|start
@@ -33958,16 +33482,9 @@ var AppView = (function () {
         });
         player.onStart(function () { _this.triggerAnimationOutput(element, animationName, 'start', event); });
     };
-    AppView.prototype.triggerQueuedAnimations = function () {
-        this.animationPlayers.getAllPlayers().forEach(function (player) {
-            if (!player.hasStarted()) {
-                player.play();
-            }
-        });
-    };
     AppView.prototype.triggerAnimationOutput = function (element, animationName, phase, event) {
         var listeners = this._animationListeners.get(element);
-        if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_5__facade_lang__["g" /* isPresent */])(listeners) && listeners.length) {
+        if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_6__facade_lang__["e" /* isPresent */])(listeners) && listeners.length) {
             for (var i = 0; i < listeners.length; i++) {
                 var listener = listeners[i];
                 // we check for both the name in addition to the phase in the event
@@ -33982,7 +33499,7 @@ var AppView = (function () {
     AppView.prototype.registerAnimationOutput = function (element, outputEvent, eventHandler) {
         var entry = new _AnimationOutputWithHandler(outputEvent, eventHandler);
         var animations = this._animationListeners.get(element);
-        if (!__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_5__facade_lang__["g" /* isPresent */])(animations)) {
+        if (!__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_6__facade_lang__["e" /* isPresent */])(animations)) {
             this._animationListeners.set(element, animations = []);
         }
         animations.push(entry);
@@ -33991,19 +33508,19 @@ var AppView = (function () {
         this.context = context;
         var projectableNodes;
         switch (this.type) {
-            case __WEBPACK_IMPORTED_MODULE_12__view_type__["a" /* ViewType */].COMPONENT:
-                projectableNodes = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_13__view_utils__["b" /* ensureSlotCount */])(givenProjectableNodes, this.componentType.slotCount);
+            case __WEBPACK_IMPORTED_MODULE_13__view_type__["a" /* ViewType */].COMPONENT:
+                projectableNodes = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_14__view_utils__["b" /* ensureSlotCount */])(givenProjectableNodes, this.componentType.slotCount);
                 break;
-            case __WEBPACK_IMPORTED_MODULE_12__view_type__["a" /* ViewType */].EMBEDDED:
+            case __WEBPACK_IMPORTED_MODULE_13__view_type__["a" /* ViewType */].EMBEDDED:
                 projectableNodes = this.declarationAppElement.parentView.projectableNodes;
                 break;
-            case __WEBPACK_IMPORTED_MODULE_12__view_type__["a" /* ViewType */].HOST:
+            case __WEBPACK_IMPORTED_MODULE_13__view_type__["a" /* ViewType */].HOST:
                 // Note: Don't ensure the slot count for the projectableNodes as we store
                 // them only for the contained component view (which will later check the slot count...)
                 projectableNodes = givenProjectableNodes;
                 break;
         }
-        this._hasExternalHostElement = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_5__facade_lang__["g" /* isPresent */])(rootSelectorOrNode);
+        this._hasExternalHostElement = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_6__facade_lang__["e" /* isPresent */])(rootSelectorOrNode);
         this.projectableNodes = projectableNodes;
         return this.createInternal(rootSelectorOrNode);
     };
@@ -34017,7 +33534,7 @@ var AppView = (function () {
         this.allNodes = allNodes;
         this.disposables = disposables;
         this.subscriptions = subscriptions;
-        if (this.type === __WEBPACK_IMPORTED_MODULE_12__view_type__["a" /* ViewType */].COMPONENT) {
+        if (this.type === __WEBPACK_IMPORTED_MODULE_13__view_type__["a" /* ViewType */].COMPONENT) {
             // Note: the render nodes have been attached to their host element
             // in the ViewFactory already.
             this.declarationAppElement.parentView.viewChildren.push(this);
@@ -34026,7 +33543,7 @@ var AppView = (function () {
     };
     AppView.prototype.selectOrCreateHostElement = function (elementName, rootSelectorOrNode, debugInfo) {
         var hostElement;
-        if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_5__facade_lang__["g" /* isPresent */])(rootSelectorOrNode)) {
+        if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_6__facade_lang__["e" /* isPresent */])(rootSelectorOrNode)) {
             hostElement = this.renderer.selectRootElement(rootSelectorOrNode, debugInfo);
         }
         else {
@@ -34044,8 +33561,8 @@ var AppView = (function () {
         return notFoundResult;
     };
     AppView.prototype.injector = function (nodeIndex) {
-        if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_5__facade_lang__["g" /* isPresent */])(nodeIndex)) {
-            return new __WEBPACK_IMPORTED_MODULE_9__element_injector__["a" /* ElementInjector */](this, nodeIndex);
+        if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_6__facade_lang__["e" /* isPresent */])(nodeIndex)) {
+            return new __WEBPACK_IMPORTED_MODULE_10__element_injector__["a" /* ElementInjector */](this, nodeIndex);
         }
         else {
             return this.parentInjector;
@@ -34055,13 +33572,13 @@ var AppView = (function () {
         if (this._hasExternalHostElement) {
             this.renderer.detachView(this.flatRootNodes);
         }
-        else if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_5__facade_lang__["g" /* isPresent */])(this.viewContainerElement)) {
+        else if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_6__facade_lang__["e" /* isPresent */])(this.viewContainerElement)) {
             this.viewContainerElement.detachView(this.viewContainerElement.nestedViews.indexOf(this));
         }
         this._destroyRecurse();
     };
     AppView.prototype._destroyRecurse = function () {
-        if (this.cdMode === __WEBPACK_IMPORTED_MODULE_3__change_detection_change_detection__["f" /* ChangeDetectorStatus */].Destroyed) {
+        if (this.cdMode === __WEBPACK_IMPORTED_MODULE_4__change_detection_change_detection__["f" /* ChangeDetectorStatus */].Destroyed) {
             return;
         }
         var children = this.contentChildren;
@@ -34073,11 +33590,11 @@ var AppView = (function () {
             children[i]._destroyRecurse();
         }
         this.destroyLocal();
-        this.cdMode = __WEBPACK_IMPORTED_MODULE_3__change_detection_change_detection__["f" /* ChangeDetectorStatus */].Destroyed;
+        this.cdMode = __WEBPACK_IMPORTED_MODULE_4__change_detection_change_detection__["f" /* ChangeDetectorStatus */].Destroyed;
     };
     AppView.prototype.destroyLocal = function () {
         var _this = this;
-        var hostElement = this.type === __WEBPACK_IMPORTED_MODULE_12__view_type__["a" /* ViewType */].COMPONENT ? this.declarationAppElement.nativeElement : null;
+        var hostElement = this.type === __WEBPACK_IMPORTED_MODULE_13__view_type__["a" /* ViewType */].COMPONENT ? this.declarationAppElement.nativeElement : null;
         for (var i = 0; i < this.disposables.length; i++) {
             this.disposables[i]();
         }
@@ -34120,13 +33637,13 @@ var AppView = (function () {
     });
     Object.defineProperty(AppView.prototype, "parent", {
         get: function () {
-            return __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_5__facade_lang__["g" /* isPresent */])(this.declarationAppElement) ? this.declarationAppElement.parentView : null;
+            return __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_6__facade_lang__["e" /* isPresent */])(this.declarationAppElement) ? this.declarationAppElement.parentView : null;
         },
         enumerable: true,
         configurable: true
     });
     Object.defineProperty(AppView.prototype, "flatRootNodes", {
-        get: function () { return __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_13__view_utils__["c" /* flattenNestedViewRenderNodes */])(this.rootNodesOrAppElements); },
+        get: function () { return __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_14__view_utils__["c" /* flattenNestedViewRenderNodes */])(this.rootNodesOrAppElements); },
         enumerable: true,
         configurable: true
     });
@@ -34146,17 +33663,17 @@ var AppView = (function () {
     AppView.prototype.dirtyParentQueriesInternal = function () { };
     AppView.prototype.detectChanges = function (throwOnChange) {
         var s = _scope_check(this.clazz);
-        if (this.cdMode === __WEBPACK_IMPORTED_MODULE_3__change_detection_change_detection__["f" /* ChangeDetectorStatus */].Checked ||
-            this.cdMode === __WEBPACK_IMPORTED_MODULE_3__change_detection_change_detection__["f" /* ChangeDetectorStatus */].Errored)
+        if (this.cdMode === __WEBPACK_IMPORTED_MODULE_4__change_detection_change_detection__["f" /* ChangeDetectorStatus */].Checked ||
+            this.cdMode === __WEBPACK_IMPORTED_MODULE_4__change_detection_change_detection__["f" /* ChangeDetectorStatus */].Errored)
             return;
-        if (this.cdMode === __WEBPACK_IMPORTED_MODULE_3__change_detection_change_detection__["f" /* ChangeDetectorStatus */].Destroyed) {
+        if (this.cdMode === __WEBPACK_IMPORTED_MODULE_4__change_detection_change_detection__["f" /* ChangeDetectorStatus */].Destroyed) {
             this.throwDestroyedError('detectChanges');
         }
         this.detectChangesInternal(throwOnChange);
-        if (this.cdMode === __WEBPACK_IMPORTED_MODULE_3__change_detection_change_detection__["f" /* ChangeDetectorStatus */].CheckOnce)
-            this.cdMode = __WEBPACK_IMPORTED_MODULE_3__change_detection_change_detection__["f" /* ChangeDetectorStatus */].Checked;
+        if (this.cdMode === __WEBPACK_IMPORTED_MODULE_4__change_detection_change_detection__["f" /* ChangeDetectorStatus */].CheckOnce)
+            this.cdMode = __WEBPACK_IMPORTED_MODULE_4__change_detection_change_detection__["f" /* ChangeDetectorStatus */].Checked;
         this.numberOfChecks++;
-        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_6__profile_profile__["b" /* wtfLeave */])(s);
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_7__profile_profile__["b" /* wtfLeave */])(s);
     };
     /**
      * Overwritten by implementations
@@ -34168,7 +33685,7 @@ var AppView = (function () {
     AppView.prototype.detectContentChildrenChanges = function (throwOnChange) {
         for (var i = 0; i < this.contentChildren.length; ++i) {
             var child = this.contentChildren[i];
-            if (child.cdMode === __WEBPACK_IMPORTED_MODULE_3__change_detection_change_detection__["f" /* ChangeDetectorStatus */].Detached)
+            if (child.cdMode === __WEBPACK_IMPORTED_MODULE_4__change_detection_change_detection__["f" /* ChangeDetectorStatus */].Detached)
                 continue;
             child.detectChanges(throwOnChange);
         }
@@ -34176,7 +33693,7 @@ var AppView = (function () {
     AppView.prototype.detectViewChildrenChanges = function (throwOnChange) {
         for (var i = 0; i < this.viewChildren.length; ++i) {
             var child = this.viewChildren[i];
-            if (child.cdMode === __WEBPACK_IMPORTED_MODULE_3__change_detection_change_detection__["f" /* ChangeDetectorStatus */].Detached)
+            if (child.cdMode === __WEBPACK_IMPORTED_MODULE_4__change_detection_change_detection__["f" /* ChangeDetectorStatus */].Detached)
                 continue;
             child.detectChanges(throwOnChange);
         }
@@ -34188,23 +33705,23 @@ var AppView = (function () {
         this.dirtyParentQueriesInternal();
     };
     AppView.prototype.removeFromContentChildren = function (renderAppElement) {
-        __WEBPACK_IMPORTED_MODULE_4__facade_collection__["a" /* ListWrapper */].remove(renderAppElement.parentView.contentChildren, this);
+        __WEBPACK_IMPORTED_MODULE_5__facade_collection__["a" /* ListWrapper */].remove(renderAppElement.parentView.contentChildren, this);
         this.dirtyParentQueriesInternal();
         this.viewContainerElement = null;
     };
-    AppView.prototype.markAsCheckOnce = function () { this.cdMode = __WEBPACK_IMPORTED_MODULE_3__change_detection_change_detection__["f" /* ChangeDetectorStatus */].CheckOnce; };
+    AppView.prototype.markAsCheckOnce = function () { this.cdMode = __WEBPACK_IMPORTED_MODULE_4__change_detection_change_detection__["f" /* ChangeDetectorStatus */].CheckOnce; };
     AppView.prototype.markPathToRootAsCheckOnce = function () {
         var c = this;
-        while (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_5__facade_lang__["g" /* isPresent */])(c) && c.cdMode !== __WEBPACK_IMPORTED_MODULE_3__change_detection_change_detection__["f" /* ChangeDetectorStatus */].Detached) {
-            if (c.cdMode === __WEBPACK_IMPORTED_MODULE_3__change_detection_change_detection__["f" /* ChangeDetectorStatus */].Checked) {
-                c.cdMode = __WEBPACK_IMPORTED_MODULE_3__change_detection_change_detection__["f" /* ChangeDetectorStatus */].CheckOnce;
+        while (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_6__facade_lang__["e" /* isPresent */])(c) && c.cdMode !== __WEBPACK_IMPORTED_MODULE_4__change_detection_change_detection__["f" /* ChangeDetectorStatus */].Detached) {
+            if (c.cdMode === __WEBPACK_IMPORTED_MODULE_4__change_detection_change_detection__["f" /* ChangeDetectorStatus */].Checked) {
+                c.cdMode = __WEBPACK_IMPORTED_MODULE_4__change_detection_change_detection__["f" /* ChangeDetectorStatus */].CheckOnce;
             }
-            var parentEl = c.type === __WEBPACK_IMPORTED_MODULE_12__view_type__["a" /* ViewType */].COMPONENT ? c.declarationAppElement : c.viewContainerElement;
-            c = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_5__facade_lang__["g" /* isPresent */])(parentEl) ? parentEl.parentView : null;
+            var parentEl = c.type === __WEBPACK_IMPORTED_MODULE_13__view_type__["a" /* ViewType */].COMPONENT ? c.declarationAppElement : c.viewContainerElement;
+            c = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_6__facade_lang__["e" /* isPresent */])(parentEl) ? parentEl.parentView : null;
         }
     };
     AppView.prototype.eventHandler = function (cb) { return cb; };
-    AppView.prototype.throwDestroyedError = function (details) { throw new __WEBPACK_IMPORTED_MODULE_10__errors__["b" /* ViewDestroyedError */](details); };
+    AppView.prototype.throwDestroyedError = function (details) { throw new __WEBPACK_IMPORTED_MODULE_11__errors__["b" /* ViewDestroyedError */](details); };
     return AppView;
 }());
 var DebugAppView = (function (_super) {
@@ -34266,15 +33783,15 @@ var DebugAppView = (function (_super) {
     };
     DebugAppView.prototype._resetDebug = function () { this._currentDebugContext = null; };
     DebugAppView.prototype.debug = function (nodeIndex, rowNum, colNum) {
-        return this._currentDebugContext = new __WEBPACK_IMPORTED_MODULE_7__debug_context__["a" /* DebugContext */](this, nodeIndex, rowNum, colNum);
+        return this._currentDebugContext = new __WEBPACK_IMPORTED_MODULE_8__debug_context__["a" /* DebugContext */](this, nodeIndex, rowNum, colNum);
     };
     DebugAppView.prototype._rethrowWithContext = function (e) {
-        if (!(e instanceof __WEBPACK_IMPORTED_MODULE_10__errors__["c" /* ViewWrappedError */])) {
-            if (!(e instanceof __WEBPACK_IMPORTED_MODULE_10__errors__["a" /* ExpressionChangedAfterItHasBeenCheckedError */])) {
-                this.cdMode = __WEBPACK_IMPORTED_MODULE_3__change_detection_change_detection__["f" /* ChangeDetectorStatus */].Errored;
+        if (!(e instanceof __WEBPACK_IMPORTED_MODULE_11__errors__["c" /* ViewWrappedError */])) {
+            if (!(e instanceof __WEBPACK_IMPORTED_MODULE_11__errors__["a" /* ExpressionChangedAfterItHasBeenCheckedError */])) {
+                this.cdMode = __WEBPACK_IMPORTED_MODULE_4__change_detection_change_detection__["f" /* ChangeDetectorStatus */].Errored;
             }
-            if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_5__facade_lang__["g" /* isPresent */])(this._currentDebugContext)) {
-                throw new __WEBPACK_IMPORTED_MODULE_10__errors__["c" /* ViewWrappedError */](e, this._currentDebugContext);
+            if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_6__facade_lang__["e" /* isPresent */])(this._currentDebugContext)) {
+                throw new __WEBPACK_IMPORTED_MODULE_11__errors__["c" /* ViewWrappedError */](e, this._currentDebugContext);
             }
         }
     };
@@ -34296,10 +33813,10 @@ var DebugAppView = (function (_super) {
 }(AppView));
 function _findLastRenderNode(node) {
     var lastNode;
-    if (node instanceof __WEBPACK_IMPORTED_MODULE_8__element__["a" /* AppElement */]) {
+    if (node instanceof __WEBPACK_IMPORTED_MODULE_9__element__["a" /* AppElement */]) {
         var appEl = node;
         lastNode = appEl.nativeElement;
-        if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_5__facade_lang__["g" /* isPresent */])(appEl.nestedViews)) {
+        if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_6__facade_lang__["e" /* isPresent */])(appEl.nestedViews)) {
             // Note: Views might have no root nodes at all!
             for (var i = appEl.nestedViews.length - 1; i >= 0; i--) {
                 var nestedView = appEl.nestedViews[i];
@@ -34413,7 +33930,7 @@ var ViewContainerRef_ = (function () {
     Object.defineProperty(ViewContainerRef_.prototype, "length", {
         get: function () {
             var views = this._element.nestedViews;
-            return __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2__facade_lang__["g" /* isPresent */])(views) ? views.length : 0;
+            return __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2__facade_lang__["e" /* isPresent */])(views) ? views.length : 0;
         },
         enumerable: true,
         configurable: true
@@ -34447,7 +33964,7 @@ var ViewContainerRef_ = (function () {
         if (injector === void 0) { injector = null; }
         if (projectableNodes === void 0) { projectableNodes = null; }
         var s = this._createComponentInContainerScope();
-        var contextInjector = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2__facade_lang__["g" /* isPresent */])(injector) ? injector : this._element.parentInjector;
+        var contextInjector = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2__facade_lang__["e" /* isPresent */])(injector) ? injector : this._element.parentInjector;
         var componentRef = componentFactory.create(contextInjector, projectableNodes);
         this.insert(componentRef.hostView, index);
         return __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_3__profile_profile__["b" /* wtfLeave */])(s, componentRef);
@@ -34508,8 +34025,9 @@ var ViewContainerRef_ = (function () {
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__change_detection_constants__ = __webpack_require__("./node_modules/@angular/core/src/change_detection/constants.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__facade_errors__ = __webpack_require__("./node_modules/@angular/core/src/facade/errors.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__animation_animation_queue__ = __webpack_require__("./node_modules/@angular/core/src/animation/animation_queue.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__change_detection_constants__ = __webpack_require__("./node_modules/@angular/core/src/change_detection/constants.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__facade_errors__ = __webpack_require__("./node_modules/@angular/core/src/facade/errors.js");
 /* harmony export (binding) */ __webpack_require__.d(exports, "c", function() { return ViewRef; });
 /* harmony export (binding) */ __webpack_require__.d(exports, "b", function() { return EmbeddedViewRef; });
 /* harmony export (binding) */ __webpack_require__.d(exports, "a", function() { return ViewRef_; });
@@ -34527,6 +34045,7 @@ var __extends = (this && this.__extends) || function (d, b) {
 };
 
 
+
 /**
  * @stable
  */
@@ -34534,7 +34053,7 @@ var ViewRef = (function () {
     function ViewRef() {
     }
     Object.defineProperty(ViewRef.prototype, "destroyed", {
-        get: function () { return __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_errors__["a" /* unimplemented */])(); },
+        get: function () { return __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2__facade_errors__["a" /* unimplemented */])(); },
         enumerable: true,
         configurable: true
     });
@@ -34600,12 +34119,12 @@ var EmbeddedViewRef = (function (_super) {
         _super.apply(this, arguments);
     }
     Object.defineProperty(EmbeddedViewRef.prototype, "context", {
-        get: function () { return __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_errors__["a" /* unimplemented */])(); },
+        get: function () { return __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2__facade_errors__["a" /* unimplemented */])(); },
         enumerable: true,
         configurable: true
     });
     Object.defineProperty(EmbeddedViewRef.prototype, "rootNodes", {
-        get: function () { return __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_errors__["a" /* unimplemented */])(); },
+        get: function () { return __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2__facade_errors__["a" /* unimplemented */])(); },
         enumerable: true,
         configurable: true
     });
@@ -34639,8 +34158,11 @@ var ViewRef_ = (function () {
         configurable: true
     });
     ViewRef_.prototype.markForCheck = function () { this._view.markPathToRootAsCheckOnce(); };
-    ViewRef_.prototype.detach = function () { this._view.cdMode = __WEBPACK_IMPORTED_MODULE_0__change_detection_constants__["b" /* ChangeDetectorStatus */].Detached; };
-    ViewRef_.prototype.detectChanges = function () { this._view.detectChanges(false); };
+    ViewRef_.prototype.detach = function () { this._view.cdMode = __WEBPACK_IMPORTED_MODULE_1__change_detection_constants__["b" /* ChangeDetectorStatus */].Detached; };
+    ViewRef_.prototype.detectChanges = function () {
+        this._view.detectChanges(false);
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__animation_animation_queue__["a" /* triggerQueuedAnimations */])();
+    };
     ViewRef_.prototype.checkNoChanges = function () { this._view.detectChanges(true); };
     ViewRef_.prototype.reattach = function () {
         this._view.cdMode = this._originalMode;
@@ -34689,7 +34211,7 @@ var ViewType;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__application_tokens__ = __webpack_require__("./node_modules/@angular/core/src/application_tokens.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__change_detection_change_detection__ = __webpack_require__("./node_modules/@angular/core/src/change_detection/change_detection.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__change_detection_change_detection_util__ = __webpack_require__("./node_modules/@angular/core/src/change_detection/change_detection_util.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__di_decorators__ = __webpack_require__("./node_modules/@angular/core/src/di/decorators.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__di__ = __webpack_require__("./node_modules/@angular/core/src/di.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__facade_collection__ = __webpack_require__("./node_modules/@angular/core/src/facade/collection.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__facade_lang__ = __webpack_require__("./node_modules/@angular/core/src/facade/lang.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__render_api__ = __webpack_require__("./node_modules/@angular/core/src/render/api.js");
@@ -34751,12 +34273,12 @@ var ViewUtils = (function () {
         return this._renderer.renderComponent(renderComponentType);
     };
     ViewUtils.decorators = [
-        { type: __WEBPACK_IMPORTED_MODULE_3__di_decorators__["a" /* Injectable */] },
+        { type: __WEBPACK_IMPORTED_MODULE_3__di__["b" /* Injectable */] },
     ];
     /** @nocollapse */
     ViewUtils.ctorParameters = [
         { type: __WEBPACK_IMPORTED_MODULE_6__render_api__["b" /* RootRenderer */], },
-        { type: undefined, decorators: [{ type: __WEBPACK_IMPORTED_MODULE_3__di_decorators__["b" /* Inject */], args: [__WEBPACK_IMPORTED_MODULE_0__application_tokens__["a" /* APP_ID */],] },] },
+        { type: undefined, decorators: [{ type: __WEBPACK_IMPORTED_MODULE_3__di__["c" /* Inject */], args: [__WEBPACK_IMPORTED_MODULE_0__application_tokens__["a" /* APP_ID */],] },] },
         { type: __WEBPACK_IMPORTED_MODULE_7__security__["a" /* Sanitizer */], },
     ];
     return ViewUtils;
@@ -34770,7 +34292,7 @@ function _flattenNestedViewRenderNodes(nodes, renderNodes) {
         if (node instanceof __WEBPACK_IMPORTED_MODULE_8__element__["a" /* AppElement */]) {
             var appEl = node;
             renderNodes.push(appEl.nativeElement);
-            if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_5__facade_lang__["g" /* isPresent */])(appEl.nestedViews)) {
+            if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_5__facade_lang__["e" /* isPresent */])(appEl.nestedViews)) {
                 for (var k = 0; k < appEl.nestedViews.length; k++) {
                     _flattenNestedViewRenderNodes(appEl.nestedViews[k].rootNodesOrAppElements, renderNodes);
                 }
@@ -34785,7 +34307,7 @@ function _flattenNestedViewRenderNodes(nodes, renderNodes) {
 var EMPTY_ARR = [];
 function ensureSlotCount(projectableNodes, expectedSlotCount) {
     var res;
-    if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_5__facade_lang__["f" /* isBlank */])(projectableNodes)) {
+    if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_5__facade_lang__["d" /* isBlank */])(projectableNodes)) {
         res = EMPTY_ARR;
     }
     else if (projectableNodes.length < expectedSlotCount) {
@@ -34846,7 +34368,7 @@ function checkBinding(throwOnChange, oldValue, newValue) {
         return false;
     }
     else {
-        return !__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_5__facade_lang__["o" /* looseIdentical */])(oldValue, newValue);
+        return !__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_5__facade_lang__["n" /* looseIdentical */])(oldValue, newValue);
     }
 }
 function castByValue(input, value) {
@@ -34858,7 +34380,7 @@ function pureProxy1(fn) {
     var result;
     var v0 = __WEBPACK_IMPORTED_MODULE_2__change_detection_change_detection_util__["a" /* UNINITIALIZED */];
     return function (p0) {
-        if (!__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_5__facade_lang__["o" /* looseIdentical */])(v0, p0)) {
+        if (!__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_5__facade_lang__["n" /* looseIdentical */])(v0, p0)) {
             v0 = p0;
             result = fn(p0);
         }
@@ -34870,7 +34392,7 @@ function pureProxy2(fn) {
     var v0 = __WEBPACK_IMPORTED_MODULE_2__change_detection_change_detection_util__["a" /* UNINITIALIZED */];
     var v1 = __WEBPACK_IMPORTED_MODULE_2__change_detection_change_detection_util__["a" /* UNINITIALIZED */];
     return function (p0, p1) {
-        if (!__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_5__facade_lang__["o" /* looseIdentical */])(v0, p0) || !__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_5__facade_lang__["o" /* looseIdentical */])(v1, p1)) {
+        if (!__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_5__facade_lang__["n" /* looseIdentical */])(v0, p0) || !__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_5__facade_lang__["n" /* looseIdentical */])(v1, p1)) {
             v0 = p0;
             v1 = p1;
             result = fn(p0, p1);
@@ -34884,7 +34406,7 @@ function pureProxy3(fn) {
     var v1 = __WEBPACK_IMPORTED_MODULE_2__change_detection_change_detection_util__["a" /* UNINITIALIZED */];
     var v2 = __WEBPACK_IMPORTED_MODULE_2__change_detection_change_detection_util__["a" /* UNINITIALIZED */];
     return function (p0, p1, p2) {
-        if (!__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_5__facade_lang__["o" /* looseIdentical */])(v0, p0) || !__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_5__facade_lang__["o" /* looseIdentical */])(v1, p1) || !__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_5__facade_lang__["o" /* looseIdentical */])(v2, p2)) {
+        if (!__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_5__facade_lang__["n" /* looseIdentical */])(v0, p0) || !__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_5__facade_lang__["n" /* looseIdentical */])(v1, p1) || !__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_5__facade_lang__["n" /* looseIdentical */])(v2, p2)) {
             v0 = p0;
             v1 = p1;
             v2 = p2;
@@ -34898,8 +34420,8 @@ function pureProxy4(fn) {
     var v0, v1, v2, v3;
     v0 = v1 = v2 = v3 = __WEBPACK_IMPORTED_MODULE_2__change_detection_change_detection_util__["a" /* UNINITIALIZED */];
     return function (p0, p1, p2, p3) {
-        if (!__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_5__facade_lang__["o" /* looseIdentical */])(v0, p0) || !__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_5__facade_lang__["o" /* looseIdentical */])(v1, p1) || !__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_5__facade_lang__["o" /* looseIdentical */])(v2, p2) ||
-            !__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_5__facade_lang__["o" /* looseIdentical */])(v3, p3)) {
+        if (!__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_5__facade_lang__["n" /* looseIdentical */])(v0, p0) || !__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_5__facade_lang__["n" /* looseIdentical */])(v1, p1) || !__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_5__facade_lang__["n" /* looseIdentical */])(v2, p2) ||
+            !__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_5__facade_lang__["n" /* looseIdentical */])(v3, p3)) {
             v0 = p0;
             v1 = p1;
             v2 = p2;
@@ -34914,8 +34436,8 @@ function pureProxy5(fn) {
     var v0, v1, v2, v3, v4;
     v0 = v1 = v2 = v3 = v4 = __WEBPACK_IMPORTED_MODULE_2__change_detection_change_detection_util__["a" /* UNINITIALIZED */];
     return function (p0, p1, p2, p3, p4) {
-        if (!__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_5__facade_lang__["o" /* looseIdentical */])(v0, p0) || !__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_5__facade_lang__["o" /* looseIdentical */])(v1, p1) || !__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_5__facade_lang__["o" /* looseIdentical */])(v2, p2) ||
-            !__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_5__facade_lang__["o" /* looseIdentical */])(v3, p3) || !__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_5__facade_lang__["o" /* looseIdentical */])(v4, p4)) {
+        if (!__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_5__facade_lang__["n" /* looseIdentical */])(v0, p0) || !__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_5__facade_lang__["n" /* looseIdentical */])(v1, p1) || !__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_5__facade_lang__["n" /* looseIdentical */])(v2, p2) ||
+            !__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_5__facade_lang__["n" /* looseIdentical */])(v3, p3) || !__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_5__facade_lang__["n" /* looseIdentical */])(v4, p4)) {
             v0 = p0;
             v1 = p1;
             v2 = p2;
@@ -34931,8 +34453,8 @@ function pureProxy6(fn) {
     var v0, v1, v2, v3, v4, v5;
     v0 = v1 = v2 = v3 = v4 = v5 = __WEBPACK_IMPORTED_MODULE_2__change_detection_change_detection_util__["a" /* UNINITIALIZED */];
     return function (p0, p1, p2, p3, p4, p5) {
-        if (!__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_5__facade_lang__["o" /* looseIdentical */])(v0, p0) || !__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_5__facade_lang__["o" /* looseIdentical */])(v1, p1) || !__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_5__facade_lang__["o" /* looseIdentical */])(v2, p2) ||
-            !__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_5__facade_lang__["o" /* looseIdentical */])(v3, p3) || !__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_5__facade_lang__["o" /* looseIdentical */])(v4, p4) || !__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_5__facade_lang__["o" /* looseIdentical */])(v5, p5)) {
+        if (!__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_5__facade_lang__["n" /* looseIdentical */])(v0, p0) || !__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_5__facade_lang__["n" /* looseIdentical */])(v1, p1) || !__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_5__facade_lang__["n" /* looseIdentical */])(v2, p2) ||
+            !__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_5__facade_lang__["n" /* looseIdentical */])(v3, p3) || !__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_5__facade_lang__["n" /* looseIdentical */])(v4, p4) || !__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_5__facade_lang__["n" /* looseIdentical */])(v5, p5)) {
             v0 = p0;
             v1 = p1;
             v2 = p2;
@@ -34949,9 +34471,9 @@ function pureProxy7(fn) {
     var v0, v1, v2, v3, v4, v5, v6;
     v0 = v1 = v2 = v3 = v4 = v5 = v6 = __WEBPACK_IMPORTED_MODULE_2__change_detection_change_detection_util__["a" /* UNINITIALIZED */];
     return function (p0, p1, p2, p3, p4, p5, p6) {
-        if (!__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_5__facade_lang__["o" /* looseIdentical */])(v0, p0) || !__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_5__facade_lang__["o" /* looseIdentical */])(v1, p1) || !__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_5__facade_lang__["o" /* looseIdentical */])(v2, p2) ||
-            !__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_5__facade_lang__["o" /* looseIdentical */])(v3, p3) || !__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_5__facade_lang__["o" /* looseIdentical */])(v4, p4) || !__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_5__facade_lang__["o" /* looseIdentical */])(v5, p5) ||
-            !__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_5__facade_lang__["o" /* looseIdentical */])(v6, p6)) {
+        if (!__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_5__facade_lang__["n" /* looseIdentical */])(v0, p0) || !__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_5__facade_lang__["n" /* looseIdentical */])(v1, p1) || !__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_5__facade_lang__["n" /* looseIdentical */])(v2, p2) ||
+            !__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_5__facade_lang__["n" /* looseIdentical */])(v3, p3) || !__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_5__facade_lang__["n" /* looseIdentical */])(v4, p4) || !__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_5__facade_lang__["n" /* looseIdentical */])(v5, p5) ||
+            !__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_5__facade_lang__["n" /* looseIdentical */])(v6, p6)) {
             v0 = p0;
             v1 = p1;
             v2 = p2;
@@ -34969,9 +34491,9 @@ function pureProxy8(fn) {
     var v0, v1, v2, v3, v4, v5, v6, v7;
     v0 = v1 = v2 = v3 = v4 = v5 = v6 = v7 = __WEBPACK_IMPORTED_MODULE_2__change_detection_change_detection_util__["a" /* UNINITIALIZED */];
     return function (p0, p1, p2, p3, p4, p5, p6, p7) {
-        if (!__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_5__facade_lang__["o" /* looseIdentical */])(v0, p0) || !__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_5__facade_lang__["o" /* looseIdentical */])(v1, p1) || !__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_5__facade_lang__["o" /* looseIdentical */])(v2, p2) ||
-            !__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_5__facade_lang__["o" /* looseIdentical */])(v3, p3) || !__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_5__facade_lang__["o" /* looseIdentical */])(v4, p4) || !__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_5__facade_lang__["o" /* looseIdentical */])(v5, p5) ||
-            !__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_5__facade_lang__["o" /* looseIdentical */])(v6, p6) || !__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_5__facade_lang__["o" /* looseIdentical */])(v7, p7)) {
+        if (!__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_5__facade_lang__["n" /* looseIdentical */])(v0, p0) || !__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_5__facade_lang__["n" /* looseIdentical */])(v1, p1) || !__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_5__facade_lang__["n" /* looseIdentical */])(v2, p2) ||
+            !__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_5__facade_lang__["n" /* looseIdentical */])(v3, p3) || !__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_5__facade_lang__["n" /* looseIdentical */])(v4, p4) || !__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_5__facade_lang__["n" /* looseIdentical */])(v5, p5) ||
+            !__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_5__facade_lang__["n" /* looseIdentical */])(v6, p6) || !__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_5__facade_lang__["n" /* looseIdentical */])(v7, p7)) {
             v0 = p0;
             v1 = p1;
             v2 = p2;
@@ -34990,9 +34512,9 @@ function pureProxy9(fn) {
     var v0, v1, v2, v3, v4, v5, v6, v7, v8;
     v0 = v1 = v2 = v3 = v4 = v5 = v6 = v7 = v8 = __WEBPACK_IMPORTED_MODULE_2__change_detection_change_detection_util__["a" /* UNINITIALIZED */];
     return function (p0, p1, p2, p3, p4, p5, p6, p7, p8) {
-        if (!__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_5__facade_lang__["o" /* looseIdentical */])(v0, p0) || !__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_5__facade_lang__["o" /* looseIdentical */])(v1, p1) || !__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_5__facade_lang__["o" /* looseIdentical */])(v2, p2) ||
-            !__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_5__facade_lang__["o" /* looseIdentical */])(v3, p3) || !__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_5__facade_lang__["o" /* looseIdentical */])(v4, p4) || !__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_5__facade_lang__["o" /* looseIdentical */])(v5, p5) ||
-            !__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_5__facade_lang__["o" /* looseIdentical */])(v6, p6) || !__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_5__facade_lang__["o" /* looseIdentical */])(v7, p7) || !__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_5__facade_lang__["o" /* looseIdentical */])(v8, p8)) {
+        if (!__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_5__facade_lang__["n" /* looseIdentical */])(v0, p0) || !__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_5__facade_lang__["n" /* looseIdentical */])(v1, p1) || !__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_5__facade_lang__["n" /* looseIdentical */])(v2, p2) ||
+            !__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_5__facade_lang__["n" /* looseIdentical */])(v3, p3) || !__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_5__facade_lang__["n" /* looseIdentical */])(v4, p4) || !__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_5__facade_lang__["n" /* looseIdentical */])(v5, p5) ||
+            !__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_5__facade_lang__["n" /* looseIdentical */])(v6, p6) || !__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_5__facade_lang__["n" /* looseIdentical */])(v7, p7) || !__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_5__facade_lang__["n" /* looseIdentical */])(v8, p8)) {
             v0 = p0;
             v1 = p1;
             v2 = p2;
@@ -35012,10 +34534,10 @@ function pureProxy10(fn) {
     var v0, v1, v2, v3, v4, v5, v6, v7, v8, v9;
     v0 = v1 = v2 = v3 = v4 = v5 = v6 = v7 = v8 = v9 = __WEBPACK_IMPORTED_MODULE_2__change_detection_change_detection_util__["a" /* UNINITIALIZED */];
     return function (p0, p1, p2, p3, p4, p5, p6, p7, p8, p9) {
-        if (!__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_5__facade_lang__["o" /* looseIdentical */])(v0, p0) || !__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_5__facade_lang__["o" /* looseIdentical */])(v1, p1) || !__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_5__facade_lang__["o" /* looseIdentical */])(v2, p2) ||
-            !__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_5__facade_lang__["o" /* looseIdentical */])(v3, p3) || !__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_5__facade_lang__["o" /* looseIdentical */])(v4, p4) || !__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_5__facade_lang__["o" /* looseIdentical */])(v5, p5) ||
-            !__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_5__facade_lang__["o" /* looseIdentical */])(v6, p6) || !__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_5__facade_lang__["o" /* looseIdentical */])(v7, p7) || !__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_5__facade_lang__["o" /* looseIdentical */])(v8, p8) ||
-            !__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_5__facade_lang__["o" /* looseIdentical */])(v9, p9)) {
+        if (!__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_5__facade_lang__["n" /* looseIdentical */])(v0, p0) || !__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_5__facade_lang__["n" /* looseIdentical */])(v1, p1) || !__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_5__facade_lang__["n" /* looseIdentical */])(v2, p2) ||
+            !__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_5__facade_lang__["n" /* looseIdentical */])(v3, p3) || !__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_5__facade_lang__["n" /* looseIdentical */])(v4, p4) || !__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_5__facade_lang__["n" /* looseIdentical */])(v5, p5) ||
+            !__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_5__facade_lang__["n" /* looseIdentical */])(v6, p6) || !__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_5__facade_lang__["n" /* looseIdentical */])(v7, p7) || !__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_5__facade_lang__["n" /* looseIdentical */])(v8, p8) ||
+            !__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_5__facade_lang__["n" /* looseIdentical */])(v9, p9)) {
             v0 = p0;
             v1 = p1;
             v2 = p2;
@@ -35041,50 +34563,35 @@ function pureProxy10(fn) {
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__metadata_di__ = __webpack_require__("./node_modules/@angular/core/src/metadata/di.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__metadata_directives__ = __webpack_require__("./node_modules/@angular/core/src/metadata/directives.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__metadata_ng_module__ = __webpack_require__("./node_modules/@angular/core/src/metadata/ng_module.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__util_decorators__ = __webpack_require__("./node_modules/@angular/core/src/util/decorators.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__metadata_lifecycle_hooks__ = __webpack_require__("./node_modules/@angular/core/src/metadata/lifecycle_hooks.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__metadata_view__ = __webpack_require__("./node_modules/@angular/core/src/metadata/view.js");
-/* harmony export (binding) */ __webpack_require__.d(exports, "G", function() { return Component; });
-/* harmony export (binding) */ __webpack_require__.d(exports, "y", function() { return Directive; });
-/* harmony export (binding) */ __webpack_require__.d(exports, "A", function() { return Attribute; });
-/* harmony export (binding) */ __webpack_require__.d(exports, "H", function() { return ContentChildren; });
-/* harmony export (binding) */ __webpack_require__.d(exports, "I", function() { return ContentChild; });
-/* harmony export (binding) */ __webpack_require__.d(exports, "J", function() { return ViewChildren; });
-/* harmony export (binding) */ __webpack_require__.d(exports, "K", function() { return ViewChild; });
-/* harmony export (binding) */ __webpack_require__.d(exports, "x", function() { return Pipe; });
-/* harmony export (binding) */ __webpack_require__.d(exports, "z", function() { return Input; });
-/* harmony export (binding) */ __webpack_require__.d(exports, "L", function() { return Output; });
-/* harmony export (binding) */ __webpack_require__.d(exports, "M", function() { return HostBinding; });
-/* harmony export (binding) */ __webpack_require__.d(exports, "N", function() { return HostListener; });
-/* harmony export (binding) */ __webpack_require__.d(exports, "a", function() { return NgModule; });
-/* harmony reexport (binding) */ __webpack_require__.d(exports, "u", function() { return __WEBPACK_IMPORTED_MODULE_0__metadata_di__["a"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(exports, "B", function() { return __WEBPACK_IMPORTED_MODULE_0__metadata_di__["c"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(exports, "C", function() { return __WEBPACK_IMPORTED_MODULE_0__metadata_di__["b"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(exports, "i", function() { return __WEBPACK_IMPORTED_MODULE_0__metadata_di__["g"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(exports, "D", function() { return __WEBPACK_IMPORTED_MODULE_0__metadata_di__["e"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(exports, "E", function() { return __WEBPACK_IMPORTED_MODULE_0__metadata_di__["d"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(exports, "F", function() { return __WEBPACK_IMPORTED_MODULE_0__metadata_di__["h"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(exports, "c", function() { return __WEBPACK_IMPORTED_MODULE_0__metadata_di__["f"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(exports, "d", function() { return __WEBPACK_IMPORTED_MODULE_1__metadata_directives__["b"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(exports, "g", function() { return __WEBPACK_IMPORTED_MODULE_1__metadata_directives__["f"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(exports, "h", function() { return __WEBPACK_IMPORTED_MODULE_1__metadata_directives__["g"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(exports, "e", function() { return __WEBPACK_IMPORTED_MODULE_1__metadata_directives__["d"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(exports, "f", function() { return __WEBPACK_IMPORTED_MODULE_1__metadata_directives__["e"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(exports, "t", function() { return __WEBPACK_IMPORTED_MODULE_1__metadata_directives__["c"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(exports, "j", function() { return __WEBPACK_IMPORTED_MODULE_1__metadata_directives__["a"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(exports, "p", function() { return __WEBPACK_IMPORTED_MODULE_4__metadata_lifecycle_hooks__["h"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(exports, "o", function() { return __WEBPACK_IMPORTED_MODULE_4__metadata_lifecycle_hooks__["g"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(exports, "q", function() { return __WEBPACK_IMPORTED_MODULE_4__metadata_lifecycle_hooks__["i"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(exports, "m", function() { return __WEBPACK_IMPORTED_MODULE_4__metadata_lifecycle_hooks__["e"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(exports, "n", function() { return __WEBPACK_IMPORTED_MODULE_4__metadata_lifecycle_hooks__["f"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(exports, "l", function() { return __WEBPACK_IMPORTED_MODULE_4__metadata_lifecycle_hooks__["d"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(exports, "k", function() { return __WEBPACK_IMPORTED_MODULE_4__metadata_lifecycle_hooks__["c"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(exports, "r", function() { return __WEBPACK_IMPORTED_MODULE_4__metadata_lifecycle_hooks__["j"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(exports, "v", function() { return __WEBPACK_IMPORTED_MODULE_2__metadata_ng_module__["b"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(exports, "s", function() { return __WEBPACK_IMPORTED_MODULE_2__metadata_ng_module__["a"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(exports, "w", function() { return __WEBPACK_IMPORTED_MODULE_2__metadata_ng_module__["c"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(exports, "b", function() { return __WEBPACK_IMPORTED_MODULE_5__metadata_view__["c"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__metadata_lifecycle_hooks__ = __webpack_require__("./node_modules/@angular/core/src/metadata/lifecycle_hooks.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__metadata_ng_module__ = __webpack_require__("./node_modules/@angular/core/src/metadata/ng_module.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__metadata_view__ = __webpack_require__("./node_modules/@angular/core/src/metadata/view.js");
+/* harmony reexport (binding) */ __webpack_require__.d(exports, "t", function() { return __WEBPACK_IMPORTED_MODULE_0__metadata_di__["c"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(exports, "w", function() { return __WEBPACK_IMPORTED_MODULE_0__metadata_di__["d"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(exports, "x", function() { return __WEBPACK_IMPORTED_MODULE_0__metadata_di__["e"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(exports, "i", function() { return __WEBPACK_IMPORTED_MODULE_0__metadata_di__["b"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(exports, "y", function() { return __WEBPACK_IMPORTED_MODULE_0__metadata_di__["f"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(exports, "z", function() { return __WEBPACK_IMPORTED_MODULE_0__metadata_di__["g"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(exports, "c", function() { return __WEBPACK_IMPORTED_MODULE_0__metadata_di__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(exports, "j", function() { return __WEBPACK_IMPORTED_MODULE_1__metadata_directives__["f"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(exports, "d", function() { return __WEBPACK_IMPORTED_MODULE_1__metadata_directives__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(exports, "g", function() { return __WEBPACK_IMPORTED_MODULE_1__metadata_directives__["d"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(exports, "h", function() { return __WEBPACK_IMPORTED_MODULE_1__metadata_directives__["e"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(exports, "e", function() { return __WEBPACK_IMPORTED_MODULE_1__metadata_directives__["b"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(exports, "f", function() { return __WEBPACK_IMPORTED_MODULE_1__metadata_directives__["c"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(exports, "s", function() { return __WEBPACK_IMPORTED_MODULE_1__metadata_directives__["g"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(exports, "l", function() { return __WEBPACK_IMPORTED_MODULE_2__metadata_lifecycle_hooks__["d"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(exports, "o", function() { return __WEBPACK_IMPORTED_MODULE_2__metadata_lifecycle_hooks__["g"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(exports, "r", function() { return __WEBPACK_IMPORTED_MODULE_2__metadata_lifecycle_hooks__["j"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(exports, "q", function() { return __WEBPACK_IMPORTED_MODULE_2__metadata_lifecycle_hooks__["i"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(exports, "m", function() { return __WEBPACK_IMPORTED_MODULE_2__metadata_lifecycle_hooks__["e"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(exports, "n", function() { return __WEBPACK_IMPORTED_MODULE_2__metadata_lifecycle_hooks__["f"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(exports, "p", function() { return __WEBPACK_IMPORTED_MODULE_2__metadata_lifecycle_hooks__["h"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(exports, "k", function() { return __WEBPACK_IMPORTED_MODULE_2__metadata_lifecycle_hooks__["c"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(exports, "v", function() { return __WEBPACK_IMPORTED_MODULE_3__metadata_ng_module__["c"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(exports, "u", function() { return __WEBPACK_IMPORTED_MODULE_3__metadata_ng_module__["b"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(exports, "a", function() { return __WEBPACK_IMPORTED_MODULE_3__metadata_ng_module__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(exports, "b", function() { return __WEBPACK_IMPORTED_MODULE_4__metadata_view__["c"]; });
 /**
  * @license
  * Copyright Google Inc. All Rights Reserved.
@@ -35097,833 +34604,6 @@ function pureProxy10(fn) {
 
 
 
-
-
-
-
-// TODO(alexeagle): remove the duplication of this doc. It is copied from ComponentMetadata.
-/**
- * Declare reusable UI building blocks for an application.
- *
- * Each Angular component requires a single `@Component` annotation. The `@Component`
- * annotation specifies when a component is instantiated, and which properties and hostListeners it
- * binds to.
- *
- * When a component is instantiated, Angular
- * - creates a shadow DOM for the component.
- * - loads the selected template into the shadow DOM.
- * - creates all the injectable objects configured with `providers` and `viewProviders`.
- *
- * All template expressions and statements are then evaluated against the component instance.
- *
- * ## Lifecycle hooks
- *
- * When the component class implements some {@linkDocs guide/lifecycle-hooks} the
- * callbacks are called by the change detection at defined points in time during the life of the
- * component.
- *
- * ### Example
- *
- * {@example core/ts/metadata/metadata.ts region='component'}
- * @stable
- * @Annotation
- */
-var Component = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_3__util_decorators__["b" /* makeDecorator */])(__WEBPACK_IMPORTED_MODULE_1__metadata_directives__["a" /* ComponentMetadata */]);
-// TODO(alexeagle): remove the duplication of this doc. It is copied from DirectiveMetadata.
-/**
- * Directives allow you to attach behavior to elements in the DOM.
- *
- * {@link DirectiveMetadata}s with an embedded view are called {@link ComponentMetadata}s.
- *
- * A directive consists of a single directive annotation and a controller class. When the
- * directive's `selector` matches
- * elements in the DOM, the following steps occur:
- *
- * 1. For each directive, the `ElementInjector` attempts to resolve the directive's constructor
- * arguments.
- * 2. Angular instantiates directives for each matched element using `ElementInjector` in a
- * depth-first order,
- *    as declared in the HTML.
- *
- * ## Understanding How Injection Works
- *
- * There are three stages of injection resolution.
- * - *Pre-existing Injectors*:
- *   - The terminal {@link Injector} cannot resolve dependencies. It either throws an error or, if
- * the dependency was
- *     specified as `@Optional`, returns `null`.
- *   - The platform injector resolves browser singleton resources, such as: cookies, title,
- * location, and others.
- * - *Component Injectors*: Each component instance has its own {@link Injector}, and they follow
- * the same parent-child hierarchy
- *     as the component instances in the DOM.
- * - *Element Injectors*: Each component instance has a Shadow DOM. Within the Shadow DOM each
- * element has an `ElementInjector`
- *     which follow the same parent-child hierarchy as the DOM elements themselves.
- *
- * When a template is instantiated, it also must instantiate the corresponding directives in a
- * depth-first order. The
- * current `ElementInjector` resolves the constructor dependencies for each directive.
- *
- * Angular then resolves dependencies as follows, according to the order in which they appear in the
- * {@link ComponentMetadata}:
- *
- * 1. Dependencies on the current element
- * 2. Dependencies on element injectors and their parents until it encounters a Shadow DOM boundary
- * 3. Dependencies on component injectors and their parents until it encounters the root component
- * 4. Dependencies on pre-existing injectors
- *
- *
- * The `ElementInjector` can inject other directives, element-specific special objects, or it can
- * delegate to the parent
- * injector.
- *
- * To inject other directives, declare the constructor parameter as:
- * - `directive:DirectiveType`: a directive on the current element only
- * - `@Host() directive:DirectiveType`: any directive that matches the type between the current
- * element and the
- *    Shadow DOM root.
- * - `@Query(DirectiveType) query:QueryList<DirectiveType>`: A live collection of direct child
- * directives.
- * - `@QueryDescendants(DirectiveType) query:QueryList<DirectiveType>`: A live collection of any
- * child directives.
- *
- * To inject element-specific special objects, declare the constructor parameter as:
- * - `element: ElementRef` to obtain a reference to logical element in the view.
- * - `viewContainer: ViewContainerRef` to control child template instantiation, for
- * {@link DirectiveMetadata} directives only
- * - `bindingPropagation: BindingPropagation` to control change detection in a more granular way.
- *
- * ### Example
- *
- * The following example demonstrates how dependency injection resolves constructor arguments in
- * practice.
- *
- *
- * Assume this HTML template:
- *
- * ```
- * <div dependency="1">
- *   <div dependency="2">
- *     <div dependency="3" my-directive>
- *       <div dependency="4">
- *         <div dependency="5"></div>
- *       </div>
- *       <div dependency="6"></div>
- *     </div>
- *   </div>
- * </div>
- * ```
- *
- * With the following `dependency` decorator and `SomeService` injectable class.
- *
- * ```
- * @Injectable()
- * class SomeService {
- * }
- *
- * @Directive({
- *   selector: '[dependency]',
- *   inputs: [
- *     'id: dependency'
- *   ]
- * })
- * class Dependency {
- *   id:string;
- * }
- * ```
- *
- * Let's step through the different ways in which `MyDirective` could be declared...
- *
- *
- * ### No injection
- *
- * Here the constructor is declared with no arguments, therefore nothing is injected into
- * `MyDirective`.
- *
- * ```
- * @Directive({ selector: '[my-directive]' })
- * class MyDirective {
- *   constructor() {
- *   }
- * }
- * ```
- *
- * This directive would be instantiated with no dependencies.
- *
- *
- * ### Component-level injection
- *
- * Directives can inject any injectable instance from the closest component injector or any of its
- * parents.
- *
- * Here, the constructor declares a parameter, `someService`, and injects the `SomeService` type
- * from the parent
- * component's injector.
- * ```
- * @Directive({ selector: '[my-directive]' })
- * class MyDirective {
- *   constructor(someService: SomeService) {
- *   }
- * }
- * ```
- *
- * This directive would be instantiated with a dependency on `SomeService`.
- *
- *
- * ### Injecting a directive from the current element
- *
- * Directives can inject other directives declared on the current element.
- *
- * ```
- * @Directive({ selector: '[my-directive]' })
- * class MyDirective {
- *   constructor(dependency: Dependency) {
- *     expect(dependency.id).toEqual(3);
- *   }
- * }
- * ```
- * This directive would be instantiated with `Dependency` declared at the same element, in this case
- * `dependency="3"`.
- *
- * ### Injecting a directive from any ancestor elements
- *
- * Directives can inject other directives declared on any ancestor element (in the current Shadow
- * DOM), i.e. on the current element, the
- * parent element, or its parents.
- * ```
- * @Directive({ selector: '[my-directive]' })
- * class MyDirective {
- *   constructor(@Host() dependency: Dependency) {
- *     expect(dependency.id).toEqual(2);
- *   }
- * }
- * ```
- *
- * `@Host` checks the current element, the parent, as well as its parents recursively. If
- * `dependency="2"` didn't
- * exist on the direct parent, this injection would
- * have returned
- * `dependency="1"`.
- *
- *
- * ### Injecting a live collection of direct child directives
- *
- *
- * A directive can also query for other child directives. Since parent directives are instantiated
- * before child directives, a directive can't simply inject the list of child directives. Instead,
- * the directive injects a {@link QueryList}, which updates its contents as children are added,
- * removed, or moved by a directive that uses a {@link ViewContainerRef} such as a `ngFor`, an
- * `ngIf`, or an `ngSwitch`.
- *
- * ```
- * @Directive({ selector: '[my-directive]' })
- * class MyDirective {
- *   constructor(@Query(Dependency) dependencies:QueryList<Dependency>) {
- *   }
- * }
- * ```
- *
- * This directive would be instantiated with a {@link QueryList} which contains `Dependency` 4 and
- * 6. Here, `Dependency` 5 would not be included, because it is not a direct child.
- *
- * ### Injecting a live collection of descendant directives
- *
- * By passing the descendant flag to `@Query` above, we can include the children of the child
- * elements.
- *
- * ```
- * @Directive({ selector: '[my-directive]' })
- * class MyDirective {
- *   constructor(@Query(Dependency, {descendants: true}) dependencies:QueryList<Dependency>) {
- *   }
- * }
- * ```
- *
- * This directive would be instantiated with a Query which would contain `Dependency` 4, 5 and 6.
- *
- * ### Optional injection
- *
- * The normal behavior of directives is to return an error when a specified dependency cannot be
- * resolved. If you
- * would like to inject `null` on unresolved dependency instead, you can annotate that dependency
- * with `@Optional()`.
- * This explicitly permits the author of a template to treat some of the surrounding directives as
- * optional.
- *
- * ```
- * @Directive({ selector: '[my-directive]' })
- * class MyDirective {
- *   constructor(@Optional() dependency:Dependency) {
- *   }
- * }
- * ```
- *
- * This directive would be instantiated with a `Dependency` directive found on the current element.
- * If none can be
- * found, the injector supplies `null` instead of throwing an error.
- *
- * ### Example
- *
- * Here we use a decorator directive to simply define basic tool-tip behavior.
- *
- * ```
- * @Directive({
- *   selector: '[tooltip]',
- *   inputs: [
- *     'text: tooltip'
- *   ],
- *   host: {
- *     '(mouseenter)': 'onMouseEnter()',
- *     '(mouseleave)': 'onMouseLeave()'
- *   }
- * })
- * class Tooltip{
- *   text:string;
- *   overlay:Overlay; // NOT YET IMPLEMENTED
- *   overlayManager:OverlayManager; // NOT YET IMPLEMENTED
- *
- *   constructor(overlayManager:OverlayManager) {
- *     this.overlayManager = overlayManager;
- *   }
- *
- *   onMouseEnter() {
- *     // exact signature to be determined
- *     this.overlay = this.overlayManager.open(text, ...);
- *   }
- *
- *   onMouseLeave() {
- *     this.overlay.close();
- *     this.overlay = null;
- *   }
- * }
- * ```
- * In our HTML template, we can then add this behavior to a `<div>` or any other element with the
- * `tooltip` selector,
- * like so:
- *
- * ```
- * <div tooltip="some text here"></div>
- * ```
- *
- * Directives can also control the instantiation, destruction, and positioning of inline template
- * elements:
- *
- * A directive uses a {@link ViewContainerRef} to instantiate, insert, move, and destroy views at
- * runtime.
- * The {@link ViewContainerRef} is created as a result of `<template>` element, and represents a
- * location in the current view
- * where these actions are performed.
- *
- * Views are always created as children of the current {@link ComponentMetadata}, and as siblings of
- * the
- * `<template>` element. Thus a
- * directive in a child view cannot inject the directive that created it.
- *
- * Since directives that create views via ViewContainers are common in Angular, and using the full
- * `<template>` element syntax is wordy, Angular
- * also supports a shorthand notation: `<li *foo="bar">` and `<li template="foo: bar">` are
- * equivalent.
- *
- * Thus,
- *
- * ```
- * <ul>
- *   <li *foo="bar" title="text"></li>
- * </ul>
- * ```
- *
- * Expands in use to:
- *
- * ```
- * <ul>
- *   <template [foo]="bar">
- *     <li title="text"></li>
- *   </template>
- * </ul>
- * ```
- *
- * Notice that although the shorthand places `*foo="bar"` within the `<li>` element, the binding for
- * the directive
- * controller is correctly instantiated on the `<template>` element rather than the `<li>` element.
- *
- * ## Lifecycle hooks
- *
- * When the directive class implements some {@linkDocs guide/lifecycle-hooks} the
- * callbacks are called by the change detection at defined points in time during the life of the
- * directive.
- *
- * ### Example
- *
- * Let's suppose we want to implement the `unless` behavior, to conditionally include a template.
- *
- * Here is a simple directive that triggers on an `unless` selector:
- *
- * ```
- * @Directive({
- *   selector: '[unless]',
- *   inputs: ['unless']
- * })
- * export class Unless {
- *   viewContainer: ViewContainerRef;
- *   templateRef: TemplateRef;
- *   prevCondition: boolean;
- *
- *   constructor(viewContainer: ViewContainerRef, templateRef: TemplateRef) {
- *     this.viewContainer = viewContainer;
- *     this.templateRef = templateRef;
- *     this.prevCondition = null;
- *   }
- *
- *   set unless(newCondition) {
- *     if (newCondition && (isBlank(this.prevCondition) || !this.prevCondition)) {
- *       this.prevCondition = true;
- *       this.viewContainer.clear();
- *     } else if (!newCondition && (isBlank(this.prevCondition) || this.prevCondition)) {
- *       this.prevCondition = false;
- *       this.viewContainer.create(this.templateRef);
- *     }
- *   }
- * }
- * ```
- *
- * We can then use this `unless` selector in a template:
- * ```
- * <ul>
- *   <li *unless="expr"></li>
- * </ul>
- * ```
- *
- * Once the directive instantiates the child view, the shorthand notation for the template expands
- * and the result is:
- *
- * ```
- * <ul>
- *   <template [unless]="exp">
- *     <li></li>
- *   </template>
- *   <li></li>
- * </ul>
- * ```
- *
- * Note also that although the `<li></li>` template still exists inside the `<template></template>`,
- * the instantiated
- * view occurs on the second `<li></li>` which is a sibling to the `<template>` element.
- * @stable
- * @Annotation
- */
-var Directive = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_3__util_decorators__["b" /* makeDecorator */])(__WEBPACK_IMPORTED_MODULE_1__metadata_directives__["b" /* DirectiveMetadata */]);
-/**
- * Specifies that a constant attribute value should be injected.
- *
- * The directive can inject constant string literals of host element attributes.
- *
- * ### Example
- *
- * Suppose we have an `<input>` element and want to know its `type`.
- *
- * ```html
- * <input type="text">
- * ```
- *
- * A decorator can inject string literal `text` like so:
- *
- * {@example core/ts/metadata/metadata.ts region='attributeMetadata'}
- * @stable
- * @Annotation
- */
-var Attribute = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_3__util_decorators__["a" /* makeParamDecorator */])(__WEBPACK_IMPORTED_MODULE_0__metadata_di__["a" /* AttributeMetadata */]);
-// TODO(alexeagle): remove the duplication of this doc. It is copied from ContentChildrenMetadata.
-/**
- * Configures a content query.
- *
- * Content queries are set before the `ngAfterContentInit` callback is called.
- *
- * ### Example
- *
- * ```
- * @Directive({
- *   selector: 'someDir'
- * })
- * class SomeDir {
- *   @ContentChildren(ChildDirective) contentChildren: QueryList<ChildDirective>;
- *
- *   ngAfterContentInit() {
- *     // contentChildren is set
- *   }
- * }
- * ```
- * @stable
- * @Annotation
- */
-var ContentChildren = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_3__util_decorators__["c" /* makePropDecorator */])(__WEBPACK_IMPORTED_MODULE_0__metadata_di__["b" /* ContentChildrenMetadata */]);
-// TODO(alexeagle): remove the duplication of this doc. It is copied from ContentChildMetadata.
-/**
- * Configures a content query.
- *
- * Content queries are set before the `ngAfterContentInit` callback is called.
- *
- * ### Example
- *
- * ```
- * @Directive({
- *   selector: 'someDir'
- * })
- * class SomeDir {
- *   @ContentChild(ChildDirective) contentChild;
- *   @ContentChild('container_ref') containerChild
- *
- *   ngAfterContentInit() {
- *     // contentChild is set
- *     // containerChild is set
- *   }
- * }
- * ```
- *
- * ```html
- * <container #container_ref>
- *   <item>a</item>
- *   <item>b</item>
- * </container>
- * ```
- * @stable
- * @Annotation
- */
-var ContentChild = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_3__util_decorators__["c" /* makePropDecorator */])(__WEBPACK_IMPORTED_MODULE_0__metadata_di__["c" /* ContentChildMetadata */]);
-// TODO(alexeagle): remove the duplication of this doc. It is copied from ViewChildrenMetadata.
-/**
- * Declares a list of child element references.
- *
- * Angular automatically updates the list when the DOM is updated.
- *
- * `ViewChildren` takes a argument to select elements.
- *
- * - If the argument is a type, directives or components with the type will be bound.
- *
- * - If the argument is a string, the string is interpreted as a list of comma-separated selectors.
- * For each selector, an element containing the matching template variable (e.g. `#child`) will be
- * bound.
- *
- * View children are set before the `ngAfterViewInit` callback is called.
- *
- * ### Example
- *
- * With type selector:
- *
- * ```
- * @Component({
- *   selector: 'child-cmp',
- *   template: '<p>child</p>'
- * })
- * class ChildCmp {
- *   doSomething() {}
- * }
- *
- * @Component({
- *   selector: 'some-cmp',
- *   template: `
- *     <child-cmp></child-cmp>
- *     <child-cmp></child-cmp>
- *     <child-cmp></child-cmp>
- *   `,
- *   directives: [ChildCmp]
- * })
- * class SomeCmp {
- *   @ViewChildren(ChildCmp) children:QueryList<ChildCmp>;
- *
- *   ngAfterViewInit() {
- *     // children are set
- *     this.children.toArray().forEach((child)=>child.doSomething());
- *   }
- * }
- * ```
- *
- * With string selector:
- *
- * ```
- * @Component({
- *   selector: 'child-cmp',
- *   template: '<p>child</p>'
- * })
- * class ChildCmp {
- *   doSomething() {}
- * }
- *
- * @Component({
- *   selector: 'some-cmp',
- *   template: `
- *     <child-cmp #child1></child-cmp>
- *     <child-cmp #child2></child-cmp>
- *     <child-cmp #child3></child-cmp>
- *   `,
- *   directives: [ChildCmp]
- * })
- * class SomeCmp {
- *   @ViewChildren('child1,child2,child3') children:QueryList<ChildCmp>;
- *
- *   ngAfterViewInit() {
- *     // children are set
- *     this.children.toArray().forEach((child)=>child.doSomething());
- *   }
- * }
- * ```
- *
- * See also: [ViewChildrenMetadata]
- * @stable
- * @Annotation
- */
-var ViewChildren = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_3__util_decorators__["c" /* makePropDecorator */])(__WEBPACK_IMPORTED_MODULE_0__metadata_di__["d" /* ViewChildrenMetadata */]);
-// TODO(alexeagle): remove the duplication of this doc. It is copied from ViewChildMetadata.
-/**
- * Declares a reference to a child element.
- *
- * `ViewChildren` takes a argument to select elements.
- *
- * - If the argument is a type, a directive or a component with the type will be bound.
- *
- * - If the argument is a string, the string is interpreted as a selector. An element containing the
- * matching template variable (e.g. `#child`) will be bound.
- *
- * In either case, `@ViewChild()` assigns the first (looking from above) element if there are
- * multiple matches.
- *
- * View child is set before the `ngAfterViewInit` callback is called.
- *
- * ### Example
- *
- * With type selector:
- *
- * ```
- * @Component({
- *   selector: 'child-cmp',
- *   template: '<p>child</p>'
- * })
- * class ChildCmp {
- *   doSomething() {}
- * }
- *
- * @Component({
- *   selector: 'some-cmp',
- *   template: '<child-cmp></child-cmp>',
- *   directives: [ChildCmp]
- * })
- * class SomeCmp {
- *   @ViewChild(ChildCmp) child:ChildCmp;
- *
- *   ngAfterViewInit() {
- *     // child is set
- *     this.child.doSomething();
- *   }
- * }
- * ```
- *
- * With string selector:
- *
- * ```
- * @Component({
- *   selector: 'child-cmp',
- *   template: '<p>child</p>'
- * })
- * class ChildCmp {
- *   doSomething() {}
- * }
- *
- * @Component({
- *   selector: 'some-cmp',
- *   template: '<child-cmp #child></child-cmp>',
- *   directives: [ChildCmp]
- * })
- * class SomeCmp {
- *   @ViewChild('child') child:ChildCmp;
- *
- *   ngAfterViewInit() {
- *     // child is set
- *     this.child.doSomething();
- *   }
- * }
- * ```
- * See also: [ViewChildMetadata]
- * @stable
- * @Annotation
- */
-var ViewChild = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_3__util_decorators__["c" /* makePropDecorator */])(__WEBPACK_IMPORTED_MODULE_0__metadata_di__["e" /* ViewChildMetadata */]);
-// TODO(alexeagle): remove the duplication of this doc. It is copied from PipeMetadata.
-/**
- * Declare reusable pipe function.
- *
- * ### Example
- *
- * {@example core/ts/metadata/metadata.ts region='pipe'}
- * @stable
- * @Annotation
- */
-var Pipe = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_3__util_decorators__["b" /* makeDecorator */])(__WEBPACK_IMPORTED_MODULE_1__metadata_directives__["c" /* PipeMetadata */]);
-// TODO(alexeagle): remove the duplication of this doc. It is copied from InputMetadata.
-/**
- * Declares a data-bound input property.
- *
- * Angular automatically updates data-bound properties during change detection.
- *
- * `InputMetadata` takes an optional parameter that specifies the name
- * used when instantiating a component in the template. When not provided,
- * the name of the decorated property is used.
- *
- * ### Example
- *
- * The following example creates a component with two input properties.
- *
- * ```typescript
- * @Component({
- *   selector: 'bank-account',
- *   template: `
- *     Bank Name: {{bankName}}
- *     Account Id: {{id}}
- *   `
- * })
- * class BankAccount {
- *   @Input() bankName: string;
- *   @Input('account-id') id: string;
- *
- *   // this property is not bound, and won't be automatically updated by Angular
- *   normalizedBankName: string;
- * }
- *
- * @Component({
- *   selector: 'app',
- *   template: `
- *     <bank-account bank-name="RBC" account-id="4747"></bank-account>
- *   `,
- *   directives: [BankAccount]
- * })
- * class App {}
- * ```
- * @stable
- * @Annotation
- */
-var Input = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_3__util_decorators__["c" /* makePropDecorator */])(__WEBPACK_IMPORTED_MODULE_1__metadata_directives__["d" /* InputMetadata */]);
-// TODO(alexeagle): remove the duplication of this doc. It is copied from OutputMetadata.
-/**
- * Declares an event-bound output property.
- *
- * When an output property emits an event, an event handler attached to that event
- * the template is invoked.
- *
- * `OutputMetadata` takes an optional parameter that specifies the name
- * used when instantiating a component in the template. When not provided,
- * the name of the decorated property is used.
- *
- * ### Example
- *
- * ```typescript
- * @Directive({
- *   selector: 'interval-dir',
- * })
- * class IntervalDir {
- *   @Output() everySecond = new EventEmitter();
- *   @Output('everyFiveSeconds') five5Secs = new EventEmitter();
- *
- *   constructor() {
- *     setInterval(() => this.everySecond.emit("event"), 1000);
- *     setInterval(() => this.five5Secs.emit("event"), 5000);
- *   }
- * }
- *
- * @Component({
- *   selector: 'app',
- *   template: `
- *     <interval-dir (everySecond)="everySecond()" (everyFiveSeconds)="everyFiveSeconds()">
- *     </interval-dir>
- *   `,
- *   directives: [IntervalDir]
- * })
- * class App {
- *   everySecond() { console.log('second'); }
- *   everyFiveSeconds() { console.log('five seconds'); }
- * }
- * ```
- * @stable
- * @Annotation
- */
-var Output = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_3__util_decorators__["c" /* makePropDecorator */])(__WEBPACK_IMPORTED_MODULE_1__metadata_directives__["e" /* OutputMetadata */]);
-// TODO(alexeagle): remove the duplication of this doc. It is copied from HostBindingMetadata.
-/**
- * Declares a host property binding.
- *
- * Angular automatically checks host property bindings during change detection.
- * If a binding changes, it will update the host element of the directive.
- *
- * `HostBindingMetadata` takes an optional parameter that specifies the property
- * name of the host element that will be updated. When not provided,
- * the class property name is used.
- *
- * ### Example
- *
- * The following example creates a directive that sets the `valid` and `invalid` classes
- * on the DOM element that has ngModel directive on it.
- *
- * ```typescript
- * @Directive({selector: '[ngModel]'})
- * class NgModelStatus {
- *   constructor(public control:NgModel) {}
- *   @HostBinding('class.valid') get valid() { return this.control.valid; }
- *   @HostBinding('class.invalid') get invalid() { return this.control.invalid; }
- * }
- *
- * @Component({
- *   selector: 'app',
- *   template: `<input [(ngModel)]="prop">`,
- *   directives: [FORM_DIRECTIVES, NgModelStatus]
- * })
- * class App {
- *   prop;
- * }
- * ```
- * @stable
- * @Annotation
- */
-var HostBinding = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_3__util_decorators__["c" /* makePropDecorator */])(__WEBPACK_IMPORTED_MODULE_1__metadata_directives__["f" /* HostBindingMetadata */]);
-// TODO(alexeagle): remove the duplication of this doc. It is copied from HostListenerMetadata.
-/**
- * Declares a host listener.
- *
- * Angular will invoke the decorated method when the host element emits the specified event.
- *
- * If the decorated method returns `false`, then `preventDefault` is applied on the DOM
- * event.
- *
- * ### Example
- *
- * The following example declares a directive that attaches a click listener to the button and
- * counts clicks.
- *
- * ```typescript
- * @Directive({selector: 'button[counting]'})
- * class CountClicks {
- *   numberOfClicks = 0;
- *
- *   @HostListener('click', ['$event.target'])
- *   onClick(btn) {
- *     console.log("button", btn, "number of clicks:", this.numberOfClicks++);
- *   }
- * }
- *
- * @Component({
- *   selector: 'app',
- *   template: `<button counting>Increment</button>`,
- *   directives: [CountClicks]
- * })
- * class App {}
- * ```
- * @stable
- * @Annotation
- */
-var HostListener = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_3__util_decorators__["c" /* makePropDecorator */])(__WEBPACK_IMPORTED_MODULE_1__metadata_directives__["g" /* HostListenerMetadata */]);
-/**
- * Declares an ng module.
- * @stable
- * @Annotation
- */
-var NgModule = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_3__util_decorators__["b" /* makeDecorator */])(__WEBPACK_IMPORTED_MODULE_2__metadata_ng_module__["a" /* NgModuleMetadata */]);
 //# sourceMappingURL=metadata.js.map
 
 /***/ },
@@ -35932,18 +34612,15 @@ var NgModule = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_3__util_decorator
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__di_forward_ref__ = __webpack_require__("./node_modules/@angular/core/src/di/forward_ref.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__di_metadata__ = __webpack_require__("./node_modules/@angular/core/src/di/metadata.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__di_opaque_token__ = __webpack_require__("./node_modules/@angular/core/src/di/opaque_token.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__facade_lang__ = __webpack_require__("./node_modules/@angular/core/src/facade/lang.js");
-/* harmony export (binding) */ __webpack_require__.d(exports, "f", function() { return ANALYZE_FOR_ENTRY_COMPONENTS; });
-/* harmony export (binding) */ __webpack_require__.d(exports, "a", function() { return AttributeMetadata; });
-/* harmony export (binding) */ __webpack_require__.d(exports, "g", function() { return QueryMetadata; });
-/* harmony export (binding) */ __webpack_require__.d(exports, "b", function() { return ContentChildrenMetadata; });
-/* harmony export (binding) */ __webpack_require__.d(exports, "c", function() { return ContentChildMetadata; });
-/* harmony export (binding) */ __webpack_require__.d(exports, "h", function() { return ViewQueryMetadata; });
-/* harmony export (binding) */ __webpack_require__.d(exports, "d", function() { return ViewChildrenMetadata; });
-/* harmony export (binding) */ __webpack_require__.d(exports, "e", function() { return ViewChildMetadata; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__di_opaque_token__ = __webpack_require__("./node_modules/@angular/core/src/di/opaque_token.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__util_decorators__ = __webpack_require__("./node_modules/@angular/core/src/util/decorators.js");
+/* harmony export (binding) */ __webpack_require__.d(exports, "a", function() { return ANALYZE_FOR_ENTRY_COMPONENTS; });
+/* harmony export (binding) */ __webpack_require__.d(exports, "c", function() { return Attribute; });
+/* harmony export (binding) */ __webpack_require__.d(exports, "b", function() { return Query; });
+/* harmony export (binding) */ __webpack_require__.d(exports, "e", function() { return ContentChildren; });
+/* harmony export (binding) */ __webpack_require__.d(exports, "d", function() { return ContentChild; });
+/* harmony export (binding) */ __webpack_require__.d(exports, "g", function() { return ViewChildren; });
+/* harmony export (binding) */ __webpack_require__.d(exports, "f", function() { return ViewChild; });
 /**
  * @license
  * Copyright Google Inc. All Rights Reserved.
@@ -35951,13 +34628,6 @@ var NgModule = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_3__util_decorator
  * Use of this source code is governed by an MIT-style license that can be
  * found in the LICENSE file at https://angular.io/license
  */
-var __extends = (this && this.__extends) || function (d, b) {
-    for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
-    function __() { this.constructor = d; }
-    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-};
-
-
 
 
 /**
@@ -35983,7 +34653,7 @@ var __extends = (this && this.__extends) || function (d, b) {
  * // user code
  * let routes = [
  *   {path: '/root', component: RootComp},
- *   {path: /teams', component: TeamsComp}
+ *   {path: '/teams', component: TeamsComp}
  * ];
  *
  * @NgModule({
@@ -35994,472 +34664,76 @@ var __extends = (this && this.__extends) || function (d, b) {
  *
  * @experimental
  */
-var ANALYZE_FOR_ENTRY_COMPONENTS = new __WEBPACK_IMPORTED_MODULE_2__di_opaque_token__["a" /* OpaqueToken */]('AnalyzeForEntryComponents');
+var ANALYZE_FOR_ENTRY_COMPONENTS = new __WEBPACK_IMPORTED_MODULE_0__di_opaque_token__["a" /* OpaqueToken */]('AnalyzeForEntryComponents');
 /**
- * Specifies that a constant attribute value should be injected.
+ * Attribute decorator and metadata.
  *
- * The directive can inject constant string literals of host element attributes.
+ * @stable
+ * @Annotation
+ */
+var Attribute = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__util_decorators__["a" /* makeParamDecorator */])('Attribute', [['attributeName', undefined]]);
+/**
+ * Base class for query metadata
  *
- * ### Example
- *
- * Suppose we have an `<input>` element and want to know its `type`.
- *
- * ```html
- * <input type="text">
- * ```
- *
- * A decorator can inject string literal `text` like so:
- *
- * {@example core/ts/metadata/metadata.ts region='attributeMetadata'}
  * @stable
  */
-var AttributeMetadata = (function (_super) {
-    __extends(AttributeMetadata, _super);
-    function AttributeMetadata(attributeName) {
-        _super.call(this);
-        this.attributeName = attributeName;
+var Query = (function () {
+    function Query() {
     }
-    Object.defineProperty(AttributeMetadata.prototype, "token", {
-        get: function () {
-            // Normally one would default a token to a type of an injected value but here
-            // the type of a variable is "string" and we can't use primitive type as a return value
-            // so we use instance of Attribute instead. This doesn't matter much in practice as arguments
-            // with @Attribute annotation are injected by ElementInjector that doesn't take tokens into
-            // account.
-            return this;
-        },
-        enumerable: true,
-        configurable: true
-    });
-    AttributeMetadata.prototype.toString = function () { return "@Attribute(" + __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_3__facade_lang__["a" /* stringify */])(this.attributeName) + ")"; };
-    return AttributeMetadata;
-}(__WEBPACK_IMPORTED_MODULE_1__di_metadata__["g" /* DependencyMetadata */]));
+    return Query;
+}());
 /**
- * Declares an injectable parameter to be a live list of directives or variable
- * bindings from the content children of a directive.
+ * ContentChildren decorator and metadata.
  *
- * ### Example ([live demo](http://plnkr.co/edit/lY9m8HLy7z06vDoUaSN2?p=preview))
- *
- * Assume that `<tabs>` component would like to get a list its children `<pane>`
- * components as shown in this example:
- *
- * ```html
- * <tabs>
- *   <pane title="Overview">...</pane>
- *   <pane *ngFor="let o of objects" [title]="o.title">{{o.text}}</pane>
- * </tabs>
- * ```
- *
- * The preferred solution is to query for `Pane` directives using this decorator.
- *
- * ```javascript
- * @Component({
- *   selector: 'pane',
- *   inputs: ['title']
- * })
- * class Pane {
- *   title:string;
- * }
- *
- * @Component({
- *  selector: 'tabs',
- *  template: `
- *    <ul>
- *      <li *ngFor="let pane of panes">{{pane.title}}</li>
- *    </ul>
- *    <ng-content></ng-content>
- *  `
- * })
- * class Tabs {
- *   @ContentChildren(Pane) panes: QueryList<Pane>;
- * }
- * ```
- *
- * A query can look for variable bindings by passing in a string with desired binding symbol.
- *
- * ### Example ([live demo](http://plnkr.co/edit/sT2j25cH1dURAyBRCKx1?p=preview))
- * ```html
- * <seeker>
- *   <div #findme>...</div>
- * </seeker>
- *
- * @Component({ selector: 'seeker' })
- * class Seeker {
- *   @ContentChildren('findme') elList;
- * }
- * ```
- *
- * In this case the object that is injected depend on the type of the variable
- * binding. It can be an ElementRef, a directive or a component.
- *
- * Passing in a comma separated list of variable bindings will query for all of them.
- *
- * ```html
- * <seeker>
- *   <div #find-me>...</div>
- *   <div #find-me-too>...</div>
- * </seeker>
- *
- *  @Component({
- *   selector: 'seeker'
- * })
- * class Seeker {
- *   @ContentChildren('findMe, findMeToo') elList: QueryList<ElementRef>;
- * }
- * ```
- *
- * Configure whether query looks for direct children or all descendants
- * of the querying element, by using the `descendants` parameter.
- * It is set to `false` by default.
- *
- * ### Example ([live demo](http://plnkr.co/edit/wtGeB977bv7qvA5FTYl9?p=preview))
- * ```html
- * <container #first>
- *   <item>a</item>
- *   <item>b</item>
- *   <container #second>
- *     <item>c</item>
- *   </container>
- * </container>
- * ```
- *
- * When querying for items, the first container will see only `a` and `b` by default,
- * but with `ContentChildren(TextDirective, {descendants: true})` it will see `c` too.
- *
- * The queried directives are kept in a depth-first pre-order with respect to their
- * positions in the DOM.
- *
- * ContentChildren does not look deep into any subcomponent views.
- *
- * ContentChildren is updated as part of the change-detection cycle. Since change detection
- * happens after construction of a directive, QueryList will always be empty when observed in the
- * constructor.
- *
- * The injected object is an unmodifiable live list.
- * See {@link QueryList} for more details.
  * @stable
+ * @Annotation
  */
-var QueryMetadata = (function (_super) {
-    __extends(QueryMetadata, _super);
-    function QueryMetadata(_selector, _a) {
-        var _b = _a === void 0 ? {} : _a, _c = _b.descendants, descendants = _c === void 0 ? false : _c, _d = _b.first, first = _d === void 0 ? false : _d, _e = _b.read, read = _e === void 0 ? null : _e;
-        _super.call(this);
-        this._selector = _selector;
-        this.descendants = descendants;
-        this.first = first;
-        this.read = read;
-    }
-    Object.defineProperty(QueryMetadata.prototype, "isViewQuery", {
-        /**
-         * always `false` to differentiate it with {@link ViewQueryMetadata}.
-         */
-        get: function () { return false; },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(QueryMetadata.prototype, "selector", {
-        /**
-         * what this is querying for.
-         */
-        get: function () { return __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__di_forward_ref__["a" /* resolveForwardRef */])(this._selector); },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(QueryMetadata.prototype, "isVarBindingQuery", {
-        /**
-         * whether this is querying for a variable binding or a directive.
-         */
-        get: function () { return __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_3__facade_lang__["d" /* isString */])(this.selector); },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(QueryMetadata.prototype, "varBindings", {
-        /**
-         * returns a list of variable bindings this is querying for.
-         * Only applicable if this is a variable bindings query.
-         */
-        get: function () { return __WEBPACK_IMPORTED_MODULE_3__facade_lang__["e" /* StringWrapper */].split(this.selector, /\s*,\s*/g); },
-        enumerable: true,
-        configurable: true
-    });
-    QueryMetadata.prototype.toString = function () { return "@Query(" + __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_3__facade_lang__["a" /* stringify */])(this.selector) + ")"; };
-    return QueryMetadata;
-}(__WEBPACK_IMPORTED_MODULE_1__di_metadata__["g" /* DependencyMetadata */]));
-// TODO: add an example after ContentChildren and ViewChildren are in master
+var ContentChildren = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__util_decorators__["b" /* makePropDecorator */])('ContentChildren', [
+    ['selector', undefined],
+    { first: false, isViewQuery: false, descendants: false, read: undefined }
+], Query);
 /**
- * Configures a content query.
+ * ContentChild decorator and metadata.
  *
- * Content queries are set before the `ngAfterContentInit` callback is called.
- *
- * ### Example
- *
- * ```
- * @Directive({
- *   selector: 'someDir'
- * })
- * class SomeDir {
- *   @ContentChildren(ChildDirective) contentChildren: QueryList<ChildDirective>;
- *
- *   ngAfterContentInit() {
- *     // contentChildren is set
- *   }
- * }
- * ```
  * @stable
+ * @Annotation
  */
-var ContentChildrenMetadata = (function (_super) {
-    __extends(ContentChildrenMetadata, _super);
-    function ContentChildrenMetadata(_selector, _a) {
-        var _b = _a === void 0 ? {} : _a, _c = _b.descendants, descendants = _c === void 0 ? false : _c, _d = _b.read, read = _d === void 0 ? null : _d;
-        _super.call(this, _selector, { descendants: descendants, read: read });
+var ContentChild = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__util_decorators__["b" /* makePropDecorator */])('ContentChild', [
+    ['selector', undefined], {
+        first: true,
+        isViewQuery: false,
+        descendants: false,
+        read: undefined,
     }
-    return ContentChildrenMetadata;
-}(QueryMetadata));
-// TODO: add an example after ContentChild and ViewChild are in master
+], Query);
 /**
- * Configures a content query.
+ * ViewChildren decorator and metadata.
  *
- * Content queries are set before the `ngAfterContentInit` callback is called.
- *
- * ### Example
- *
- * ```
- * @Directive({
- *   selector: 'someDir'
- * })
- * class SomeDir {
- *   @ContentChild(ChildDirective) contentChild;
- *
- *   ngAfterContentInit() {
- *     // contentChild is set
- *   }
- * }
- * ```
  * @stable
+ * @Annotation
  */
-var ContentChildMetadata = (function (_super) {
-    __extends(ContentChildMetadata, _super);
-    function ContentChildMetadata(_selector, _a) {
-        var _b = (_a === void 0 ? {} : _a).read, read = _b === void 0 ? null : _b;
-        _super.call(this, _selector, { descendants: true, first: true, read: read });
+var ViewChildren = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__util_decorators__["b" /* makePropDecorator */])('ViewChildren', [
+    ['selector', undefined], {
+        first: false,
+        isViewQuery: true,
+        descendants: true,
+        read: undefined,
     }
-    return ContentChildMetadata;
-}(QueryMetadata));
+], Query);
 /**
- * Similar to {@link ContentChildMetadata}, but querying the component view, instead
- * of the content children.
+ * ViewChild decorator and metadata.
  *
- * ### Example ([live demo](http://plnkr.co/edit/eNsFHDf7YjyM6IzKxM1j?p=preview))
- *
- * ```javascript
- * @Component({
- *   ...,
- *   template: `
- *     <item> a </item>
- *     <item> b </item>
- *     <item> c </item>
- *   `
- * })
- * class MyComponent {
- *   shown: boolean;
- *
- *   constructor(private @ViewChildren(Item) items:QueryList<Item>) {
- *     items.changes.subscribe(() => console.log(items.length));
- *   }
- * }
- * ```
- *
- * As `shown` is flipped between true and false, items will contain zero of one
- * items.
- *
- * Specifies that a {@link QueryList} should be injected.
- *
- * The injected object is an iterable and observable live list.
- * See {@link QueryList} for more details.
  * @stable
+ * @Annotation
  */
-var ViewQueryMetadata = (function (_super) {
-    __extends(ViewQueryMetadata, _super);
-    function ViewQueryMetadata(_selector, _a) {
-        var _b = _a === void 0 ? {} : _a, _c = _b.descendants, descendants = _c === void 0 ? false : _c, _d = _b.first, first = _d === void 0 ? false : _d, _e = _b.read, read = _e === void 0 ? null : _e;
-        _super.call(this, _selector, { descendants: descendants, first: first, read: read });
+var ViewChild = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__util_decorators__["b" /* makePropDecorator */])('ViewChild', [
+    ['selector', undefined], {
+        first: true,
+        isViewQuery: true,
+        descendants: true,
+        read: undefined,
     }
-    Object.defineProperty(ViewQueryMetadata.prototype, "isViewQuery", {
-        /**
-         * always `true` to differentiate it with {@link QueryMetadata}.
-         */
-        get: function () { return true; },
-        enumerable: true,
-        configurable: true
-    });
-    return ViewQueryMetadata;
-}(QueryMetadata));
-/**
- * Declares a list of child element references.
- *
- * Angular automatically updates the list when the DOM is updated.
- *
- * `ViewChildren` takes an argument to select elements.
- *
- * - If the argument is a type, directives or components with the type will be bound.
- *
- * - If the argument is a string, the string is interpreted as a list of comma-separated selectors.
- * For each selector, an element containing the matching template variable (e.g. `#child`) will be
- * bound.
- *
- * View children are set before the `ngAfterViewInit` callback is called.
- *
- * ### Example
- *
- * With type selector:
- *
- * ```
- * @Component({
- *   selector: 'child-cmp',
- *   template: '<p>child</p>'
- * })
- * class ChildCmp {
- *   doSomething() {}
- * }
- *
- * @Component({
- *   selector: 'some-cmp',
- *   template: `
- *     <child-cmp></child-cmp>
- *     <child-cmp></child-cmp>
- *     <child-cmp></child-cmp>
- *   `,
- *   directives: [ChildCmp]
- * })
- * class SomeCmp {
- *   @ViewChildren(ChildCmp) children:QueryList<ChildCmp>;
- *
- *   ngAfterViewInit() {
- *     // children are set
- *     this.children.toArray().forEach((child)=>child.doSomething());
- *   }
- * }
- * ```
- *
- * With string selector:
- *
- * ```
- * @Component({
- *   selector: 'child-cmp',
- *   template: '<p>child</p>'
- * })
- * class ChildCmp {
- *   doSomething() {}
- * }
- *
- * @Component({
- *   selector: 'some-cmp',
- *   template: `
- *     <child-cmp #child1></child-cmp>
- *     <child-cmp #child2></child-cmp>
- *     <child-cmp #child3></child-cmp>
- *   `,
- *   directives: [ChildCmp]
- * })
- * class SomeCmp {
- *   @ViewChildren('child1,child2,child3') children:QueryList<ChildCmp>;
- *
- *   ngAfterViewInit() {
- *     // children are set
- *     this.children.toArray().forEach((child)=>child.doSomething());
- *   }
- * }
- * ```
- * @stable
- */
-var ViewChildrenMetadata = (function (_super) {
-    __extends(ViewChildrenMetadata, _super);
-    function ViewChildrenMetadata(_selector, _a) {
-        var _b = (_a === void 0 ? {} : _a).read, read = _b === void 0 ? null : _b;
-        _super.call(this, _selector, { descendants: true, read: read });
-    }
-    ViewChildrenMetadata.prototype.toString = function () { return "@ViewChildren(" + __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_3__facade_lang__["a" /* stringify */])(this.selector) + ")"; };
-    return ViewChildrenMetadata;
-}(ViewQueryMetadata));
-/**
- *
- * Declares a reference of child element.
- *
- * `ViewChildren` takes an argument to select elements.
- *
- * - If the argument is a type, a directive or a component with the type will be bound.
- *
- If the argument is a string, the string is interpreted as a selector. An element containing the
- matching template variable (e.g. `#child`) will be bound.
- *
- * In either case, `@ViewChild()` assigns the first (looking from above) element if there are
- multiple matches.
- *
- * View child is set before the `ngAfterViewInit` callback is called.
- *
- * ### Example
- *
- * With type selector:
- *
- * ```
- * @Component({
- *   selector: 'child-cmp',
- *   template: '<p>child</p>'
- * })
- * class ChildCmp {
- *   doSomething() {}
- * }
- *
- * @Component({
- *   selector: 'some-cmp',
- *   template: '<child-cmp></child-cmp>',
- *   directives: [ChildCmp]
- * })
- * class SomeCmp {
- *   @ViewChild(ChildCmp) child:ChildCmp;
- *
- *   ngAfterViewInit() {
- *     // child is set
- *     this.child.doSomething();
- *   }
- * }
- * ```
- *
- * With string selector:
- *
- * ```
- * @Component({
- *   selector: 'child-cmp',
- *   template: '<p>child</p>'
- * })
- * class ChildCmp {
- *   doSomething() {}
- * }
- *
- * @Component({
- *   selector: 'some-cmp',
- *   template: '<child-cmp #child></child-cmp>',
- *   directives: [ChildCmp]
- * })
- * class SomeCmp {
- *   @ViewChild('child') child:ChildCmp;
- *
- *   ngAfterViewInit() {
- *     // child is set
- *     this.child.doSomething();
- *   }
- * }
- * ```
- * @stable
- */
-var ViewChildMetadata = (function (_super) {
-    __extends(ViewChildMetadata, _super);
-    function ViewChildMetadata(_selector, _a) {
-        var _b = (_a === void 0 ? {} : _a).read, read = _b === void 0 ? null : _b;
-        _super.call(this, _selector, { descendants: true, first: true, read: read });
-    }
-    return ViewChildMetadata;
-}(ViewQueryMetadata));
+], Query);
 //# sourceMappingURL=di.js.map
 
 /***/ },
@@ -36469,15 +34743,14 @@ var ViewChildMetadata = (function (_super) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__change_detection_constants__ = __webpack_require__("./node_modules/@angular/core/src/change_detection/constants.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__di__ = __webpack_require__("./node_modules/@angular/core/src/di.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__facade_lang__ = __webpack_require__("./node_modules/@angular/core/src/facade/lang.js");
-/* harmony export (binding) */ __webpack_require__.d(exports, "b", function() { return DirectiveMetadata; });
-/* harmony export (binding) */ __webpack_require__.d(exports, "a", function() { return ComponentMetadata; });
-/* harmony export (binding) */ __webpack_require__.d(exports, "c", function() { return PipeMetadata; });
-/* harmony export (binding) */ __webpack_require__.d(exports, "d", function() { return InputMetadata; });
-/* harmony export (binding) */ __webpack_require__.d(exports, "e", function() { return OutputMetadata; });
-/* harmony export (binding) */ __webpack_require__.d(exports, "f", function() { return HostBindingMetadata; });
-/* harmony export (binding) */ __webpack_require__.d(exports, "g", function() { return HostListenerMetadata; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__util_decorators__ = __webpack_require__("./node_modules/@angular/core/src/util/decorators.js");
+/* harmony export (binding) */ __webpack_require__.d(exports, "a", function() { return Directive; });
+/* harmony export (binding) */ __webpack_require__.d(exports, "f", function() { return Component; });
+/* harmony export (binding) */ __webpack_require__.d(exports, "g", function() { return Pipe; });
+/* harmony export (binding) */ __webpack_require__.d(exports, "b", function() { return Input; });
+/* harmony export (binding) */ __webpack_require__.d(exports, "c", function() { return Output; });
+/* harmony export (binding) */ __webpack_require__.d(exports, "d", function() { return HostBinding; });
+/* harmony export (binding) */ __webpack_require__.d(exports, "e", function() { return HostListener; });
 /**
  * @license
  * Copyright Google Inc. All Rights Reserved.
@@ -36485,838 +34758,87 @@ var ViewChildMetadata = (function (_super) {
  * Use of this source code is governed by an MIT-style license that can be
  * found in the LICENSE file at https://angular.io/license
  */
-var __extends = (this && this.__extends) || function (d, b) {
-    for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
-    function __() { this.constructor = d; }
-    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-};
-
 
 
 /**
- * Directives allow you to attach behavior to elements in the DOM.
+ * Directive decorator and metadata.
  *
- * {@link DirectiveMetadata}s with an embedded view are called {@link ComponentMetadata}s.
- *
- * A directive consists of a single directive annotation and a controller class. When the
- * directive's `selector` matches
- * elements in the DOM, the following steps occur:
- *
- * 1. For each directive, the `ElementInjector` attempts to resolve the directive's constructor
- * arguments.
- * 2. Angular instantiates directives for each matched element using `ElementInjector` in a
- * depth-first order,
- *    as declared in the HTML.
- *
- * ## Understanding How Injection Works
- *
- * There are three stages of injection resolution.
- * - *Pre-existing Injectors*:
- *   - The terminal {@link Injector} cannot resolve dependencies. It either throws an error or, if
- * the dependency was
- *     specified as `@Optional`, returns `null`.
- *   - The platform injector resolves browser singleton resources, such as: cookies, title,
- * location, and others.
- * - *Component Injectors*: Each component instance has its own {@link Injector}, and they follow
- * the same parent-child hierarchy
- *     as the component instances in the DOM.
- * - *Element Injectors*: Each component instance has a Shadow DOM. Within the Shadow DOM each
- * element has an `ElementInjector`
- *     which follow the same parent-child hierarchy as the DOM elements themselves.
- *
- * When a template is instantiated, it also must instantiate the corresponding directives in a
- * depth-first order. The
- * current `ElementInjector` resolves the constructor dependencies for each directive.
- *
- * Angular then resolves dependencies as follows, according to the order in which they appear in the
- * {@link ComponentMetadata}:
- *
- * 1. Dependencies on the current element
- * 2. Dependencies on element injectors and their parents until it encounters a Shadow DOM boundary
- * 3. Dependencies on component injectors and their parents until it encounters the root component
- * 4. Dependencies on pre-existing injectors
- *
- *
- * The `ElementInjector` can inject other directives, element-specific special objects, or it can
- * delegate to the parent
- * injector.
- *
- * To inject other directives, declare the constructor parameter as:
- * - `directive:DirectiveType`: a directive on the current element only
- * - `@Host() directive:DirectiveType`: any directive that matches the type between the current
- * element and the
- *    Shadow DOM root.
- * - `@Query(DirectiveType) query:QueryList<DirectiveType>`: A live collection of direct child
- * directives.
- * - `@QueryDescendants(DirectiveType) query:QueryList<DirectiveType>`: A live collection of any
- * child directives.
- *
- * To inject element-specific special objects, declare the constructor parameter as:
- * - `element: ElementRef` to obtain a reference to logical element in the view.
- * - `viewContainer: ViewContainerRef` to control child template instantiation, for
- * {@link DirectiveMetadata} directives only
- * - `bindingPropagation: BindingPropagation` to control change detection in a more granular way.
- *
- * ### Example
- *
- * The following example demonstrates how dependency injection resolves constructor arguments in
- * practice.
- *
- *
- * Assume this HTML template:
- *
- * ```
- * <div dependency="1">
- *   <div dependency="2">
- *     <div dependency="3" my-directive>
- *       <div dependency="4">
- *         <div dependency="5"></div>
- *       </div>
- *       <div dependency="6"></div>
- *     </div>
- *   </div>
- * </div>
- * ```
- *
- * With the following `dependency` decorator and `SomeService` injectable class.
- *
- * ```
- * @Injectable()
- * class SomeService {
- * }
- *
- * @Directive({
- *   selector: '[dependency]',
- *   inputs: [
- *     'id: dependency'
- *   ]
- * })
- * class Dependency {
- *   id:string;
- * }
- * ```
- *
- * Let's step through the different ways in which `MyDirective` could be declared...
- *
- *
- * ### No injection
- *
- * Here the constructor is declared with no arguments, therefore nothing is injected into
- * `MyDirective`.
- *
- * ```
- * @Directive({ selector: '[my-directive]' })
- * class MyDirective {
- *   constructor() {
- *   }
- * }
- * ```
- *
- * This directive would be instantiated with no dependencies.
- *
- *
- * ### Component-level injection
- *
- * Directives can inject any injectable instance from the closest component injector or any of its
- * parents.
- *
- * Here, the constructor declares a parameter, `someService`, and injects the `SomeService` type
- * from the parent
- * component's injector.
- * ```
- * @Directive({ selector: '[my-directive]' })
- * class MyDirective {
- *   constructor(someService: SomeService) {
- *   }
- * }
- * ```
- *
- * This directive would be instantiated with a dependency on `SomeService`.
- *
- *
- * ### Injecting a directive from the current element
- *
- * Directives can inject other directives declared on the current element.
- *
- * ```
- * @Directive({ selector: '[my-directive]' })
- * class MyDirective {
- *   constructor(dependency: Dependency) {
- *     expect(dependency.id).toEqual(3);
- *   }
- * }
- * ```
- * This directive would be instantiated with `Dependency` declared at the same element, in this case
- * `dependency="3"`.
- *
- * ### Injecting a directive from any ancestor elements
- *
- * Directives can inject other directives declared on any ancestor element (in the current Shadow
- * DOM), i.e. on the current element, the
- * parent element, or its parents.
- * ```
- * @Directive({ selector: '[my-directive]' })
- * class MyDirective {
- *   constructor(@Host() dependency: Dependency) {
- *     expect(dependency.id).toEqual(2);
- *   }
- * }
- * ```
- *
- * `@Host` checks the current element, the parent, as well as its parents recursively. If
- * `dependency="2"` didn't
- * exist on the direct parent, this injection would
- * have returned
- * `dependency="1"`.
- *
- *
- * ### Injecting a live collection of direct child directives
- *
- *
- * A directive can also query for other child directives. Since parent directives are instantiated
- * before child directives, a directive can't simply inject the list of child directives. Instead,
- * the directive injects a {@link QueryList}, which updates its contents as children are added,
- * removed, or moved by a directive that uses a {@link ViewContainerRef} such as a `ngFor`, an
- * `ngIf`, or an `ngSwitch`.
- *
- * ```
- * @Directive({ selector: '[my-directive]' })
- * class MyDirective {
- *   constructor(@Query(Dependency) dependencies:QueryList<Dependency>) {
- *   }
- * }
- * ```
- *
- * This directive would be instantiated with a {@link QueryList} which contains `Dependency` 4 and
- * `Dependency` 6. Here, `Dependency` 5 would not be included, because it is not a direct child.
- *
- * ### Injecting a live collection of descendant directives
- *
- * By passing the descendant flag to `@Query` above, we can include the children of the child
- * elements.
- *
- * ```
- * @Directive({ selector: '[my-directive]' })
- * class MyDirective {
- *   constructor(@Query(Dependency, {descendants: true}) dependencies:QueryList<Dependency>) {
- *   }
- * }
- * ```
- *
- * This directive would be instantiated with a Query which would contain `Dependency` 4, 5 and 6.
- *
- * ### Optional injection
- *
- * The normal behavior of directives is to return an error when a specified dependency cannot be
- * resolved. If you
- * would like to inject `null` on unresolved dependency instead, you can annotate that dependency
- * with `@Optional()`.
- * This explicitly permits the author of a template to treat some of the surrounding directives as
- * optional.
- *
- * ```
- * @Directive({ selector: '[my-directive]' })
- * class MyDirective {
- *   constructor(@Optional() dependency:Dependency) {
- *   }
- * }
- * ```
- *
- * This directive would be instantiated with a `Dependency` directive found on the current element.
- * If none can be
- * found, the injector supplies `null` instead of throwing an error.
- *
- * ### Example
- *
- * Here we use a decorator directive to simply define basic tool-tip behavior.
- *
- * ```
- * @Directive({
- *   selector: '[tooltip]',
- *   inputs: [
- *     'text: tooltip'
- *   ],
- *   host: {
- *     '(mouseenter)': 'onMouseEnter()',
- *     '(mouseleave)': 'onMouseLeave()'
- *   }
- * })
- * class Tooltip{
- *   text:string;
- *   overlay:Overlay; // NOT YET IMPLEMENTED
- *   overlayManager:OverlayManager; // NOT YET IMPLEMENTED
- *
- *   constructor(overlayManager:OverlayManager) {
- *     this.overlay = overlay;
- *   }
- *
- *   onMouseEnter() {
- *     // exact signature to be determined
- *     this.overlay = this.overlayManager.open(text, ...);
- *   }
- *
- *   onMouseLeave() {
- *     this.overlay.close();
- *     this.overlay = null;
- *   }
- * }
- * ```
- * In our HTML template, we can then add this behavior to a `<div>` or any other element with the
- * `tooltip` selector,
- * like so:
- *
- * ```
- * <div tooltip="some text here"></div>
- * ```
- *
- * Directives can also control the instantiation, destruction, and positioning of inline template
- * elements:
- *
- * A directive uses a {@link ViewContainerRef} to instantiate, insert, move, and destroy views at
- * runtime.
- * The {@link ViewContainerRef} is created as a result of `<template>` element, and represents a
- * location in the current view
- * where these actions are performed.
- *
- * Views are always created as children of the current {@link ComponentMetadata}, and as siblings of
- * the
- * `<template>` element. Thus a
- * directive in a child view cannot inject the directive that created it.
- *
- * Since directives that create views via ViewContainers are common in Angular, and using the full
- * `<template>` element syntax is wordy, Angular
- * also supports a shorthand notation: `<li *foo="bar">` and `<li template="foo: bar">` are
- * equivalent.
- *
- * Thus,
- *
- * ```
- * <ul>
- *   <li *foo="bar" title="text"></li>
- * </ul>
- * ```
- *
- * Expands in use to:
- *
- * ```
- * <ul>
- *   <template [foo]="bar">
- *     <li title="text"></li>
- *   </template>
- * </ul>
- * ```
- *
- * Notice that although the shorthand places `*foo="bar"` within the `<li>` element, the binding for
- * the directive
- * controller is correctly instantiated on the `<template>` element rather than the `<li>` element.
- *
- * ## Lifecycle hooks
- *
- * When the directive class implements some {@linkDocs guide/lifecycle-hooks} the
- * callbacks are called by the change detection at defined points in time during the life of the
- * directive.
- *
- * ### Example
- *
- * Let's suppose we want to implement the `unless` behavior, to conditionally include a template.
- *
- * Here is a simple directive that triggers on an `unless` selector:
- *
- * ```
- * @Directive({
- *   selector: '[unless]',
- *   inputs: ['unless']
- * })
- * export class Unless {
- *   viewContainer: ViewContainerRef;
- *   templateRef: TemplateRef;
- *   prevCondition: boolean;
- *
- *   constructor(viewContainer: ViewContainerRef, templateRef: TemplateRef) {
- *     this.viewContainer = viewContainer;
- *     this.templateRef = templateRef;
- *     this.prevCondition = null;
- *   }
- *
- *   set unless(newCondition) {
- *     if (newCondition && (isBlank(this.prevCondition) || !this.prevCondition)) {
- *       this.prevCondition = true;
- *       this.viewContainer.clear();
- *     } else if (!newCondition && (isBlank(this.prevCondition) || this.prevCondition)) {
- *       this.prevCondition = false;
- *       this.viewContainer.create(this.templateRef);
- *     }
- *   }
- * }
- * ```
- *
- * We can then use this `unless` selector in a template:
- * ```
- * <ul>
- *   <li *unless="expr"></li>
- * </ul>
- * ```
- *
- * Once the directive instantiates the child view, the shorthand notation for the template expands
- * and the result is:
- *
- * ```
- * <ul>
- *   <template [unless]="exp">
- *     <li></li>
- *   </template>
- *   <li></li>
- * </ul>
- * ```
- *
- * Note also that although the `<li></li>` template still exists inside the `<template></template>`,
- * the instantiated
- * view occurs on the second `<li></li>` which is a sibling to the `<template>` element.
  * @stable
+ * @Annotation
  */
-var DirectiveMetadata = (function (_super) {
-    __extends(DirectiveMetadata, _super);
-    function DirectiveMetadata(_a) {
-        var _b = _a === void 0 ? {} : _a, selector = _b.selector, inputs = _b.inputs, outputs = _b.outputs, host = _b.host, providers = _b.providers, exportAs = _b.exportAs, queries = _b.queries;
-        _super.call(this);
-        this.selector = selector;
-        this._inputs = inputs;
-        this._outputs = outputs;
-        this.host = host;
-        this.exportAs = exportAs;
-        this.queries = queries;
-        this._providers = providers;
-    }
-    Object.defineProperty(DirectiveMetadata.prototype, "inputs", {
-        /**
-         * Enumerates the set of data-bound input properties for a directive
-         *
-         * Angular automatically updates input properties during change detection.
-         *
-         * The `inputs` property defines a set of `directiveProperty` to `bindingProperty`
-         * configuration:
-         *
-         * - `directiveProperty` specifies the component property where the value is written.
-         * - `bindingProperty` specifies the DOM property where the value is read from.
-         *
-         * When `bindingProperty` is not provided, it is assumed to be equal to `directiveProperty`.
-         *
-         * ### Example ([live demo](http://plnkr.co/edit/ivhfXY?p=preview))
-         *
-         * The following example creates a component with two data-bound properties.
-         *
-         * ```typescript
-         * @Component({
-         *   selector: 'bank-account',
-         *   inputs: ['bankName', 'id: account-id'],
-         *   template: `
-         *     Bank Name: {{bankName}}
-         *     Account Id: {{id}}
-         *   `
-         * })
-         * class BankAccount {
-         *   bankName: string;
-         *   id: string;
-         *
-         *   // this property is not bound, and won't be automatically updated by Angular
-         *   normalizedBankName: string;
-         * }
-         *
-         * @Component({
-         *   selector: 'app',
-         *   template: `
-         *     <bank-account bank-name="RBC" account-id="4747"></bank-account>
-         *   `
-         * })
-         * class App {}
-         * ```
-         *
-         */
-        get: function () { return this._inputs; },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(DirectiveMetadata.prototype, "outputs", {
-        /**
-         * Enumerates the set of event-bound output properties.
-         *
-         * When an output property emits an event, an event handler attached to that event
-         * the template is invoked.
-         *
-         * The `outputs` property defines a set of `directiveProperty` to `bindingProperty`
-         * configuration:
-         *
-         * - `directiveProperty` specifies the component property that emits events.
-         * - `bindingProperty` specifies the DOM property the event handler is attached to.
-         *
-         * ### Example ([live demo](http://plnkr.co/edit/d5CNq7?p=preview))
-         *
-         * ```typescript
-         * @Directive({
-         *   selector: 'interval-dir',
-         *   outputs: ['everySecond', 'five5Secs: everyFiveSeconds']
-         * })
-         * class IntervalDir {
-         *   everySecond = new EventEmitter();
-         *   five5Secs = new EventEmitter();
-         *
-         *   constructor() {
-         *     setInterval(() => this.everySecond.emit("event"), 1000);
-         *     setInterval(() => this.five5Secs.emit("event"), 5000);
-         *   }
-         * }
-         *
-         * @Component({
-         *   selector: 'app',
-         *   template: `
-         *     <interval-dir (everySecond)="everySecond()" (everyFiveSeconds)="everyFiveSeconds()">
-         *     </interval-dir>
-         *   `
-         * })
-         * class App {
-         *   everySecond() { console.log('second'); }
-         *   everyFiveSeconds() { console.log('five seconds'); }
-         * }
-         * ```
-         *
-         */
-        get: function () { return this._outputs; },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(DirectiveMetadata.prototype, "providers", {
-        /**
-         * Defines the set of injectable objects that are visible to a Directive and its light DOM
-         * children.
-         *
-         * ## Simple Example
-         *
-         * Here is an example of a class that can be injected:
-         *
-         * ```
-         * class Greeter {
-         *    greet(name:string) {
-         *      return 'Hello ' + name + '!';
-         *    }
-         * }
-         *
-         * @Directive({
-         *   selector: 'greet',
-         *   providers: [
-         *     Greeter
-         *   ]
-         * })
-         * class HelloWorld {
-         *   greeter:Greeter;
-         *
-         *   constructor(greeter:Greeter) {
-         *     this.greeter = greeter;
-         *   }
-         * }
-         * ```
-         */
-        get: function () { return this._providers; },
-        enumerable: true,
-        configurable: true
-    });
-    return DirectiveMetadata;
-}(__WEBPACK_IMPORTED_MODULE_1__di__["a" /* InjectableMetadata */]));
+var Directive = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__util_decorators__["c" /* makeDecorator */])('Directive', {
+    selector: undefined,
+    inputs: undefined,
+    outputs: undefined,
+    host: undefined,
+    providers: undefined,
+    exportAs: undefined,
+    queries: undefined
+});
 /**
- * Declare reusable UI building blocks for an application.
+ * Component decorator and metadata.
  *
- * Each Angular component requires a single `@Component` annotation. The
- * `@Component`
- * annotation specifies when a component is instantiated, and which properties and hostListeners it
- * binds to.
- *
- * When a component is instantiated, Angular
- * - creates a shadow DOM for the component.
- * - loads the selected template into the shadow DOM.
- * - creates all the injectable objects configured with `providers` and `viewProviders`.
- *
- * All template expressions and statements are then evaluated against the component instance.
- *
- * ## Lifecycle hooks
- *
- * When the component class implements some {@linkDocs guide/lifecycle-hooks} the
- * callbacks are called by the change detection at defined points in time during the life of the
- * component.
- *
- * ### Example
- *
- * {@example core/ts/metadata/metadata.ts region='component'}
  * @stable
+ * @Annotation
  */
-var ComponentMetadata = (function (_super) {
-    __extends(ComponentMetadata, _super);
-    function ComponentMetadata(_a) {
-        var _b = _a === void 0 ? {} : _a, selector = _b.selector, inputs = _b.inputs, outputs = _b.outputs, host = _b.host, exportAs = _b.exportAs, moduleId = _b.moduleId, providers = _b.providers, viewProviders = _b.viewProviders, _c = _b.changeDetection, changeDetection = _c === void 0 ? __WEBPACK_IMPORTED_MODULE_0__change_detection_constants__["a" /* ChangeDetectionStrategy */].Default : _c, queries = _b.queries, templateUrl = _b.templateUrl, template = _b.template, styleUrls = _b.styleUrls, styles = _b.styles, animations = _b.animations, encapsulation = _b.encapsulation, interpolation = _b.interpolation, entryComponents = _b.entryComponents;
-        _super.call(this, {
-            selector: selector,
-            inputs: inputs,
-            outputs: outputs,
-            host: host,
-            exportAs: exportAs,
-            providers: providers,
-            queries: queries
-        });
-        this.changeDetection = changeDetection;
-        this._viewProviders = viewProviders;
-        this.templateUrl = templateUrl;
-        this.template = template;
-        this.styleUrls = styleUrls;
-        this.styles = styles;
-        this.encapsulation = encapsulation;
-        this.moduleId = moduleId;
-        this.animations = animations;
-        this.interpolation = interpolation;
-        this.entryComponents = entryComponents;
-    }
-    Object.defineProperty(ComponentMetadata.prototype, "viewProviders", {
-        /**
-         * Defines the set of injectable objects that are visible to its view DOM children.
-         *
-         * ## Simple Example
-         *
-         * Here is an example of a class that can be injected:
-         *
-         * ```
-         * class Greeter {
-         *    greet(name:string) {
-         *      return 'Hello ' + name + '!';
-         *    }
-         * }
-         *
-         * @Directive({
-         *   selector: 'needs-greeter'
-         * })
-         * class NeedsGreeter {
-         *   greeter:Greeter;
-         *
-         *   constructor(greeter:Greeter) {
-         *     this.greeter = greeter;
-         *   }
-         * }
-         *
-         * @Component({
-         *   selector: 'greet',
-         *   viewProviders: [
-         *     Greeter
-         *   ],
-         *   template: `<needs-greeter></needs-greeter>`
-         * })
-         * class HelloWorld {
-         * }
-         *
-         * ```
-         */
-        get: function () { return this._viewProviders; },
-        enumerable: true,
-        configurable: true
-    });
-    return ComponentMetadata;
-}(DirectiveMetadata));
+var Component = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__util_decorators__["c" /* makeDecorator */])('Component', {
+    selector: undefined,
+    inputs: undefined,
+    outputs: undefined,
+    host: undefined,
+    exportAs: undefined,
+    moduleId: undefined,
+    providers: undefined,
+    viewProviders: undefined,
+    changeDetection: __WEBPACK_IMPORTED_MODULE_0__change_detection_constants__["a" /* ChangeDetectionStrategy */].Default,
+    queries: undefined,
+    templateUrl: undefined,
+    template: undefined,
+    styleUrls: undefined,
+    styles: undefined,
+    animations: undefined,
+    encapsulation: undefined,
+    interpolation: undefined,
+    entryComponents: undefined
+}, Directive);
 /**
- * Declare reusable pipe function.
+ * Pipe decorator and metadata.
  *
- * A "pure" pipe is only re-evaluated when either the input or any of the arguments change.
- *
- * When not specified, pipes default to being pure.
- *
- * ### Example
- *
- * {@example core/ts/metadata/metadata.ts region='pipe'}
  * @stable
+ * @Annotation
  */
-var PipeMetadata = (function (_super) {
-    __extends(PipeMetadata, _super);
-    function PipeMetadata(_a) {
-        var name = _a.name, pure = _a.pure;
-        _super.call(this);
-        this.name = name;
-        this._pure = pure;
-    }
-    Object.defineProperty(PipeMetadata.prototype, "pure", {
-        get: function () { return __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2__facade_lang__["g" /* isPresent */])(this._pure) ? this._pure : true; },
-        enumerable: true,
-        configurable: true
-    });
-    return PipeMetadata;
-}(__WEBPACK_IMPORTED_MODULE_1__di__["a" /* InjectableMetadata */]));
+var Pipe = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__util_decorators__["c" /* makeDecorator */])('Pipe', {
+    name: undefined,
+    pure: true,
+});
 /**
- * Declares a data-bound input property.
+ * Input decorator and metadata.
  *
- * Angular automatically updates data-bound properties during change detection.
- *
- * `InputMetadata` takes an optional parameter that specifies the name
- * used when instantiating a component in the template. When not provided,
- * the name of the decorated property is used.
- *
- * ### Example
- *
- * The following example creates a component with two input properties.
- *
- * ```typescript
- * @Component({
- *   selector: 'bank-account',
- *   template: `
- *     Bank Name: {{bankName}}
- *     Account Id: {{id}}
- *   `
- * })
- * class BankAccount {
- *   @Input() bankName: string;
- *   @Input('account-id') id: string;
- *
- *   // this property is not bound, and won't be automatically updated by Angular
- *   normalizedBankName: string;
- * }
- *
- * @Component({
- *   selector: 'app',
- *   template: `
- *     <bank-account bank-name="RBC" account-id="4747"></bank-account>
- *   `
- * })
- *
- * class App {}
- * ```
  * @stable
+ * @Annotation
  */
-var InputMetadata = (function () {
-    function InputMetadata(
-        /**
-         * Name used when instantiating a component in the template.
-         */
-        bindingPropertyName) {
-        this.bindingPropertyName = bindingPropertyName;
-    }
-    return InputMetadata;
-}());
+var Input = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__util_decorators__["b" /* makePropDecorator */])('Input', [['bindingPropertyName', undefined]]);
 /**
- * Declares an event-bound output property.
+ * Output decorator and metadata.
  *
- * When an output property emits an event, an event handler attached to that event
- * the template is invoked.
- *
- * `OutputMetadata` takes an optional parameter that specifies the name
- * used when instantiating a component in the template. When not provided,
- * the name of the decorated property is used.
- *
- * ### Example
- *
- * ```typescript
- * @Directive({
- *   selector: 'interval-dir',
- * })
- * class IntervalDir {
- *   @Output() everySecond = new EventEmitter();
- *   @Output('everyFiveSeconds') five5Secs = new EventEmitter();
- *
- *   constructor() {
- *     setInterval(() => this.everySecond.emit("event"), 1000);
- *     setInterval(() => this.five5Secs.emit("event"), 5000);
- *   }
- * }
- *
- * @Component({
- *   selector: 'app',
- *   template: `
- *     <interval-dir (everySecond)="everySecond()" (everyFiveSeconds)="everyFiveSeconds()">
- *     </interval-dir>
- *   `
- * })
- * class App {
- *   everySecond() { console.log('second'); }
- *   everyFiveSeconds() { console.log('five seconds'); }
- * }
- * ```
  * @stable
+ * @Annotation
  */
-var OutputMetadata = (function () {
-    function OutputMetadata(bindingPropertyName) {
-        this.bindingPropertyName = bindingPropertyName;
-    }
-    return OutputMetadata;
-}());
+var Output = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__util_decorators__["b" /* makePropDecorator */])('Output', [['bindingPropertyName', undefined]]);
 /**
- * Declares a host property binding.
+ * HostBinding decorator and metadata.
  *
- * Angular automatically checks host property bindings during change detection.
- * If a binding changes, it will update the host element of the directive.
- *
- * `HostBindingMetadata` takes an optional parameter that specifies the property
- * name of the host element that will be updated. When not provided,
- * the class property name is used.
- *
- * ### Example
- *
- * The following example creates a directive that sets the `valid` and `invalid` classes
- * on the DOM element that has ngModel directive on it.
- *
- * ```typescript
- * @Directive({selector: '[ngModel]'})
- * class NgModelStatus {
- *   constructor(public control:NgModel) {}
- *   @HostBinding('class.valid') get valid { return this.control.valid; }
- *   @HostBinding('class.invalid') get invalid { return this.control.invalid; }
- * }
- *
- * @Component({
- *   selector: 'app',
- *   template: `<input [(ngModel)]="prop">`
- * })
- * class App {
- *   prop;
- * }
- * ```
  * @stable
+ * @Annotation
  */
-var HostBindingMetadata = (function () {
-    function HostBindingMetadata(hostPropertyName) {
-        this.hostPropertyName = hostPropertyName;
-    }
-    return HostBindingMetadata;
-}());
+var HostBinding = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__util_decorators__["b" /* makePropDecorator */])('HostBinding', [['hostPropertyName', undefined]]);
 /**
- * Declares a host listener.
+ * HostBinding decorator and metadata.
  *
- * Angular will invoke the decorated method when the host element emits the specified event.
- *
- * If the decorated method returns `false`, then `preventDefault` is applied on the DOM
- * event.
- *
- * ### Example
- *
- * The following example declares a directive that attaches a click listener to the button and
- * counts clicks.
- *
- * ```typescript
- * @Directive({selector: 'button[counting]'})
- * class CountClicks {
- *   numberOfClicks = 0;
- *
- *   @HostListener('click', ['$event.target'])
- *   onClick(btn) {
- *     console.log("button", btn, "number of clicks:", this.numberOfClicks++);
- *   }
- * }
- *
- * @Component({
- *   selector: 'app',
- *   template: `<button counting>Increment</button>`
- * })
- * class App {}
- * ```
  * @stable
+ * @Annotation
  */
-var HostListenerMetadata = (function () {
-    function HostListenerMetadata(eventName, args) {
-        this.eventName = eventName;
-        this.args = args;
-    }
-    return HostListenerMetadata;
-}());
+var HostListener = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__util_decorators__["b" /* makePropDecorator */])('HostListener', [['eventName', undefined], ['args', []]]);
 //# sourceMappingURL=directives.js.map
 
 /***/ },
@@ -37570,7 +35092,7 @@ var DoCheck = (function () {
  *
  *
  * To create a stateful Pipe, you should implement this interface and set the `pure`
- * parameter to `false` in the {@link PipeMetadata}.
+ * parameter to `false` in the {@link Pipe}.
  *
  * A stateful pipe may produce different output, given the same input. It is
  * likely that a stateful pipe may contain state that should be cleaned up when
@@ -37838,10 +35360,10 @@ var AfterViewChecked = (function () {
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__di__ = __webpack_require__("./node_modules/@angular/core/src/di.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__util_decorators__ = __webpack_require__("./node_modules/@angular/core/src/util/decorators.js");
 /* harmony export (binding) */ __webpack_require__.d(exports, "c", function() { return CUSTOM_ELEMENTS_SCHEMA; });
 /* harmony export (binding) */ __webpack_require__.d(exports, "b", function() { return NO_ERRORS_SCHEMA; });
-/* harmony export (binding) */ __webpack_require__.d(exports, "a", function() { return NgModuleMetadata; });
+/* harmony export (binding) */ __webpack_require__.d(exports, "a", function() { return NgModule; });
 /**
  * @license
  * Copyright Google Inc. All Rights Reserved.
@@ -37849,11 +35371,6 @@ var AfterViewChecked = (function () {
  * Use of this source code is governed by an MIT-style license that can be
  * found in the LICENSE file at https://angular.io/license
  */
-var __extends = (this && this.__extends) || function (d, b) {
-    for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
-    function __() { this.constructor = d; }
-    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-};
 
 /**
  * Defines a schema that will allow:
@@ -37875,60 +35392,21 @@ var NO_ERRORS_SCHEMA = {
     name: 'no-errors-schema'
 };
 /**
- * Declares an Angular Module.
+ * NgModule decorator and metadata
+ *
  * @stable
+ * @Annotation
  */
-var NgModuleMetadata = (function (_super) {
-    __extends(NgModuleMetadata, _super);
-    function NgModuleMetadata(options) {
-        if (options === void 0) { options = {}; }
-        // We cannot use destructuring of the constructor argument because `exports` is a
-        // protected symbol in CommonJS and closure tries to aggressively optimize it away.
-        _super.call(this);
-        this._providers = options.providers;
-        this.declarations = options.declarations;
-        this.imports = options.imports;
-        this.exports = options.exports;
-        this.entryComponents = options.entryComponents;
-        this.bootstrap = options.bootstrap;
-        this.schemas = options.schemas;
-    }
-    Object.defineProperty(NgModuleMetadata.prototype, "providers", {
-        /**
-         * Defines the set of injectable objects that are available in the injector
-         * of this module.
-         *
-         * ## Simple Example
-         *
-         * Here is an example of a class that can be injected:
-         *
-         * ```
-         * class Greeter {
-         *    greet(name:string) {
-         *      return 'Hello ' + name + '!';
-         *    }
-         * }
-         *
-         * @NgModule({
-         *   providers: [
-         *     Greeter
-         *   ]
-         * })
-         * class HelloWorld {
-         *   greeter:Greeter;
-         *
-         *   constructor(greeter:Greeter) {
-         *     this.greeter = greeter;
-         *   }
-         * }
-         * ```
-         */
-        get: function () { return this._providers; },
-        enumerable: true,
-        configurable: true
-    });
-    return NgModuleMetadata;
-}(__WEBPACK_IMPORTED_MODULE_0__di__["a" /* InjectableMetadata */]));
+var NgModule = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__util_decorators__["c" /* makeDecorator */])('NgModule', {
+    providers: undefined,
+    declarations: undefined,
+    imports: undefined,
+    exports: undefined,
+    entryComponents: undefined,
+    bootstrap: undefined,
+    schemas: undefined,
+    id: undefined,
+});
 //# sourceMappingURL=ng_module.js.map
 
 /***/ },
@@ -37987,7 +35465,7 @@ var VIEW_ENCAPSULATION_VALUES = [ViewEncapsulation.Emulated, ViewEncapsulation.N
  * When a component is instantiated, the template is loaded into the component's shadow root, and
  * the expressions and statements in the template are evaluated against the component.
  *
- * For details on the `@Component` annotation, see {@link ComponentMetadata}.
+ * For details on the `@Component` annotation, see {@link Component}.
  *
  * ### Example
  *
@@ -38006,7 +35484,7 @@ var VIEW_ENCAPSULATION_VALUES = [ViewEncapsulation.Emulated, ViewEncapsulation.N
  * }
  * ```
  *
- * @deprecated Use ComponentMetadata instead.
+ * @deprecated Use Component instead.
  */
 var ViewMetadata = (function () {
     function ViewMetadata(_a) {
@@ -38288,7 +35766,7 @@ var ReflectionCapabilities = (function () {
             else {
                 result[i] = [];
             }
-            if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__facade_lang__["g" /* isPresent */])(paramAnnotations) && __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__facade_lang__["g" /* isPresent */])(paramAnnotations[i])) {
+            if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__facade_lang__["e" /* isPresent */])(paramAnnotations) && __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__facade_lang__["e" /* isPresent */])(paramAnnotations[i])) {
                 result[i] = result[i].concat(paramAnnotations[i]);
             }
         }
@@ -38296,11 +35774,11 @@ var ReflectionCapabilities = (function () {
     };
     ReflectionCapabilities.prototype.parameters = function (typeOrFunc) {
         // Prefer the direct API.
-        if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__facade_lang__["g" /* isPresent */])(typeOrFunc.parameters)) {
+        if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__facade_lang__["e" /* isPresent */])(typeOrFunc.parameters)) {
             return typeOrFunc.parameters;
         }
         // API of tsickle for lowering decorators to properties on the class.
-        if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__facade_lang__["g" /* isPresent */])(typeOrFunc.ctorParameters)) {
+        if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__facade_lang__["e" /* isPresent */])(typeOrFunc.ctorParameters)) {
             var ctorParameters = typeOrFunc.ctorParameters;
             var paramTypes_1 = ctorParameters.map(function (ctorParam /** TODO #9100 */) { return ctorParam && ctorParam.type; });
             var paramAnnotations_1 = ctorParameters.map(function (ctorParam /** TODO #9100 */) {
@@ -38309,10 +35787,10 @@ var ReflectionCapabilities = (function () {
             return this._zipTypesAndAnnotations(paramTypes_1, paramAnnotations_1);
         }
         // API for metadata created by invoking the decorators.
-        if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__facade_lang__["g" /* isPresent */])(this._reflect) && __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__facade_lang__["g" /* isPresent */])(this._reflect.getMetadata)) {
+        if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__facade_lang__["e" /* isPresent */])(this._reflect) && __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__facade_lang__["e" /* isPresent */])(this._reflect.getMetadata)) {
             var paramAnnotations = this._reflect.getMetadata('parameters', typeOrFunc);
             var paramTypes = this._reflect.getMetadata('design:paramtypes', typeOrFunc);
-            if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__facade_lang__["g" /* isPresent */])(paramTypes) || __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__facade_lang__["g" /* isPresent */])(paramAnnotations)) {
+            if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__facade_lang__["e" /* isPresent */])(paramTypes) || __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__facade_lang__["e" /* isPresent */])(paramAnnotations)) {
                 return this._zipTypesAndAnnotations(paramTypes, paramAnnotations);
             }
         }
@@ -38323,36 +35801,36 @@ var ReflectionCapabilities = (function () {
     };
     ReflectionCapabilities.prototype.annotations = function (typeOrFunc) {
         // Prefer the direct API.
-        if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__facade_lang__["g" /* isPresent */])(typeOrFunc.annotations)) {
+        if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__facade_lang__["e" /* isPresent */])(typeOrFunc.annotations)) {
             var annotations = typeOrFunc.annotations;
-            if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__facade_lang__["b" /* isFunction */])(annotations) && annotations.annotations) {
+            if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__facade_lang__["a" /* isFunction */])(annotations) && annotations.annotations) {
                 annotations = annotations.annotations;
             }
             return annotations;
         }
         // API of tsickle for lowering decorators to properties on the class.
-        if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__facade_lang__["g" /* isPresent */])(typeOrFunc.decorators)) {
+        if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__facade_lang__["e" /* isPresent */])(typeOrFunc.decorators)) {
             return convertTsickleDecoratorIntoMetadata(typeOrFunc.decorators);
         }
         // API for metadata created by invoking the decorators.
-        if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__facade_lang__["g" /* isPresent */])(this._reflect) && __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__facade_lang__["g" /* isPresent */])(this._reflect.getMetadata)) {
+        if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__facade_lang__["e" /* isPresent */])(this._reflect) && __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__facade_lang__["e" /* isPresent */])(this._reflect.getMetadata)) {
             var annotations = this._reflect.getMetadata('annotations', typeOrFunc);
-            if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__facade_lang__["g" /* isPresent */])(annotations))
+            if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__facade_lang__["e" /* isPresent */])(annotations))
                 return annotations;
         }
         return [];
     };
     ReflectionCapabilities.prototype.propMetadata = function (typeOrFunc) {
         // Prefer the direct API.
-        if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__facade_lang__["g" /* isPresent */])(typeOrFunc.propMetadata)) {
+        if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__facade_lang__["e" /* isPresent */])(typeOrFunc.propMetadata)) {
             var propMetadata = typeOrFunc.propMetadata;
-            if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__facade_lang__["b" /* isFunction */])(propMetadata) && propMetadata.propMetadata) {
+            if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__facade_lang__["a" /* isFunction */])(propMetadata) && propMetadata.propMetadata) {
                 propMetadata = propMetadata.propMetadata;
             }
             return propMetadata;
         }
         // API of tsickle for lowering decorators to properties on the class.
-        if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__facade_lang__["g" /* isPresent */])(typeOrFunc.propDecorators)) {
+        if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__facade_lang__["e" /* isPresent */])(typeOrFunc.propDecorators)) {
             var propDecorators_1 = typeOrFunc.propDecorators;
             var propMetadata_1 = {};
             Object.keys(propDecorators_1).forEach(function (prop) {
@@ -38361,9 +35839,9 @@ var ReflectionCapabilities = (function () {
             return propMetadata_1;
         }
         // API for metadata created by invoking the decorators.
-        if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__facade_lang__["g" /* isPresent */])(this._reflect) && __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__facade_lang__["g" /* isPresent */])(this._reflect.getMetadata)) {
+        if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__facade_lang__["e" /* isPresent */])(this._reflect) && __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__facade_lang__["e" /* isPresent */])(this._reflect.getMetadata)) {
             var propMetadata = this._reflect.getMetadata('propMetadata', typeOrFunc);
-            if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__facade_lang__["g" /* isPresent */])(propMetadata))
+            if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__facade_lang__["e" /* isPresent */])(propMetadata))
                 return propMetadata;
         }
         return {};
@@ -38393,7 +35871,7 @@ var ReflectionCapabilities = (function () {
             return type['filePath'];
         }
         // Runtime type
-        return "./" + __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__facade_lang__["a" /* stringify */])(type);
+        return "./" + __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__facade_lang__["b" /* stringify */])(type);
     };
     ReflectionCapabilities.prototype.resolveIdentifier = function (name, moduleUrl, runtime) { return runtime; };
     ReflectionCapabilities.prototype.resolveEnum = function (enumIdentifier, name) { return enumIdentifier[name]; };
@@ -38407,9 +35885,7 @@ function convertTsickleDecoratorIntoMetadata(decoratorInvocations) {
         var decoratorType = decoratorInvocation.type;
         var annotationCls = decoratorType.annotationCls;
         var annotationArgs = decoratorInvocation.args ? decoratorInvocation.args : [];
-        var annotation = Object.create(annotationCls.prototype);
-        annotationCls.apply(annotation, annotationArgs);
-        return annotation;
+        return new (annotationCls.bind.apply(annotationCls, [void 0].concat(annotationArgs)))();
     });
 }
 //# sourceMappingURL=reflection_capabilities.js.map
@@ -38504,7 +35980,7 @@ var Reflector = (function (_super) {
     Reflector.prototype.factory = function (type) {
         if (this._containsReflectionInfo(type)) {
             var res = this._getReflectionInfo(type).factory;
-            return __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["g" /* isPresent */])(res) ? res : null;
+            return __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["e" /* isPresent */])(res) ? res : null;
         }
         else {
             return this.reflectionCapabilities.factory(type);
@@ -38513,7 +35989,7 @@ var Reflector = (function (_super) {
     Reflector.prototype.parameters = function (typeOrFunc) {
         if (this._injectableInfo.has(typeOrFunc)) {
             var res = this._getReflectionInfo(typeOrFunc).parameters;
-            return __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["g" /* isPresent */])(res) ? res : [];
+            return __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["e" /* isPresent */])(res) ? res : [];
         }
         else {
             return this.reflectionCapabilities.parameters(typeOrFunc);
@@ -38522,7 +35998,7 @@ var Reflector = (function (_super) {
     Reflector.prototype.annotations = function (typeOrFunc) {
         if (this._injectableInfo.has(typeOrFunc)) {
             var res = this._getReflectionInfo(typeOrFunc).annotations;
-            return __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["g" /* isPresent */])(res) ? res : [];
+            return __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["e" /* isPresent */])(res) ? res : [];
         }
         else {
             return this.reflectionCapabilities.annotations(typeOrFunc);
@@ -38531,7 +36007,7 @@ var Reflector = (function (_super) {
     Reflector.prototype.propMetadata = function (typeOrFunc) {
         if (this._injectableInfo.has(typeOrFunc)) {
             var res = this._getReflectionInfo(typeOrFunc).propMetadata;
-            return __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["g" /* isPresent */])(res) ? res : {};
+            return __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["e" /* isPresent */])(res) ? res : {};
         }
         else {
             return this.reflectionCapabilities.propMetadata(typeOrFunc);
@@ -38540,7 +36016,7 @@ var Reflector = (function (_super) {
     Reflector.prototype.interfaces = function (type) {
         if (this._injectableInfo.has(type)) {
             var res = this._getReflectionInfo(type).interfaces;
-            return __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["g" /* isPresent */])(res) ? res : [];
+            return __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["e" /* isPresent */])(res) ? res : [];
         }
         else {
             return this.reflectionCapabilities.interfaces(type);
@@ -38581,7 +36057,7 @@ var Reflector = (function (_super) {
     };
     /** @internal */
     Reflector.prototype._getReflectionInfo = function (typeOrFunc) {
-        if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["g" /* isPresent */])(this._usedKeys)) {
+        if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["e" /* isPresent */])(this._usedKeys)) {
             this._usedKeys.add(typeOrFunc);
         }
         return this._injectableInfo.get(typeOrFunc);
@@ -38796,7 +36272,7 @@ var Sanitizer = (function () {
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__di_decorators__ = __webpack_require__("./node_modules/@angular/core/src/di/decorators.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__di__ = __webpack_require__("./node_modules/@angular/core/src/di.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__facade_collection__ = __webpack_require__("./node_modules/@angular/core/src/facade/collection.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__facade_lang__ = __webpack_require__("./node_modules/@angular/core/src/facade/lang.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__zone_ng_zone__ = __webpack_require__("./node_modules/@angular/core/src/zone/ng_zone.js");
@@ -38851,7 +36327,7 @@ var Testability = (function () {
             _this._ngZone.onStable.subscribe({
                 next: function () {
                     __WEBPACK_IMPORTED_MODULE_3__zone_ng_zone__["a" /* NgZone */].assertNotInAngularZone();
-                    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2__facade_lang__["s" /* scheduleMicroTask */])(function () {
+                    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2__facade_lang__["r" /* scheduleMicroTask */])(function () {
                         _this._isZoneStable = true;
                         _this._runCallbacksIfReady();
                     });
@@ -38880,7 +36356,7 @@ var Testability = (function () {
         var _this = this;
         if (this.isStable()) {
             // Schedules the call backs in a new frame so that it is always async.
-            __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2__facade_lang__["s" /* scheduleMicroTask */])(function () {
+            __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2__facade_lang__["r" /* scheduleMicroTask */])(function () {
                 while (_this._callbacks.length !== 0) {
                     (_this._callbacks.pop())(_this._didWork);
                 }
@@ -38906,7 +36382,7 @@ var Testability = (function () {
         return [];
     };
     Testability.decorators = [
-        { type: __WEBPACK_IMPORTED_MODULE_0__di_decorators__["a" /* Injectable */] },
+        { type: __WEBPACK_IMPORTED_MODULE_0__di__["b" /* Injectable */] },
     ];
     /** @nocollapse */
     Testability.ctorParameters = [
@@ -38935,7 +36411,7 @@ var TestabilityRegistry = (function () {
         return _testabilityGetter.findTestabilityInTree(this, elem, findInAncestors);
     };
     TestabilityRegistry.decorators = [
-        { type: __WEBPACK_IMPORTED_MODULE_0__di_decorators__["a" /* Injectable */] },
+        { type: __WEBPACK_IMPORTED_MODULE_0__di__["b" /* Injectable */] },
     ];
     /** @nocollapse */
     TestabilityRegistry.ctorParameters = [];
@@ -39012,9 +36488,9 @@ var Type = Function;
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__facade_lang__ = __webpack_require__("./node_modules/@angular/core/src/facade/lang.js");
 /* harmony export (immutable) */ exports["d"] = Class;
-/* harmony export (immutable) */ exports["b"] = makeDecorator;
+/* harmony export (immutable) */ exports["c"] = makeDecorator;
 /* harmony export (immutable) */ exports["a"] = makeParamDecorator;
-/* harmony export (immutable) */ exports["c"] = makePropDecorator;
+/* harmony export (immutable) */ exports["b"] = makePropDecorator;
 /**
  * @license
  * Copyright Google Inc. All Rights Reserved.
@@ -39025,7 +36501,7 @@ var Type = Function;
 
 var _nextClassId = 0;
 function extractAnnotation(annotation) {
-    if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__facade_lang__["b" /* isFunction */])(annotation) && annotation.hasOwnProperty('annotation')) {
+    if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__facade_lang__["a" /* isFunction */])(annotation) && annotation.hasOwnProperty('annotation')) {
         // it is a decorator, extract annotation
         annotation = annotation.annotation;
     }
@@ -39034,20 +36510,20 @@ function extractAnnotation(annotation) {
 function applyParams(fnOrArray, key) {
     if (fnOrArray === Object || fnOrArray === String || fnOrArray === Function ||
         fnOrArray === Number || fnOrArray === Array) {
-        throw new Error("Can not use native " + __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__facade_lang__["a" /* stringify */])(fnOrArray) + " as constructor");
+        throw new Error("Can not use native " + __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__facade_lang__["b" /* stringify */])(fnOrArray) + " as constructor");
     }
-    if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__facade_lang__["b" /* isFunction */])(fnOrArray)) {
+    if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__facade_lang__["a" /* isFunction */])(fnOrArray)) {
         return fnOrArray;
     }
     else if (fnOrArray instanceof Array) {
         var annotations = fnOrArray;
         var annoLength = annotations.length - 1;
         var fn = fnOrArray[annoLength];
-        if (!__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__facade_lang__["b" /* isFunction */])(fn)) {
-            throw new Error("Last position of Class method array must be Function in key " + key + " was '" + __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__facade_lang__["a" /* stringify */])(fn) + "'");
+        if (!__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__facade_lang__["a" /* isFunction */])(fn)) {
+            throw new Error("Last position of Class method array must be Function in key " + key + " was '" + __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__facade_lang__["b" /* stringify */])(fn) + "'");
         }
         if (annoLength != fn.length) {
-            throw new Error("Number of annotations (" + annoLength + ") does not match number of arguments (" + fn.length + ") in the function: " + __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__facade_lang__["a" /* stringify */])(fn));
+            throw new Error("Number of annotations (" + annoLength + ") does not match number of arguments (" + fn.length + ") in the function: " + __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__facade_lang__["b" /* stringify */])(fn));
         }
         var paramsAnnotations = [];
         for (var i = 0, ii = annotations.length - 1; i < ii; i++) {
@@ -39059,7 +36535,7 @@ function applyParams(fnOrArray, key) {
                     paramAnnotations.push(extractAnnotation(annotation[j]));
                 }
             }
-            else if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__facade_lang__["b" /* isFunction */])(annotation)) {
+            else if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__facade_lang__["a" /* isFunction */])(annotation)) {
                 paramAnnotations.push(extractAnnotation(annotation));
             }
             else {
@@ -39070,7 +36546,7 @@ function applyParams(fnOrArray, key) {
         return fn;
     }
     else {
-        throw new Error("Only Function or Array is supported in Class definition for key '" + key + "' is '" + __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__facade_lang__["a" /* stringify */])(fnOrArray) + "'");
+        throw new Error("Only Function or Array is supported in Class definition for key '" + key + "' is '" + __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__facade_lang__["b" /* stringify */])(fnOrArray) + "'");
     }
 }
 /**
@@ -39159,12 +36635,12 @@ function Class(clsDef) {
     var constructor = applyParams(clsDef.hasOwnProperty('constructor') ? clsDef.constructor : undefined, 'constructor');
     var proto = constructor.prototype;
     if (clsDef.hasOwnProperty('extends')) {
-        if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__facade_lang__["b" /* isFunction */])(clsDef.extends)) {
+        if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__facade_lang__["a" /* isFunction */])(clsDef.extends)) {
             constructor.prototype = proto =
                 Object.create(clsDef.extends.prototype);
         }
         else {
-            throw new Error("Class definition 'extends' property must be a constructor function was: " + __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__facade_lang__["a" /* stringify */])(clsDef.extends));
+            throw new Error("Class definition 'extends' property must be a constructor function was: " + __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__facade_lang__["b" /* stringify */])(clsDef.extends));
         }
     }
     for (var key in clsDef) {
@@ -39182,22 +36658,24 @@ function Class(clsDef) {
     return constructor;
 }
 var Reflect = __WEBPACK_IMPORTED_MODULE_0__facade_lang__["c" /* global */].Reflect;
-function makeDecorator(annotationCls, chainFn) {
+function makeDecorator(name, props, parentClass, chainFn) {
     if (chainFn === void 0) { chainFn = null; }
+    var metaCtor = makeMetadataCtor([props]);
     function DecoratorFactory(objOrType) {
         if (!(Reflect && Reflect.getMetadata)) {
             throw 'reflect-metadata shim is required when using class decorators';
         }
-        var annotationInstance = new annotationCls(objOrType);
-        if (this instanceof annotationCls) {
-            return annotationInstance;
+        if (this instanceof DecoratorFactory) {
+            metaCtor.call(this, objOrType);
+            return this;
         }
         else {
-            var chainAnnotation = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__facade_lang__["b" /* isFunction */])(this) && this.annotations instanceof Array ? this.annotations : [];
-            chainAnnotation.push(annotationInstance);
+            var annotationInstance_1 = new DecoratorFactory(objOrType);
+            var chainAnnotation = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__facade_lang__["a" /* isFunction */])(this) && this.annotations instanceof Array ? this.annotations : [];
+            chainAnnotation.push(annotationInstance_1);
             var TypeDecorator = function TypeDecorator(cls) {
                 var annotations = Reflect.getOwnMetadata('annotations', cls) || [];
-                annotations.push(annotationInstance);
+                annotations.push(annotationInstance_1);
                 Reflect.defineMetadata('annotations', annotations, cls);
                 return cls;
             };
@@ -39208,25 +36686,51 @@ function makeDecorator(annotationCls, chainFn) {
             return TypeDecorator;
         }
     }
-    DecoratorFactory.prototype = Object.create(annotationCls.prototype);
-    DecoratorFactory.annotationCls = annotationCls;
+    if (parentClass) {
+        DecoratorFactory.prototype = Object.create(parentClass.prototype);
+    }
+    DecoratorFactory.prototype.toString = function () { return ("@" + name); };
+    DecoratorFactory.annotationCls = DecoratorFactory;
     return DecoratorFactory;
 }
-function makeParamDecorator(annotationCls) {
+function makeMetadataCtor(props) {
+    function ctor() {
+        var _this = this;
+        var args = [];
+        for (var _i = 0; _i < arguments.length; _i++) {
+            args[_i - 0] = arguments[_i];
+        }
+        props.forEach(function (prop, i) {
+            var argVal = args[i];
+            if (Array.isArray(prop)) {
+                // plain parameter
+                var val = !argVal || argVal === undefined ? prop[1] : argVal;
+                _this[prop[0]] = val;
+            }
+            else {
+                for (var propName in prop) {
+                    var val = !argVal || argVal[propName] === undefined ? prop[propName] : argVal[propName];
+                    _this[propName] = val;
+                }
+            }
+        });
+    }
+    return ctor;
+}
+function makeParamDecorator(name, props, parentClass) {
+    var metaCtor = makeMetadataCtor(props);
     function ParamDecoratorFactory() {
         var args = [];
         for (var _i = 0; _i < arguments.length; _i++) {
             args[_i - 0] = arguments[_i];
         }
-        var annotationInstance = Object.create(annotationCls.prototype);
-        annotationCls.apply(annotationInstance, args);
-        if (this instanceof annotationCls) {
-            return annotationInstance;
+        if (this instanceof ParamDecoratorFactory) {
+            metaCtor.apply(this, args);
+            return this;
         }
-        else {
-            ParamDecorator.annotation = annotationInstance;
-            return ParamDecorator;
-        }
+        var annotationInstance = new ((_a = ParamDecoratorFactory).bind.apply(_a, [void 0].concat(args)))();
+        ParamDecorator.annotation = annotationInstance;
+        return ParamDecorator;
         function ParamDecorator(cls, unusedKey, index) {
             var parameters = Reflect.getMetadata('parameters', cls) || [];
             // there might be gaps if some in between parameters do not have annotations.
@@ -39240,23 +36744,28 @@ function makeParamDecorator(annotationCls) {
             Reflect.defineMetadata('parameters', parameters, cls);
             return cls;
         }
+        var _a;
     }
-    ParamDecoratorFactory.prototype = Object.create(annotationCls.prototype);
-    ParamDecoratorFactory.annotationCls = annotationCls;
+    if (parentClass) {
+        ParamDecoratorFactory.prototype = Object.create(parentClass.prototype);
+    }
+    ParamDecoratorFactory.prototype.toString = function () { return ("@" + name); };
+    ParamDecoratorFactory.annotationCls = ParamDecoratorFactory;
     return ParamDecoratorFactory;
 }
-function makePropDecorator(annotationCls) {
+function makePropDecorator(name, props, parentClass) {
+    var metaCtor = makeMetadataCtor(props);
     function PropDecoratorFactory() {
         var args = [];
         for (var _i = 0; _i < arguments.length; _i++) {
             args[_i - 0] = arguments[_i];
         }
-        var decoratorInstance = Object.create(annotationCls.prototype);
-        annotationCls.apply(decoratorInstance, args);
-        if (this instanceof annotationCls) {
-            return decoratorInstance;
+        if (this instanceof PropDecoratorFactory) {
+            metaCtor.apply(this, args);
+            return this;
         }
         else {
+            var decoratorInstance = new ((_a = PropDecoratorFactory).bind.apply(_a, [void 0].concat(args)))();
             return function PropDecorator(target, name) {
                 var meta = Reflect.getOwnMetadata('propMetadata', target.constructor) || {};
                 meta[name] = meta[name] || [];
@@ -39264,9 +36773,13 @@ function makePropDecorator(annotationCls) {
                 Reflect.defineMetadata('propMetadata', meta, target.constructor);
             };
         }
+        var _a;
     }
-    PropDecoratorFactory.prototype = Object.create(annotationCls.prototype);
-    PropDecoratorFactory.annotationCls = annotationCls;
+    if (parentClass) {
+        PropDecoratorFactory.prototype = Object.create(parentClass.prototype);
+    }
+    PropDecoratorFactory.prototype.toString = function () { return ("@" + name); };
+    PropDecoratorFactory.annotationCls = PropDecoratorFactory;
     return PropDecoratorFactory;
 }
 //# sourceMappingURL=decorators.js.map
@@ -39575,58 +37088,57 @@ var NgZoneImpl = (function () {
         this.setMicrotask = setMicrotask;
         this.setMacrotask = setMacrotask;
         this.onError = onError;
-        if (Zone) {
-            this.outer = this.inner = Zone.current;
-            if (Zone['wtfZoneSpec']) {
-                this.inner = this.inner.fork(Zone['wtfZoneSpec']);
-            }
-            if (trace && Zone['longStackTraceZoneSpec']) {
-                this.inner = this.inner.fork(Zone['longStackTraceZoneSpec']);
-            }
-            this.inner = this.inner.fork({
-                name: 'angular',
-                properties: { 'isAngularZone': true },
-                onInvokeTask: function (delegate, current, target, task, applyThis, applyArgs) {
-                    try {
-                        _this.onEnter();
-                        return delegate.invokeTask(target, task, applyThis, applyArgs);
-                    }
-                    finally {
-                        _this.onLeave();
-                    }
-                },
-                onInvoke: function (delegate, current, target, callback, applyThis, applyArgs, source) {
-                    try {
-                        _this.onEnter();
-                        return delegate.invoke(target, callback, applyThis, applyArgs, source);
-                    }
-                    finally {
-                        _this.onLeave();
-                    }
-                },
-                onHasTask: function (delegate, current, target, hasTaskState) {
-                    delegate.hasTask(target, hasTaskState);
-                    if (current == target) {
-                        // We are only interested in hasTask events which originate from our zone
-                        // (A child hasTask event is not interesting to us)
-                        if (hasTaskState.change == 'microTask') {
-                            _this.setMicrotask(hasTaskState.microTask);
-                        }
-                        else if (hasTaskState.change == 'macroTask') {
-                            _this.setMacrotask(hasTaskState.macroTask);
-                        }
-                    }
-                },
-                onHandleError: function (delegate, current, target, error) {
-                    delegate.handleError(target, error);
-                    _this.onError(error);
-                    return false;
+        if (typeof Zone == 'undefined') {
+            throw new Error('Angular requires Zone.js prolyfill.');
+        }
+        Zone.assertZonePatched();
+        this.outer = this.inner = Zone.current;
+        if (Zone['wtfZoneSpec']) {
+            this.inner = this.inner.fork(Zone['wtfZoneSpec']);
+        }
+        if (trace && Zone['longStackTraceZoneSpec']) {
+            this.inner = this.inner.fork(Zone['longStackTraceZoneSpec']);
+        }
+        this.inner = this.inner.fork({
+            name: 'angular',
+            properties: { 'isAngularZone': true },
+            onInvokeTask: function (delegate, current, target, task, applyThis, applyArgs) {
+                try {
+                    _this.onEnter();
+                    return delegate.invokeTask(target, task, applyThis, applyArgs);
                 }
-            });
-        }
-        else {
-            throw new Error('Angular requires Zone.js polyfill.');
-        }
+                finally {
+                    _this.onLeave();
+                }
+            },
+            onInvoke: function (delegate, current, target, callback, applyThis, applyArgs, source) {
+                try {
+                    _this.onEnter();
+                    return delegate.invoke(target, callback, applyThis, applyArgs, source);
+                }
+                finally {
+                    _this.onLeave();
+                }
+            },
+            onHasTask: function (delegate, current, target, hasTaskState) {
+                delegate.hasTask(target, hasTaskState);
+                if (current === target) {
+                    // We are only interested in hasTask events which originate from our zone
+                    // (A child hasTask event is not interesting to us)
+                    if (hasTaskState.change == 'microTask') {
+                        _this.setMicrotask(hasTaskState.microTask);
+                    }
+                    else if (hasTaskState.change == 'macroTask') {
+                        _this.setMacrotask(hasTaskState.macroTask);
+                    }
+                }
+            },
+            onHandleError: function (delegate, current, target, error) {
+                delegate.handleError(target, error);
+                _this.onError(error);
+                return false;
+            }
+        });
     }
     NgZoneImpl.isInAngularZone = function () { return Zone.current.get('isAngularZone') === true; };
     NgZoneImpl.prototype.runInner = function (fn) { return this.inner.run(fn); };
@@ -40499,61 +38011,32 @@ var formDirectiveProvider = {
 };
 var resolvedPromise = Promise.resolve(null);
 /**
- * If `NgForm` is bound in a component, `<form>` elements in that component will be
- * upgraded to use the Angular form system.
+ * @whatItDoes Creates a top-level {@link FormGroup} instance and binds it to a form
+ * to track aggregate form value and validation status.
  *
- * ### Typical Use
+ * @howToUse
  *
- * Include `FORM_DIRECTIVES` in the `directives` section of a {@link Component} annotation
- * to use `NgForm` and its associated controls.
+ * As soon as you import the `FormsModule`, this directive becomes active by default on
+ * all `<form>` tags.  You don't need to add a special selector.
  *
- * ### Structure
+ * You can export the directive into a local template variable using `ngForm` as the key
+ * (ex: `#myForm="ngForm"`). This is optional, but useful.  Many properties from the underlying
+ * {@link FormGroup} instance are duplicated on the directive itself, so a reference to it
+ * will give you access to the aggregate value and validity status of the form, as well as
+ * user interaction properties like `dirty` and `touched`.
  *
- * An Angular form is a collection of `FormControl`s in some hierarchy.
- * `FormControl`s can be at the top level or can be organized in `FormGroup`s
- * or `FormArray`s. This hierarchy is reflected in the form's `value`, a
- * JSON object that mirrors the form structure.
+ * To register child controls with the form, you'll want to use {@link NgModel} with a
+ * `name` attribute.  You can also use {@link NgModelGroup} if you'd like to create
+ * sub-groups within the form.
  *
- * ### Submission
+ * You can listen to the directive's `ngSubmit` event to be notified when the user has
+ * triggered a form submission.
  *
- * The `ngSubmit` event signals when the user triggers a form submission.
+ * {@example forms/ts/simpleForm/simple_form_example.ts region='Component'}
  *
- *  ```typescript
- * @Component({
- *   selector: 'my-app',
- *   template: `
- *     <div>
- *       <p>Submit the form to see the data object Angular builds</p>
- *       <h2>NgForm demo</h2>
- *       <form #f="ngForm" (ngSubmit)="onSubmit(f.value)">
- *         <h3>Control group: credentials</h3>
- *         <div ngModelGroup="credentials">
- *           <p>Login: <input type="text" name="login" ngModel></p>
- *           <p>Password: <input type="password" name="password" ngModel></p>
- *         </div>
- *         <h3>Control group: person</h3>
- *         <div ngModelGroup="person">
- *           <p>First name: <input type="text" name="firstName" ngModel></p>
- *           <p>Last name: <input type="text" name="lastName" ngModel></p>
- *         </div>
- *         <button type="submit">Submit Form</button>
- *       <p>Form data submitted:</p>
- *       </form>
- *       <pre>{{data}}</pre>
- *     </div>
- * `,
- *   directives: []
- * })
- * export class App {
- *   constructor() {}
+ * * **npm package**: `@angular/forms`
  *
- *   data: string;
- *
- *   onSubmit(data) {
- *     this.data = JSON.stringify(data, null, 2);
- *   }
- * }
- *  ```
+ * * **NgModule**: `FormsModule`
  *
  *  @stable
  */
@@ -40722,24 +38205,55 @@ var formControlBinding = {
 };
 var resolvedPromise = Promise.resolve(null);
 /**
- * Binds a domain model to a form control.
+ * @whatItDoes Creates a {@link FormControl} instance from a domain model and binds it
+ * to a form control element.
  *
- * ### Usage
+ * The {@link FormControl} instance will track the value, user interaction, and
+ * validation status of the control and keep the view synced with the model. If used
+ * within a parent form, the directive will also register itself with the form as a child
+ * control.
  *
- * `ngModel` binds an existing domain model to a form control. For a
- * two-way binding, use `[(ngModel)]` to ensure the model updates in
- * both directions.
+ * @howToUse
  *
- *  ```typescript
- * @Component({
- *      selector: "search-comp",
- *      directives: [],
- *      template: `<input type='text' [(ngModel)]="searchQuery">`
- *      })
- * class SearchComp {
- *  searchQuery: string;
- * }
- *  ```
+ * This directive can be used by itself or as part of a larger form. All you need is the
+ * `ngModel` selector to activate it.
+ *
+ * It accepts a domain model as an optional {@link @Input}. If you have a one-way binding
+ * to `ngModel` with `[]` syntax, changing the value of the domain model in the component
+ * class will set the value in the view. If you have a two-way binding with `[()]` syntax
+ * (also known as 'banana-box syntax'), the value in the UI will always be synced back to
+ * the domain model in your class as well.
+ *
+ * If you wish to inspect the properties of the associated {@link FormControl} (like
+ * validity state), you can also export the directive into a local template variable using
+ * `ngModel` as the key (ex: `#myVar="ngModel"`). You can then access the control using the
+ * directive's `control` property, but most properties you'll need (like `valid` and `dirty`)
+ * will fall through to the control anyway, so you can access them directly. You can see a
+ * full list of properties directly available in {@link AbstractControlDirective}.
+ *
+ * The following is an example of a simple standalone control using `ngModel`:
+ *
+ * {@example forms/ts/simpleNgModel/simple_ng_model_example.ts region='Component'}
+ *
+ * When using the `ngModel` within `<form>` tags, you'll also need to supply a `name` attribute
+ * so that the control can be registered with the parent form under that name.
+ *
+ * It's worth noting that in the context of a parent form, you often can skip one-way or
+ * two-way binding because the parent form will sync the value for you. You can access
+ * its properties by exporting it into a local template variable using `ngForm` (ex:
+ * `#f="ngForm"`). Then you can pass it where it needs to go on submit.
+ *
+ * If you do need to populate initial values into your form, using a one-way binding for
+ * `ngModel` tends to be sufficient as long as you use the exported form's value rather
+ * than the domain model's value on submit.
+ *
+ * Take a look at an example of using `ngModel` within a form:
+ *
+ * {@example forms/ts/simpleForm/simple_form_example.ts region='Component'}
+ *
+ * **npm package**: `@angular/forms`
+ *
+ * **NgModule**: `FormsModule`
  *
  *  @stable
  */
@@ -40916,39 +38430,27 @@ var modelGroupProvider = {
     useExisting: __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["forwardRef"])(function () { return NgModelGroup; })
 };
 /**
- * Creates and binds a model group to a DOM element.
+ * @whatItDoes Creates and binds a {@link FormGroup} instance to a DOM element.
  *
- * This directive can only be used as a child of {@link NgForm}.
+ * @howToUse
  *
- * ```typescript
- * @Component({
- *   selector: 'my-app',
- *   template: `
- *     <div>
- *       <h2>Angular forms Example</h2>
- *       <form #f="ngForm">
- *         <div ngModelGroup="name" #mgName="ngModelGroup">
- *           <h3>Enter your name:</h3>
- *           <p>First: <input name="first" ngModel required></p>
- *           <p>Middle: <input name="middle" ngModel></p>
- *           <p>Last: <input name="last" ngModel required></p>
- *         </div>
- *         <h3>Name value:</h3>
- *         <pre>{{ mgName.value | json }}</pre>
- *         <p>Name is {{mgName?.valid ? "valid" : "invalid"}}</p>
- *         <h3>What's your favorite food?</h3>
- *         <p><input name="food" ngModel></p>
- *         <h3>Form value</h3>
- *         <pre>{{ f.value | json }}</pre>
- *       </form>
- *     </div>
- *   `
- * })
- * export class App {}
- * ```
+ * This directive can only be used as a child of {@link NgForm} (or in other words,
+ * within `<form>` tags).
  *
- * This example declares a model group for a user's name. The value and validation state of
- * this group can be accessed separately from the overall form.
+ * Use this directive if you'd like to create a sub-group within a form. This can
+ * come in handy if you want to validate a sub-group of your form separately from
+ * the rest of your form, or if some values in your domain model make more sense to
+ * consume together in a nested object.
+ *
+ * Pass in the name you'd like this sub-group to have and it will become the key
+ * for the sub-group in the form's full value. You can also export the directive into
+ * a local template variable using `ngModelGroup` (ex: `#myGroup="ngModelGroup"`).
+ *
+ * {@example forms/ts/ngModelGroup/ng_model_group_example.ts region='Component'}
+ *
+ * * **npm package**: `@angular/forms`
+ *
+ * * **NgModule**: `FormsModule`
  *
  * @stable
  */
@@ -41063,7 +38565,7 @@ var NumberValueAccessor = (function () {
         this._renderer.setElementProperty(this._elementRef.nativeElement, 'value', normalizedValue);
     };
     NumberValueAccessor.prototype.registerOnChange = function (fn) {
-        this.onChange = function (value) { fn(value == '' ? null : __WEBPACK_IMPORTED_MODULE_1__facade_lang__["i" /* NumberWrapper */].parseFloat(value)); };
+        this.onChange = function (value) { fn(value == '' ? null : parseFloat(value)); };
     };
     NumberValueAccessor.prototype.registerOnTouched = function (fn) { this.onTouched = fn; };
     NumberValueAccessor.prototype.setDisabledState = function (isDisabled) {
@@ -41097,9 +38599,8 @@ var NumberValueAccessor = (function () {
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/index.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__facade_collection__ = __webpack_require__("./node_modules/@angular/forms/src/facade/collection.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__facade_lang__ = __webpack_require__("./node_modules/@angular/forms/src/facade/lang.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__control_value_accessor__ = __webpack_require__("./node_modules/@angular/forms/src/directives/control_value_accessor.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ng_control__ = __webpack_require__("./node_modules/@angular/forms/src/directives/ng_control.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__control_value_accessor__ = __webpack_require__("./node_modules/@angular/forms/src/directives/control_value_accessor.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ng_control__ = __webpack_require__("./node_modules/@angular/forms/src/directives/ng_control.js");
 /* unused harmony export RADIO_VALUE_ACCESSOR */
 /* harmony export (binding) */ __webpack_require__.d(exports, "b", function() { return RadioControlRegistry; });
 /* harmony export (binding) */ __webpack_require__.d(exports, "a", function() { return RadioControlValueAccessor; });
@@ -41114,9 +38615,8 @@ var NumberValueAccessor = (function () {
 
 
 
-
 var RADIO_VALUE_ACCESSOR = {
-    provide: __WEBPACK_IMPORTED_MODULE_3__control_value_accessor__["a" /* NG_VALUE_ACCESSOR */],
+    provide: __WEBPACK_IMPORTED_MODULE_2__control_value_accessor__["a" /* NG_VALUE_ACCESSOR */],
     useExisting: __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["forwardRef"])(function () { return RadioControlValueAccessor; }),
     multi: true
 };
@@ -41187,16 +38687,14 @@ var RadioControlValueAccessor = (function () {
         this.onTouched = function () { };
     }
     RadioControlValueAccessor.prototype.ngOnInit = function () {
-        this._control = this._injector.get(__WEBPACK_IMPORTED_MODULE_4__ng_control__["a" /* NgControl */]);
+        this._control = this._injector.get(__WEBPACK_IMPORTED_MODULE_3__ng_control__["a" /* NgControl */]);
         this._checkName();
         this._registry.add(this._control, this);
     };
     RadioControlValueAccessor.prototype.ngOnDestroy = function () { this._registry.remove(this); };
     RadioControlValueAccessor.prototype.writeValue = function (value) {
         this._state = value === this.value;
-        if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2__facade_lang__["a" /* isPresent */])(value)) {
-            this._renderer.setElementProperty(this._elementRef.nativeElement, 'checked', this._state);
-        }
+        this._renderer.setElementProperty(this._elementRef.nativeElement, 'checked', this._state);
     };
     RadioControlValueAccessor.prototype.registerOnChange = function (fn) {
         var _this = this;
@@ -41285,51 +38783,44 @@ var formControlBinding = {
     useExisting: __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["forwardRef"])(function () { return FormControlDirective; })
 };
 /**
- * Binds an existing {@link FormControl} to a DOM element. It requires importing the {@link
- * ReactiveFormsModule}.
+ * @whatItDoes Syncs a standalone {@link FormControl} instance to a form control element.
  *
- * In this example, we bind the control to an input element. When the value of the input element
- * changes, the value of the control will reflect that change. Likewise, if the value of the
- * control changes, the input element reflects that change.
+ * In other words, this directive ensures that any values written to the {@link FormControl}
+ * instance programmatically will be written to the DOM element (model -> view). Conversely,
+ * any values written to the DOM element through user input will be reflected in the
+ * {@link FormControl} instance (view -> model).
  *
- *  ```typescript
- * @Component({
- *   selector: 'my-app',
- *   template: `
- *     <div>
- *       <h2>Bind existing control example</h2>
- *       <form>
- *         <p>Element with existing control: <input type="text"
- * [formControl]="loginControl"></p>
- *         <p>Value of existing control: {{loginControl.value}}</p>
- *       </form>
- *     </div>
- *   `,
- * })
- * export class App {
- *   loginControl: FormControl = new FormControl('');
- * }
- *  ```
+ * @howToUse
  *
- * ### ngModel
+ * Use this directive if you'd like to create and manage a {@link FormControl} instance directly.
+ * Simply create a {@link FormControl}, save it to your component class, and pass it into the
+ * {@link FormControlDirective}.
  *
- * We can also set the value of the form programmatically with setValue().
- **
- *  ```typescript
- * @Component({
- *      selector: "login-comp",
-
- *      template: "<input type='text' [formControl]='loginControl'>"
- *      })
- * class LoginComp {
- *  loginControl: FormControl = new FormControl('');
+ * This directive is designed to be used as a standalone control.  Unlike {@link FormControlName},
+ * it does not require that your {@link FormControl} instance be part of any parent
+ * {@link FormGroup}, and it won't be registered to any {@link FormGroupDirective} that
+ * exists above it.
  *
- *  populate() {
- *    this.loginControl.setValue('some login');
- *  }
+ * **Get the value**: the `value` property is always synced and available on the
+ * {@link FormControl} instance. See a full list of available properties in
+ * {@link AbstractControl}.
  *
- * }
- *  ```
+ * **Set the value**: You can pass in an initial value when instantiating the {@link FormControl},
+ * or you can set it programmatically later using {@link AbstractControl.setValue} or
+ * {@link AbstractControl.patchValue}.
+ *
+ * **Listen to value**: If you want to listen to changes in the value of the control, you can
+ * subscribe to the {@link AbstractControl.valueChanges} event.  You can also listen to
+ * {@link AbstractControl.statusChanges} to be notified when the validation status is
+ * re-calculated.
+ *
+ * ### Example
+ *
+ * {@example forms/ts/simpleFormControl/simple_form_control_example.ts region='Component'}
+ *
+ * * **npm package**: `@angular/forms`
+ *
+ * * **NgModule**: `ReactiveFormsModule`
  *
  *  @stable
  */
@@ -41454,69 +38945,48 @@ var controlNameBinding = {
     useExisting: __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["forwardRef"])(function () { return FormControlName; })
 };
 /**
- * Syncs an existing form control with the specified name to a DOM element.
+ * @whatItDoes  Syncs a {@link FormControl} in an existing {@link FormGroup} to a form control
+ * element by name.
  *
- * This directive can only be used as a child of {@link FormGroupDirective}.  It also requires
- * importing the {@link ReactiveFormsModule}.
-
+ * In other words, this directive ensures that any values written to the {@link FormControl}
+ * instance programmatically will be written to the DOM element (model -> view). Conversely,
+ * any values written to the DOM element through user input will be reflected in the
+ * {@link FormControl} instance (view -> model).
+ *
+ * @howToUse
+ *
+ * This directive is designed to be used with a parent {@link FormGroupDirective} (selector:
+ * `[formGroup]`).
+ *
+ * It accepts the string name of the {@link FormControl} instance you want to
+ * link, and will look for a {@link FormControl} registered with that name in the
+ * closest {@link FormGroup} or {@link FormArray} above it.
+ *
+ * **Access the control**: You can access the {@link FormControl} associated with
+ * this directive by using the {@link AbstractControl.get} method.
+ * Ex: `this.form.get('first');`
+ *
+ * **Get value**: the `value` property is always synced and available on the {@link FormControl}.
+ * See a full list of available properties in {@link AbstractControl}.
+ *
+ *  **Set value**: You can set an initial value for the control when instantiating the
+ *  {@link FormControl}, or you can set it programmatically later using
+ *  {@link AbstractControl.setValue} or {@link AbstractControl.patchValue}.
+ *
+ * **Listen to value**: If you want to listen to changes in the value of the control, you can
+ * subscribe to the {@link AbstractControl.valueChanges} event.  You can also listen to
+ * {@link AbstractControl.statusChanges} to be notified when the validation status is
+ * re-calculated.
+ *
  * ### Example
  *
- * In this example, we create the login and password controls.
- * We can work with each control separately: check its validity, get its value, listen to its
- * changes.
+ * In this example, we create form controls for first name and last name.
  *
- *  ```
- * @Component({
- *      selector: "login-comp",
- *      template: `
- *        <form [formGroup]="myForm" (submit)="onLogIn()">
- *          Login <input type="text" formControlName="login">
- *          <div *ngIf="!loginCtrl.valid">Login is invalid</div>
- *          Password <input type="password" formControlName="password">
- *          <button type="submit">Log in!</button>
- *        </form>
- *      `})
- * class LoginComp {
- *  loginCtrl = new FormControl();
- *  passwordCtrl = new FormControl();
- *  myForm = new FormGroup({
- *     login: loginCtrl,
- *     password: passwordCtrl
- *  });
- *  onLogIn(): void {
- *    // value === {login: 'some login', password: 'some password'}
- *  }
- * }
- *  ```
+ * {@example forms/ts/simpleFormGroup/simple_form_group_example.ts region='Component'}
  *
- * We can also set the value of the form programmatically using setValue().
+ *  * **npm package**: `@angular/forms`
  *
- *  ```
- * @Component({
- *      selector: "login-comp",
- *      template: `
- *        <form [formGroup]="myForm" (submit)='onLogIn()'>
- *          Login <input type='text' formControlName='login'>
- *          Password <input type='password' formControlName='password'>
- *          <button type='submit'>Log in!</button>
- *        </form>
- *      `})
- * class LoginComp {
- *  myForm = new FormGroup({
- *    login: new FormControl(),
- *    password: new FormControl()
- *  });
- *
- *  populate() {
- *     this.myForm.setValue({login: 'some login', password: 'some password'});
- *  }
- *
- *  onLogIn(): void {
- *    // this.credentials.login === "some login"
- *    // this.credentials.password === "some password"
- *  }
- * }
- *  ```
+ *  * **NgModule**: {@link ReactiveFormsModule}
  *
  *  @stable
  */
@@ -41537,13 +39007,8 @@ var FormControlName = (function (_super) {
         configurable: true
     });
     FormControlName.prototype.ngOnChanges = function (changes) {
-        if (!this._added) {
-            this._checkParentType();
-            this.formDirective.addControl(this);
-            if (this.control.disabled)
-                this.valueAccessor.setDisabledState(true);
-            this._added = true;
-        }
+        if (!this._added)
+            this._setUpControl();
         if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_8__shared__["g" /* isPropertyUpdated */])(changes, this.viewModel)) {
             this.viewModel = this.model;
             this.formDirective.updateModel(this, this.model);
@@ -41581,7 +39046,7 @@ var FormControlName = (function (_super) {
         configurable: true
     });
     Object.defineProperty(FormControlName.prototype, "control", {
-        get: function () { return this.formDirective.getControl(this); },
+        get: function () { return this._control; },
         enumerable: true,
         configurable: true
     });
@@ -41594,6 +39059,13 @@ var FormControlName = (function (_super) {
             !(this._parent instanceof __WEBPACK_IMPORTED_MODULE_10__form_group_name__["b" /* FormArrayName */])) {
             __WEBPACK_IMPORTED_MODULE_7__reactive_errors__["a" /* ReactiveErrors */].controlParentException();
         }
+    };
+    FormControlName.prototype._setUpControl = function () {
+        this._checkParentType();
+        this._control = this.formDirective.addControl(this);
+        if (this.control.disabled)
+            this.valueAccessor.setDisabledState(true);
+        this._added = true;
     };
     FormControlName.decorators = [
         { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["Directive"], args: [{ selector: '[formControlName]', providers: [controlNameBinding] },] },
@@ -41656,72 +39128,33 @@ var formDirectiveProvider = {
     useExisting: __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["forwardRef"])(function () { return FormGroupDirective; })
 };
 /**
- * Binds an existing form group to a DOM element.  It requires importing the {@link
- * ReactiveFormsModule}.
+ * @whatItDoes Binds an existing {@link FormGroup} to a DOM element.
  *
- * In this example, we bind the form group to the form element, and we bind the login and
- * password controls to the login and password elements.
+ * @howToUse
  *
- *  ```typescript
- * @Component({
- *   selector: 'my-app',
- *   template: `
- *     <div>
- *       <h2>Binding an existing form group</h2>
- *       <form [formGroup]="loginForm">
- *         <p>Login: <input type="text" formControlName="login"></p>
- *         <p>Password: <input type="password" formControlName="password"></p>
- *       </form>
- *       <p>Value:</p>
- *       <pre>{{ loginForm.value | json}}</pre>
- *     </div>
- *   `
- * })
- * export class App {
- *   loginForm: FormGroup;
+ * This directive accepts an existing {@link FormGroup} instance. It will then use this
+ * {@link FormGroup} instance to match any child {@link FormControl}, {@link FormGroup},
+ * and {@link FormArray} instances to child {@link FormControlName}, {@link FormGroupName},
+ * and {@link FormArrayName} directives.
  *
- *   constructor() {
- *     this.loginForm = new FormGroup({
- *       login: new FormControl(""),
- *       password: new FormControl("")
- *     });
- *   }
+ * **Set value**: You can set the form's initial value when instantiating the
+ * {@link FormGroup}, or you can set it programmatically later using the {@link FormGroup}'s
+ * {@link AbstractControl.setValue} or {@link AbstractControl.patchValue} methods.
  *
- * }
- *  ```
+ * **Listen to value**: If you want to listen to changes in the value of the form, you can subscribe
+ * to the {@link FormGroup}'s {@link AbstractControl.valueChanges} event.  You can also listen to
+ * its {@link AbstractControl.statusChanges} event to be notified when the validation status is
+ * re-calculated.
  *
- * We can also use setValue() to populate the form programmatically.
+ * ### Example
  *
- *  ```typescript
- * @Component({
- *      selector: "login-comp",
- *      template: `
- *        <form [formGroup]='loginForm'>
- *          Login <input type='text' formControlName='login'>
- *          Password <input type='password' formControlName='password'>
- *          <button (click)="onLogin()">Login</button>
- *        </form>`
- *      })
- * class LoginComp {
- *  loginForm: FormGroup;
+ * In this example, we create form controls for first name and last name.
  *
- *  constructor() {
- *    this.loginForm = new FormGroup({
- *      login: new FormControl(''),
- *      password: new FormControl('')
- *    });
- *  }
+ * {@example forms/ts/simpleFormGroup/simple_form_group_example.ts region='Component'}
  *
- *  populate() {
- *    this.loginForm.setValue({ login: 'some login', password: 'some password'});
- *  }
+ * **npm package**: `@angular/forms`
  *
- *  onLogin(): void {
- *    // this.credentials.login === 'some login'
- *    // this.credentials.password === 'some password'
- *  }
- * }
- *  ```
+ * **NgModule**: {@link ReactiveFormsModule}
  *
  *  @stable
  */
@@ -41739,11 +39172,9 @@ var FormGroupDirective = (function (_super) {
     FormGroupDirective.prototype.ngOnChanges = function (changes) {
         this._checkFormPresent();
         if (__WEBPACK_IMPORTED_MODULE_2__facade_collection__["a" /* StringMapWrapper */].contains(changes, 'form')) {
-            var sync = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_7__shared__["b" /* composeValidators */])(this._validators);
-            this.form.validator = __WEBPACK_IMPORTED_MODULE_4__validators__["a" /* Validators */].compose([this.form.validator, sync]);
-            var async = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_7__shared__["c" /* composeAsyncValidators */])(this._asyncValidators);
-            this.form.asyncValidator = __WEBPACK_IMPORTED_MODULE_4__validators__["a" /* Validators */].composeAsync([this.form.asyncValidator, async]);
-            this._updateDomValue(changes);
+            this._updateValidators();
+            this._updateDomValue();
+            this._updateRegistrations();
         }
     };
     Object.defineProperty(FormGroupDirective.prototype, "submitted", {
@@ -41771,6 +39202,7 @@ var FormGroupDirective = (function (_super) {
         __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_7__shared__["d" /* setUpControl */])(ctrl, dir);
         ctrl.updateValueAndValidity({ emitEvent: false });
         this.directives.push(dir);
+        return ctrl;
     };
     FormGroupDirective.prototype.getControl = function (dir) { return this.form.get(dir.path); };
     FormGroupDirective.prototype.removeControl = function (dir) { __WEBPACK_IMPORTED_MODULE_2__facade_collection__["b" /* ListWrapper */].remove(this.directives, dir); };
@@ -41804,19 +39236,31 @@ var FormGroupDirective = (function (_super) {
         this._submitted = false;
     };
     /** @internal */
-    FormGroupDirective.prototype._updateDomValue = function (changes) {
+    FormGroupDirective.prototype._updateDomValue = function () {
         var _this = this;
-        var oldForm = changes['form'].previousValue;
         this.directives.forEach(function (dir) {
             var newCtrl = _this.form.get(dir.path);
-            var oldCtrl = oldForm.get(dir.path);
-            if (oldCtrl !== newCtrl) {
-                __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_7__shared__["h" /* cleanUpControl */])(oldCtrl, dir);
+            if (dir._control !== newCtrl) {
+                __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_7__shared__["h" /* cleanUpControl */])(dir._control, dir);
                 if (newCtrl)
                     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_7__shared__["d" /* setUpControl */])(newCtrl, dir);
+                dir._control = newCtrl;
             }
         });
         this.form._updateTreeValidity({ emitEvent: false });
+    };
+    FormGroupDirective.prototype._updateRegistrations = function () {
+        var _this = this;
+        this.form._registerOnCollectionChange(function () { return _this._updateDomValue(); });
+        if (this._oldForm)
+            this._oldForm._registerOnCollectionChange(function () { });
+        this._oldForm = this.form;
+    };
+    FormGroupDirective.prototype._updateValidators = function () {
+        var sync = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_7__shared__["b" /* composeValidators */])(this._validators);
+        this.form.validator = __WEBPACK_IMPORTED_MODULE_4__validators__["a" /* Validators */].compose([this.form.validator, sync]);
+        var async = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_7__shared__["c" /* composeAsyncValidators */])(this._asyncValidators);
+        this.form.asyncValidator = __WEBPACK_IMPORTED_MODULE_4__validators__["a" /* Validators */].composeAsync([this.form.asyncValidator, async]);
     };
     FormGroupDirective.prototype._checkFormPresent = function () {
         if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_3__facade_lang__["c" /* isBlank */])(this.form)) {
@@ -41885,49 +39329,46 @@ var formGroupNameProvider = {
     useExisting: __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["forwardRef"])(function () { return FormGroupName; })
 };
 /**
- * Syncs an existing form group to a DOM element.
+ * @whatItDoes Syncs a nested {@link FormGroup} to a DOM element.
  *
- * This directive can only be used as a child of {@link FormGroupDirective}.  It also requires
- * importing the {@link ReactiveFormsModule}.
+ * @howToUse
  *
- * ```typescript
- * @Component({
- *   selector: 'my-app',
- *   template: `
- *     <div>
- *       <h2>Angular FormGroup Example</h2>
- *       <form [formGroup]="myForm">
- *         <div formGroupName="name">
- *           <h3>Enter your name:</h3>
- *           <p>First: <input formControlName="first"></p>
- *           <p>Middle: <input formControlName="middle"></p>
- *           <p>Last: <input formControlName="last"></p>
- *         </div>
- *         <h3>Name value:</h3>
- *         <pre>{{ myForm.get('name') | json }}</pre>
- *         <p>Name is {{myForm.get('name')?.valid ? "valid" : "invalid"}}</p>
- *         <h3>What's your favorite food?</h3>
- *         <p><input formControlName="food"></p>
- *         <h3>Form value</h3>
- *         <pre> {{ myForm | json }} </pre>
- *       </form>
- *     </div>
- *   `
- * })
- * export class App {
- *   myForm = new FormGroup({
- *     name: new FormGroup({
- *       first: new FormControl('', Validators.required),
- *       middle: new FormControl(''),
- *       last: new FormControl('', Validators.required)
- *     }),
- *     food: new FormControl()
- *   });
- * }
- * ```
+ * This directive can only be used with a parent {@link FormGroupDirective} (selector:
+ * `[formGroup]`).
  *
- * This example syncs the form group for the user's name. The value and validation state of
- * this group can be accessed separately from the overall form.
+ * It accepts the string name of the nested {@link FormGroup} you want to link, and
+ * will look for a {@link FormGroup} registered with that name in the parent
+ * {@link FormGroup} instance you passed into {@link FormGroupDirective}.
+ *
+ * Nested form groups can come in handy when you want to validate a sub-group of a
+ * form separately from the rest or when you'd like to group the values of certain
+ * controls into their own nested object.
+ *
+ * **Access the group**: You can access the associated {@link FormGroup} using the
+ * {@link AbstractControl.get} method. Ex: `this.form.get('name')`.
+ *
+ * You can also access individual controls within the group using dot syntax.
+ * Ex: `this.form.get('name.first')`
+ *
+ * **Get the value**: the `value` property is always synced and available on the
+ * {@link FormGroup}. See a full list of available properties in {@link AbstractControl}.
+ *
+ * **Set the value**: You can set an initial value for each child control when instantiating
+ * the {@link FormGroup}, or you can set it programmatically later using
+ * {@link AbstractControl.setValue} or {@link AbstractControl.patchValue}.
+ *
+ * **Listen to value**: If you want to listen to changes in the value of the group, you can
+ * subscribe to the {@link AbstractControl.valueChanges} event.  You can also listen to
+ * {@link AbstractControl.statusChanges} to be notified when the validation status is
+ * re-calculated.
+ *
+ * ### Example
+ *
+ * {@example forms/ts/nestedFormGroup/nested_form_group_example.ts region='Component'}
+ *
+ * * **npm package**: `@angular/forms`
+ *
+ * * **NgModule**: `ReactiveFormsModule`
  *
  * @stable
  */
@@ -41964,38 +39405,49 @@ var formArrayNameProvider = {
     useExisting: __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["forwardRef"])(function () { return FormArrayName; })
 };
 /**
- * Syncs an existing form array to a DOM element.
+ * @whatItDoes Syncs a nested {@link FormArray} to a DOM element.
  *
- * This directive can only be used as a child of {@link FormGroupDirective}.  It also requires
- * importing the {@link ReactiveFormsModule}.
+ * @howToUse
  *
- * ```typescript
- * @Component({
- *   selector: 'my-app',
- *   template: `
- *     <div>
- *       <h2>Angular FormArray Example</h2>
- *       <form [formGroup]="myForm">
- *         <div formArrayName="cities">
- *           <div *ngFor="let city of cityArray.controls; let i=index">
- *             <input [formControlName]="i">
- *           </div>
- *         </div>
- *       </form>
- *       {{ myForm.value | json }}     // {cities: ['SF', 'NY']}
- *     </div>
- *   `
- * })
- * export class App {
- *   cityArray = new FormArray([
- *     new FormControl('SF'),
- *     new FormControl('NY')
- *   ]);
- *   myForm = new FormGroup({
- *     cities: this.cityArray
- *   });
- * }
- * ```
+ * This directive is designed to be used with a parent {@link FormGroupDirective} (selector:
+ * `[formGroup]`).
+ *
+ * It accepts the string name of the nested {@link FormArray} you want to link, and
+ * will look for a {@link FormArray} registered with that name in the parent
+ * {@link FormGroup} instance you passed into {@link FormGroupDirective}.
+ *
+ * Nested form arrays can come in handy when you have a group of form controls but
+ * you're not sure how many there will be. Form arrays allow you to create new
+ * form controls dynamically.
+ *
+ * **Access the array**: You can access the associated {@link FormArray} using the
+ * {@link AbstractControl.get} method on the parent {@link FormGroup}.
+ * Ex: `this.form.get('cities')`.
+ *
+ * **Get the value**: the `value` property is always synced and available on the
+ * {@link FormArray}. See a full list of available properties in {@link AbstractControl}.
+ *
+ * **Set the value**: You can set an initial value for each child control when instantiating
+ * the {@link FormArray}, or you can set the value programmatically later using the
+ * {@link FormArray}'s {@link AbstractControl.setValue} or {@link AbstractControl.patchValue}
+ * methods.
+ *
+ * **Listen to value**: If you want to listen to changes in the value of the array, you can
+ * subscribe to the {@link FormArray}'s {@link AbstractControl.valueChanges} event.  You can also
+ * listen to its {@link AbstractControl.statusChanges} event to be notified when the validation
+ * status is re-calculated.
+ *
+ * **Add new controls**: You can add new controls to the {@link FormArray} dynamically by
+ * calling its {@link FormArray.push} method.
+ *  Ex: `this.form.get('cities').push(new FormControl());`
+ *
+ * ### Example
+ *
+ * {@example forms/ts/nestedFormArray/nested_form_array_example.ts region='Component'}
+ *
+ * * **npm package**: `@angular/forms`
+ *
+ * * **NgModule**: `ReactiveFormsModule`
  *
  * @stable
  */
@@ -42141,9 +39593,9 @@ var SELECT_VALUE_ACCESSOR = {
 function _buildValueString(id, value) {
     if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2__facade_lang__["c" /* isBlank */])(id))
         return "" + value;
-    if (!__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2__facade_lang__["j" /* isPrimitive */])(value))
+    if (!__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2__facade_lang__["i" /* isPrimitive */])(value))
         value = 'Object';
-    return __WEBPACK_IMPORTED_MODULE_2__facade_lang__["k" /* StringWrapper */].slice(id + ": " + value, 0, 50);
+    return __WEBPACK_IMPORTED_MODULE_2__facade_lang__["j" /* StringWrapper */].slice(id + ": " + value, 0, 50);
 }
 function _extractId(valueString) {
     return valueString.split(':')[0];
@@ -42191,7 +39643,7 @@ var SelectControlValueAccessor = (function () {
     SelectControlValueAccessor.prototype._getOptionId = function (value) {
         for (var _i = 0, _a = __WEBPACK_IMPORTED_MODULE_1__facade_collection__["c" /* MapWrapper */].keys(this._optionMap); _i < _a.length; _i++) {
             var id = _a[_i];
-            if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2__facade_lang__["l" /* looseIdentical */])(this._optionMap.get(id), value))
+            if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2__facade_lang__["k" /* looseIdentical */])(this._optionMap.get(id), value))
                 return id;
         }
         return null;
@@ -42318,9 +39770,9 @@ function _buildValueString(id, value) {
         return "" + value;
     if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2__facade_lang__["g" /* isString */])(value))
         value = "'" + value + "'";
-    if (!__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2__facade_lang__["j" /* isPrimitive */])(value))
+    if (!__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2__facade_lang__["i" /* isPrimitive */])(value))
         value = 'Object';
-    return __WEBPACK_IMPORTED_MODULE_2__facade_lang__["k" /* StringWrapper */].slice(id + ": " + value, 0, 50);
+    return __WEBPACK_IMPORTED_MODULE_2__facade_lang__["j" /* StringWrapper */].slice(id + ": " + value, 0, 50);
 }
 function _extractId(valueString) {
     return valueString.split(':')[0];
@@ -42396,7 +39848,7 @@ var SelectMultipleControlValueAccessor = (function () {
     SelectMultipleControlValueAccessor.prototype._getOptionId = function (value) {
         for (var _i = 0, _a = __WEBPACK_IMPORTED_MODULE_1__facade_collection__["c" /* MapWrapper */].keys(this._optionMap); _i < _a.length; _i++) {
             var id = _a[_i];
-            if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2__facade_lang__["l" /* looseIdentical */])(this._optionMap.get(id)._value, value))
+            if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2__facade_lang__["k" /* looseIdentical */])(this._optionMap.get(id)._value, value))
                 return id;
         }
         return null;
@@ -42572,19 +40024,19 @@ function setUpControl(control, dir) {
     }
     // re-run validation when validator binding changes, e.g. minlength=3 -> minlength=4
     dir._rawValidators.forEach(function (validator) {
-        if (validator.registerOnChange)
-            validator.registerOnChange(function () { return control.updateValueAndValidity(); });
+        if (validator.registerOnValidatorChange)
+            validator.registerOnValidatorChange(function () { return control.updateValueAndValidity(); });
     });
     dir._rawAsyncValidators.forEach(function (validator) {
-        if (validator.registerOnChange)
-            validator.registerOnChange(function () { return control.updateValueAndValidity(); });
+        if (validator.registerOnValidatorChange)
+            validator.registerOnValidatorChange(function () { return control.updateValueAndValidity(); });
     });
 }
 function cleanUpControl(control, dir) {
     dir.valueAccessor.registerOnChange(function () { return _noControlError(dir); });
     dir.valueAccessor.registerOnTouched(function () { return _noControlError(dir); });
-    dir._rawValidators.forEach(function (validator) { return validator.registerOnChange(null); });
-    dir._rawAsyncValidators.forEach(function (validator) { return validator.registerOnChange(null); });
+    dir._rawValidators.forEach(function (validator) { return validator.registerOnValidatorChange(null); });
+    dir._rawAsyncValidators.forEach(function (validator) { return validator.registerOnValidatorChange(null); });
     if (control)
         control._clearChangeFns();
 }
@@ -42623,14 +40075,14 @@ function isPropertyUpdated(changes, viewModel) {
     var change = changes['model'];
     if (change.isFirstChange())
         return true;
-    return !__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["l" /* looseIdentical */])(viewModel, change.currentValue);
+    return !__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["k" /* looseIdentical */])(viewModel, change.currentValue);
 }
 function isBuiltInAccessor(valueAccessor) {
-    return (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["m" /* hasConstructor */])(valueAccessor, __WEBPACK_IMPORTED_MODULE_3__checkbox_value_accessor__["a" /* CheckboxControlValueAccessor */]) ||
-        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["m" /* hasConstructor */])(valueAccessor, __WEBPACK_IMPORTED_MODULE_6__number_value_accessor__["a" /* NumberValueAccessor */]) ||
-        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["m" /* hasConstructor */])(valueAccessor, __WEBPACK_IMPORTED_MODULE_8__select_control_value_accessor__["a" /* SelectControlValueAccessor */]) ||
-        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["m" /* hasConstructor */])(valueAccessor, __WEBPACK_IMPORTED_MODULE_9__select_multiple_control_value_accessor__["a" /* SelectMultipleControlValueAccessor */]) ||
-        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["m" /* hasConstructor */])(valueAccessor, __WEBPACK_IMPORTED_MODULE_7__radio_control_value_accessor__["a" /* RadioControlValueAccessor */]));
+    return (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["l" /* hasConstructor */])(valueAccessor, __WEBPACK_IMPORTED_MODULE_3__checkbox_value_accessor__["a" /* CheckboxControlValueAccessor */]) ||
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["l" /* hasConstructor */])(valueAccessor, __WEBPACK_IMPORTED_MODULE_6__number_value_accessor__["a" /* NumberValueAccessor */]) ||
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["l" /* hasConstructor */])(valueAccessor, __WEBPACK_IMPORTED_MODULE_8__select_control_value_accessor__["a" /* SelectControlValueAccessor */]) ||
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["l" /* hasConstructor */])(valueAccessor, __WEBPACK_IMPORTED_MODULE_9__select_multiple_control_value_accessor__["a" /* SelectMultipleControlValueAccessor */]) ||
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["l" /* hasConstructor */])(valueAccessor, __WEBPACK_IMPORTED_MODULE_7__radio_control_value_accessor__["a" /* RadioControlValueAccessor */]));
 }
 // TODO: vsavkin remove it once https://github.com/angular/angular/issues/3011 is implemented
 function selectValueAccessor(dir, valueAccessors) {
@@ -42640,7 +40092,7 @@ function selectValueAccessor(dir, valueAccessors) {
     var builtinAccessor;
     var customAccessor;
     valueAccessors.forEach(function (v) {
-        if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["m" /* hasConstructor */])(v, __WEBPACK_IMPORTED_MODULE_4__default_value_accessor__["a" /* DefaultValueAccessor */])) {
+        if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["l" /* hasConstructor */])(v, __WEBPACK_IMPORTED_MODULE_4__default_value_accessor__["a" /* DefaultValueAccessor */])) {
             defaultAccessor = v;
         }
         else if (isBuiltInAccessor(v)) {
@@ -42760,7 +40212,7 @@ var RequiredValidator = (function () {
     RequiredValidator.prototype.validate = function (c) {
         return this.required ? __WEBPACK_IMPORTED_MODULE_2__validators__["a" /* Validators */].required(c) : null;
     };
-    RequiredValidator.prototype.registerOnChange = function (fn) { this._onChange = fn; };
+    RequiredValidator.prototype.registerOnValidatorChange = function (fn) { this._onChange = fn; };
     RequiredValidator.decorators = [
         { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["Directive"], args: [{
                     selector: '[required][formControlName],[required][formControl],[required][ngModel]',
@@ -42809,7 +40261,7 @@ var MinLengthValidator = (function () {
     MinLengthValidator.prototype.validate = function (c) {
         return __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["a" /* isPresent */])(this.minlength) ? this._validator(c) : null;
     };
-    MinLengthValidator.prototype.registerOnChange = function (fn) { this._onChange = fn; };
+    MinLengthValidator.prototype.registerOnValidatorChange = function (fn) { this._onChange = fn; };
     MinLengthValidator.decorators = [
         { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["Directive"], args: [{
                     selector: '[minlength][formControlName],[minlength][formControl],[minlength][ngModel]',
@@ -42859,7 +40311,7 @@ var MaxLengthValidator = (function () {
     MaxLengthValidator.prototype.validate = function (c) {
         return __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["a" /* isPresent */])(this.maxlength) ? this._validator(c) : null;
     };
-    MaxLengthValidator.prototype.registerOnChange = function (fn) { this._onChange = fn; };
+    MaxLengthValidator.prototype.registerOnValidatorChange = function (fn) { this._onChange = fn; };
     MaxLengthValidator.decorators = [
         { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["Directive"], args: [{
                     selector: '[maxlength][formControlName],[maxlength][formControl],[maxlength][ngModel]',
@@ -42906,7 +40358,7 @@ var PatternValidator = (function () {
     PatternValidator.prototype.validate = function (c) {
         return __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__facade_lang__["a" /* isPresent */])(this.pattern) ? this._validator(c) : null;
     };
-    PatternValidator.prototype.registerOnChange = function (fn) { this._onChange = fn; };
+    PatternValidator.prototype.registerOnValidatorChange = function (fn) { this._onChange = fn; };
     PatternValidator.decorators = [
         { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["Directive"], args: [{
                     selector: '[pattern][formControlName],[pattern][formControl],[pattern][ngModel]',
@@ -43219,9 +40671,8 @@ var StringMapWrapper = (function () {
         if (k1.length != k2.length) {
             return false;
         }
-        var key;
         for (var i = 0; i < k1.length; i++) {
-            key = k1[i];
+            var key = k1[i];
             if (m1[key] !== m2[key]) {
                 return false;
             }
@@ -43442,7 +40893,7 @@ var SetWrapper = (function () {
 /* harmony export (immutable) */ exports["g"] = isString;
 /* unused harmony export isFunction */
 /* unused harmony export isType */
-/* harmony export (immutable) */ exports["o"] = isStringMap;
+/* harmony export (immutable) */ exports["n"] = isStringMap;
 /* unused harmony export isStrictStringMap */
 /* harmony export (immutable) */ exports["h"] = isPromise;
 /* harmony export (immutable) */ exports["d"] = isArray;
@@ -43452,15 +40903,15 @@ var SetWrapper = (function () {
 /* unused harmony export serializeEnum */
 /* unused harmony export deserializeEnum */
 /* unused harmony export resolveEnumToken */
-/* harmony export (binding) */ __webpack_require__.d(exports, "k", function() { return StringWrapper; });
+/* harmony export (binding) */ __webpack_require__.d(exports, "j", function() { return StringWrapper; });
 /* unused harmony export StringJoiner */
-/* harmony export (binding) */ __webpack_require__.d(exports, "i", function() { return NumberWrapper; });
+/* unused harmony export NumberWrapper */
 /* unused harmony export RegExp */
 /* unused harmony export FunctionWrapper */
-/* harmony export (immutable) */ exports["l"] = looseIdentical;
+/* harmony export (immutable) */ exports["k"] = looseIdentical;
 /* unused harmony export getMapKey */
 /* unused harmony export normalizeBlank */
-/* harmony export (immutable) */ exports["n"] = normalizeBool;
+/* harmony export (immutable) */ exports["m"] = normalizeBool;
 /* harmony export (immutable) */ exports["e"] = isJsObject;
 /* unused harmony export print */
 /* unused harmony export warn */
@@ -43469,8 +40920,8 @@ var SetWrapper = (function () {
 /* unused harmony export setValueOnPath */
 /* harmony export (immutable) */ exports["f"] = getSymbolIterator;
 /* unused harmony export evalExpression */
-/* harmony export (immutable) */ exports["j"] = isPrimitive;
-/* harmony export (immutable) */ exports["m"] = hasConstructor;
+/* harmony export (immutable) */ exports["i"] = isPrimitive;
+/* harmony export (immutable) */ exports["l"] = hasConstructor;
 /* unused harmony export escape */
 /* unused harmony export escapeRegExp */
 /**
@@ -43690,8 +41141,6 @@ var NumberWrapper = (function () {
         }
         throw new Error('Invalid integer literal when parsing ' + text + ' in base ' + radix);
     };
-    // TODO: NaN is a valid literal but is returned by parseFloat to indicate an error.
-    NumberWrapper.parseFloat = function (text) { return parseFloat(text); };
     Object.defineProperty(NumberWrapper, "NaN", {
         get: function () { return NaN; },
         enumerable: true,
@@ -43849,42 +41298,22 @@ function escapeRegExp(s) {
 
 
 /**
- * Creates a form object from a user-specified configuration.
+ * @whatItDoes Creates an {@link AbstractControl} from a user-specified configuration.
  *
- * ```typescript
- * @Component({
- *   selector: 'my-app',
- *   template: `
- *     <form [formGroup]="loginForm">
- *       <p>Login <input formControlName="login"></p>
- *       <div formGroupName="passwordRetry">
- *         <p>Password <input type="password" formControlName="password"></p>
- *         <p>Confirm password <input type="password" formControlName="passwordConfirmation"></p>
- *       </div>
- *     </form>
- *     <h3>Form value:</h3>
- *     <pre>{{value}}</pre>
- *   `,
- *   directives: [REACTIVE_FORM_DIRECTIVES]
- * })
- * export class App {
- *   loginForm: FormGroup;
+ * It is essentially syntactic sugar that shortens the `new FormGroup()`,
+ * `new FormControl()`, and `new FormArray()` boilerplate that can build up in larger
+ * forms.
  *
- *   constructor(builder: FormBuilder) {
- *     this.loginForm = builder.group({
- *       login: ["", Validators.required],
- *       passwordRetry: builder.group({
- *         password: ["", Validators.required],
- *         passwordConfirmation: ["", Validators.required, asyncValidator]
- *       })
- *     });
- *   }
+ * @howToUse
  *
- *   get value(): string {
- *     return JSON.stringify(this.loginForm.value, null, 2);
- *   }
- * }
- * ```
+ * To use, inject `FormBuilder` into your component class. You can then call its methods
+ * directly.
+ *
+ * {@example forms/ts/formBuilder/form_builder_example.ts region='Component'}
+ *
+ *  * **npm package**: `@angular/forms`
+ *
+ *  * **NgModule**: {@link ReactiveFormsModule}
  *
  * @stable
  */
@@ -43893,7 +41322,7 @@ var FormBuilder = (function () {
     }
     /**
      * Construct a new {@link FormGroup} with the given map of configuration.
-     * Valid keys for the `extra` parameter map are `optionals` and `validator`.
+     * Valid keys for the `extra` parameter map are `validator` and `asyncValidator`.
      *
      * See the {@link FormGroup} constructor for more details.
      */
@@ -43907,6 +41336,10 @@ var FormBuilder = (function () {
     /**
      * Construct a new {@link FormControl} with the given `formState`,`validator`, and
      * `asyncValidator`.
+     *
+     * `formState` can either be a standalone value for the form control or an object
+     * that contains both a value and a disabled status.
+     *
      */
     FormBuilder.prototype.control = function (formState, validator, asyncValidator) {
         if (validator === void 0) { validator = null; }
@@ -43914,7 +41347,7 @@ var FormBuilder = (function () {
         return new __WEBPACK_IMPORTED_MODULE_3__model__["b" /* FormControl */](formState, validator, asyncValidator);
     };
     /**
-     * Construct an array of {@link FormControl}s from the given `controlsConfig` array of
+     * Construct a {@link FormArray} from the given `controlsConfig` array of
      * configuration, with the given optional `validator` and `asyncValidator`.
      */
     FormBuilder.prototype.array = function (controlsConfig, validator, asyncValidator) {
@@ -44216,120 +41649,218 @@ function coerceToAsyncValidator(asyncValidator) {
     return Array.isArray(asyncValidator) ? __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__directives_shared__["c" /* composeAsyncValidators */])(asyncValidator) : asyncValidator;
 }
 /**
+ * @whatItDoes This is the base class for {@link FormControl}, {@link FormGroup}, and
+ * {@link FormArray}.
+ *
+ * It provides some of the shared behavior that all controls and groups of controls have, like
+ * running validators, calculating status, and resetting state. It also defines the properties
+ * that are shared between all sub-classes, like `value`, `valid`, and `dirty`. It shouldn't be
+ * instantiated directly.
+ *
  * @stable
  */
 var AbstractControl = (function () {
     function AbstractControl(validator, asyncValidator) {
         this.validator = validator;
         this.asyncValidator = asyncValidator;
+        /** @internal */
+        this._onCollectionChange = function () { };
         this._pristine = true;
         this._touched = false;
     }
     Object.defineProperty(AbstractControl.prototype, "value", {
+        /**
+         * The value of the control.
+         */
         get: function () { return this._value; },
         enumerable: true,
         configurable: true
     });
     Object.defineProperty(AbstractControl.prototype, "status", {
+        /**
+         * The validation status of the control. There are four possible
+         * validation statuses:
+         *
+         * * **VALID**:  control has passed all validation checks
+         * * **INVALID**: control has failed at least one validation check
+         * * **PENDING**: control is in the midst of conducting a validation check
+         * * **DISABLED**: control is exempt from validation checks
+         *
+         * These statuses are mutually exclusive, so a control cannot be
+         * both valid AND invalid or invalid AND disabled.
+         */
         get: function () { return this._status; },
         enumerable: true,
         configurable: true
     });
     Object.defineProperty(AbstractControl.prototype, "valid", {
+        /**
+         * A control is `valid` when its `status === VALID`.
+         *
+         * In order to have this status, the control must have passed all its
+         * validation checks.
+         */
         get: function () { return this._status === VALID; },
         enumerable: true,
         configurable: true
     });
     Object.defineProperty(AbstractControl.prototype, "invalid", {
+        /**
+         * A control is `invalid` when its `status === INVALID`.
+         *
+         * In order to have this status, the control must have failed
+         * at least one of its validation checks.
+         */
         get: function () { return this._status === INVALID; },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(AbstractControl.prototype, "pending", {
+        /**
+         * A control is `pending` when its `status === PENDING`.
+         *
+         * In order to have this status, the control must be in the
+         * middle of conducting a validation check.
+         */
+        get: function () { return this._status == PENDING; },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(AbstractControl.prototype, "disabled", {
+        /**
+         * A control is `disabled` when its `status === DISABLED`.
+         *
+         * Disabled controls are exempt from validation checks and
+         * are not included in the aggregate value of their ancestor
+         * controls.
+         */
+        get: function () { return this._status === DISABLED; },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(AbstractControl.prototype, "enabled", {
+        /**
+         * A control is `enabled` as long as its `status !== DISABLED`.
+         *
+         * In other words, it has a status of `VALID`, `INVALID`, or
+         * `PENDING`.
+         */
+        get: function () { return this._status !== DISABLED; },
         enumerable: true,
         configurable: true
     });
     Object.defineProperty(AbstractControl.prototype, "errors", {
         /**
-         * Returns the errors of this control.
+         * Returns any errors generated by failing validation. If there
+         * are no errors, it will return null.
          */
         get: function () { return this._errors; },
         enumerable: true,
         configurable: true
     });
     Object.defineProperty(AbstractControl.prototype, "pristine", {
+        /**
+         * A control is `pristine` if the user has not yet changed
+         * the value in the UI.
+         *
+         * Note that programmatic changes to a control's value will
+         * *not* mark it dirty.
+         */
         get: function () { return this._pristine; },
         enumerable: true,
         configurable: true
     });
     Object.defineProperty(AbstractControl.prototype, "dirty", {
+        /**
+         * A control is `dirty` if the user has changed the value
+         * in the UI.
+         *
+         * Note that programmatic changes to a control's value will
+         * *not* mark it dirty.
+         */
         get: function () { return !this.pristine; },
         enumerable: true,
         configurable: true
     });
     Object.defineProperty(AbstractControl.prototype, "touched", {
+        /**
+        * A control is marked `touched` once the user has triggered
+        * a `blur` event on it.
+        */
         get: function () { return this._touched; },
         enumerable: true,
         configurable: true
     });
     Object.defineProperty(AbstractControl.prototype, "untouched", {
+        /**
+         * A control is `untouched` if the user has not yet triggered
+         * a `blur` event on it.
+         */
         get: function () { return !this._touched; },
         enumerable: true,
         configurable: true
     });
     Object.defineProperty(AbstractControl.prototype, "valueChanges", {
+        /**
+         * Emits an event every time the value of the control changes, in
+         * the UI or programmatically.
+         */
         get: function () { return this._valueChanges; },
         enumerable: true,
         configurable: true
     });
     Object.defineProperty(AbstractControl.prototype, "statusChanges", {
+        /**
+         * Emits an event every time the validation status of the control
+         * is re-calculated.
+         */
         get: function () { return this._statusChanges; },
         enumerable: true,
         configurable: true
     });
-    Object.defineProperty(AbstractControl.prototype, "pending", {
-        get: function () { return this._status == PENDING; },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(AbstractControl.prototype, "disabled", {
-        get: function () { return this._status === DISABLED; },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(AbstractControl.prototype, "enabled", {
-        get: function () { return this._status !== DISABLED; },
-        enumerable: true,
-        configurable: true
-    });
-    AbstractControl.prototype.setAsyncValidators = function (newValidator) {
-        this.asyncValidator = coerceToAsyncValidator(newValidator);
-    };
-    AbstractControl.prototype.clearAsyncValidators = function () { this.asyncValidator = null; };
+    /**
+     * Sets the synchronous validators that are active on this control.  Calling
+     * this will overwrite any existing sync validators.
+     */
     AbstractControl.prototype.setValidators = function (newValidator) {
         this.validator = coerceToValidator(newValidator);
     };
+    /**
+     * Sets the async validators that are active on this control. Calling this
+     * will overwrite any existing async validators.
+     */
+    AbstractControl.prototype.setAsyncValidators = function (newValidator) {
+        this.asyncValidator = coerceToAsyncValidator(newValidator);
+    };
+    /**
+     * Empties out the sync validator list.
+     */
     AbstractControl.prototype.clearValidators = function () { this.validator = null; };
+    /**
+     * Empties out the async validator list.
+     */
+    AbstractControl.prototype.clearAsyncValidators = function () { this.asyncValidator = null; };
+    /**
+     * Marks the control as `touched`.
+     *
+     * This will also mark all direct ancestors as `touched` to maintain
+     * the model.
+     */
     AbstractControl.prototype.markAsTouched = function (_a) {
         var onlySelf = (_a === void 0 ? {} : _a).onlySelf;
-        onlySelf = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_4__facade_lang__["n" /* normalizeBool */])(onlySelf);
+        onlySelf = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_4__facade_lang__["m" /* normalizeBool */])(onlySelf);
         this._touched = true;
         if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_4__facade_lang__["a" /* isPresent */])(this._parent) && !onlySelf) {
             this._parent.markAsTouched({ onlySelf: onlySelf });
         }
     };
-    AbstractControl.prototype.markAsDirty = function (_a) {
-        var onlySelf = (_a === void 0 ? {} : _a).onlySelf;
-        onlySelf = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_4__facade_lang__["n" /* normalizeBool */])(onlySelf);
-        this._pristine = false;
-        if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_4__facade_lang__["a" /* isPresent */])(this._parent) && !onlySelf) {
-            this._parent.markAsDirty({ onlySelf: onlySelf });
-        }
-    };
-    AbstractControl.prototype.markAsPristine = function (_a) {
-        var onlySelf = (_a === void 0 ? {} : _a).onlySelf;
-        this._pristine = true;
-        this._forEachChild(function (control) { control.markAsPristine({ onlySelf: true }); });
-        if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_4__facade_lang__["a" /* isPresent */])(this._parent) && !onlySelf) {
-            this._parent._updatePristine({ onlySelf: onlySelf });
-        }
-    };
+    /**
+     * Marks the control as `untouched`.
+     *
+     * If the control has any children, it will also mark all children as `untouched`
+     * to maintain the model, and re-calculate the `touched` status of all parent
+     * controls.
+     */
     AbstractControl.prototype.markAsUntouched = function (_a) {
         var onlySelf = (_a === void 0 ? {} : _a).onlySelf;
         this._touched = false;
@@ -44338,18 +41869,57 @@ var AbstractControl = (function () {
             this._parent._updateTouched({ onlySelf: onlySelf });
         }
     };
+    /**
+     * Marks the control as `dirty`.
+     *
+     * This will also mark all direct ancestors as `dirty` to maintain
+     * the model.
+     */
+    AbstractControl.prototype.markAsDirty = function (_a) {
+        var onlySelf = (_a === void 0 ? {} : _a).onlySelf;
+        onlySelf = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_4__facade_lang__["m" /* normalizeBool */])(onlySelf);
+        this._pristine = false;
+        if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_4__facade_lang__["a" /* isPresent */])(this._parent) && !onlySelf) {
+            this._parent.markAsDirty({ onlySelf: onlySelf });
+        }
+    };
+    /**
+     * Marks the control as `pristine`.
+     *
+     * If the control has any children, it will also mark all children as `pristine`
+     * to maintain the model, and re-calculate the `pristine` status of all parent
+     * controls.
+     */
+    AbstractControl.prototype.markAsPristine = function (_a) {
+        var onlySelf = (_a === void 0 ? {} : _a).onlySelf;
+        this._pristine = true;
+        this._forEachChild(function (control) { control.markAsPristine({ onlySelf: true }); });
+        if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_4__facade_lang__["a" /* isPresent */])(this._parent) && !onlySelf) {
+            this._parent._updatePristine({ onlySelf: onlySelf });
+        }
+    };
+    /**
+     * Marks the control as `pending`.
+     */
     AbstractControl.prototype.markAsPending = function (_a) {
         var onlySelf = (_a === void 0 ? {} : _a).onlySelf;
-        onlySelf = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_4__facade_lang__["n" /* normalizeBool */])(onlySelf);
+        onlySelf = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_4__facade_lang__["m" /* normalizeBool */])(onlySelf);
         this._status = PENDING;
         if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_4__facade_lang__["a" /* isPresent */])(this._parent) && !onlySelf) {
             this._parent.markAsPending({ onlySelf: onlySelf });
         }
     };
+    /**
+     * Disables the control. This means the control will be exempt from validation checks and
+     * excluded from the aggregate value of any parent. Its status is `DISABLED`.
+     *
+     * If the control has children, all children will be disabled to maintain the model.
+     */
     AbstractControl.prototype.disable = function (_a) {
         var _b = _a === void 0 ? {} : _a, onlySelf = _b.onlySelf, emitEvent = _b.emitEvent;
         emitEvent = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_4__facade_lang__["a" /* isPresent */])(emitEvent) ? emitEvent : true;
         this._status = DISABLED;
+        this._errors = null;
         this._forEachChild(function (control) { control.disable({ onlySelf: true }); });
         this._updateValue();
         if (emitEvent) {
@@ -44359,6 +41929,13 @@ var AbstractControl = (function () {
         this._updateAncestors(onlySelf);
         this._onDisabledChange(true);
     };
+    /**
+     * Enables the control. This means the control will be included in validation checks and
+     * the aggregate value of its parent. Its status is re-calculated based on its value and
+     * its validators.
+     *
+     * If the control has children, all children will be enabled.
+     */
     AbstractControl.prototype.enable = function (_a) {
         var _b = _a === void 0 ? {} : _a, onlySelf = _b.onlySelf, emitEvent = _b.emitEvent;
         this._status = VALID;
@@ -44375,19 +41952,23 @@ var AbstractControl = (function () {
         }
     };
     AbstractControl.prototype.setParent = function (parent) { this._parent = parent; };
+    /**
+     * Re-calculates the value and validation status of the control.
+     *
+     * By default, it will also update the value and validity of its ancestors.
+     */
     AbstractControl.prototype.updateValueAndValidity = function (_a) {
         var _b = _a === void 0 ? {} : _a, onlySelf = _b.onlySelf, emitEvent = _b.emitEvent;
-        onlySelf = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_4__facade_lang__["n" /* normalizeBool */])(onlySelf);
+        onlySelf = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_4__facade_lang__["m" /* normalizeBool */])(onlySelf);
         emitEvent = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_4__facade_lang__["a" /* isPresent */])(emitEvent) ? emitEvent : true;
+        this._setInitialStatus();
         this._updateValue();
-        this._errors = this._runValidator();
-        var originalStatus = this._status;
-        this._status = this._calculateStatus();
-        if (this._status == VALID || this._status == PENDING) {
-            this._runAsyncValidator(emitEvent);
-        }
-        if (this._disabledChanged(originalStatus)) {
-            this._updateValue();
+        if (this.enabled) {
+            this._errors = this._runValidator();
+            this._status = this._calculateStatus();
+            if (this._status === VALID || this._status === PENDING) {
+                this._runAsyncValidator(emitEvent);
+            }
         }
         if (emitEvent) {
             this._valueChanges.emit(this._value);
@@ -44403,6 +41984,7 @@ var AbstractControl = (function () {
         this._forEachChild(function (ctrl) { return ctrl._updateTreeValidity({ emitEvent: emitEvent }); });
         this.updateValueAndValidity({ onlySelf: true, emitEvent: emitEvent });
     };
+    AbstractControl.prototype._setInitialStatus = function () { this._status = this._allControlsDisabled() ? DISABLED : VALID; };
     AbstractControl.prototype._runValidator = function () {
         return __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_4__facade_lang__["a" /* isPresent */])(this.validator) ? this.validator(this) : null;
     };
@@ -44420,21 +42002,17 @@ var AbstractControl = (function () {
             this._asyncValidationSubscription.unsubscribe();
         }
     };
-    AbstractControl.prototype._disabledChanged = function (originalStatus) {
-        return this._status !== originalStatus &&
-            (this._status === DISABLED || originalStatus === DISABLED);
-    };
     /**
      * Sets errors on a form control.
      *
-     * This is used when validations are run not automatically, but manually by the user.
+     * This is used when validations are run manually by the user, rather than automatically.
      *
      * Calling `setErrors` will also update the validity of the parent control.
      *
-     * ## Usage
+     * ### Example
      *
      * ```
-     * var login = new FormControl("someLogin");
+     * const login = new FormControl("someLogin");
      * login.setErrors({
      *   "notUnique": true
      * });
@@ -44442,7 +42020,7 @@ var AbstractControl = (function () {
      * expect(login.valid).toEqual(false);
      * expect(login.errors).toEqual({"notUnique": true});
      *
-     * login.updateValue("someOtherLogin");
+     * login.setValue("someOtherLogin");
      *
      * expect(login.valid).toEqual(true);
      * ```
@@ -44453,7 +42031,26 @@ var AbstractControl = (function () {
         this._errors = errors;
         this._updateControlsErrors(emitEvent);
     };
+    /**
+     * Retrieves a child control given the control's name or path.
+     *
+     * Paths can be passed in as an array or a string delimited by a dot.
+     *
+     * To get a control nested within a `person` sub-group:
+     *
+     * * `this.form.get('person.name');`
+     *
+     * -OR-
+     *
+     * * `this.form.get(['person', 'name']);`
+     */
     AbstractControl.prototype.get = function (path) { return _find(this, path, '.'); };
+    /**
+     * Returns true if the control with the given path has the error specified. Otherwise
+     * returns null or undefined.
+     *
+     * If no path is given, it checks for the error on the present control.
+     */
     AbstractControl.prototype.getError = function (errorCode, path) {
         if (path === void 0) { path = null; }
         var control = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_4__facade_lang__["a" /* isPresent */])(path) && !__WEBPACK_IMPORTED_MODULE_3__facade_collection__["b" /* ListWrapper */].isEmpty(path) ? this.get(path) : this;
@@ -44464,11 +42061,20 @@ var AbstractControl = (function () {
             return null;
         }
     };
+    /**
+     * Returns true if the control with the given path has the error specified. Otherwise
+     * returns false.
+     *
+     * If no path is given, it checks for the error on the present control.
+     */
     AbstractControl.prototype.hasError = function (errorCode, path) {
         if (path === void 0) { path = null; }
         return __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_4__facade_lang__["a" /* isPresent */])(this.getError(errorCode, path));
     };
     Object.defineProperty(AbstractControl.prototype, "root", {
+        /**
+         * Retrieves the top-level ancestor of this control.
+         */
         get: function () {
             var x = this;
             while (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_4__facade_lang__["a" /* isPresent */])(x._parent)) {
@@ -44495,14 +42101,14 @@ var AbstractControl = (function () {
         this._statusChanges = new __WEBPACK_IMPORTED_MODULE_2__facade_async__["a" /* EventEmitter */]();
     };
     AbstractControl.prototype._calculateStatus = function () {
+        if (this._allControlsDisabled())
+            return DISABLED;
         if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_4__facade_lang__["a" /* isPresent */])(this._errors))
             return INVALID;
         if (this._anyControlsHaveStatus(PENDING))
             return PENDING;
         if (this._anyControlsHaveStatus(INVALID))
             return INVALID;
-        if (this._allControlsDisabled())
-            return DISABLED;
         return VALID;
     };
     /** @internal */
@@ -44537,26 +42143,51 @@ var AbstractControl = (function () {
     AbstractControl.prototype._onDisabledChange = function (isDisabled) { };
     /** @internal */
     AbstractControl.prototype._isBoxedValue = function (formState) {
-        return __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_4__facade_lang__["o" /* isStringMap */])(formState) && Object.keys(formState).length === 2 && 'value' in formState &&
+        return __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_4__facade_lang__["n" /* isStringMap */])(formState) && Object.keys(formState).length === 2 && 'value' in formState &&
             'disabled' in formState;
     };
+    /** @internal */
+    AbstractControl.prototype._registerOnCollectionChange = function (fn) { this._onCollectionChange = fn; };
     return AbstractControl;
 }());
 /**
- * Defines a part of a form that cannot be divided into other controls. `FormControl`s have values
- * and
- * validation state, which is determined by an optional validation function.
+ * @whatItDoes Tracks the value and validation status of an individual form control.
  *
- * `FormControl` is one of the three fundamental building blocks used to define forms in Angular,
- * along
- * with {@link FormGroup} and {@link FormArray}.
+ * It is one of the three fundamental building blocks of Angular forms, along with
+ * {@link FormGroup} and {@link FormArray}.
  *
- * ## Usage
+ * @howToUse
  *
- * By default, a `FormControl` is created for every `<input>` or other form component.
- * With {@link FormControlDirective} or {@link FormGroupDirective} an existing {@link FormControl}
- * can be bound to a DOM element instead. This `FormControl` can be configured with a custom
- * validation function.
+ * When instantiating a {@link FormControl}, you can pass in an initial value as the
+ * first argument. Example:
+ *
+ * ```ts
+ * const ctrl = new FormControl('some value');
+ * console.log(ctrl.value);     // 'some value'
+ *```
+ *
+ * You can also initialize the control with a form state object on instantiation,
+ * which includes both the value and whether or not the control is disabled.
+ *
+ * ```ts
+ * const ctrl = new FormControl({value: 'n/a', disabled: true});
+ * console.log(ctrl.value);     // 'n/a'
+ * console.log(ctrl.status);   // 'DISABLED'
+ * ```
+ *
+ * To include a sync validator (or an array of sync validators) with the control,
+ * pass it in as the second argument. Async validators are also supported, but
+ * have to be passed in separately as the third arg.
+ *
+ * ```ts
+ * const ctrl = new FormControl('', Validators.required);
+ * console.log(ctrl.value);     // ''
+ * console.log(ctrl.status);   // 'INVALID'
+ * ```
+ *
+ * See its superclass, {@link AbstractControl}, for more properties and methods.
+ *
+ * * **npm package**: `@angular/forms`
  *
  * @stable
  */
@@ -44577,9 +42208,11 @@ var FormControl = (function (_super) {
      * Set the value of the form control to `value`.
      *
      * If `onlySelf` is `true`, this change will only affect the validation of this `FormControl`
-     * and not its parent component. If `emitEvent` is `true`, this change will cause a
-     * `valueChanges` event on the `FormControl` to be emitted. Both of these options default to
-     * `false`.
+     * and not its parent component. This defaults to false.
+     *
+     * If `emitEvent` is `true`, this
+     * change will cause a `valueChanges` event on the `FormControl` to be emitted. This defaults
+     * to true (as it falls through to `updateValueAndValidity`).
      *
      * If `emitModelToViewChange` is `true`, the view will be notified about the new value
      * via an `onChange` event. This is the default behavior if `emitModelToViewChange` is not
@@ -44600,13 +42233,44 @@ var FormControl = (function (_super) {
         this.updateValueAndValidity({ onlySelf: onlySelf, emitEvent: emitEvent });
     };
     /**
-     * This function is functionally the same as updateValue() at this level.  It exists for
-     * symmetry with patchValue() on FormGroups and FormArrays, where it does behave differently.
+     * Patches the value of a control.
+     *
+     * This function is functionally the same as {@link FormControl.setValue} at this level.
+     * It exists for symmetry with {@link FormGroup.patchValue} on `FormGroups` and `FormArrays`,
+     * where it does behave differently.
      */
     FormControl.prototype.patchValue = function (value, options) {
         if (options === void 0) { options = {}; }
         this.setValue(value, options);
     };
+    /**
+     * Resets the form control. This means by default:
+     *
+     * * it is marked as `pristine`
+     * * it is marked as `untouched`
+     * * value is set to null
+     *
+     * You can also reset to a specific form state by passing through a standalone
+     * value or a form state object that contains both a value and a disabled state
+     * (these are the only two properties that cannot be calculated).
+     *
+     * Ex:
+     *
+     * ```ts
+     * this.control.reset('Nancy');
+     *
+     * console.log(this.control.value);  // 'Nancy'
+     * ```
+     *
+     * OR
+     *
+     * ```
+     * this.control.reset({value: 'Nancy', disabled: true});
+     *
+     * console.log(this.control.value);  // 'Nancy'
+     * console.log(this.control.status);  // 'DISABLED'
+     * ```
+     */
     FormControl.prototype.reset = function (formState, _a) {
         if (formState === void 0) { formState = null; }
         var onlySelf = (_a === void 0 ? {} : _a).onlySelf;
@@ -44637,6 +42301,7 @@ var FormControl = (function (_super) {
     FormControl.prototype._clearChangeFns = function () {
         this._onChange = [];
         this._onDisabledChange = null;
+        this._onCollectionChange = function () { };
     };
     /**
      * Register a listener for disabled events.
@@ -44659,17 +42324,54 @@ var FormControl = (function (_super) {
     return FormControl;
 }(AbstractControl));
 /**
- * Defines a part of a form, of fixed length, that can contain other controls.
+ * @whatItDoes Tracks the value and validity state of a group of {@link FormControl}
+ * instances.
  *
- * A `FormGroup` aggregates the values of each {@link FormControl} in the group.
- * The status of a `FormGroup` depends on the status of its children.
- * If one of the controls in a group is invalid, the entire group is invalid.
- * Similarly, if a control changes its value, the entire group changes as well.
+ * A `FormGroup` aggregates the values of each child {@link FormControl} into one object,
+ * with each control name as the key.  It calculates its status by reducing the statuses
+ * of its children. For example, if one of the controls in a group is invalid, the entire
+ * group becomes invalid.
  *
  * `FormGroup` is one of the three fundamental building blocks used to define forms in Angular,
- * along with {@link FormControl} and {@link FormArray}. {@link FormArray} can also contain other
- * controls, but is of variable length.
+ * along with {@link FormControl} and {@link FormArray}.
  *
+ * @howToUse
+ *
+ * When instantiating a {@link FormGroup}, pass in a collection of child controls as the first
+ * argument. The key for each child will be the name under which it is registered.
+ *
+ * ### Example
+ *
+ * ```
+ * const form = new FormGroup({
+ *   first: new FormControl('Nancy', Validators.minLength(2)),
+ *   last: new FormControl('Drew'),
+ * });
+ *
+ * console.log(form.value);   // {first: 'Nancy', last; 'Drew'}
+ * console.log(form.status);  // 'VALID'
+ * ```
+ *
+ * You can also include group-level validators as the second arg, or group-level async
+ * validators as the third arg. These come in handy when you want to perform validation
+ * that considers the value of more than one child control.
+ *
+ * ### Example
+ *
+ * ```
+ * const form = new FormGroup({
+ *   password: new FormControl('', Validators.minLength(2)),
+ *   passwordConfirm: new FormControl('', Validators.minLength(2)),
+ * }, passwordMatchValidator);
+ *
+ *
+ * function passwordMatchValidator(g: FormGroup) {
+ *    return g.get('password').value === g.get('passwordConfirm').value
+ *       ? null : {'mismatch': true};
+ * }
+ * ```
+ *
+ * * **npm package**: `@angular/forms`
  *
  * @stable
  */
@@ -44681,17 +42383,21 @@ var FormGroup = (function (_super) {
         _super.call(this, validator, asyncValidator);
         this.controls = controls;
         this._initObservables();
-        this._setParentForControls();
+        this._setUpControls();
         this.updateValueAndValidity({ onlySelf: true, emitEvent: false });
     }
     /**
-     * Register a control with the group's list of controls.
+     * Registers a control with the group's list of controls.
+     *
+     * This method does not update value or validity of the control, so for
+     * most cases you'll want to use {@link FormGroup.addControl} instead.
      */
     FormGroup.prototype.registerControl = function (name, control) {
         if (this.controls[name])
             return this.controls[name];
         this.controls[name] = control;
         control.setParent(this);
+        control._registerOnCollectionChange(this._onCollectionChange);
         return control;
     };
     /**
@@ -44700,21 +42406,61 @@ var FormGroup = (function (_super) {
     FormGroup.prototype.addControl = function (name, control) {
         this.registerControl(name, control);
         this.updateValueAndValidity();
+        this._onCollectionChange();
     };
     /**
      * Remove a control from this group.
      */
     FormGroup.prototype.removeControl = function (name) {
+        if (this.controls[name])
+            this.controls[name]._registerOnCollectionChange(function () { });
         __WEBPACK_IMPORTED_MODULE_3__facade_collection__["a" /* StringMapWrapper */].delete(this.controls, name);
         this.updateValueAndValidity();
+        this._onCollectionChange();
     };
     /**
-     * Check whether there is a control with the given name in the group.
+     * Replace an existing control.
+     */
+    FormGroup.prototype.setControl = function (name, control) {
+        if (this.controls[name])
+            this.controls[name]._registerOnCollectionChange(function () { });
+        __WEBPACK_IMPORTED_MODULE_3__facade_collection__["a" /* StringMapWrapper */].delete(this.controls, name);
+        if (control)
+            this.registerControl(name, control);
+        this.updateValueAndValidity();
+        this._onCollectionChange();
+    };
+    /**
+     * Check whether there is an enabled control with the given name in the group.
+     *
+     * It will return false for disabled controls. If you'd like to check for
+     * existence in the group only, use {@link AbstractControl.get} instead.
      */
     FormGroup.prototype.contains = function (controlName) {
-        var c = __WEBPACK_IMPORTED_MODULE_3__facade_collection__["a" /* StringMapWrapper */].contains(this.controls, controlName);
-        return c && this.get(controlName).enabled;
+        return this.controls.hasOwnProperty(controlName) && this.controls[controlName].enabled;
     };
+    /**
+     *  Sets the value of the {@link FormGroup}. It accepts an object that matches
+     *  the structure of the group, with control names as keys.
+     *
+     * This method performs strict checks, so it will throw an error if you try
+     * to set the value of a control that doesn't exist or if you exclude the
+     * value of a control.
+     *
+     *  ### Example
+     *
+     *  ```
+     *  const form = new FormGroup({
+     *     first: new FormControl(),
+     *     last: new FormControl()
+     *  });
+     *  console.log(form.value);   // {first: null, last: null}
+     *
+     *  form.setValue({first: 'Nancy', last: 'Drew'});
+     *  console.log(form.value);   // {first: 'Nancy', last: 'Drew'}
+     *
+     *  ```
+     */
     FormGroup.prototype.setValue = function (value, _a) {
         var _this = this;
         var onlySelf = (_a === void 0 ? {} : _a).onlySelf;
@@ -44725,6 +42471,27 @@ var FormGroup = (function (_super) {
         });
         this.updateValueAndValidity({ onlySelf: onlySelf });
     };
+    /**
+     *  Patches the value of the {@link FormGroup}. It accepts an object with control
+     *  names as keys, and will do its best to match the values to the correct controls
+     *  in the group.
+     *
+     *  It accepts both super-sets and sub-sets of the group without throwing an error.
+     *
+     *  ### Example
+     *
+     *  ```
+     *  const form = new FormGroup({
+     *     first: new FormControl(),
+     *     last: new FormControl()
+     *  });
+     *  console.log(form.value);   // {first: null, last: null}
+     *
+     *  form.patchValue({first: 'Nancy'});
+     *  console.log(form.value);   // {first: 'Nancy', last: null}
+     *
+     *  ```
+     */
     FormGroup.prototype.patchValue = function (value, _a) {
         var _this = this;
         var onlySelf = (_a === void 0 ? {} : _a).onlySelf;
@@ -44735,6 +42502,38 @@ var FormGroup = (function (_super) {
         });
         this.updateValueAndValidity({ onlySelf: onlySelf });
     };
+    /**
+     * Resets the {@link FormGroup}. This means by default:
+     *
+     * * The group and all descendants are marked `pristine`
+     * * The group and all descendants are marked `untouched`
+     * * The value of all descendants will be null or null maps
+     *
+     * You can also reset to a specific form state by passing in a map of states
+     * that matches the structure of your form, with control names as keys. The state
+     * can be a standalone value or a form state object with both a value and a disabled
+     * status.
+     *
+     * ### Example
+     *
+     * ```ts
+     * this.form.reset({first: 'name', last; 'last name'});
+     *
+     * console.log(this.form.value);  // {first: 'name', last: 'last name'}
+     * ```
+     *
+     * - OR -
+     *
+     * ```
+     * this.form.reset({
+     *   first: {value: 'name', disabled: true},
+     *   last: 'last'
+     * });
+     *
+     * console.log(this.form.value);  // {first: 'name', last: 'last name'}
+     * console.log(this.form.get('first').status);  // 'DISABLED'
+     * ```
+     */
     FormGroup.prototype.reset = function (value, _a) {
         if (value === void 0) { value = {}; }
         var onlySelf = (_a === void 0 ? {} : _a).onlySelf;
@@ -44745,6 +42544,12 @@ var FormGroup = (function (_super) {
         this._updatePristine({ onlySelf: onlySelf });
         this._updateTouched({ onlySelf: onlySelf });
     };
+    /**
+     * The aggregate value of the {@link FormGroup}, including any disabled controls.
+     *
+     * If you'd like to include all values regardless of disabled status, use this method.
+     * Otherwise, the `value` property is the best way to get the value of the group.
+     */
     FormGroup.prototype.getRawValue = function () {
         return this._reduceChildren({}, function (acc, control, name) {
             acc[name] = control.value;
@@ -44765,9 +42570,12 @@ var FormGroup = (function (_super) {
         __WEBPACK_IMPORTED_MODULE_3__facade_collection__["a" /* StringMapWrapper */].forEach(this.controls, cb);
     };
     /** @internal */
-    FormGroup.prototype._setParentForControls = function () {
+    FormGroup.prototype._setUpControls = function () {
         var _this = this;
-        this._forEachChild(function (control, name) { control.setParent(_this); });
+        this._forEachChild(function (control) {
+            control.setParent(_this);
+            control._registerOnCollectionChange(_this._onCollectionChange);
+        });
     };
     /** @internal */
     FormGroup.prototype._updateValue = function () { this._value = this._reduceValue(); };
@@ -44804,7 +42612,7 @@ var FormGroup = (function (_super) {
                 return false;
             }
         }
-        return !__WEBPACK_IMPORTED_MODULE_3__facade_collection__["a" /* StringMapWrapper */].isEmpty(this.controls);
+        return Object.keys(this.controls).length > 0 || this.disabled;
     };
     /** @internal */
     FormGroup.prototype._checkAllValuesPresent = function (value) {
@@ -44817,18 +42625,38 @@ var FormGroup = (function (_super) {
     return FormGroup;
 }(AbstractControl));
 /**
- * Defines a part of a form, of variable length, that can contain other controls.
+ * @whatItDoes Tracks the value and validity state of an array of {@link FormControl}
+ * instances.
  *
- * A `FormArray` aggregates the values of each {@link FormControl} in the group.
- * The status of a `FormArray` depends on the status of its children.
- * If one of the controls in a group is invalid, the entire array is invalid.
- * Similarly, if a control changes its value, the entire array changes as well.
+ * A `FormArray` aggregates the values of each child {@link FormControl} into an array.
+ * It calculates its status by reducing the statuses of its children. For example, if one of
+ * the controls in a `FormArray` is invalid, the entire array becomes invalid.
  *
  * `FormArray` is one of the three fundamental building blocks used to define forms in Angular,
- * along with {@link FormControl} and {@link FormGroup}. {@link FormGroup} can also contain
- * other controls, but is of fixed length.
+ * along with {@link FormControl} and {@link FormGroup}.
  *
- * ## Adding or removing controls
+ * @howToUse
+ *
+ * When instantiating a {@link FormArray}, pass in an array of child controls as the first
+ * argument.
+ *
+ * ### Example
+ *
+ * ```
+ * const arr = new FormArray([
+ *   new FormControl('Nancy', Validators.minLength(2)),
+ *   new FormControl('Drew'),
+ * ]);
+ *
+ * console.log(arr.value);   // ['Nancy', 'Drew']
+ * console.log(arr.status);  // 'VALID'
+ * ```
+ *
+ * You can also include array-level validators as the second arg, or array-level async
+ * validators as the third arg. These come in handy when you want to perform validation
+ * that considers the value of more than one child control.
+ *
+ * ### Adding or removing controls
  *
  * To change the controls in the array, use the `push`, `insert`, or `removeAt` methods
  * in `FormArray` itself. These methods ensure the controls are properly tracked in the
@@ -44836,6 +42664,7 @@ var FormGroup = (function (_super) {
  * the `FormArray` directly, as that will result in strange and unexpected behavior such
  * as broken change detection.
  *
+ * * **npm package**: `@angular/forms`
  *
  * @stable
  */
@@ -44847,7 +42676,7 @@ var FormArray = (function (_super) {
         _super.call(this, validator, asyncValidator);
         this.controls = controls;
         this._initObservables();
-        this._setParentForControls();
+        this._setUpControls();
         this.updateValueAndValidity({ onlySelf: true, emitEvent: false });
     }
     /**
@@ -44859,23 +42688,42 @@ var FormArray = (function (_super) {
      */
     FormArray.prototype.push = function (control) {
         this.controls.push(control);
-        control.setParent(this);
+        this._registerControl(control);
         this.updateValueAndValidity();
+        this._onCollectionChange();
     };
     /**
      * Insert a new {@link AbstractControl} at the given `index` in the array.
      */
     FormArray.prototype.insert = function (index, control) {
         __WEBPACK_IMPORTED_MODULE_3__facade_collection__["b" /* ListWrapper */].insert(this.controls, index, control);
-        control.setParent(this);
+        this._registerControl(control);
         this.updateValueAndValidity();
+        this._onCollectionChange();
     };
     /**
      * Remove the control at the given `index` in the array.
      */
     FormArray.prototype.removeAt = function (index) {
+        if (this.controls[index])
+            this.controls[index]._registerOnCollectionChange(function () { });
         __WEBPACK_IMPORTED_MODULE_3__facade_collection__["b" /* ListWrapper */].removeAt(this.controls, index);
         this.updateValueAndValidity();
+        this._onCollectionChange();
+    };
+    /**
+     * Replace an existing control.
+     */
+    FormArray.prototype.setControl = function (index, control) {
+        if (this.controls[index])
+            this.controls[index]._registerOnCollectionChange(function () { });
+        __WEBPACK_IMPORTED_MODULE_3__facade_collection__["b" /* ListWrapper */].removeAt(this.controls, index);
+        if (control) {
+            __WEBPACK_IMPORTED_MODULE_3__facade_collection__["b" /* ListWrapper */].insert(this.controls, index, control);
+            this._registerControl(control);
+        }
+        this.updateValueAndValidity();
+        this._onCollectionChange();
     };
     Object.defineProperty(FormArray.prototype, "length", {
         /**
@@ -44885,6 +42733,27 @@ var FormArray = (function (_super) {
         enumerable: true,
         configurable: true
     });
+    /**
+     *  Sets the value of the {@link FormArray}. It accepts an array that matches
+     *  the structure of the control.
+     *
+     * This method performs strict checks, so it will throw an error if you try
+     * to set the value of a control that doesn't exist or if you exclude the
+     * value of a control.
+     *
+     *  ### Example
+     *
+     *  ```
+     *  const arr = new FormArray([
+     *     new FormControl(),
+     *     new FormControl()
+     *  ]);
+     *  console.log(arr.value);   // [null, null]
+     *
+     *  arr.setValue(['Nancy', 'Drew']);
+     *  console.log(arr.value);   // ['Nancy', 'Drew']
+     *  ```
+     */
     FormArray.prototype.setValue = function (value, _a) {
         var _this = this;
         var onlySelf = (_a === void 0 ? {} : _a).onlySelf;
@@ -44895,6 +42764,26 @@ var FormArray = (function (_super) {
         });
         this.updateValueAndValidity({ onlySelf: onlySelf });
     };
+    /**
+     *  Patches the value of the {@link FormArray}. It accepts an array that matches the
+     *  structure of the control, and will do its best to match the values to the correct
+     *  controls in the group.
+     *
+     *  It accepts both super-sets and sub-sets of the array without throwing an error.
+     *
+     *  ### Example
+     *
+     *  ```
+     *  const arr = new FormArray([
+     *     new FormControl(),
+     *     new FormControl()
+     *  ]);
+     *  console.log(arr.value);   // [null, null]
+     *
+     *  arr.patchValue(['Nancy']);
+     *  console.log(arr.value);   // ['Nancy', null]
+     *  ```
+     */
     FormArray.prototype.patchValue = function (value, _a) {
         var _this = this;
         var onlySelf = (_a === void 0 ? {} : _a).onlySelf;
@@ -44905,6 +42794,37 @@ var FormArray = (function (_super) {
         });
         this.updateValueAndValidity({ onlySelf: onlySelf });
     };
+    /**
+     * Resets the {@link FormArray}. This means by default:
+     *
+     * * The array and all descendants are marked `pristine`
+     * * The array and all descendants are marked `untouched`
+     * * The value of all descendants will be null or null maps
+     *
+     * You can also reset to a specific form state by passing in an array of states
+     * that matches the structure of the control. The state can be a standalone value
+     * or a form state object with both a value and a disabled status.
+     *
+     * ### Example
+     *
+     * ```ts
+     * this.arr.reset(['name', 'last name']);
+     *
+     * console.log(this.arr.value);  // ['name', 'last name']
+     * ```
+     *
+     * - OR -
+     *
+     * ```
+     * this.arr.reset([
+     *   {value: 'name', disabled: true},
+     *   'last'
+     * ]);
+     *
+     * console.log(this.arr.value);  // ['name', 'last name']
+     * console.log(this.arr.get(0).status);  // 'DISABLED'
+     * ```
+     */
     FormArray.prototype.reset = function (value, _a) {
         if (value === void 0) { value = []; }
         var onlySelf = (_a === void 0 ? {} : _a).onlySelf;
@@ -44915,6 +42835,12 @@ var FormArray = (function (_super) {
         this._updatePristine({ onlySelf: onlySelf });
         this._updateTouched({ onlySelf: onlySelf });
     };
+    /**
+     * The aggregate value of the array, including any disabled controls.
+     *
+     * If you'd like to include all values regardless of disabled status, use this method.
+     * Otherwise, the `value` property is the best way to get the value of the array.
+     */
     FormArray.prototype.getRawValue = function () { return this.controls.map(function (control) { return control.value; }); };
     /** @internal */
     FormArray.prototype._throwIfControlMissing = function (index) {
@@ -44940,9 +42866,9 @@ var FormArray = (function (_super) {
         return this.controls.some(function (control) { return control.enabled && condition(control); });
     };
     /** @internal */
-    FormArray.prototype._setParentForControls = function () {
+    FormArray.prototype._setUpControls = function () {
         var _this = this;
-        this._forEachChild(function (control) { control.setParent(_this); });
+        this._forEachChild(function (control) { return _this._registerControl(control); });
     };
     /** @internal */
     FormArray.prototype._checkAllValuesPresent = function (value) {
@@ -44959,7 +42885,11 @@ var FormArray = (function (_super) {
             if (control.enabled)
                 return false;
         }
-        return !!this.controls.length;
+        return this.controls.length > 0 || this.disabled;
+    };
+    FormArray.prototype._registerControl = function (control) {
+        control.setParent(this);
+        control._registerOnCollectionChange(this._onCollectionChange);
     };
     return FormArray;
 }(AbstractControl));
@@ -46364,9 +44294,8 @@ var StringMapWrapper = (function () {
         if (k1.length != k2.length) {
             return false;
         }
-        var key;
         for (var i = 0; i < k1.length; i++) {
-            key = k1[i];
+            var key = k1[i];
             if (m1[key] !== m2[key]) {
                 return false;
             }
@@ -46835,8 +44764,6 @@ var NumberWrapper = (function () {
         }
         throw new Error('Invalid integer literal when parsing ' + text + ' in base ' + radix);
     };
-    // TODO: NaN is a valid literal but is returned by parseFloat to indicate an error.
-    NumberWrapper.parseFloat = function (text) { return parseFloat(text); };
     Object.defineProperty(NumberWrapper, "NaN", {
         get: function () { return NaN; },
         enumerable: true,
@@ -48365,8 +46292,6 @@ var NumberWrapper = (function () {
         }
         throw new Error('Invalid integer literal when parsing ' + text + ' in base ' + radix);
     };
-    // TODO: NaN is a valid literal but is returned by parseFloat to indicate an error.
-    NumberWrapper.parseFloat = function (text) { return parseFloat(text); };
     Object.defineProperty(NumberWrapper, "NaN", {
         get: function () { return NaN; },
         enumerable: true,
@@ -50465,7 +48390,6 @@ var DomEventsPlugin = (function (_super) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/index.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__facade_collection__ = __webpack_require__("./node_modules/@angular/platform-browser/src/facade/collection.js");
 /* harmony export (binding) */ __webpack_require__.d(exports, "c", function() { return EVENT_MANAGER_PLUGINS; });
 /* harmony export (binding) */ __webpack_require__.d(exports, "a", function() { return EventManager; });
 /* harmony export (binding) */ __webpack_require__.d(exports, "b", function() { return EventManagerPlugin; });
@@ -50476,7 +48400,6 @@ var DomEventsPlugin = (function (_super) {
  * Use of this source code is governed by an MIT-style license that can be
  * found in the LICENSE file at https://angular.io/license
  */
-
 
 /**
  * @stable
@@ -50490,7 +48413,7 @@ var EventManager = (function () {
         var _this = this;
         this._zone = _zone;
         plugins.forEach(function (p) { return p.manager = _this; });
-        this._plugins = __WEBPACK_IMPORTED_MODULE_1__facade_collection__["b" /* ListWrapper */].reversed(plugins);
+        this._plugins = plugins.slice().reverse();
     }
     EventManager.prototype.addEventListener = function (element, eventName, handler) {
         var plugin = this._findPluginFor(eventName);
@@ -51416,9 +49339,8 @@ var StringMapWrapper = (function () {
         if (k1.length != k2.length) {
             return false;
         }
-        var key;
         for (var i = 0; i < k1.length; i++) {
-            key = k1[i];
+            var key = k1[i];
             if (m1[key] !== m2[key]) {
                 return false;
             }
@@ -51887,8 +49809,6 @@ var NumberWrapper = (function () {
         }
         throw new Error('Invalid integer literal when parsing ' + text + ' in base ' + radix);
     };
-    // TODO: NaN is a valid literal but is returned by parseFloat to indicate an error.
-    NumberWrapper.parseFloat = function (text) { return parseFloat(text); };
     Object.defineProperty(NumberWrapper, "NaN", {
         get: function () { return NaN; },
         enumerable: true,
@@ -52803,30 +50723,6 @@ function sanitizeSrcset(srcset) {
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__src_index__ = __webpack_require__("./node_modules/@angular/router/src/index.js");
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "RouterLink", function() { return __WEBPACK_IMPORTED_MODULE_0__src_index__["a"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "RouterLinkWithHref", function() { return __WEBPACK_IMPORTED_MODULE_0__src_index__["b"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "RouterLinkActive", function() { return __WEBPACK_IMPORTED_MODULE_0__src_index__["c"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "RouterOutlet", function() { return __WEBPACK_IMPORTED_MODULE_0__src_index__["d"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "NavigationCancel", function() { return __WEBPACK_IMPORTED_MODULE_0__src_index__["e"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "NavigationError", function() { return __WEBPACK_IMPORTED_MODULE_0__src_index__["f"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "NavigationStart", function() { return __WEBPACK_IMPORTED_MODULE_0__src_index__["g"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "Router", function() { return __WEBPACK_IMPORTED_MODULE_0__src_index__["h"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "RoutesRecognized", function() { return __WEBPACK_IMPORTED_MODULE_0__src_index__["i"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "NavigationEnd", function() { return __WEBPACK_IMPORTED_MODULE_0__src_index__["j"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "RouterModule", function() { return __WEBPACK_IMPORTED_MODULE_0__src_index__["k"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "provideRoutes", function() { return __WEBPACK_IMPORTED_MODULE_0__src_index__["l"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "RouterOutletMap", function() { return __WEBPACK_IMPORTED_MODULE_0__src_index__["m"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "ActivatedRoute", function() { return __WEBPACK_IMPORTED_MODULE_0__src_index__["n"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "ActivatedRouteSnapshot", function() { return __WEBPACK_IMPORTED_MODULE_0__src_index__["o"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "RouterState", function() { return __WEBPACK_IMPORTED_MODULE_0__src_index__["p"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "RouterStateSnapshot", function() { return __WEBPACK_IMPORTED_MODULE_0__src_index__["q"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "PRIMARY_OUTLET", function() { return __WEBPACK_IMPORTED_MODULE_0__src_index__["r"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "DefaultUrlSerializer", function() { return __WEBPACK_IMPORTED_MODULE_0__src_index__["s"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "UrlSegment", function() { return __WEBPACK_IMPORTED_MODULE_0__src_index__["t"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "UrlSerializer", function() { return __WEBPACK_IMPORTED_MODULE_0__src_index__["u"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "UrlTree", function() { return __WEBPACK_IMPORTED_MODULE_0__src_index__["v"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(exports, "__router_private__", function() { return __WEBPACK_IMPORTED_MODULE_0__src_index__["w"]; });
 /**
  * @license
  * Copyright Google Inc. All Rights Reserved.
@@ -52834,12 +50730,39 @@ function sanitizeSrcset(srcset) {
  * Use of this source code is governed by an MIT-style license that can be
  * found in the LICENSE file at https://angular.io/license
  */
-/**
- * @module
- * @description
- * Entry point for all public APIs of the router package.
- */
-
+"use strict";
+var router_link_1 = __webpack_require__("./node_modules/@angular/router/src/directives/router_link.js");
+exports.RouterLink = router_link_1.RouterLink;
+exports.RouterLinkWithHref = router_link_1.RouterLinkWithHref;
+var router_link_active_1 = __webpack_require__("./node_modules/@angular/router/src/directives/router_link_active.js");
+exports.RouterLinkActive = router_link_active_1.RouterLinkActive;
+var router_outlet_1 = __webpack_require__("./node_modules/@angular/router/src/directives/router_outlet.js");
+exports.RouterOutlet = router_outlet_1.RouterOutlet;
+var router_1 = __webpack_require__("./node_modules/@angular/router/src/router.js");
+exports.NavigationCancel = router_1.NavigationCancel;
+exports.NavigationEnd = router_1.NavigationEnd;
+exports.NavigationError = router_1.NavigationError;
+exports.NavigationStart = router_1.NavigationStart;
+exports.Router = router_1.Router;
+exports.RoutesRecognized = router_1.RoutesRecognized;
+var router_module_1 = __webpack_require__("./node_modules/@angular/router/src/router_module.js");
+exports.ROUTER_DIRECTIVES = router_module_1.ROUTER_DIRECTIVES;
+exports.RouterModule = router_module_1.RouterModule;
+exports.provideRoutes = router_module_1.provideRoutes;
+var router_outlet_map_1 = __webpack_require__("./node_modules/@angular/router/src/router_outlet_map.js");
+exports.RouterOutletMap = router_outlet_map_1.RouterOutletMap;
+var router_state_1 = __webpack_require__("./node_modules/@angular/router/src/router_state.js");
+exports.ActivatedRoute = router_state_1.ActivatedRoute;
+exports.ActivatedRouteSnapshot = router_state_1.ActivatedRouteSnapshot;
+exports.RouterState = router_state_1.RouterState;
+exports.RouterStateSnapshot = router_state_1.RouterStateSnapshot;
+var shared_1 = __webpack_require__("./node_modules/@angular/router/src/shared.js");
+exports.PRIMARY_OUTLET = shared_1.PRIMARY_OUTLET;
+var url_tree_1 = __webpack_require__("./node_modules/@angular/router/src/url_tree.js");
+exports.DefaultUrlSerializer = url_tree_1.DefaultUrlSerializer;
+exports.UrlSegment = url_tree_1.UrlSegment;
+exports.UrlSerializer = url_tree_1.UrlSerializer;
+exports.UrlTree = url_tree_1.UrlTree;
 //# sourceMappingURL=index.js.map
 
 /***/ },
@@ -52848,29 +50771,6 @@ function sanitizeSrcset(srcset) {
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_rxjs_Observable__ = __webpack_require__("./node_modules/rxjs/Observable.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_rxjs_Observable___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_rxjs_Observable__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_observable_from__ = __webpack_require__("./node_modules/rxjs/observable/from.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_observable_from___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_rxjs_observable_from__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_observable_of__ = __webpack_require__("./node_modules/rxjs/observable/of.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_observable_of___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_observable_of__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_operator_catch__ = __webpack_require__("./node_modules/rxjs/operator/catch.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_operator_catch___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_rxjs_operator_catch__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_operator_concatAll__ = __webpack_require__("./node_modules/rxjs/operator/concatAll.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_operator_concatAll___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_rxjs_operator_concatAll__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_rxjs_operator_first__ = __webpack_require__("./node_modules/rxjs/operator/first.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_rxjs_operator_first___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_rxjs_operator_first__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_rxjs_operator_map__ = __webpack_require__("./node_modules/rxjs/operator/map.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_rxjs_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6_rxjs_operator_map__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_rxjs_operator_mergeMap__ = __webpack_require__("./node_modules/rxjs/operator/mergeMap.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_rxjs_operator_mergeMap___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7_rxjs_operator_mergeMap__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_rxjs_util_EmptyError__ = __webpack_require__("./node_modules/rxjs/util/EmptyError.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_rxjs_util_EmptyError___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_8_rxjs_util_EmptyError__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__router_config_loader__ = __webpack_require__("./node_modules/@angular/router/src/router_config_loader.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__shared__ = __webpack_require__("./node_modules/@angular/router/src/shared.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__url_tree__ = __webpack_require__("./node_modules/@angular/router/src/url_tree.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__utils_collection__ = __webpack_require__("./node_modules/@angular/router/src/utils/collection.js");
-/* harmony export (immutable) */ exports["a"] = applyRedirects;
 /**
  * @license
  * Copyright Google Inc. All Rights Reserved.
@@ -52878,19 +50778,18 @@ function sanitizeSrcset(srcset) {
  * Use of this source code is governed by an MIT-style license that can be
  * found in the LICENSE file at https://angular.io/license
  */
-
-
-
-
-
-
-
-
-
-
-
-
-
+"use strict";
+__webpack_require__("./node_modules/rxjs/add/operator/first.js");
+__webpack_require__("./node_modules/rxjs/add/operator/catch.js");
+__webpack_require__("./node_modules/rxjs/add/operator/concatAll.js");
+var Observable_1 = __webpack_require__("./node_modules/rxjs/Observable.js");
+var from_1 = __webpack_require__("./node_modules/rxjs/observable/from.js");
+var of_1 = __webpack_require__("./node_modules/rxjs/observable/of.js");
+var EmptyError_1 = __webpack_require__("./node_modules/rxjs/util/EmptyError.js");
+var router_config_loader_1 = __webpack_require__("./node_modules/@angular/router/src/router_config_loader.js");
+var shared_1 = __webpack_require__("./node_modules/@angular/router/src/shared.js");
+var url_tree_1 = __webpack_require__("./node_modules/@angular/router/src/url_tree.js");
+var collection_1 = __webpack_require__("./node_modules/@angular/router/src/utils/collection.js");
 var NoMatch = (function () {
     function NoMatch(segmentGroup) {
         if (segmentGroup === void 0) { segmentGroup = null; }
@@ -52905,17 +50804,18 @@ var AbsoluteRedirect = (function () {
     return AbsoluteRedirect;
 }());
 function noMatch(segmentGroup) {
-    return new __WEBPACK_IMPORTED_MODULE_0_rxjs_Observable__["Observable"](function (obs) { return obs.error(new NoMatch(segmentGroup)); });
+    return new Observable_1.Observable(function (obs) { return obs.error(new NoMatch(segmentGroup)); });
 }
 function absoluteRedirect(segments) {
-    return new __WEBPACK_IMPORTED_MODULE_0_rxjs_Observable__["Observable"](function (obs) { return obs.error(new AbsoluteRedirect(segments)); });
+    return new Observable_1.Observable(function (obs) { return obs.error(new AbsoluteRedirect(segments)); });
 }
 function canLoadFails(route) {
-    return new __WEBPACK_IMPORTED_MODULE_0_rxjs_Observable__["Observable"](function (obs) { return obs.error(new __WEBPACK_IMPORTED_MODULE_10__shared__["b" /* NavigationCancelingError */]("Cannot load children because the guard of the route \"path: '" + route.path + "'\" returned false")); });
+    return new Observable_1.Observable(function (obs) { return obs.error(new Error("Cannot load children because the guard of the route \"path: '" + route.path + "'\" returned false")); });
 }
 function applyRedirects(injector, configLoader, urlTree, config) {
     return new ApplyRedirects(injector, configLoader, urlTree, config).apply();
 }
+exports.applyRedirects = applyRedirects;
 var ApplyRedirects = (function () {
     function ApplyRedirects(injector, configLoader, urlTree, config) {
         this.injector = injector;
@@ -52926,13 +50826,13 @@ var ApplyRedirects = (function () {
     }
     ApplyRedirects.prototype.apply = function () {
         var _this = this;
-        var expanded$ = this.expandSegmentGroup(this.injector, this.config, this.urlTree.root, __WEBPACK_IMPORTED_MODULE_10__shared__["a" /* PRIMARY_OUTLET */]);
-        var urlTrees$ = __WEBPACK_IMPORTED_MODULE_6_rxjs_operator_map__["map"].call(expanded$, function (rootSegmentGroup) { return _this.createUrlTree(rootSegmentGroup); });
-        return __WEBPACK_IMPORTED_MODULE_3_rxjs_operator_catch__["_catch"].call(urlTrees$, function (e) {
+        return this.expandSegmentGroup(this.injector, this.config, this.urlTree.root, shared_1.PRIMARY_OUTLET)
+            .map(function (rootSegmentGroup) { return _this.createUrlTree(rootSegmentGroup); })
+            .catch(function (e) {
             if (e instanceof AbsoluteRedirect) {
                 // after an absolute redirect we do not apply any more redirects!
                 _this.allowRedirects = false;
-                var group = new __WEBPACK_IMPORTED_MODULE_11__url_tree__["a" /* UrlSegmentGroup */]([], (_a = {}, _a[__WEBPACK_IMPORTED_MODULE_10__shared__["a" /* PRIMARY_OUTLET */]] = new __WEBPACK_IMPORTED_MODULE_11__url_tree__["a" /* UrlSegmentGroup */](e.segments, {}), _a));
+                var group = new url_tree_1.UrlSegmentGroup([], (_a = {}, _a[shared_1.PRIMARY_OUTLET] = new url_tree_1.UrlSegmentGroup(e.segments, {}), _a));
                 // we need to run matching, so we can fetch all lazy-loaded modules
                 return _this.match(group);
             }
@@ -52947,9 +50847,9 @@ var ApplyRedirects = (function () {
     };
     ApplyRedirects.prototype.match = function (segmentGroup) {
         var _this = this;
-        var expanded$ = this.expandSegmentGroup(this.injector, this.config, segmentGroup, __WEBPACK_IMPORTED_MODULE_10__shared__["a" /* PRIMARY_OUTLET */]);
-        var mapped$ = __WEBPACK_IMPORTED_MODULE_6_rxjs_operator_map__["map"].call(expanded$, function (rootSegmentGroup) { return _this.createUrlTree(rootSegmentGroup); });
-        return __WEBPACK_IMPORTED_MODULE_3_rxjs_operator_catch__["_catch"].call(mapped$, function (e) {
+        return this.expandSegmentGroup(this.injector, this.config, segmentGroup, shared_1.PRIMARY_OUTLET)
+            .map(function (rootSegmentGroup) { return _this.createUrlTree(rootSegmentGroup); })
+            .catch(function (e) {
             if (e instanceof NoMatch) {
                 throw _this.noMatchError(e);
             }
@@ -52963,14 +50863,15 @@ var ApplyRedirects = (function () {
     };
     ApplyRedirects.prototype.createUrlTree = function (rootCandidate) {
         var root = rootCandidate.segments.length > 0 ?
-            new __WEBPACK_IMPORTED_MODULE_11__url_tree__["a" /* UrlSegmentGroup */]([], (_a = {}, _a[__WEBPACK_IMPORTED_MODULE_10__shared__["a" /* PRIMARY_OUTLET */]] = rootCandidate, _a)) :
+            new url_tree_1.UrlSegmentGroup([], (_a = {}, _a[shared_1.PRIMARY_OUTLET] = rootCandidate, _a)) :
             rootCandidate;
-        return new __WEBPACK_IMPORTED_MODULE_11__url_tree__["b" /* UrlTree */](root, this.urlTree.queryParams, this.urlTree.fragment);
+        return new url_tree_1.UrlTree(root, this.urlTree.queryParams, this.urlTree.fragment);
         var _a;
     };
     ApplyRedirects.prototype.expandSegmentGroup = function (injector, routes, segmentGroup, outlet) {
         if (segmentGroup.segments.length === 0 && segmentGroup.hasChildren()) {
-            return __WEBPACK_IMPORTED_MODULE_6_rxjs_operator_map__["map"].call(this.expandChildren(injector, routes, segmentGroup), function (children) { return new __WEBPACK_IMPORTED_MODULE_11__url_tree__["a" /* UrlSegmentGroup */]([], children); });
+            return this.expandChildren(injector, routes, segmentGroup)
+                .map(function (children) { return new url_tree_1.UrlSegmentGroup([], children); });
         }
         else {
             return this.expandSegment(injector, segmentGroup, routes, segmentGroup.segments, outlet, true);
@@ -52978,24 +50879,24 @@ var ApplyRedirects = (function () {
     };
     ApplyRedirects.prototype.expandChildren = function (injector, routes, segmentGroup) {
         var _this = this;
-        return __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_12__utils_collection__["e" /* waitForMap */])(segmentGroup.children, function (childOutlet, child) { return _this.expandSegmentGroup(injector, routes, child, childOutlet); });
+        return collection_1.waitForMap(segmentGroup.children, function (childOutlet, child) { return _this.expandSegmentGroup(injector, routes, child, childOutlet); });
     };
     ApplyRedirects.prototype.expandSegment = function (injector, segmentGroup, routes, segments, outlet, allowRedirects) {
         var _this = this;
-        var routes$ = __WEBPACK_IMPORTED_MODULE_2_rxjs_observable_of__["of"].apply(void 0, routes);
-        var processedRoutes$ = __WEBPACK_IMPORTED_MODULE_6_rxjs_operator_map__["map"].call(routes$, function (r) {
-            var expanded$ = _this.expandSegmentAgainstRoute(injector, segmentGroup, routes, r, segments, outlet, allowRedirects);
-            return __WEBPACK_IMPORTED_MODULE_3_rxjs_operator_catch__["_catch"].call(expanded$, function (e) {
+        var processRoutes = of_1.of.apply(void 0, routes)
+            .map(function (r) {
+            return _this
+                .expandSegmentAgainstRoute(injector, segmentGroup, routes, r, segments, outlet, allowRedirects)
+                .catch(function (e) {
                 if (e instanceof NoMatch)
-                    return __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2_rxjs_observable_of__["of"])(null);
+                    return of_1.of(null);
                 else
                     throw e;
             });
-        });
-        var concattedProcessedRoutes$ = __WEBPACK_IMPORTED_MODULE_4_rxjs_operator_concatAll__["concatAll"].call(processedRoutes$);
-        var first$ = __WEBPACK_IMPORTED_MODULE_5_rxjs_operator_first__["first"].call(concattedProcessedRoutes$, function (s) { return !!s; });
-        return __WEBPACK_IMPORTED_MODULE_3_rxjs_operator_catch__["_catch"].call(first$, function (e, _) {
-            if (e instanceof __WEBPACK_IMPORTED_MODULE_8_rxjs_util_EmptyError__["EmptyError"]) {
+        })
+            .concatAll();
+        return processRoutes.first(function (s) { return !!s; }).catch(function (e, _) {
+            if (e instanceof EmptyError_1.EmptyError) {
                 throw new NoMatch(segmentGroup);
             }
             else {
@@ -53029,7 +50930,7 @@ var ApplyRedirects = (function () {
             return absoluteRedirect(newSegments);
         }
         else {
-            return __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2_rxjs_observable_of__["of"])(new __WEBPACK_IMPORTED_MODULE_11__url_tree__["a" /* UrlSegmentGroup */](newSegments, {}));
+            return of_1.of(new url_tree_1.UrlSegmentGroup(newSegments, {}));
         }
     };
     ApplyRedirects.prototype.expandRegularSegmentAgainstRouteUsingRedirect = function (injector, segmentGroup, routes, route, segments, outlet) {
@@ -53047,28 +50948,28 @@ var ApplyRedirects = (function () {
     ApplyRedirects.prototype.matchSegmentAgainstRoute = function (injector, rawSegmentGroup, route, segments) {
         var _this = this;
         if (route.path === '**') {
-            return __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2_rxjs_observable_of__["of"])(new __WEBPACK_IMPORTED_MODULE_11__url_tree__["a" /* UrlSegmentGroup */](segments, {}));
+            return of_1.of(new url_tree_1.UrlSegmentGroup(segments, {}));
         }
         else {
             var _a = match(rawSegmentGroup, route, segments), matched = _a.matched, consumedSegments_1 = _a.consumedSegments, lastChild = _a.lastChild;
             if (!matched)
                 return noMatch(rawSegmentGroup);
             var rawSlicedSegments_1 = segments.slice(lastChild);
-            var childConfig$ = this.getChildConfig(injector, route);
-            return __WEBPACK_IMPORTED_MODULE_7_rxjs_operator_mergeMap__["mergeMap"].call(childConfig$, function (routerConfig) {
+            return this.getChildConfig(injector, route).mergeMap(function (routerConfig) {
                 var childInjector = routerConfig.injector;
                 var childConfig = routerConfig.routes;
                 var _a = split(rawSegmentGroup, consumedSegments_1, rawSlicedSegments_1, childConfig), segmentGroup = _a.segmentGroup, slicedSegments = _a.slicedSegments;
                 if (slicedSegments.length === 0 && segmentGroup.hasChildren()) {
-                    var expanded$ = _this.expandChildren(childInjector, childConfig, segmentGroup);
-                    return __WEBPACK_IMPORTED_MODULE_6_rxjs_operator_map__["map"].call(expanded$, function (children) { return new __WEBPACK_IMPORTED_MODULE_11__url_tree__["a" /* UrlSegmentGroup */](consumedSegments_1, children); });
+                    return _this.expandChildren(childInjector, childConfig, segmentGroup)
+                        .map(function (children) { return new url_tree_1.UrlSegmentGroup(consumedSegments_1, children); });
                 }
                 else if (childConfig.length === 0 && slicedSegments.length === 0) {
-                    return __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2_rxjs_observable_of__["of"])(new __WEBPACK_IMPORTED_MODULE_11__url_tree__["a" /* UrlSegmentGroup */](consumedSegments_1, {}));
+                    return of_1.of(new url_tree_1.UrlSegmentGroup(consumedSegments_1, {}));
                 }
                 else {
-                    var expanded$ = _this.expandSegment(childInjector, segmentGroup, childConfig, slicedSegments, __WEBPACK_IMPORTED_MODULE_10__shared__["a" /* PRIMARY_OUTLET */], true);
-                    return __WEBPACK_IMPORTED_MODULE_6_rxjs_operator_map__["map"].call(expanded$, function (cs) { return new __WEBPACK_IMPORTED_MODULE_11__url_tree__["a" /* UrlSegmentGroup */](consumedSegments_1.concat(cs.segments), cs.children); });
+                    return _this
+                        .expandSegment(childInjector, segmentGroup, childConfig, slicedSegments, shared_1.PRIMARY_OUTLET, true)
+                        .map(function (cs) { return new url_tree_1.UrlSegmentGroup(consumedSegments_1.concat(cs.segments), cs.children); });
                 }
             });
         }
@@ -53076,16 +50977,16 @@ var ApplyRedirects = (function () {
     ApplyRedirects.prototype.getChildConfig = function (injector, route) {
         var _this = this;
         if (route.children) {
-            return __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2_rxjs_observable_of__["of"])(new __WEBPACK_IMPORTED_MODULE_9__router_config_loader__["a" /* LoadedRouterConfig */](route.children, injector, null));
+            return of_1.of(new router_config_loader_1.LoadedRouterConfig(route.children, injector, null));
         }
         else if (route.loadChildren) {
-            return __WEBPACK_IMPORTED_MODULE_7_rxjs_operator_mergeMap__["mergeMap"].call(runGuards(injector, route), function (shouldLoad) {
+            return runGuards(injector, route).mergeMap(function (shouldLoad) {
                 if (shouldLoad) {
                     if (route._loadedConfig) {
-                        return __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2_rxjs_observable_of__["of"])(route._loadedConfig);
+                        return of_1.of(route._loadedConfig);
                     }
                     else {
-                        return __WEBPACK_IMPORTED_MODULE_6_rxjs_operator_map__["map"].call(_this.configLoader.load(injector, route.loadChildren), function (r) {
+                        return _this.configLoader.load(injector, route.loadChildren).map(function (r) {
                             route._loadedConfig = r;
                             return r;
                         });
@@ -53097,7 +50998,7 @@ var ApplyRedirects = (function () {
             });
         }
         else {
-            return __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2_rxjs_observable_of__["of"])(new __WEBPACK_IMPORTED_MODULE_9__router_config_loader__["a" /* LoadedRouterConfig */]([], injector, null));
+            return of_1.of(new router_config_loader_1.LoadedRouterConfig([], injector, null));
         }
     };
     return ApplyRedirects;
@@ -53105,17 +51006,17 @@ var ApplyRedirects = (function () {
 function runGuards(injector, route) {
     var canLoad = route.canLoad;
     if (!canLoad || canLoad.length === 0)
-        return __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2_rxjs_observable_of__["of"])(true);
-    var obs = __WEBPACK_IMPORTED_MODULE_6_rxjs_operator_map__["map"].call(__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1_rxjs_observable_from__["from"])(canLoad), function (c) {
+        return of_1.of(true);
+    var obs = from_1.from(canLoad).map(function (c) {
         var guard = injector.get(c);
         if (guard.canLoad) {
-            return __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_12__utils_collection__["b" /* wrapIntoObservable */])(guard.canLoad(route));
+            return collection_1.wrapIntoObservable(guard.canLoad(route));
         }
         else {
-            return __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_12__utils_collection__["b" /* wrapIntoObservable */])(guard(route));
+            return collection_1.wrapIntoObservable(guard(route));
         }
     });
-    return __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_12__utils_collection__["f" /* andObservables */])(obs);
+    return collection_1.andObservables(obs);
 }
 function match(segmentGroup, route, segments) {
     var noMatch = { matched: false, consumedSegments: [], lastChild: 0, positionalParamSegments: {} };
@@ -53182,17 +51083,17 @@ function findOrCreateSegment(part, segments) {
         }
         idx++;
     }
-    return new __WEBPACK_IMPORTED_MODULE_11__url_tree__["c" /* UrlSegment */](part, {});
+    return new url_tree_1.UrlSegment(part, {});
 }
 function split(segmentGroup, consumedSegments, slicedSegments, config) {
     if (slicedSegments.length > 0 &&
         containsEmptyPathRedirectsWithNamedOutlets(segmentGroup, slicedSegments, config)) {
-        var s = new __WEBPACK_IMPORTED_MODULE_11__url_tree__["a" /* UrlSegmentGroup */](consumedSegments, createChildrenForEmptySegments(config, new __WEBPACK_IMPORTED_MODULE_11__url_tree__["a" /* UrlSegmentGroup */](slicedSegments, segmentGroup.children)));
+        var s = new url_tree_1.UrlSegmentGroup(consumedSegments, createChildrenForEmptySegments(config, new url_tree_1.UrlSegmentGroup(slicedSegments, segmentGroup.children)));
         return { segmentGroup: mergeTrivialChildren(s), slicedSegments: [] };
     }
     else if (slicedSegments.length === 0 &&
         containsEmptyPathRedirects(segmentGroup, slicedSegments, config)) {
-        var s = new __WEBPACK_IMPORTED_MODULE_11__url_tree__["a" /* UrlSegmentGroup */](segmentGroup.segments, addEmptySegmentsToChildrenIfNeeded(segmentGroup, slicedSegments, config, segmentGroup.children));
+        var s = new url_tree_1.UrlSegmentGroup(segmentGroup.segments, addEmptySegmentsToChildrenIfNeeded(segmentGroup, slicedSegments, config, segmentGroup.children));
         return { segmentGroup: mergeTrivialChildren(s), slicedSegments: slicedSegments };
     }
     else {
@@ -53200,9 +51101,9 @@ function split(segmentGroup, consumedSegments, slicedSegments, config) {
     }
 }
 function mergeTrivialChildren(s) {
-    if (s.numberOfChildren === 1 && s.children[__WEBPACK_IMPORTED_MODULE_10__shared__["a" /* PRIMARY_OUTLET */]]) {
-        var c = s.children[__WEBPACK_IMPORTED_MODULE_10__shared__["a" /* PRIMARY_OUTLET */]];
-        return new __WEBPACK_IMPORTED_MODULE_11__url_tree__["a" /* UrlSegmentGroup */](s.segments.concat(c.segments), c.children);
+    if (s.numberOfChildren === 1 && s.children[shared_1.PRIMARY_OUTLET]) {
+        var c = s.children[shared_1.PRIMARY_OUTLET];
+        return new url_tree_1.UrlSegmentGroup(s.segments.concat(c.segments), c.children);
     }
     else {
         return s;
@@ -53213,18 +51114,18 @@ function addEmptySegmentsToChildrenIfNeeded(segmentGroup, slicedSegments, routes
     for (var _i = 0, routes_1 = routes; _i < routes_1.length; _i++) {
         var r = routes_1[_i];
         if (emptyPathRedirect(segmentGroup, slicedSegments, r) && !children[getOutlet(r)]) {
-            res[getOutlet(r)] = new __WEBPACK_IMPORTED_MODULE_11__url_tree__["a" /* UrlSegmentGroup */]([], {});
+            res[getOutlet(r)] = new url_tree_1.UrlSegmentGroup([], {});
         }
     }
-    return __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_12__utils_collection__["g" /* merge */])(children, res);
+    return collection_1.merge(children, res);
 }
 function createChildrenForEmptySegments(routes, primarySegmentGroup) {
     var res = {};
-    res[__WEBPACK_IMPORTED_MODULE_10__shared__["a" /* PRIMARY_OUTLET */]] = primarySegmentGroup;
+    res[shared_1.PRIMARY_OUTLET] = primarySegmentGroup;
     for (var _i = 0, routes_2 = routes; _i < routes_2.length; _i++) {
         var r = routes_2[_i];
-        if (r.path === '' && getOutlet(r) !== __WEBPACK_IMPORTED_MODULE_10__shared__["a" /* PRIMARY_OUTLET */]) {
-            res[getOutlet(r)] = new __WEBPACK_IMPORTED_MODULE_11__url_tree__["a" /* UrlSegmentGroup */]([], {});
+        if (r.path === '' && getOutlet(r) !== shared_1.PRIMARY_OUTLET) {
+            res[getOutlet(r)] = new url_tree_1.UrlSegmentGroup([], {});
         }
     }
     return res;
@@ -53232,7 +51133,7 @@ function createChildrenForEmptySegments(routes, primarySegmentGroup) {
 function containsEmptyPathRedirectsWithNamedOutlets(segmentGroup, slicedSegments, routes) {
     return routes
         .filter(function (r) { return emptyPathRedirect(segmentGroup, slicedSegments, r) &&
-        getOutlet(r) !== __WEBPACK_IMPORTED_MODULE_10__shared__["a" /* PRIMARY_OUTLET */]; })
+        getOutlet(r) !== shared_1.PRIMARY_OUTLET; })
         .length > 0;
 }
 function containsEmptyPathRedirects(segmentGroup, slicedSegments, routes) {
@@ -53244,17 +51145,16 @@ function emptyPathRedirect(segmentGroup, slicedSegments, r) {
     return r.path === '' && r.redirectTo !== undefined;
 }
 function getOutlet(route) {
-    return route.outlet ? route.outlet : __WEBPACK_IMPORTED_MODULE_10__shared__["a" /* PRIMARY_OUTLET */];
+    return route.outlet ? route.outlet : shared_1.PRIMARY_OUTLET;
 }
 //# sourceMappingURL=apply_redirects.js.map
 
 /***/ },
 
 /***/ "./node_modules/@angular/router/src/config.js":
-/***/ function(module, exports, __webpack_require__) {
+/***/ function(module, exports) {
 
 "use strict";
-/* harmony export (immutable) */ exports["a"] = validateConfig;
 /**
  * @license
  * Copyright Google Inc. All Rights Reserved.
@@ -53262,9 +51162,11 @@ function getOutlet(route) {
  * Use of this source code is governed by an MIT-style license that can be
  * found in the LICENSE file at https://angular.io/license
  */
+"use strict";
 function validateConfig(config) {
     config.forEach(validateNode);
 }
+exports.validateConfig = validateConfig;
 function validateNode(route) {
     if (Array.isArray(route)) {
         throw new Error("Invalid route configuration: Array cannot be specified");
@@ -53307,11 +51209,6 @@ function validateNode(route) {
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_rxjs_BehaviorSubject__ = __webpack_require__("./node_modules/rxjs/BehaviorSubject.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_rxjs_BehaviorSubject___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_rxjs_BehaviorSubject__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__router_state__ = __webpack_require__("./node_modules/@angular/router/src/router_state.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__utils_tree__ = __webpack_require__("./node_modules/@angular/router/src/utils/tree.js");
-/* harmony export (immutable) */ exports["a"] = createRouterState;
 /**
  * @license
  * Copyright Google Inc. All Rights Reserved.
@@ -53319,24 +51216,26 @@ function validateNode(route) {
  * Use of this source code is governed by an MIT-style license that can be
  * found in the LICENSE file at https://angular.io/license
  */
-
-
-
+"use strict";
+var BehaviorSubject_1 = __webpack_require__("./node_modules/rxjs/BehaviorSubject.js");
+var router_state_1 = __webpack_require__("./node_modules/@angular/router/src/router_state.js");
+var tree_1 = __webpack_require__("./node_modules/@angular/router/src/utils/tree.js");
 function createRouterState(curr, prevState) {
     var root = createNode(curr._root, prevState ? prevState._root : undefined);
-    return new __WEBPACK_IMPORTED_MODULE_1__router_state__["a" /* RouterState */](root, curr);
+    return new router_state_1.RouterState(root, curr);
 }
+exports.createRouterState = createRouterState;
 function createNode(curr, prevState) {
     if (prevState && equalRouteSnapshots(prevState.value.snapshot, curr.value)) {
         var value = prevState.value;
         value._futureSnapshot = curr.value;
         var children = createOrReuseChildren(curr, prevState);
-        return new __WEBPACK_IMPORTED_MODULE_2__utils_tree__["b" /* TreeNode */](value, children);
+        return new tree_1.TreeNode(value, children);
     }
     else {
         var value = createActivatedRoute(curr.value);
         var children = curr.children.map(function (c) { return createNode(c); });
-        return new __WEBPACK_IMPORTED_MODULE_2__utils_tree__["b" /* TreeNode */](value, children);
+        return new tree_1.TreeNode(value, children);
     }
 }
 function createOrReuseChildren(curr, prevState) {
@@ -53351,7 +51250,7 @@ function createOrReuseChildren(curr, prevState) {
     });
 }
 function createActivatedRoute(c) {
-    return new __WEBPACK_IMPORTED_MODULE_1__router_state__["b" /* ActivatedRoute */](new __WEBPACK_IMPORTED_MODULE_0_rxjs_BehaviorSubject__["BehaviorSubject"](c.url), new __WEBPACK_IMPORTED_MODULE_0_rxjs_BehaviorSubject__["BehaviorSubject"](c.params), new __WEBPACK_IMPORTED_MODULE_0_rxjs_BehaviorSubject__["BehaviorSubject"](c.queryParams), new __WEBPACK_IMPORTED_MODULE_0_rxjs_BehaviorSubject__["BehaviorSubject"](c.fragment), new __WEBPACK_IMPORTED_MODULE_0_rxjs_BehaviorSubject__["BehaviorSubject"](c.data), c.outlet, c.component, c);
+    return new router_state_1.ActivatedRoute(new BehaviorSubject_1.BehaviorSubject(c.url), new BehaviorSubject_1.BehaviorSubject(c.params), new BehaviorSubject_1.BehaviorSubject(c.queryParams), new BehaviorSubject_1.BehaviorSubject(c.fragment), new BehaviorSubject_1.BehaviorSubject(c.data), c.outlet, c.component, c);
 }
 function equalRouteSnapshots(a, b) {
     return a._routeConfig === b._routeConfig;
@@ -53364,10 +51263,6 @@ function equalRouteSnapshots(a, b) {
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__shared__ = __webpack_require__("./node_modules/@angular/router/src/shared.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__url_tree__ = __webpack_require__("./node_modules/@angular/router/src/url_tree.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__utils_collection__ = __webpack_require__("./node_modules/@angular/router/src/utils/collection.js");
-/* harmony export (immutable) */ exports["a"] = createUrlTree;
 /**
  * @license
  * Copyright Google Inc. All Rights Reserved.
@@ -53375,9 +51270,10 @@ function equalRouteSnapshots(a, b) {
  * Use of this source code is governed by an MIT-style license that can be
  * found in the LICENSE file at https://angular.io/license
  */
-
-
-
+"use strict";
+var shared_1 = __webpack_require__("./node_modules/@angular/router/src/shared.js");
+var url_tree_1 = __webpack_require__("./node_modules/@angular/router/src/url_tree.js");
+var collection_1 = __webpack_require__("./node_modules/@angular/router/src/utils/collection.js");
 function createUrlTree(route, urlTree, commands, queryParams, fragment) {
     if (commands.length === 0) {
         return tree(urlTree.root, urlTree.root, urlTree, queryParams, fragment);
@@ -53385,7 +51281,7 @@ function createUrlTree(route, urlTree, commands, queryParams, fragment) {
     var normalizedCommands = normalizeCommands(commands);
     validateCommands(normalizedCommands);
     if (navigateToRoot(normalizedCommands)) {
-        return tree(urlTree.root, new __WEBPACK_IMPORTED_MODULE_1__url_tree__["a" /* UrlSegmentGroup */]([], {}), urlTree, queryParams, fragment);
+        return tree(urlTree.root, new url_tree_1.UrlSegmentGroup([], {}), urlTree, queryParams, fragment);
     }
     var startingPosition = findStartingPosition(normalizedCommands, urlTree, route);
     var segmentGroup = startingPosition.processChildren ?
@@ -53393,6 +51289,7 @@ function createUrlTree(route, urlTree, commands, queryParams, fragment) {
         updateSegmentGroup(startingPosition.segmentGroup, startingPosition.index, normalizedCommands.commands);
     return tree(startingPosition.segmentGroup, segmentGroup, urlTree, queryParams, fragment);
 }
+exports.createUrlTree = createUrlTree;
 function validateCommands(n) {
     if (n.isAbsolute && n.commands.length > 0 && isMatrixParams(n.commands[0])) {
         throw new Error('Root segment cannot have matrix parameters');
@@ -53408,15 +51305,15 @@ function isMatrixParams(command) {
 }
 function tree(oldSegmentGroup, newSegmentGroup, urlTree, queryParams, fragment) {
     if (urlTree.root === oldSegmentGroup) {
-        return new __WEBPACK_IMPORTED_MODULE_1__url_tree__["b" /* UrlTree */](newSegmentGroup, stringify(queryParams), fragment);
+        return new url_tree_1.UrlTree(newSegmentGroup, stringify(queryParams), fragment);
     }
     else {
-        return new __WEBPACK_IMPORTED_MODULE_1__url_tree__["b" /* UrlTree */](replaceSegment(urlTree.root, oldSegmentGroup, newSegmentGroup), stringify(queryParams), fragment);
+        return new url_tree_1.UrlTree(replaceSegment(urlTree.root, oldSegmentGroup, newSegmentGroup), stringify(queryParams), fragment);
     }
 }
 function replaceSegment(current, oldSegment, newSegment) {
     var children = {};
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2__utils_collection__["c" /* forEach */])(current.children, function (c, outletName) {
+    collection_1.forEach(current.children, function (c, outletName) {
         if (c === oldSegment) {
             children[outletName] = newSegment;
         }
@@ -53424,7 +51321,7 @@ function replaceSegment(current, oldSegment, newSegment) {
             children[outletName] = replaceSegment(c, oldSegment, newSegment);
         }
     });
-    return new __WEBPACK_IMPORTED_MODULE_1__url_tree__["a" /* UrlSegmentGroup */](current.segments, children);
+    return new url_tree_1.UrlSegmentGroup(current.segments, children);
 }
 function navigateToRoot(normalizedChange) {
     return normalizedChange.isAbsolute && normalizedChange.commands.length === 1 &&
@@ -53449,7 +51346,7 @@ function normalizeCommands(commands) {
         var c = commands[i];
         if (typeof c === 'object' && c.outlets !== undefined) {
             var r_1 = {};
-            __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2__utils_collection__["c" /* forEach */])(c.outlets, function (commands, name) {
+            collection_1.forEach(c.outlets, function (commands, name) {
                 if (typeof commands === 'string') {
                     r_1[name] = commands.split('/');
                 }
@@ -53534,15 +51431,15 @@ function getPath(command) {
 }
 function getOutlets(commands) {
     if (!(typeof commands[0] === 'object'))
-        return (_a = {}, _a[__WEBPACK_IMPORTED_MODULE_0__shared__["a" /* PRIMARY_OUTLET */]] = commands, _a);
+        return (_a = {}, _a[shared_1.PRIMARY_OUTLET] = commands, _a);
     if (commands[0].outlets === undefined)
-        return (_b = {}, _b[__WEBPACK_IMPORTED_MODULE_0__shared__["a" /* PRIMARY_OUTLET */]] = commands, _b);
+        return (_b = {}, _b[shared_1.PRIMARY_OUTLET] = commands, _b);
     return commands[0].outlets;
     var _a, _b;
 }
 function updateSegmentGroup(segmentGroup, startIndex, commands) {
     if (!segmentGroup) {
-        segmentGroup = new __WEBPACK_IMPORTED_MODULE_1__url_tree__["a" /* UrlSegmentGroup */]([], {});
+        segmentGroup = new url_tree_1.UrlSegmentGroup([], {});
     }
     if (segmentGroup.segments.length === 0 && segmentGroup.hasChildren()) {
         return updateSegmentGroupChildren(segmentGroup, startIndex, commands);
@@ -53550,7 +51447,7 @@ function updateSegmentGroup(segmentGroup, startIndex, commands) {
     var m = prefixedWith(segmentGroup, startIndex, commands);
     var slicedCommands = commands.slice(m.lastIndex);
     if (m.match && slicedCommands.length === 0) {
-        return new __WEBPACK_IMPORTED_MODULE_1__url_tree__["a" /* UrlSegmentGroup */](segmentGroup.segments, {});
+        return new url_tree_1.UrlSegmentGroup(segmentGroup.segments, {});
     }
     else if (m.match && !segmentGroup.hasChildren()) {
         return createNewSegmentGroup(segmentGroup, startIndex, commands);
@@ -53564,22 +51461,22 @@ function updateSegmentGroup(segmentGroup, startIndex, commands) {
 }
 function updateSegmentGroupChildren(segmentGroup, startIndex, commands) {
     if (commands.length === 0) {
-        return new __WEBPACK_IMPORTED_MODULE_1__url_tree__["a" /* UrlSegmentGroup */](segmentGroup.segments, {});
+        return new url_tree_1.UrlSegmentGroup(segmentGroup.segments, {});
     }
     else {
         var outlets_1 = getOutlets(commands);
         var children_1 = {};
-        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2__utils_collection__["c" /* forEach */])(outlets_1, function (commands, outlet) {
+        collection_1.forEach(outlets_1, function (commands, outlet) {
             if (commands !== null) {
                 children_1[outlet] = updateSegmentGroup(segmentGroup.children[outlet], startIndex, commands);
             }
         });
-        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2__utils_collection__["c" /* forEach */])(segmentGroup.children, function (child, childOutlet) {
+        collection_1.forEach(segmentGroup.children, function (child, childOutlet) {
             if (outlets_1[childOutlet] === undefined) {
                 children_1[childOutlet] = child;
             }
         });
-        return new __WEBPACK_IMPORTED_MODULE_1__url_tree__["a" /* UrlSegmentGroup */](segmentGroup.segments, children_1);
+        return new url_tree_1.UrlSegmentGroup(segmentGroup.segments, children_1);
     }
 }
 function prefixedWith(segmentGroup, startIndex, commands) {
@@ -53612,44 +51509,44 @@ function createNewSegmentGroup(segmentGroup, startIndex, commands) {
     while (i < commands.length) {
         if (typeof commands[i] === 'object' && commands[i].outlets !== undefined) {
             var children = createNewSegmentChldren(commands[i].outlets);
-            return new __WEBPACK_IMPORTED_MODULE_1__url_tree__["a" /* UrlSegmentGroup */](paths, children);
+            return new url_tree_1.UrlSegmentGroup(paths, children);
         }
         // if we start with an object literal, we need to reuse the path part from the segment
         if (i === 0 && isMatrixParams(commands[0])) {
             var p = segmentGroup.segments[startIndex];
-            paths.push(new __WEBPACK_IMPORTED_MODULE_1__url_tree__["c" /* UrlSegment */](p.path, commands[0]));
+            paths.push(new url_tree_1.UrlSegment(p.path, commands[0]));
             i++;
             continue;
         }
         var curr = getPath(commands[i]);
         var next = (i < commands.length - 1) ? commands[i + 1] : null;
         if (curr && next && isMatrixParams(next)) {
-            paths.push(new __WEBPACK_IMPORTED_MODULE_1__url_tree__["c" /* UrlSegment */](curr, stringify(next)));
+            paths.push(new url_tree_1.UrlSegment(curr, stringify(next)));
             i += 2;
         }
         else {
-            paths.push(new __WEBPACK_IMPORTED_MODULE_1__url_tree__["c" /* UrlSegment */](curr, {}));
+            paths.push(new url_tree_1.UrlSegment(curr, {}));
             i++;
         }
     }
-    return new __WEBPACK_IMPORTED_MODULE_1__url_tree__["a" /* UrlSegmentGroup */](paths, {});
+    return new url_tree_1.UrlSegmentGroup(paths, {});
 }
 function createNewSegmentChldren(outlets) {
     var children = {};
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2__utils_collection__["c" /* forEach */])(outlets, function (commands, outlet) {
+    collection_1.forEach(outlets, function (commands, outlet) {
         if (commands !== null) {
-            children[outlet] = createNewSegmentGroup(new __WEBPACK_IMPORTED_MODULE_1__url_tree__["a" /* UrlSegmentGroup */]([], {}), 0, commands);
+            children[outlet] = createNewSegmentGroup(new url_tree_1.UrlSegmentGroup([], {}), 0, commands);
         }
     });
     return children;
 }
 function stringify(params) {
     var res = {};
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2__utils_collection__["c" /* forEach */])(params, function (v, k) { return res[k] = "" + v; });
+    collection_1.forEach(params, function (v, k) { return res[k] = "" + v; });
     return res;
 }
 function compare(path, params, segment) {
-    return path == segment.path && __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2__utils_collection__["d" /* shallowEqual */])(params, segment.parameters);
+    return path == segment.path && collection_1.shallowEqual(params, segment.parameters);
 }
 //# sourceMappingURL=create_url_tree.js.map
 
@@ -53659,12 +51556,6 @@ function compare(path, params, segment) {
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_common__ = __webpack_require__("./node_modules/@angular/common/index.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__("./node_modules/@angular/core/index.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__router__ = __webpack_require__("./node_modules/@angular/router/src/router.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__router_state__ = __webpack_require__("./node_modules/@angular/router/src/router_state.js");
-/* harmony export (binding) */ __webpack_require__.d(exports, "a", function() { return RouterLink; });
-/* harmony export (binding) */ __webpack_require__.d(exports, "b", function() { return RouterLinkWithHref; });
 /**
  * @license
  * Copyright Google Inc. All Rights Reserved.
@@ -53672,64 +51563,11 @@ function compare(path, params, segment) {
  * Use of this source code is governed by an MIT-style license that can be
  * found in the LICENSE file at https://angular.io/license
  */
-
-
-
-
-/**
- * The RouterLink directive lets you link to specific parts of your app.
- *
- * Consider the following route configuration:
-
- * ```
- * [{ path: 'user/:name', component: UserCmp }]
- * ```
- *
- * When linking to this `User` route, you can write:
- *
- * ```
- * <a [routerLink]="/user/bob">link to user component</a>
- * ```
- *
- * If you use dynamic values to generate the link, you can pass an array of path
- * segments, followed by the params for each segment.
- *
- * For instance `['/team', teamId, 'user', userName, {details: true}]`
- * means that we want to generate a link to `/team/11/user/bob;details=true`.
- * Multiple static segments can be merged into one (e.g., `['/team/11/user', userName, {details:
- true}]`).
- *
- * The first segment name can be prepended with `/`, `./`, or `../`:
- * * If the first segment begins with `/`, the router will look up the route from the root of the
- app.
- * * If the first segment begins with `./`, or doesn't begin with a slash, the router will
- * instead look in the children of the current activated route.
- * * And if the first segment begins with `../`, the router will go up one level.
- *
- * You can set query params and fragment as follows:
- *
- * ```
- * <a [routerLink]="['/user/bob']" [queryParams]="{debug: true}" fragment="education">link to user
- component</a>
- * ```
- * RouterLink will use these to generate this link: `/user/bob#education?debug=true`.
- *
- * You can also tell the directive to preserve the current query params and fragment:
- *
- * ```
- * <a [routerLink]="['/user/bob']" preserveQueryParams preserveFragment>link to user
- component</a>
- * ```
- *
- * The router link directive always treats the provided input as a delta to the current url.
- *
- * For instance, if the current url is `/user/(box//aux:team)`.
- *
- * Then the following link `<a [routerLink]="['/user/jim']">Jim</a>` will generate the link
- * `/user/(jim//aux:team)`. See {@link Router.createUrlTree} for more information.
- *
- * @stable
- */
+"use strict";
+var common_1 = __webpack_require__("./node_modules/@angular/common/index.js");
+var core_1 = __webpack_require__("./node_modules/@angular/core/index.js");
+var router_1 = __webpack_require__("./node_modules/@angular/router/src/router.js");
+var router_state_1 = __webpack_require__("./node_modules/@angular/router/src/router_state.js");
 var RouterLink = (function () {
     function RouterLink(router, route, locationStrategy) {
         this.router = router;
@@ -53769,29 +51607,28 @@ var RouterLink = (function () {
         enumerable: true,
         configurable: true
     });
+    /** @nocollapse */
     RouterLink.decorators = [
-        { type: __WEBPACK_IMPORTED_MODULE_1__angular_core__["Directive"], args: [{ selector: ':not(a)[routerLink]' },] },
+        { type: core_1.Directive, args: [{ selector: ':not(a)[routerLink]' },] },
     ];
     /** @nocollapse */
     RouterLink.ctorParameters = [
-        { type: __WEBPACK_IMPORTED_MODULE_2__router__["a" /* Router */], },
-        { type: __WEBPACK_IMPORTED_MODULE_3__router_state__["b" /* ActivatedRoute */], },
-        { type: __WEBPACK_IMPORTED_MODULE_0__angular_common__["LocationStrategy"], },
+        { type: router_1.Router, },
+        { type: router_state_1.ActivatedRoute, },
+        { type: common_1.LocationStrategy, },
     ];
+    /** @nocollapse */
     RouterLink.propDecorators = {
-        'queryParams': [{ type: __WEBPACK_IMPORTED_MODULE_1__angular_core__["Input"] },],
-        'fragment': [{ type: __WEBPACK_IMPORTED_MODULE_1__angular_core__["Input"] },],
-        'preserveQueryParams': [{ type: __WEBPACK_IMPORTED_MODULE_1__angular_core__["Input"] },],
-        'preserveFragment': [{ type: __WEBPACK_IMPORTED_MODULE_1__angular_core__["Input"] },],
-        'routerLink': [{ type: __WEBPACK_IMPORTED_MODULE_1__angular_core__["Input"] },],
-        'onClick': [{ type: __WEBPACK_IMPORTED_MODULE_1__angular_core__["HostListener"], args: ['click', ['$event.button', '$event.ctrlKey', '$event.metaKey'],] },],
+        'queryParams': [{ type: core_1.Input },],
+        'fragment': [{ type: core_1.Input },],
+        'preserveQueryParams': [{ type: core_1.Input },],
+        'preserveFragment': [{ type: core_1.Input },],
+        'routerLink': [{ type: core_1.Input },],
+        'onClick': [{ type: core_1.HostListener, args: ['click', ['$event.button', '$event.ctrlKey', '$event.metaKey'],] },],
     };
     return RouterLink;
 }());
-/**
- * See {@link RouterLink} for more information.
- * @stable
- */
+exports.RouterLink = RouterLink;
 var RouterLinkWithHref = (function () {
     function RouterLinkWithHref(router, route, locationStrategy) {
         var _this = this;
@@ -53800,7 +51637,7 @@ var RouterLinkWithHref = (function () {
         this.locationStrategy = locationStrategy;
         this.commands = [];
         this.subscription = router.events.subscribe(function (s) {
-            if (s instanceof __WEBPACK_IMPORTED_MODULE_2__router__["b" /* NavigationEnd */]) {
+            if (s instanceof router_1.NavigationEnd) {
                 _this.updateTargetUrlAndHref();
             }
         });
@@ -53830,43 +51667,42 @@ var RouterLinkWithHref = (function () {
         return false;
     };
     RouterLinkWithHref.prototype.updateTargetUrlAndHref = function () {
-        this.href = this.locationStrategy.prepareExternalUrl(this.router.serializeUrl(this.urlTree));
+        this.urlTree = this.router.createUrlTree(this.commands, {
+            relativeTo: this.route,
+            queryParams: this.queryParams,
+            fragment: this.fragment,
+            preserveQueryParams: toBool(this.preserveQueryParams),
+            preserveFragment: toBool(this.preserveFragment)
+        });
+        if (this.urlTree) {
+            this.href = this.locationStrategy.prepareExternalUrl(this.router.serializeUrl(this.urlTree));
+        }
     };
-    Object.defineProperty(RouterLinkWithHref.prototype, "urlTree", {
-        get: function () {
-            return this.router.createUrlTree(this.commands, {
-                relativeTo: this.route,
-                queryParams: this.queryParams,
-                fragment: this.fragment,
-                preserveQueryParams: toBool(this.preserveQueryParams),
-                preserveFragment: toBool(this.preserveFragment)
-            });
-        },
-        enumerable: true,
-        configurable: true
-    });
+    /** @nocollapse */
     RouterLinkWithHref.decorators = [
-        { type: __WEBPACK_IMPORTED_MODULE_1__angular_core__["Directive"], args: [{ selector: 'a[routerLink]' },] },
+        { type: core_1.Directive, args: [{ selector: 'a[routerLink]' },] },
     ];
     /** @nocollapse */
     RouterLinkWithHref.ctorParameters = [
-        { type: __WEBPACK_IMPORTED_MODULE_2__router__["a" /* Router */], },
-        { type: __WEBPACK_IMPORTED_MODULE_3__router_state__["b" /* ActivatedRoute */], },
-        { type: __WEBPACK_IMPORTED_MODULE_0__angular_common__["LocationStrategy"], },
+        { type: router_1.Router, },
+        { type: router_state_1.ActivatedRoute, },
+        { type: common_1.LocationStrategy, },
     ];
+    /** @nocollapse */
     RouterLinkWithHref.propDecorators = {
-        'target': [{ type: __WEBPACK_IMPORTED_MODULE_1__angular_core__["Input"] },],
-        'queryParams': [{ type: __WEBPACK_IMPORTED_MODULE_1__angular_core__["Input"] },],
-        'fragment': [{ type: __WEBPACK_IMPORTED_MODULE_1__angular_core__["Input"] },],
-        'routerLinkOptions': [{ type: __WEBPACK_IMPORTED_MODULE_1__angular_core__["Input"] },],
-        'preserveQueryParams': [{ type: __WEBPACK_IMPORTED_MODULE_1__angular_core__["Input"] },],
-        'preserveFragment': [{ type: __WEBPACK_IMPORTED_MODULE_1__angular_core__["Input"] },],
-        'href': [{ type: __WEBPACK_IMPORTED_MODULE_1__angular_core__["HostBinding"] },],
-        'routerLink': [{ type: __WEBPACK_IMPORTED_MODULE_1__angular_core__["Input"] },],
-        'onClick': [{ type: __WEBPACK_IMPORTED_MODULE_1__angular_core__["HostListener"], args: ['click', ['$event.button', '$event.ctrlKey', '$event.metaKey'],] },],
+        'target': [{ type: core_1.Input },],
+        'queryParams': [{ type: core_1.Input },],
+        'fragment': [{ type: core_1.Input },],
+        'routerLinkOptions': [{ type: core_1.Input },],
+        'preserveQueryParams': [{ type: core_1.Input },],
+        'preserveFragment': [{ type: core_1.Input },],
+        'href': [{ type: core_1.HostBinding },],
+        'routerLink': [{ type: core_1.Input },],
+        'onClick': [{ type: core_1.HostListener, args: ['click', ['$event.button', '$event.ctrlKey', '$event.metaKey'],] },],
     };
     return RouterLinkWithHref;
 }());
+exports.RouterLinkWithHref = RouterLinkWithHref;
 function toBool(s) {
     if (s === '')
         return true;
@@ -53880,10 +51716,6 @@ function toBool(s) {
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/index.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__router__ = __webpack_require__("./node_modules/@angular/router/src/router.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__router_link__ = __webpack_require__("./node_modules/@angular/router/src/directives/router_link.js");
-/* harmony export (binding) */ __webpack_require__.d(exports, "a", function() { return RouterLinkActive; });
 /**
  * @license
  * Copyright Google Inc. All Rights Reserved.
@@ -53891,51 +51723,10 @@ function toBool(s) {
  * Use of this source code is governed by an MIT-style license that can be
  * found in the LICENSE file at https://angular.io/license
  */
-
-
-
-/**
- * The RouterLinkActive directive lets you add a CSS class to an element when the link's route
- * becomes active.
- *
- * Consider the following example:
- *
- * ```
- * <a [routerLink]="/user/bob" routerLinkActive="active-link">Bob</a>
- * ```
- *
- * When the url is either '/user' or '/user/bob', the active-link class will
- * be added to the `a` tag. If the url changes, the class will be removed.
- *
- * You can set more than one class, as follows:
- *
- * ```
- * <a [routerLink]="/user/bob" routerLinkActive="class1 class2">Bob</a>
- * <a [routerLink]="/user/bob" routerLinkActive="['class1', 'class2']">Bob</a>
- * ```
- *
- * You can configure RouterLinkActive by passing `exact: true`. This will add the classes
- * only when the url matches the link exactly.
- *
- * ```
- * <a [routerLink]="/user/bob" routerLinkActive="active-link" [routerLinkActiveOptions]="{exact:
- * true}">Bob</a>
- * ```
- *
- * Finally, you can apply the RouterLinkActive directive to an ancestor of a RouterLink.
- *
- * ```
- * <div routerLinkActive="active-link" [routerLinkActiveOptions]="{exact: true}">
- *   <a [routerLink]="/user/jim">Jim</a>
- *   <a [routerLink]="/user/bob">Bob</a>
- * </div>
- * ```
- *
- * This will set the active-link class on the div tag if the url is either '/user/jim' or
- * '/user/bob'.
- *
- * @stable
- */
+"use strict";
+var core_1 = __webpack_require__("./node_modules/@angular/core/index.js");
+var router_1 = __webpack_require__("./node_modules/@angular/router/src/router.js");
+var router_link_1 = __webpack_require__("./node_modules/@angular/router/src/directives/router_link.js");
 var RouterLinkActive = (function () {
     function RouterLinkActive(router, element, renderer) {
         var _this = this;
@@ -53945,7 +51736,7 @@ var RouterLinkActive = (function () {
         this.classes = [];
         this.routerLinkActiveOptions = { exact: false };
         this.subscription = router.events.subscribe(function (s) {
-            if (s instanceof __WEBPACK_IMPORTED_MODULE_1__router__["b" /* NavigationEnd */]) {
+            if (s instanceof router_1.NavigationEnd) {
                 _this.update();
             }
         });
@@ -53984,23 +51775,26 @@ var RouterLinkActive = (function () {
             return res || _this.router.isActive(link.urlTree, _this.routerLinkActiveOptions.exact);
         }, false);
     };
+    /** @nocollapse */
     RouterLinkActive.decorators = [
-        { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["Directive"], args: [{ selector: '[routerLinkActive]' },] },
+        { type: core_1.Directive, args: [{ selector: '[routerLinkActive]' },] },
     ];
     /** @nocollapse */
     RouterLinkActive.ctorParameters = [
-        { type: __WEBPACK_IMPORTED_MODULE_1__router__["a" /* Router */], },
-        { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["ElementRef"], },
-        { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["Renderer"], },
+        { type: router_1.Router, },
+        { type: core_1.ElementRef, },
+        { type: core_1.Renderer, },
     ];
+    /** @nocollapse */
     RouterLinkActive.propDecorators = {
-        'links': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["ContentChildren"], args: [__WEBPACK_IMPORTED_MODULE_2__router_link__["a" /* RouterLink */], { descendants: true },] },],
-        'linksWithHrefs': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["ContentChildren"], args: [__WEBPACK_IMPORTED_MODULE_2__router_link__["b" /* RouterLinkWithHref */], { descendants: true },] },],
-        'routerLinkActiveOptions': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["Input"] },],
-        'routerLinkActive': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["Input"] },],
+        'links': [{ type: core_1.ContentChildren, args: [router_link_1.RouterLink, { descendants: true },] },],
+        'linksWithHrefs': [{ type: core_1.ContentChildren, args: [router_link_1.RouterLinkWithHref, { descendants: true },] },],
+        'routerLinkActiveOptions': [{ type: core_1.Input },],
+        'routerLinkActive': [{ type: core_1.Input },],
     };
     return RouterLinkActive;
 }());
+exports.RouterLinkActive = RouterLinkActive;
 //# sourceMappingURL=router_link_active.js.map
 
 /***/ },
@@ -54009,10 +51803,6 @@ var RouterLinkActive = (function () {
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/index.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__router_outlet_map__ = __webpack_require__("./node_modules/@angular/router/src/router_outlet_map.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__shared__ = __webpack_require__("./node_modules/@angular/router/src/shared.js");
-/* harmony export (binding) */ __webpack_require__.d(exports, "a", function() { return RouterOutlet; });
 /**
  * @license
  * Copyright Google Inc. All Rights Reserved.
@@ -54020,43 +51810,21 @@ var RouterLinkActive = (function () {
  * Use of this source code is governed by an MIT-style license that can be
  * found in the LICENSE file at https://angular.io/license
  */
-
-
-
-/**
- * A router outlet is a placeholder that Angular dynamically fills based on the application's route.
- *
- * ## Example
- *
- * ```
- * <router-outlet></router-outlet>
- * <router-outlet name="left"></router-outlet>
- * <router-outlet name="right"></router-outlet>
- * ```
- *
- * A router outlet will emit an activate event any time a new component is being instantiated,
- * and a deactivate event when it is being destroyed.
- *
- * ## Example
- *
- * ```
- * <router-outlet (activate)="onActivate($event)"
- * (deactivate)="onDeactivate($event)"></router-outlet>
- * ```
- *
- * @stable
- */
+"use strict";
+var core_1 = __webpack_require__("./node_modules/@angular/core/index.js");
+var router_outlet_map_1 = __webpack_require__("./node_modules/@angular/router/src/router_outlet_map.js");
+var shared_1 = __webpack_require__("./node_modules/@angular/router/src/shared.js");
 var RouterOutlet = (function () {
     function RouterOutlet(parentOutletMap, location, resolver, name) {
         this.parentOutletMap = parentOutletMap;
         this.location = location;
         this.resolver = resolver;
         this.name = name;
-        this.activateEvents = new __WEBPACK_IMPORTED_MODULE_0__angular_core__["EventEmitter"]();
-        this.deactivateEvents = new __WEBPACK_IMPORTED_MODULE_0__angular_core__["EventEmitter"]();
-        parentOutletMap.registerOutlet(name ? name : __WEBPACK_IMPORTED_MODULE_2__shared__["a" /* PRIMARY_OUTLET */], this);
+        this.activateEvents = new core_1.EventEmitter();
+        this.deactivateEvents = new core_1.EventEmitter();
+        parentOutletMap.registerOutlet(name ? name : shared_1.PRIMARY_OUTLET, this);
     }
-    RouterOutlet.prototype.ngOnDestroy = function () { this.parentOutletMap.removeOutlet(this.name ? this.name : __WEBPACK_IMPORTED_MODULE_2__shared__["a" /* PRIMARY_OUTLET */]); };
+    RouterOutlet.prototype.ngOnDestroy = function () { this.parentOutletMap.removeOutlet(this.name ? this.name : shared_1.PRIMARY_OUTLET); };
     Object.defineProperty(RouterOutlet.prototype, "isActivated", {
         get: function () { return !!this.activated; },
         enumerable: true,
@@ -54101,113 +51869,31 @@ var RouterOutlet = (function () {
             factory = this.resolver.resolveComponentFactory(component);
         }
         var injector = loadedInjector ? loadedInjector : this.location.parentInjector;
-        var inj = __WEBPACK_IMPORTED_MODULE_0__angular_core__["ReflectiveInjector"].fromResolvedProviders(providers, injector);
+        var inj = core_1.ReflectiveInjector.fromResolvedProviders(providers, injector);
         this.activated = this.location.createComponent(factory, this.location.length, inj, []);
         this.activated.changeDetectorRef.detectChanges();
         this.activateEvents.emit(this.activated.instance);
     };
+    /** @nocollapse */
     RouterOutlet.decorators = [
-        { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["Directive"], args: [{ selector: 'router-outlet' },] },
+        { type: core_1.Directive, args: [{ selector: 'router-outlet' },] },
     ];
     /** @nocollapse */
     RouterOutlet.ctorParameters = [
-        { type: __WEBPACK_IMPORTED_MODULE_1__router_outlet_map__["a" /* RouterOutletMap */], },
-        { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["ViewContainerRef"], },
-        { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["ComponentFactoryResolver"], },
-        { type: undefined, decorators: [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["Attribute"], args: ['name',] },] },
+        { type: router_outlet_map_1.RouterOutletMap, },
+        { type: core_1.ViewContainerRef, },
+        { type: core_1.ComponentFactoryResolver, },
+        { type: undefined, decorators: [{ type: core_1.Attribute, args: ['name',] },] },
     ];
+    /** @nocollapse */
     RouterOutlet.propDecorators = {
-        'activateEvents': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["Output"], args: ['activate',] },],
-        'deactivateEvents': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["Output"], args: ['deactivate',] },],
+        'activateEvents': [{ type: core_1.Output, args: ['activate',] },],
+        'deactivateEvents': [{ type: core_1.Output, args: ['deactivate',] },],
     };
     return RouterOutlet;
 }());
+exports.RouterOutlet = RouterOutlet;
 //# sourceMappingURL=router_outlet.js.map
-
-/***/ },
-
-/***/ "./node_modules/@angular/router/src/index.js":
-/***/ function(module, exports, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__directives_router_link__ = __webpack_require__("./node_modules/@angular/router/src/directives/router_link.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__directives_router_link_active__ = __webpack_require__("./node_modules/@angular/router/src/directives/router_link_active.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__directives_router_outlet__ = __webpack_require__("./node_modules/@angular/router/src/directives/router_outlet.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__router__ = __webpack_require__("./node_modules/@angular/router/src/router.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__router_module__ = __webpack_require__("./node_modules/@angular/router/src/router_module.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__router_outlet_map__ = __webpack_require__("./node_modules/@angular/router/src/router_outlet_map.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__router_state__ = __webpack_require__("./node_modules/@angular/router/src/router_state.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__shared__ = __webpack_require__("./node_modules/@angular/router/src/shared.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__url_tree__ = __webpack_require__("./node_modules/@angular/router/src/url_tree.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__private_export__ = __webpack_require__("./node_modules/@angular/router/src/private_export.js");
-/* harmony reexport (binding) */ __webpack_require__.d(exports, "a", function() { return __WEBPACK_IMPORTED_MODULE_0__directives_router_link__["a"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(exports, "b", function() { return __WEBPACK_IMPORTED_MODULE_0__directives_router_link__["b"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(exports, "c", function() { return __WEBPACK_IMPORTED_MODULE_1__directives_router_link_active__["a"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(exports, "d", function() { return __WEBPACK_IMPORTED_MODULE_2__directives_router_outlet__["a"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(exports, "e", function() { return __WEBPACK_IMPORTED_MODULE_3__router__["c"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(exports, "f", function() { return __WEBPACK_IMPORTED_MODULE_3__router__["d"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(exports, "g", function() { return __WEBPACK_IMPORTED_MODULE_3__router__["e"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(exports, "h", function() { return __WEBPACK_IMPORTED_MODULE_3__router__["a"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(exports, "i", function() { return __WEBPACK_IMPORTED_MODULE_3__router__["f"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(exports, "j", function() { return __WEBPACK_IMPORTED_MODULE_3__router__["b"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(exports, "k", function() { return __WEBPACK_IMPORTED_MODULE_4__router_module__["b"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(exports, "l", function() { return __WEBPACK_IMPORTED_MODULE_4__router_module__["c"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(exports, "m", function() { return __WEBPACK_IMPORTED_MODULE_5__router_outlet_map__["a"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(exports, "n", function() { return __WEBPACK_IMPORTED_MODULE_6__router_state__["b"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(exports, "o", function() { return __WEBPACK_IMPORTED_MODULE_6__router_state__["d"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(exports, "p", function() { return __WEBPACK_IMPORTED_MODULE_6__router_state__["a"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(exports, "q", function() { return __WEBPACK_IMPORTED_MODULE_6__router_state__["e"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(exports, "r", function() { return __WEBPACK_IMPORTED_MODULE_7__shared__["a"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(exports, "s", function() { return __WEBPACK_IMPORTED_MODULE_8__url_tree__["h"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(exports, "t", function() { return __WEBPACK_IMPORTED_MODULE_8__url_tree__["c"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(exports, "u", function() { return __WEBPACK_IMPORTED_MODULE_8__url_tree__["g"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(exports, "v", function() { return __WEBPACK_IMPORTED_MODULE_8__url_tree__["b"]; });
-/* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "w", function() { return __WEBPACK_IMPORTED_MODULE_9__private_export__["a"]; });
-/**
- * @license
- * Copyright Google Inc. All Rights Reserved.
- *
- * Use of this source code is governed by an MIT-style license that can be
- * found in the LICENSE file at https://angular.io/license
- */
-
-
-
-
-
-
-
-
-
-
-//# sourceMappingURL=index.js.map
-
-/***/ },
-
-/***/ "./node_modules/@angular/router/src/private_export.js":
-/***/ function(module, exports, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__router_config_loader__ = __webpack_require__("./node_modules/@angular/router/src/router_config_loader.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__router_module__ = __webpack_require__("./node_modules/@angular/router/src/router_module.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__utils_collection__ = __webpack_require__("./node_modules/@angular/router/src/utils/collection.js");
-/* harmony export (binding) */ __webpack_require__.d(exports, "a", function() { return __router_private__; });
-/**
- * @license
- * Copyright Google Inc. All Rights Reserved.
- *
- * Use of this source code is governed by an MIT-style license that can be
- * found in the LICENSE file at https://angular.io/license
- */
-
-
-
-var __router_private__ = {
-    ROUTER_PROVIDERS: __WEBPACK_IMPORTED_MODULE_1__router_module__["a" /* ROUTER_PROVIDERS */],
-    ROUTES: __WEBPACK_IMPORTED_MODULE_0__router_config_loader__["c" /* ROUTES */],
-    flatten: __WEBPACK_IMPORTED_MODULE_2__utils_collection__["a" /* flatten */]
-};
-//# sourceMappingURL=private_export.js.map
 
 /***/ },
 
@@ -54215,16 +51901,6 @@ var __router_private__ = {
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_rxjs_Observable__ = __webpack_require__("./node_modules/rxjs/Observable.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_rxjs_Observable___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_rxjs_Observable__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_observable_of__ = __webpack_require__("./node_modules/rxjs/observable/of.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_observable_of___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_rxjs_observable_of__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__router_state__ = __webpack_require__("./node_modules/@angular/router/src/router_state.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__shared__ = __webpack_require__("./node_modules/@angular/router/src/shared.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__url_tree__ = __webpack_require__("./node_modules/@angular/router/src/url_tree.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__utils_collection__ = __webpack_require__("./node_modules/@angular/router/src/utils/collection.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__utils_tree__ = __webpack_require__("./node_modules/@angular/router/src/utils/tree.js");
-/* harmony export (immutable) */ exports["a"] = recognize;
 /**
  * @license
  * Copyright Google Inc. All Rights Reserved.
@@ -54232,13 +51908,14 @@ var __router_private__ = {
  * Use of this source code is governed by an MIT-style license that can be
  * found in the LICENSE file at https://angular.io/license
  */
-
-
-
-
-
-
-
+"use strict";
+var Observable_1 = __webpack_require__("./node_modules/rxjs/Observable.js");
+var of_1 = __webpack_require__("./node_modules/rxjs/observable/of.js");
+var router_state_1 = __webpack_require__("./node_modules/@angular/router/src/router_state.js");
+var shared_1 = __webpack_require__("./node_modules/@angular/router/src/shared.js");
+var url_tree_1 = __webpack_require__("./node_modules/@angular/router/src/url_tree.js");
+var collection_1 = __webpack_require__("./node_modules/@angular/router/src/utils/collection.js");
+var tree_1 = __webpack_require__("./node_modules/@angular/router/src/utils/tree.js");
 var NoMatch = (function () {
     function NoMatch() {
     }
@@ -54254,24 +51931,25 @@ var InheritedFromParent = (function () {
     }
     Object.defineProperty(InheritedFromParent.prototype, "allParams", {
         get: function () {
-            return this.parent ? __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_5__utils_collection__["g" /* merge */])(this.parent.allParams, this.params) : this.params;
+            return this.parent ? collection_1.merge(this.parent.allParams, this.params) : this.params;
         },
         enumerable: true,
         configurable: true
     });
     Object.defineProperty(InheritedFromParent.prototype, "allData", {
-        get: function () { return this.parent ? __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_5__utils_collection__["g" /* merge */])(this.parent.allData, this.data) : this.data; },
+        get: function () { return this.parent ? collection_1.merge(this.parent.allData, this.data) : this.data; },
         enumerable: true,
         configurable: true
     });
     InheritedFromParent.empty = function (snapshot) {
-        return new InheritedFromParent(null, snapshot, {}, {}, new __WEBPACK_IMPORTED_MODULE_2__router_state__["c" /* InheritedResolve */](null, {}));
+        return new InheritedFromParent(null, snapshot, {}, {}, new router_state_1.InheritedResolve(null, {}));
     };
     return InheritedFromParent;
 }());
 function recognize(rootComponentType, config, urlTree, url) {
     return new Recognizer(rootComponentType, config, urlTree, url).recognize();
 }
+exports.recognize = recognize;
 var Recognizer = (function () {
     function Recognizer(rootComponentType, config, urlTree, url) {
         this.rootComponentType = rootComponentType;
@@ -54282,13 +51960,13 @@ var Recognizer = (function () {
     Recognizer.prototype.recognize = function () {
         try {
             var rootSegmentGroup = split(this.urlTree.root, [], [], this.config).segmentGroup;
-            var children = this.processSegmentGroup(this.config, rootSegmentGroup, InheritedFromParent.empty(null), __WEBPACK_IMPORTED_MODULE_3__shared__["a" /* PRIMARY_OUTLET */]);
-            var root = new __WEBPACK_IMPORTED_MODULE_2__router_state__["d" /* ActivatedRouteSnapshot */]([], Object.freeze({}), Object.freeze(this.urlTree.queryParams), this.urlTree.fragment, {}, __WEBPACK_IMPORTED_MODULE_3__shared__["a" /* PRIMARY_OUTLET */], this.rootComponentType, null, this.urlTree.root, -1, __WEBPACK_IMPORTED_MODULE_2__router_state__["c" /* InheritedResolve */].empty);
-            var rootNode = new __WEBPACK_IMPORTED_MODULE_6__utils_tree__["b" /* TreeNode */](root, children);
-            return __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1_rxjs_observable_of__["of"])(new __WEBPACK_IMPORTED_MODULE_2__router_state__["e" /* RouterStateSnapshot */](this.url, rootNode));
+            var children = this.processSegmentGroup(this.config, rootSegmentGroup, InheritedFromParent.empty(null), shared_1.PRIMARY_OUTLET);
+            var root = new router_state_1.ActivatedRouteSnapshot([], Object.freeze({}), Object.freeze(this.urlTree.queryParams), this.urlTree.fragment, {}, shared_1.PRIMARY_OUTLET, this.rootComponentType, null, this.urlTree.root, -1, router_state_1.InheritedResolve.empty);
+            var rootNode = new tree_1.TreeNode(root, children);
+            return of_1.of(new router_state_1.RouterStateSnapshot(this.url, rootNode));
         }
         catch (e) {
-            return new __WEBPACK_IMPORTED_MODULE_0_rxjs_Observable__["Observable"](function (obs) { return obs.error(e); });
+            return new Observable_1.Observable(function (obs) { return obs.error(e); });
         }
     };
     Recognizer.prototype.processSegmentGroup = function (config, segmentGroup, inherited, outlet) {
@@ -54301,7 +51979,7 @@ var Recognizer = (function () {
     };
     Recognizer.prototype.processChildren = function (config, segmentGroup, inherited) {
         var _this = this;
-        var children = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_4__url_tree__["d" /* mapChildrenIntoArray */])(segmentGroup, function (child, childOutlet) { return _this.processSegmentGroup(config, child, inherited, childOutlet); });
+        var children = url_tree_1.mapChildrenIntoArray(segmentGroup, function (child, childOutlet) { return _this.processSegmentGroup(config, child, inherited, childOutlet); });
         checkOutletNameUniqueness(children);
         sortActivatedRouteSnapshots(children);
         return children;
@@ -54322,41 +52000,41 @@ var Recognizer = (function () {
     Recognizer.prototype.processSegmentAgainstRoute = function (route, rawSegment, pathIndex, segments, inherited, outlet) {
         if (route.redirectTo)
             throw new NoMatch();
-        if ((route.outlet ? route.outlet : __WEBPACK_IMPORTED_MODULE_3__shared__["a" /* PRIMARY_OUTLET */]) !== outlet)
+        if ((route.outlet ? route.outlet : shared_1.PRIMARY_OUTLET) !== outlet)
             throw new NoMatch();
-        var newInheritedResolve = new __WEBPACK_IMPORTED_MODULE_2__router_state__["c" /* InheritedResolve */](inherited.resolve, getResolve(route));
+        var newInheritedResolve = new router_state_1.InheritedResolve(inherited.resolve, getResolve(route));
         if (route.path === '**') {
-            var params = segments.length > 0 ? __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_5__utils_collection__["i" /* last */])(segments).parameters : {};
-            var snapshot_1 = new __WEBPACK_IMPORTED_MODULE_2__router_state__["d" /* ActivatedRouteSnapshot */](segments, Object.freeze(__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_5__utils_collection__["g" /* merge */])(inherited.allParams, params)), Object.freeze(this.urlTree.queryParams), this.urlTree.fragment, __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_5__utils_collection__["g" /* merge */])(inherited.allData, getData(route)), outlet, route.component, route, getSourceSegmentGroup(rawSegment), getPathIndexShift(rawSegment) + segments.length, newInheritedResolve);
-            return [new __WEBPACK_IMPORTED_MODULE_6__utils_tree__["b" /* TreeNode */](snapshot_1, [])];
+            var params = segments.length > 0 ? collection_1.last(segments).parameters : {};
+            var snapshot_1 = new router_state_1.ActivatedRouteSnapshot(segments, Object.freeze(collection_1.merge(inherited.allParams, params)), Object.freeze(this.urlTree.queryParams), this.urlTree.fragment, collection_1.merge(inherited.allData, getData(route)), outlet, route.component, route, getSourceSegmentGroup(rawSegment), getPathIndexShift(rawSegment) + segments.length, newInheritedResolve);
+            return [new tree_1.TreeNode(snapshot_1, [])];
         }
         var _a = match(rawSegment, route, segments, inherited.snapshot), consumedSegments = _a.consumedSegments, parameters = _a.parameters, lastChild = _a.lastChild;
         var rawSlicedSegments = segments.slice(lastChild);
         var childConfig = getChildConfig(route);
         var _b = split(rawSegment, consumedSegments, rawSlicedSegments, childConfig), segmentGroup = _b.segmentGroup, slicedSegments = _b.slicedSegments;
-        var snapshot = new __WEBPACK_IMPORTED_MODULE_2__router_state__["d" /* ActivatedRouteSnapshot */](consumedSegments, Object.freeze(__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_5__utils_collection__["g" /* merge */])(inherited.allParams, parameters)), Object.freeze(this.urlTree.queryParams), this.urlTree.fragment, __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_5__utils_collection__["g" /* merge */])(inherited.allData, getData(route)), outlet, route.component, route, getSourceSegmentGroup(rawSegment), getPathIndexShift(rawSegment) + consumedSegments.length, newInheritedResolve);
+        var snapshot = new router_state_1.ActivatedRouteSnapshot(consumedSegments, Object.freeze(collection_1.merge(inherited.allParams, parameters)), Object.freeze(this.urlTree.queryParams), this.urlTree.fragment, collection_1.merge(inherited.allData, getData(route)), outlet, route.component, route, getSourceSegmentGroup(rawSegment), getPathIndexShift(rawSegment) + consumedSegments.length, newInheritedResolve);
         var newInherited = route.component ?
             InheritedFromParent.empty(snapshot) :
             new InheritedFromParent(inherited, snapshot, parameters, getData(route), newInheritedResolve);
         if (slicedSegments.length === 0 && segmentGroup.hasChildren()) {
             var children = this.processChildren(childConfig, segmentGroup, newInherited);
-            return [new __WEBPACK_IMPORTED_MODULE_6__utils_tree__["b" /* TreeNode */](snapshot, children)];
+            return [new tree_1.TreeNode(snapshot, children)];
         }
         else if (childConfig.length === 0 && slicedSegments.length === 0) {
-            return [new __WEBPACK_IMPORTED_MODULE_6__utils_tree__["b" /* TreeNode */](snapshot, [])];
+            return [new tree_1.TreeNode(snapshot, [])];
         }
         else {
-            var children = this.processSegment(childConfig, segmentGroup, pathIndex + lastChild, slicedSegments, newInherited, __WEBPACK_IMPORTED_MODULE_3__shared__["a" /* PRIMARY_OUTLET */]);
-            return [new __WEBPACK_IMPORTED_MODULE_6__utils_tree__["b" /* TreeNode */](snapshot, children)];
+            var children = this.processSegment(childConfig, segmentGroup, pathIndex + lastChild, slicedSegments, newInherited, shared_1.PRIMARY_OUTLET);
+            return [new tree_1.TreeNode(snapshot, children)];
         }
     };
     return Recognizer;
 }());
 function sortActivatedRouteSnapshots(nodes) {
     nodes.sort(function (a, b) {
-        if (a.value.outlet === __WEBPACK_IMPORTED_MODULE_3__shared__["a" /* PRIMARY_OUTLET */])
+        if (a.value.outlet === shared_1.PRIMARY_OUTLET)
             return -1;
-        if (b.value.outlet === __WEBPACK_IMPORTED_MODULE_3__shared__["a" /* PRIMARY_OUTLET */])
+        if (b.value.outlet === shared_1.PRIMARY_OUTLET)
             return 1;
         return a.value.outlet.localeCompare(b.value.outlet);
     });
@@ -54405,7 +52083,7 @@ function match(segmentGroup, route, segments, parent) {
         (segmentGroup.hasChildren() || currentIndex < segments.length)) {
         throw new NoMatch();
     }
-    var parameters = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_5__utils_collection__["g" /* merge */])(posParameters, consumedSegments[consumedSegments.length - 1].parameters);
+    var parameters = collection_1.merge(posParameters, consumedSegments[consumedSegments.length - 1].parameters);
     return { consumedSegments: consumedSegments, lastChild: currentIndex, parameters: parameters };
 }
 function checkOutletNameUniqueness(nodes) {
@@ -54439,20 +52117,20 @@ function getPathIndexShift(segmentGroup) {
 function split(segmentGroup, consumedSegments, slicedSegments, config) {
     if (slicedSegments.length > 0 &&
         containsEmptyPathMatchesWithNamedOutlets(segmentGroup, slicedSegments, config)) {
-        var s = new __WEBPACK_IMPORTED_MODULE_4__url_tree__["a" /* UrlSegmentGroup */](consumedSegments, createChildrenForEmptyPaths(segmentGroup, consumedSegments, config, new __WEBPACK_IMPORTED_MODULE_4__url_tree__["a" /* UrlSegmentGroup */](slicedSegments, segmentGroup.children)));
+        var s = new url_tree_1.UrlSegmentGroup(consumedSegments, createChildrenForEmptyPaths(segmentGroup, consumedSegments, config, new url_tree_1.UrlSegmentGroup(slicedSegments, segmentGroup.children)));
         s._sourceSegment = segmentGroup;
         s._segmentIndexShift = consumedSegments.length;
         return { segmentGroup: s, slicedSegments: [] };
     }
     else if (slicedSegments.length === 0 &&
         containsEmptyPathMatches(segmentGroup, slicedSegments, config)) {
-        var s = new __WEBPACK_IMPORTED_MODULE_4__url_tree__["a" /* UrlSegmentGroup */](segmentGroup.segments, addEmptyPathsToChildrenIfNeeded(segmentGroup, slicedSegments, config, segmentGroup.children));
+        var s = new url_tree_1.UrlSegmentGroup(segmentGroup.segments, addEmptyPathsToChildrenIfNeeded(segmentGroup, slicedSegments, config, segmentGroup.children));
         s._sourceSegment = segmentGroup;
         s._segmentIndexShift = consumedSegments.length;
         return { segmentGroup: s, slicedSegments: slicedSegments };
     }
     else {
-        var s = new __WEBPACK_IMPORTED_MODULE_4__url_tree__["a" /* UrlSegmentGroup */](segmentGroup.segments, segmentGroup.children);
+        var s = new url_tree_1.UrlSegmentGroup(segmentGroup.segments, segmentGroup.children);
         s._sourceSegment = segmentGroup;
         s._segmentIndexShift = consumedSegments.length;
         return { segmentGroup: s, slicedSegments: slicedSegments };
@@ -54463,23 +52141,23 @@ function addEmptyPathsToChildrenIfNeeded(segmentGroup, slicedSegments, routes, c
     for (var _i = 0, routes_1 = routes; _i < routes_1.length; _i++) {
         var r = routes_1[_i];
         if (emptyPathMatch(segmentGroup, slicedSegments, r) && !children[getOutlet(r)]) {
-            var s = new __WEBPACK_IMPORTED_MODULE_4__url_tree__["a" /* UrlSegmentGroup */]([], {});
+            var s = new url_tree_1.UrlSegmentGroup([], {});
             s._sourceSegment = segmentGroup;
             s._segmentIndexShift = segmentGroup.segments.length;
             res[getOutlet(r)] = s;
         }
     }
-    return __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_5__utils_collection__["g" /* merge */])(children, res);
+    return collection_1.merge(children, res);
 }
 function createChildrenForEmptyPaths(segmentGroup, consumedSegments, routes, primarySegment) {
     var res = {};
-    res[__WEBPACK_IMPORTED_MODULE_3__shared__["a" /* PRIMARY_OUTLET */]] = primarySegment;
+    res[shared_1.PRIMARY_OUTLET] = primarySegment;
     primarySegment._sourceSegment = segmentGroup;
     primarySegment._segmentIndexShift = consumedSegments.length;
     for (var _i = 0, routes_2 = routes; _i < routes_2.length; _i++) {
         var r = routes_2[_i];
-        if (r.path === '' && getOutlet(r) !== __WEBPACK_IMPORTED_MODULE_3__shared__["a" /* PRIMARY_OUTLET */]) {
-            var s = new __WEBPACK_IMPORTED_MODULE_4__url_tree__["a" /* UrlSegmentGroup */]([], {});
+        if (r.path === '' && getOutlet(r) !== shared_1.PRIMARY_OUTLET) {
+            var s = new url_tree_1.UrlSegmentGroup([], {});
             s._sourceSegment = segmentGroup;
             s._segmentIndexShift = consumedSegments.length;
             res[getOutlet(r)] = s;
@@ -54490,7 +52168,7 @@ function createChildrenForEmptyPaths(segmentGroup, consumedSegments, routes, pri
 function containsEmptyPathMatchesWithNamedOutlets(segmentGroup, slicedSegments, routes) {
     return routes
         .filter(function (r) { return emptyPathMatch(segmentGroup, slicedSegments, r) &&
-        getOutlet(r) !== __WEBPACK_IMPORTED_MODULE_3__shared__["a" /* PRIMARY_OUTLET */]; })
+        getOutlet(r) !== shared_1.PRIMARY_OUTLET; })
         .length > 0;
 }
 function containsEmptyPathMatches(segmentGroup, slicedSegments, routes) {
@@ -54502,7 +52180,7 @@ function emptyPathMatch(segmentGroup, slicedSegments, r) {
     return r.path === '' && r.redirectTo === undefined;
 }
 function getOutlet(route) {
-    return route.outlet ? route.outlet : __WEBPACK_IMPORTED_MODULE_3__shared__["a" /* PRIMARY_OUTLET */];
+    return route.outlet ? route.outlet : shared_1.PRIMARY_OUTLET;
 }
 function getData(route) {
     return route.data ? route.data : {};
@@ -54518,41 +52196,6 @@ function getResolve(route) {
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/index.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_Subject__ = __webpack_require__("./node_modules/rxjs/Subject.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_Subject___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_rxjs_Subject__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_observable_from__ = __webpack_require__("./node_modules/rxjs/observable/from.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_observable_from___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_observable_from__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_observable_of__ = __webpack_require__("./node_modules/rxjs/observable/of.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_observable_of___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_rxjs_observable_of__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_operator_every__ = __webpack_require__("./node_modules/rxjs/operator/every.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_operator_every___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_rxjs_operator_every__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_rxjs_operator_map__ = __webpack_require__("./node_modules/rxjs/operator/map.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_rxjs_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_rxjs_operator_map__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_rxjs_operator_mergeAll__ = __webpack_require__("./node_modules/rxjs/operator/mergeAll.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_rxjs_operator_mergeAll___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6_rxjs_operator_mergeAll__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_rxjs_operator_mergeMap__ = __webpack_require__("./node_modules/rxjs/operator/mergeMap.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_rxjs_operator_mergeMap___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7_rxjs_operator_mergeMap__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_rxjs_operator_reduce__ = __webpack_require__("./node_modules/rxjs/operator/reduce.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_rxjs_operator_reduce___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_8_rxjs_operator_reduce__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__apply_redirects__ = __webpack_require__("./node_modules/@angular/router/src/apply_redirects.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__config__ = __webpack_require__("./node_modules/@angular/router/src/config.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__create_router_state__ = __webpack_require__("./node_modules/@angular/router/src/create_router_state.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__create_url_tree__ = __webpack_require__("./node_modules/@angular/router/src/create_url_tree.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__recognize__ = __webpack_require__("./node_modules/@angular/router/src/recognize.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__router_config_loader__ = __webpack_require__("./node_modules/@angular/router/src/router_config_loader.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__router_outlet_map__ = __webpack_require__("./node_modules/@angular/router/src/router_outlet_map.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__router_state__ = __webpack_require__("./node_modules/@angular/router/src/router_state.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__shared__ = __webpack_require__("./node_modules/@angular/router/src/shared.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__url_tree__ = __webpack_require__("./node_modules/@angular/router/src/url_tree.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__utils_collection__ = __webpack_require__("./node_modules/@angular/router/src/utils/collection.js");
-/* harmony export (binding) */ __webpack_require__.d(exports, "e", function() { return NavigationStart; });
-/* harmony export (binding) */ __webpack_require__.d(exports, "b", function() { return NavigationEnd; });
-/* harmony export (binding) */ __webpack_require__.d(exports, "c", function() { return NavigationCancel; });
-/* harmony export (binding) */ __webpack_require__.d(exports, "d", function() { return NavigationError; });
-/* harmony export (binding) */ __webpack_require__.d(exports, "f", function() { return RoutesRecognized; });
-/* harmony export (binding) */ __webpack_require__.d(exports, "a", function() { return Router; });
-/* unused harmony export PreActivation */
 /**
  * @license
  * Copyright Google Inc. All Rights Reserved.
@@ -54560,26 +52203,27 @@ function getResolve(route) {
  * Use of this source code is governed by an MIT-style license that can be
  * found in the LICENSE file at https://angular.io/license
  */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+"use strict";
+__webpack_require__("./node_modules/rxjs/add/operator/map.js");
+__webpack_require__("./node_modules/rxjs/add/operator/mergeMap.js");
+__webpack_require__("./node_modules/rxjs/add/operator/mergeAll.js");
+__webpack_require__("./node_modules/rxjs/add/operator/reduce.js");
+__webpack_require__("./node_modules/rxjs/add/operator/every.js");
+var core_1 = __webpack_require__("./node_modules/@angular/core/index.js");
+var Subject_1 = __webpack_require__("./node_modules/rxjs/Subject.js");
+var from_1 = __webpack_require__("./node_modules/rxjs/observable/from.js");
+var of_1 = __webpack_require__("./node_modules/rxjs/observable/of.js");
+var apply_redirects_1 = __webpack_require__("./node_modules/@angular/router/src/apply_redirects.js");
+var config_1 = __webpack_require__("./node_modules/@angular/router/src/config.js");
+var create_router_state_1 = __webpack_require__("./node_modules/@angular/router/src/create_router_state.js");
+var create_url_tree_1 = __webpack_require__("./node_modules/@angular/router/src/create_url_tree.js");
+var recognize_1 = __webpack_require__("./node_modules/@angular/router/src/recognize.js");
+var router_config_loader_1 = __webpack_require__("./node_modules/@angular/router/src/router_config_loader.js");
+var router_outlet_map_1 = __webpack_require__("./node_modules/@angular/router/src/router_outlet_map.js");
+var router_state_1 = __webpack_require__("./node_modules/@angular/router/src/router_state.js");
+var shared_1 = __webpack_require__("./node_modules/@angular/router/src/shared.js");
+var url_tree_1 = __webpack_require__("./node_modules/@angular/router/src/url_tree.js");
+var collection_1 = __webpack_require__("./node_modules/@angular/router/src/utils/collection.js");
 /**
  * An event triggered when a navigation starts
  *
@@ -54593,6 +52237,7 @@ var NavigationStart = (function () {
     NavigationStart.prototype.toString = function () { return "NavigationStart(id: " + this.id + ", url: '" + this.url + "')"; };
     return NavigationStart;
 }());
+exports.NavigationStart = NavigationStart;
 /**
  * An event triggered when a navigation ends successfully
  *
@@ -54609,20 +52254,21 @@ var NavigationEnd = (function () {
     };
     return NavigationEnd;
 }());
+exports.NavigationEnd = NavigationEnd;
 /**
  * An event triggered when a navigation is canceled
  *
  * @stable
  */
 var NavigationCancel = (function () {
-    function NavigationCancel(id, url, reason) {
+    function NavigationCancel(id, url) {
         this.id = id;
         this.url = url;
-        this.reason = reason;
     }
     NavigationCancel.prototype.toString = function () { return "NavigationCancel(id: " + this.id + ", url: '" + this.url + "')"; };
     return NavigationCancel;
 }());
+exports.NavigationCancel = NavigationCancel;
 /**
  * An event triggered when a navigation fails due to unexpected error
  *
@@ -54639,6 +52285,7 @@ var NavigationError = (function () {
     };
     return NavigationError;
 }());
+exports.NavigationError = NavigationError;
 /**
  * An event triggered when routes are recognized
  *
@@ -54656,9 +52303,7 @@ var RoutesRecognized = (function () {
     };
     return RoutesRecognized;
 }());
-function defaultErrorHandler(error) {
-    throw error;
-}
+exports.RoutesRecognized = RoutesRecognized;
 /**
  * The `Router` is responsible for mapping URLs to components.
  *
@@ -54678,18 +52323,17 @@ var Router = (function () {
         this.injector = injector;
         this.config = config;
         this.navigationId = 0;
-        this.errorHandler = defaultErrorHandler;
         /**
          * Indicates if at least one navigation happened.
          *
-         * @stable
+         * @experimental
          */
         this.navigated = false;
         this.resetConfig(config);
-        this.routerEvents = new __WEBPACK_IMPORTED_MODULE_1_rxjs_Subject__["Subject"]();
-        this.currentUrlTree = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_18__url_tree__["e" /* createEmptyUrlTree */])();
-        this.configLoader = new __WEBPACK_IMPORTED_MODULE_14__router_config_loader__["b" /* RouterConfigLoader */](loader, compiler);
-        this.currentRouterState = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_16__router_state__["f" /* createEmptyState */])(this.currentUrlTree, this.rootComponentType);
+        this.routerEvents = new Subject_1.Subject();
+        this.currentUrlTree = url_tree_1.createEmptyUrlTree();
+        this.configLoader = new router_config_loader_1.RouterConfigLoader(loader, compiler);
+        this.currentRouterState = router_state_1.createEmptyState(this.currentUrlTree, this.rootComponentType);
     }
     /**
      * Sets up the location change listener and performs the inital navigation
@@ -54697,22 +52341,6 @@ var Router = (function () {
     Router.prototype.initialNavigation = function () {
         this.setUpLocationChangeListener();
         this.navigateByUrl(this.location.path(true), { replaceUrl: true });
-    };
-    /**
-     * Sets up the location change listener
-     */
-    Router.prototype.setUpLocationChangeListener = function () {
-        var _this = this;
-        // Zone.current.wrap is needed because of the issue with RxJS scheduler,
-        // which does not work properly with zone.js in IE and Safari
-        this.locationSubscription = this.location.subscribe(Zone.current.wrap(function (change) {
-            var tree = _this.urlSerializer.parse(change['url']);
-            // we fire multiple events for a single URL change
-            // we should navigate only once
-            return _this.currentUrlTree.toString() !== tree.toString() ?
-                _this.scheduleNavigation(tree, { skipLocationChange: change['pop'], replaceUrl: true }) :
-                null;
-        }));
     };
     Object.defineProperty(Router.prototype, "routerState", {
         /**
@@ -54753,7 +52381,7 @@ var Router = (function () {
      * ```
      */
     Router.prototype.resetConfig = function (config) {
-        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_10__config__["a" /* validateConfig */])(config);
+        config_1.validateConfig(config);
         this.config = config;
     };
     Router.prototype.ngOnDestroy = function () { this.dispose(); };
@@ -54808,7 +52436,7 @@ var Router = (function () {
         var a = relativeTo ? relativeTo : this.routerState.root;
         var q = preserveQueryParams ? this.currentUrlTree.queryParams : queryParams;
         var f = preserveFragment ? this.currentUrlTree.fragment : fragment;
-        return __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_12__create_url_tree__["a" /* createUrlTree */])(a, this.currentUrlTree, commands, q, f);
+        return create_url_tree_1.createUrlTree(a, this.currentUrlTree, commands, q, f);
     };
     /**
      * Navigate based on the provided url. This navigation is always absolute.
@@ -54832,7 +52460,7 @@ var Router = (function () {
      */
     Router.prototype.navigateByUrl = function (url, extras) {
         if (extras === void 0) { extras = { skipLocationChange: false }; }
-        if (url instanceof __WEBPACK_IMPORTED_MODULE_18__url_tree__["b" /* UrlTree */]) {
+        if (url instanceof url_tree_1.UrlTree) {
             return this.scheduleNavigation(url, extras);
         }
         else {
@@ -54877,12 +52505,12 @@ var Router = (function () {
      * Returns if the url is activated or not.
      */
     Router.prototype.isActive = function (url, exact) {
-        if (url instanceof __WEBPACK_IMPORTED_MODULE_18__url_tree__["b" /* UrlTree */]) {
-            return __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_18__url_tree__["f" /* containsTree */])(this.currentUrlTree, url, exact);
+        if (url instanceof url_tree_1.UrlTree) {
+            return url_tree_1.containsTree(this.currentUrlTree, url, exact);
         }
         else {
             var urlTree = this.urlSerializer.parse(url);
-            return __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_18__url_tree__["f" /* containsTree */])(this.currentUrlTree, urlTree, exact);
+            return url_tree_1.containsTree(this.currentUrlTree, urlTree, exact);
         }
     };
     Router.prototype.scheduleNavigation = function (url, extras) {
@@ -54891,11 +52519,24 @@ var Router = (function () {
         this.routerEvents.next(new NavigationStart(id, this.serializeUrl(url)));
         return Promise.resolve().then(function (_) { return _this.runNavigate(url, extras.skipLocationChange, extras.replaceUrl, id); });
     };
+    Router.prototype.setUpLocationChangeListener = function () {
+        var _this = this;
+        // Zone.current.wrap is needed because of the issue with RxJS scheduler,
+        // which does not work properly with zone.js in IE and Safari
+        this.locationSubscription = this.location.subscribe(Zone.current.wrap(function (change) {
+            var tree = _this.urlSerializer.parse(change['url']);
+            // we fire multiple events for a single URL change
+            // we should navigate only once
+            return _this.currentUrlTree.toString() !== tree.toString() ?
+                _this.scheduleNavigation(tree, { skipLocationChange: change['pop'], replaceUrl: true }) :
+                null;
+        }));
+    };
     Router.prototype.runNavigate = function (url, shouldPreventPushState, shouldReplaceUrl, id) {
         var _this = this;
         if (id !== this.navigationId) {
             this.location.go(this.urlSerializer.serialize(this.currentUrlTree));
-            this.routerEvents.next(new NavigationCancel(id, this.serializeUrl(url), "Navigation ID " + id + " is not equal to the current navigation id " + this.navigationId));
+            this.routerEvents.next(new NavigationCancel(id, this.serializeUrl(url)));
             return Promise.resolve(false);
         }
         return new Promise(function (resolvePromise, rejectPromise) {
@@ -54905,34 +52546,35 @@ var Router = (function () {
             var appliedUrl;
             var storedState = _this.currentRouterState;
             var storedUrl = _this.currentUrlTree;
-            var redirectsApplied$ = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_9__apply_redirects__["a" /* applyRedirects */])(_this.injector, _this.configLoader, url, _this.config);
-            var snapshot$ = __WEBPACK_IMPORTED_MODULE_7_rxjs_operator_mergeMap__["mergeMap"].call(redirectsApplied$, function (u) {
+            apply_redirects_1.applyRedirects(_this.injector, _this.configLoader, url, _this.config)
+                .mergeMap(function (u) {
                 appliedUrl = u;
-                return __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_13__recognize__["a" /* recognize */])(_this.rootComponentType, _this.config, appliedUrl, _this.serializeUrl(appliedUrl));
-            });
-            var emitRecognzied$ = __WEBPACK_IMPORTED_MODULE_5_rxjs_operator_map__["map"].call(snapshot$, function (newRouterStateSnapshot) {
+                return recognize_1.recognize(_this.rootComponentType, _this.config, appliedUrl, _this.serializeUrl(appliedUrl));
+            })
+                .map(function (newRouterStateSnapshot) {
                 _this.routerEvents.next(new RoutesRecognized(id, _this.serializeUrl(url), _this.serializeUrl(appliedUrl), newRouterStateSnapshot));
                 return newRouterStateSnapshot;
-            });
-            var routerState$ = __WEBPACK_IMPORTED_MODULE_5_rxjs_operator_map__["map"].call(emitRecognzied$, function (routerStateSnapshot) {
-                return __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_11__create_router_state__["a" /* createRouterState */])(routerStateSnapshot, _this.currentRouterState);
-            });
-            var preactivation$ = __WEBPACK_IMPORTED_MODULE_5_rxjs_operator_map__["map"].call(routerState$, function (newState) {
+            })
+                .map(function (routerStateSnapshot) {
+                return create_router_state_1.createRouterState(routerStateSnapshot, _this.currentRouterState);
+            })
+                .map(function (newState) {
                 state = newState;
                 preActivation =
                     new PreActivation(state.snapshot, _this.currentRouterState.snapshot, _this.injector);
                 preActivation.traverse(_this.outletMap);
-            });
-            var preactivation2$ = __WEBPACK_IMPORTED_MODULE_7_rxjs_operator_mergeMap__["mergeMap"].call(preactivation$, function () { return preActivation.checkGuards(); });
-            var resolveData$ = __WEBPACK_IMPORTED_MODULE_7_rxjs_operator_mergeMap__["mergeMap"].call(preactivation2$, function (shouldActivate) {
+            })
+                .mergeMap(function (_) {
+                return preActivation.checkGuards();
+            })
+                .mergeMap(function (shouldActivate) {
                 if (shouldActivate) {
-                    return __WEBPACK_IMPORTED_MODULE_5_rxjs_operator_map__["map"].call(preActivation.resolveData(), function () { return shouldActivate; });
+                    return preActivation.resolveData().map(function () { return shouldActivate; });
                 }
                 else {
-                    return __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_3_rxjs_observable_of__["of"])(shouldActivate);
+                    return of_1.of(shouldActivate);
                 }
-            });
-            resolveData$
+            })
                 .forEach(function (shouldActivate) {
                 if (!shouldActivate || id !== _this.navigationId) {
                     navigationIsSuccessful = false;
@@ -54940,6 +52582,7 @@ var Router = (function () {
                 }
                 _this.currentUrlTree = appliedUrl;
                 _this.currentRouterState = state;
+                new ActivateRoutes(state, storedState).activate(_this.outletMap);
                 if (!shouldPreventPushState) {
                     var path = _this.urlSerializer.serialize(appliedUrl);
                     if (_this.location.isCurrentPathEqualTo(path) || shouldReplaceUrl) {
@@ -54949,7 +52592,6 @@ var Router = (function () {
                         _this.location.go(path);
                     }
                 }
-                new ActivateRoutes(state, storedState).activate(_this.outletMap);
                 navigationIsSuccessful = true;
             })
                 .then(function () {
@@ -54959,34 +52601,20 @@ var Router = (function () {
                     resolvePromise(true);
                 }
                 else {
-                    _this.routerEvents.next(new NavigationCancel(id, _this.serializeUrl(url), ''));
+                    _this.routerEvents.next(new NavigationCancel(id, _this.serializeUrl(url)));
                     resolvePromise(false);
                 }
             }, function (e) {
-                if (e instanceof __WEBPACK_IMPORTED_MODULE_17__shared__["b" /* NavigationCancelingError */]) {
-                    _this.navigated = true;
-                    _this.routerEvents.next(new NavigationCancel(id, _this.serializeUrl(url), e.message));
-                    resolvePromise(false);
-                }
-                else {
-                    _this.routerEvents.next(new NavigationError(id, _this.serializeUrl(url), e));
-                    try {
-                        resolvePromise(_this.errorHandler(e));
-                    }
-                    catch (ee) {
-                        rejectPromise(ee);
-                    }
-                }
-                if (id === _this.navigationId) {
-                    _this.currentRouterState = storedState;
-                    _this.currentUrlTree = storedUrl;
-                    _this.location.replaceState(_this.serializeUrl(storedUrl));
-                }
+                _this.currentRouterState = storedState;
+                _this.currentUrlTree = storedUrl;
+                _this.routerEvents.next(new NavigationError(id, _this.serializeUrl(url), e));
+                rejectPromise(e);
             });
         });
     };
     return Router;
 }());
+exports.Router = Router;
 var CanActivate = (function () {
     function CanActivate(path) {
         this.path = path;
@@ -55020,11 +52648,11 @@ var PreActivation = (function () {
     PreActivation.prototype.checkGuards = function () {
         var _this = this;
         if (this.checks.length === 0)
-            return __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_3_rxjs_observable_of__["of"])(true);
-        var checks$ = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2_rxjs_observable_from__["from"])(this.checks);
-        var runningChecks$ = __WEBPACK_IMPORTED_MODULE_5_rxjs_operator_map__["map"].call(checks$, function (s) {
+            return of_1.of(true);
+        return from_1.from(this.checks)
+            .map(function (s) {
             if (s instanceof CanActivate) {
-                return __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_19__utils_collection__["f" /* andObservables */])(__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2_rxjs_observable_from__["from"])([_this.runCanActivateChild(s.path), _this.runCanActivate(s.route)]));
+                return collection_1.andObservables(from_1.from([_this.runCanActivate(s.route), _this.runCanActivateChild(s.path)]));
             }
             else if (s instanceof CanDeactivate) {
                 // workaround https://github.com/Microsoft/TypeScript/issues/7271
@@ -55034,24 +52662,24 @@ var PreActivation = (function () {
             else {
                 throw new Error('Cannot be reached');
             }
-        });
-        var mergedChecks$ = __WEBPACK_IMPORTED_MODULE_6_rxjs_operator_mergeAll__["mergeAll"].call(runningChecks$);
-        return __WEBPACK_IMPORTED_MODULE_4_rxjs_operator_every__["every"].call(mergedChecks$, function (result) { return result === true; });
+        })
+            .mergeAll()
+            .every(function (result) { return result === true; });
     };
     PreActivation.prototype.resolveData = function () {
         var _this = this;
         if (this.checks.length === 0)
-            return __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_3_rxjs_observable_of__["of"])(null);
-        var checks$ = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2_rxjs_observable_from__["from"])(this.checks);
-        var runningChecks$ = __WEBPACK_IMPORTED_MODULE_7_rxjs_operator_mergeMap__["mergeMap"].call(checks$, function (s) {
+            return of_1.of(null);
+        return from_1.from(this.checks)
+            .mergeMap(function (s) {
             if (s instanceof CanActivate) {
                 return _this.runResolve(s.route);
             }
             else {
-                return __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_3_rxjs_observable_of__["of"])(null);
+                return of_1.of(null);
             }
-        });
-        return __WEBPACK_IMPORTED_MODULE_8_rxjs_operator_reduce__["reduce"].call(runningChecks$, function (_, __) { return _; });
+        })
+            .reduce(function (_, __) { return _; });
     };
     PreActivation.prototype.traverseChildRoutes = function (futureNode, currNode, outletMap, futurePath) {
         var _this = this;
@@ -55060,7 +52688,7 @@ var PreActivation = (function () {
             _this.traverseRoutes(c, prevChildren[c.value.outlet], outletMap, futurePath.concat([c.value]));
             delete prevChildren[c.value.outlet];
         });
-        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_19__utils_collection__["c" /* forEach */])(prevChildren, function (v, k) { return _this.deactivateOutletAndItChildren(v, outletMap._outlets[k]); });
+        collection_1.forEach(prevChildren, function (v, k) { return _this.deactivateOutletAndItChildren(v, outletMap._outlets[k]); });
     };
     PreActivation.prototype.traverseRoutes = function (futureNode, currNode, parentOutletMap, futurePath) {
         var future = futureNode.value;
@@ -55068,7 +52696,7 @@ var PreActivation = (function () {
         var outlet = parentOutletMap ? parentOutletMap._outlets[futureNode.value.outlet] : null;
         // reusing the node
         if (curr && future._routeConfig === curr._routeConfig) {
-            if (!__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_19__utils_collection__["d" /* shallowEqual */])(future.params, curr.params)) {
+            if (!collection_1.shallowEqual(future.params, curr.params)) {
                 this.checks.push(new CanDeactivate(outlet.component, curr), new CanActivate(futurePath));
             }
             else {
@@ -55111,7 +52739,7 @@ var PreActivation = (function () {
     };
     PreActivation.prototype.deactivateOutletMap = function (outletMap) {
         var _this = this;
-        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_19__utils_collection__["c" /* forEach */])(outletMap._outlets, function (v) {
+        collection_1.forEach(outletMap._outlets, function (v) {
             if (v.isActivated) {
                 _this.deactivateOutletAndItChildren(v.activatedRoute.snapshot, v);
             }
@@ -55121,17 +52749,17 @@ var PreActivation = (function () {
         var _this = this;
         var canActivate = future._routeConfig ? future._routeConfig.canActivate : null;
         if (!canActivate || canActivate.length === 0)
-            return __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_3_rxjs_observable_of__["of"])(true);
-        var obs = __WEBPACK_IMPORTED_MODULE_5_rxjs_operator_map__["map"].call(__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2_rxjs_observable_from__["from"])(canActivate), function (c) {
+            return of_1.of(true);
+        var obs = from_1.from(canActivate).map(function (c) {
             var guard = _this.getToken(c, future);
             if (guard.canActivate) {
-                return __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_19__utils_collection__["b" /* wrapIntoObservable */])(guard.canActivate(future, _this.future));
+                return collection_1.wrapIntoObservable(guard.canActivate(future, _this.future));
             }
             else {
-                return __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_19__utils_collection__["b" /* wrapIntoObservable */])(guard(future, _this.future));
+                return collection_1.wrapIntoObservable(guard(future, _this.future));
             }
         });
-        return __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_19__utils_collection__["f" /* andObservables */])(obs);
+        return collection_1.andObservables(obs);
     };
     PreActivation.prototype.runCanActivateChild = function (path) {
         var _this = this;
@@ -55140,17 +52768,17 @@ var PreActivation = (function () {
             .reverse()
             .map(function (p) { return _this.extractCanActivateChild(p); })
             .filter(function (_) { return _ !== null; });
-        return __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_19__utils_collection__["f" /* andObservables */])(__WEBPACK_IMPORTED_MODULE_5_rxjs_operator_map__["map"].call(__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2_rxjs_observable_from__["from"])(canActivateChildGuards), function (d) {
-            var obs = __WEBPACK_IMPORTED_MODULE_5_rxjs_operator_map__["map"].call(__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2_rxjs_observable_from__["from"])(d.guards), function (c) {
+        return collection_1.andObservables(from_1.from(canActivateChildGuards).map(function (d) {
+            var obs = from_1.from(d.guards).map(function (c) {
                 var guard = _this.getToken(c, c.node);
                 if (guard.canActivateChild) {
-                    return __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_19__utils_collection__["b" /* wrapIntoObservable */])(guard.canActivateChild(future, _this.future));
+                    return collection_1.wrapIntoObservable(guard.canActivateChild(future, _this.future));
                 }
                 else {
-                    return __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_19__utils_collection__["b" /* wrapIntoObservable */])(guard(future, _this.future));
+                    return collection_1.wrapIntoObservable(guard(future, _this.future));
                 }
             });
-            return __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_19__utils_collection__["f" /* andObservables */])(obs);
+            return collection_1.andObservables(obs);
         }));
     };
     PreActivation.prototype.extractCanActivateChild = function (p) {
@@ -55163,33 +52791,34 @@ var PreActivation = (function () {
         var _this = this;
         var canDeactivate = curr && curr._routeConfig ? curr._routeConfig.canDeactivate : null;
         if (!canDeactivate || canDeactivate.length === 0)
-            return __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_3_rxjs_observable_of__["of"])(true);
-        var canDeactivate$ = __WEBPACK_IMPORTED_MODULE_5_rxjs_operator_map__["map"].call(__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2_rxjs_observable_from__["from"])(canDeactivate), function (c) {
+            return of_1.of(true);
+        return from_1.from(canDeactivate)
+            .map(function (c) {
             var guard = _this.getToken(c, curr);
             if (guard.canDeactivate) {
-                return __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_19__utils_collection__["b" /* wrapIntoObservable */])(guard.canDeactivate(component, curr, _this.curr));
+                return collection_1.wrapIntoObservable(guard.canDeactivate(component, curr, _this.curr));
             }
             else {
-                return __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_19__utils_collection__["b" /* wrapIntoObservable */])(guard(component, curr, _this.curr));
+                return collection_1.wrapIntoObservable(guard(component, curr, _this.curr));
             }
-        });
-        var merged$ = __WEBPACK_IMPORTED_MODULE_6_rxjs_operator_mergeAll__["mergeAll"].call(canDeactivate$);
-        return __WEBPACK_IMPORTED_MODULE_4_rxjs_operator_every__["every"].call(merged$, function (result) { return result === true; });
+        })
+            .mergeAll()
+            .every(function (result) { return result === true; });
     };
     PreActivation.prototype.runResolve = function (future) {
         var resolve = future._resolve;
-        return __WEBPACK_IMPORTED_MODULE_5_rxjs_operator_map__["map"].call(this.resolveNode(resolve.current, future), function (resolvedData) {
+        return this.resolveNode(resolve.current, future).map(function (resolvedData) {
             resolve.resolvedData = resolvedData;
-            future.data = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_19__utils_collection__["g" /* merge */])(future.data, resolve.flattenedResolvedData);
+            future.data = collection_1.merge(future.data, resolve.flattenedResolvedData);
             return null;
         });
     };
     PreActivation.prototype.resolveNode = function (resolve, future) {
         var _this = this;
-        return __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_19__utils_collection__["e" /* waitForMap */])(resolve, function (k, v) {
+        return collection_1.waitForMap(resolve, function (k, v) {
             var resolver = _this.getToken(v, future);
-            return resolver.resolve ? __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_19__utils_collection__["b" /* wrapIntoObservable */])(resolver.resolve(future, _this.future)) :
-                __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_19__utils_collection__["b" /* wrapIntoObservable */])(resolver(future, _this.future));
+            return resolver.resolve ? collection_1.wrapIntoObservable(resolver.resolve(future, _this.future)) :
+                collection_1.wrapIntoObservable(resolver(future, _this.future));
         });
     };
     PreActivation.prototype.getToken = function (token, snapshot) {
@@ -55199,6 +52828,7 @@ var PreActivation = (function () {
     };
     return PreActivation;
 }());
+exports.PreActivation = PreActivation;
 var ActivateRoutes = (function () {
     function ActivateRoutes(futureState, currState) {
         this.futureState = futureState;
@@ -55207,7 +52837,7 @@ var ActivateRoutes = (function () {
     ActivateRoutes.prototype.activate = function (parentOutletMap) {
         var futureRoot = this.futureState._root;
         var currRoot = this.currState ? this.currState._root : null;
-        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_16__router_state__["g" /* advanceActivatedRoute */])(this.futureState.root);
+        router_state_1.advanceActivatedRoute(this.futureState.root);
         this.activateChildRoutes(futureRoot, currRoot, parentOutletMap);
     };
     ActivateRoutes.prototype.activateChildRoutes = function (futureNode, currNode, outletMap) {
@@ -55217,7 +52847,7 @@ var ActivateRoutes = (function () {
             _this.activateRoutes(c, prevChildren[c.value.outlet], outletMap);
             delete prevChildren[c.value.outlet];
         });
-        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_19__utils_collection__["c" /* forEach */])(prevChildren, function (v, k) { return _this.deactivateOutletAndItChildren(outletMap._outlets[k]); });
+        collection_1.forEach(prevChildren, function (v, k) { return _this.deactivateOutletAndItChildren(outletMap._outlets[k]); });
     };
     ActivateRoutes.prototype.activateRoutes = function (futureNode, currNode, parentOutletMap) {
         var future = futureNode.value;
@@ -55225,7 +52855,7 @@ var ActivateRoutes = (function () {
         // reusing the node
         if (future === curr) {
             // advance the route to push the parameters
-            __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_16__router_state__["g" /* advanceActivatedRoute */])(future);
+            router_state_1.advanceActivatedRoute(future);
             // If we have a normal route, we need to go through an outlet.
             if (future.component) {
                 var outlet = getOutlet(parentOutletMap, futureNode.value);
@@ -55249,21 +52879,21 @@ var ActivateRoutes = (function () {
             // if we have a normal route, we need to advance the route
             // and place the component into the outlet. After that recurse.
             if (future.component) {
-                __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_16__router_state__["g" /* advanceActivatedRoute */])(future);
+                router_state_1.advanceActivatedRoute(future);
                 var outlet = getOutlet(parentOutletMap, futureNode.value);
-                var outletMap = new __WEBPACK_IMPORTED_MODULE_15__router_outlet_map__["a" /* RouterOutletMap */]();
+                var outletMap = new router_outlet_map_1.RouterOutletMap();
                 this.placeComponentIntoOutlet(outletMap, future, outlet);
                 this.activateChildRoutes(futureNode, null, outletMap);
             }
             else {
-                __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_16__router_state__["g" /* advanceActivatedRoute */])(future);
+                router_state_1.advanceActivatedRoute(future);
                 this.activateChildRoutes(futureNode, null, parentOutletMap);
             }
         }
     };
     ActivateRoutes.prototype.placeComponentIntoOutlet = function (outletMap, future, outlet) {
-        var resolved = [{ provide: __WEBPACK_IMPORTED_MODULE_16__router_state__["b" /* ActivatedRoute */], useValue: future }, {
-                provide: __WEBPACK_IMPORTED_MODULE_15__router_outlet_map__["a" /* RouterOutletMap */],
+        var resolved = [{ provide: router_state_1.ActivatedRoute, useValue: future }, {
+                provide: router_outlet_map_1.RouterOutletMap,
                 useValue: outletMap
             }];
         var config = parentLoadedConfig(future.snapshot);
@@ -55272,9 +52902,9 @@ var ActivateRoutes = (function () {
         if (config) {
             loadedFactoryResolver = config.factoryResolver;
             loadedInjector = config.injector;
-            resolved.push({ provide: __WEBPACK_IMPORTED_MODULE_0__angular_core__["ComponentFactoryResolver"], useValue: loadedFactoryResolver });
+            resolved.push({ provide: core_1.ComponentFactoryResolver, useValue: loadedFactoryResolver });
         }
-        outlet.activate(future, loadedFactoryResolver, loadedInjector, __WEBPACK_IMPORTED_MODULE_0__angular_core__["ReflectiveInjector"].resolve(resolved), outletMap);
+        outlet.activate(future, loadedFactoryResolver, loadedInjector, core_1.ReflectiveInjector.resolve(resolved), outletMap);
     };
     ActivateRoutes.prototype.deactivateOutletAndItChildren = function (outlet) {
         if (outlet && outlet.isActivated) {
@@ -55284,7 +52914,7 @@ var ActivateRoutes = (function () {
     };
     ActivateRoutes.prototype.deactivateOutletMap = function (outletMap) {
         var _this = this;
-        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_19__utils_collection__["c" /* forEach */])(outletMap._outlets, function (v) { return _this.deactivateOutletAndItChildren(v); });
+        collection_1.forEach(outletMap._outlets, function (v) { return _this.deactivateOutletAndItChildren(v); });
     };
     return ActivateRoutes;
 }());
@@ -55322,7 +52952,7 @@ function getOutlet(outletMap, route) {
     var outlet = outletMap._outlets[route.outlet];
     if (!outlet) {
         var componentName = route.component.name;
-        if (route.outlet === __WEBPACK_IMPORTED_MODULE_17__shared__["a" /* PRIMARY_OUTLET */]) {
+        if (route.outlet === shared_1.PRIMARY_OUTLET) {
             throw new Error("Cannot find primary outlet to load '" + componentName + "'");
         }
         else {
@@ -55339,19 +52969,6 @@ function getOutlet(outletMap, route) {
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/index.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_observable_fromPromise__ = __webpack_require__("./node_modules/rxjs/observable/fromPromise.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_observable_fromPromise___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_rxjs_observable_fromPromise__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_observable_of__ = __webpack_require__("./node_modules/rxjs/observable/of.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_observable_of___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_observable_of__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_operator_map__ = __webpack_require__("./node_modules/rxjs/operator/map.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_rxjs_operator_map__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_operator_mergeMap__ = __webpack_require__("./node_modules/rxjs/operator/mergeMap.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_operator_mergeMap___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_rxjs_operator_mergeMap__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__utils_collection__ = __webpack_require__("./node_modules/@angular/router/src/utils/collection.js");
-/* harmony export (binding) */ __webpack_require__.d(exports, "c", function() { return ROUTES; });
-/* harmony export (binding) */ __webpack_require__.d(exports, "a", function() { return LoadedRouterConfig; });
-/* harmony export (binding) */ __webpack_require__.d(exports, "b", function() { return RouterConfigLoader; });
 /**
  * @license
  * Copyright Google Inc. All Rights Reserved.
@@ -55359,16 +52976,12 @@ function getOutlet(outletMap, route) {
  * Use of this source code is governed by an MIT-style license that can be
  * found in the LICENSE file at https://angular.io/license
  */
-
-
-
-
-
-
-/**
- * @experimental
- */
-var ROUTES = new __WEBPACK_IMPORTED_MODULE_0__angular_core__["OpaqueToken"]('ROUTES');
+"use strict";
+var core_1 = __webpack_require__("./node_modules/@angular/core/index.js");
+var fromPromise_1 = __webpack_require__("./node_modules/rxjs/observable/fromPromise.js");
+var of_1 = __webpack_require__("./node_modules/rxjs/observable/of.js");
+var collection_1 = __webpack_require__("./node_modules/@angular/router/src/utils/collection.js");
+exports.ROUTES = new core_1.OpaqueToken('ROUTES');
 var LoadedRouterConfig = (function () {
     function LoadedRouterConfig(routes, injector, factoryResolver) {
         this.routes = routes;
@@ -55377,29 +52990,32 @@ var LoadedRouterConfig = (function () {
     }
     return LoadedRouterConfig;
 }());
+exports.LoadedRouterConfig = LoadedRouterConfig;
 var RouterConfigLoader = (function () {
     function RouterConfigLoader(loader, compiler) {
         this.loader = loader;
         this.compiler = compiler;
     }
     RouterConfigLoader.prototype.load = function (parentInjector, loadChildren) {
-        return __WEBPACK_IMPORTED_MODULE_3_rxjs_operator_map__["map"].call(this.loadModuleFactory(loadChildren), function (r) {
+        return this.loadModuleFactory(loadChildren).map(function (r) {
             var ref = r.create(parentInjector);
-            return new LoadedRouterConfig(__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_5__utils_collection__["a" /* flatten */])(ref.injector.get(ROUTES)), ref.injector, ref.componentFactoryResolver);
+            return new LoadedRouterConfig(collection_1.flatten(ref.injector.get(exports.ROUTES)), ref.injector, ref.componentFactoryResolver);
         });
     };
     RouterConfigLoader.prototype.loadModuleFactory = function (loadChildren) {
         var _this = this;
         if (typeof loadChildren === 'string') {
-            return __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1_rxjs_observable_fromPromise__["fromPromise"])(this.loader.load(loadChildren));
+            return fromPromise_1.fromPromise(this.loader.load(loadChildren));
         }
         else {
-            var offlineMode_1 = this.compiler instanceof __WEBPACK_IMPORTED_MODULE_0__angular_core__["Compiler"];
-            return __WEBPACK_IMPORTED_MODULE_4_rxjs_operator_mergeMap__["mergeMap"].call(__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_5__utils_collection__["b" /* wrapIntoObservable */])(loadChildren()), function (t) { return offlineMode_1 ? __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2_rxjs_observable_of__["of"])(t) : __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1_rxjs_observable_fromPromise__["fromPromise"])(_this.compiler.compileModuleAsync(t)); });
+            var offlineMode_1 = this.compiler instanceof core_1.Compiler;
+            return collection_1.wrapIntoObservable(loadChildren())
+                .mergeMap(function (t) { return offlineMode_1 ? of_1.of(t) : fromPromise_1.fromPromise(_this.compiler.compileModuleAsync(t)); });
         }
     };
     return RouterConfigLoader;
 }());
+exports.RouterConfigLoader = RouterConfigLoader;
 //# sourceMappingURL=router_config_loader.js.map
 
 /***/ },
@@ -55408,28 +53024,6 @@ var RouterConfigLoader = (function () {
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_common__ = __webpack_require__("./node_modules/@angular/common/index.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__("./node_modules/@angular/core/index.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__directives_router_link__ = __webpack_require__("./node_modules/@angular/router/src/directives/router_link.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__directives_router_link_active__ = __webpack_require__("./node_modules/@angular/router/src/directives/router_link_active.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__directives_router_outlet__ = __webpack_require__("./node_modules/@angular/router/src/directives/router_outlet.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__router__ = __webpack_require__("./node_modules/@angular/router/src/router.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__router_config_loader__ = __webpack_require__("./node_modules/@angular/router/src/router_config_loader.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__router_outlet_map__ = __webpack_require__("./node_modules/@angular/router/src/router_outlet_map.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__router_state__ = __webpack_require__("./node_modules/@angular/router/src/router_state.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__url_tree__ = __webpack_require__("./node_modules/@angular/router/src/url_tree.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__utils_collection__ = __webpack_require__("./node_modules/@angular/router/src/utils/collection.js");
-/* unused harmony export ROUTER_CONFIGURATION */
-/* unused harmony export ROUTER_FORROOT_GUARD */
-/* harmony export (binding) */ __webpack_require__.d(exports, "a", function() { return ROUTER_PROVIDERS; });
-/* harmony export (binding) */ __webpack_require__.d(exports, "b", function() { return RouterModule; });
-/* unused harmony export provideLocationStrategy */
-/* unused harmony export provideForRootGuard */
-/* harmony export (immutable) */ exports["c"] = provideRoutes;
-/* unused harmony export setupRouter */
-/* unused harmony export rootRoute */
-/* unused harmony export initialRouterNavigation */
-/* unused harmony export provideRouterInitializer */
 /**
  * @license
  * Copyright Google Inc. All Rights Reserved.
@@ -55437,88 +53031,60 @@ var RouterConfigLoader = (function () {
  * Use of this source code is governed by an MIT-style license that can be
  * found in the LICENSE file at https://angular.io/license
  */
-
-
-
-
-
-
-
-
-
-
-
+"use strict";
+var common_1 = __webpack_require__("./node_modules/@angular/common/index.js");
+var core_1 = __webpack_require__("./node_modules/@angular/core/index.js");
+var router_link_1 = __webpack_require__("./node_modules/@angular/router/src/directives/router_link.js");
+var router_link_active_1 = __webpack_require__("./node_modules/@angular/router/src/directives/router_link_active.js");
+var router_outlet_1 = __webpack_require__("./node_modules/@angular/router/src/directives/router_outlet.js");
+var router_1 = __webpack_require__("./node_modules/@angular/router/src/router.js");
+var router_config_loader_1 = __webpack_require__("./node_modules/@angular/router/src/router_config_loader.js");
+var router_outlet_map_1 = __webpack_require__("./node_modules/@angular/router/src/router_outlet_map.js");
+var router_state_1 = __webpack_require__("./node_modules/@angular/router/src/router_state.js");
+var url_tree_1 = __webpack_require__("./node_modules/@angular/router/src/url_tree.js");
+var collection_1 = __webpack_require__("./node_modules/@angular/router/src/utils/collection.js");
 /**
  * @stable
  */
-var ROUTER_DIRECTIVES = [__WEBPACK_IMPORTED_MODULE_4__directives_router_outlet__["a" /* RouterOutlet */], __WEBPACK_IMPORTED_MODULE_2__directives_router_link__["a" /* RouterLink */], __WEBPACK_IMPORTED_MODULE_2__directives_router_link__["b" /* RouterLinkWithHref */], __WEBPACK_IMPORTED_MODULE_3__directives_router_link_active__["a" /* RouterLinkActive */]];
+exports.ROUTER_DIRECTIVES = [router_outlet_1.RouterOutlet, router_link_1.RouterLink, router_link_1.RouterLinkWithHref, router_link_active_1.RouterLinkActive];
 /**
  * @stable
  */
-var ROUTER_CONFIGURATION = new __WEBPACK_IMPORTED_MODULE_1__angular_core__["OpaqueToken"]('ROUTER_CONFIGURATION');
-var ROUTER_FORROOT_GUARD = new __WEBPACK_IMPORTED_MODULE_1__angular_core__["OpaqueToken"]('ROUTER_FORROOT_GUARD');
+exports.ROUTER_CONFIGURATION = new core_1.OpaqueToken('ROUTER_CONFIGURATION');
 var pathLocationStrategy = {
-    provide: __WEBPACK_IMPORTED_MODULE_0__angular_common__["LocationStrategy"],
-    useClass: __WEBPACK_IMPORTED_MODULE_0__angular_common__["PathLocationStrategy"]
+    provide: common_1.LocationStrategy,
+    useClass: common_1.PathLocationStrategy
 };
 var hashLocationStrategy = {
-    provide: __WEBPACK_IMPORTED_MODULE_0__angular_common__["LocationStrategy"],
-    useClass: __WEBPACK_IMPORTED_MODULE_0__angular_common__["HashLocationStrategy"]
+    provide: common_1.LocationStrategy,
+    useClass: common_1.HashLocationStrategy
 };
-var ROUTER_PROVIDERS = [
-    __WEBPACK_IMPORTED_MODULE_0__angular_common__["Location"], { provide: __WEBPACK_IMPORTED_MODULE_9__url_tree__["g" /* UrlSerializer */], useClass: __WEBPACK_IMPORTED_MODULE_9__url_tree__["h" /* DefaultUrlSerializer */] }, {
-        provide: __WEBPACK_IMPORTED_MODULE_5__router__["a" /* Router */],
+exports.ROUTER_PROVIDERS = [
+    common_1.Location, { provide: url_tree_1.UrlSerializer, useClass: url_tree_1.DefaultUrlSerializer }, {
+        provide: router_1.Router,
         useFactory: setupRouter,
         deps: [
-            __WEBPACK_IMPORTED_MODULE_1__angular_core__["ApplicationRef"], __WEBPACK_IMPORTED_MODULE_9__url_tree__["g" /* UrlSerializer */], __WEBPACK_IMPORTED_MODULE_7__router_outlet_map__["a" /* RouterOutletMap */], __WEBPACK_IMPORTED_MODULE_0__angular_common__["Location"], __WEBPACK_IMPORTED_MODULE_1__angular_core__["Injector"], __WEBPACK_IMPORTED_MODULE_1__angular_core__["NgModuleFactoryLoader"],
-            __WEBPACK_IMPORTED_MODULE_1__angular_core__["Compiler"], __WEBPACK_IMPORTED_MODULE_6__router_config_loader__["c" /* ROUTES */], ROUTER_CONFIGURATION
+            core_1.ApplicationRef, url_tree_1.UrlSerializer, router_outlet_map_1.RouterOutletMap, common_1.Location, core_1.Injector, core_1.NgModuleFactoryLoader,
+            core_1.Compiler, router_config_loader_1.ROUTES, exports.ROUTER_CONFIGURATION
         ]
     },
-    __WEBPACK_IMPORTED_MODULE_7__router_outlet_map__["a" /* RouterOutletMap */], { provide: __WEBPACK_IMPORTED_MODULE_8__router_state__["b" /* ActivatedRoute */], useFactory: rootRoute, deps: [__WEBPACK_IMPORTED_MODULE_5__router__["a" /* Router */]] },
-    { provide: __WEBPACK_IMPORTED_MODULE_1__angular_core__["NgModuleFactoryLoader"], useClass: __WEBPACK_IMPORTED_MODULE_1__angular_core__["SystemJsNgModuleLoader"] },
-    { provide: ROUTER_CONFIGURATION, useValue: { enableTracing: false } }
+    router_outlet_map_1.RouterOutletMap, { provide: router_state_1.ActivatedRoute, useFactory: rootRoute, deps: [router_1.Router] },
+    { provide: core_1.NgModuleFactoryLoader, useClass: core_1.SystemJsNgModuleLoader },
+    { provide: exports.ROUTER_CONFIGURATION, useValue: { enableTracing: false } }
 ];
-/**
- * Router module.
- *
- * When registered at the root, it should be used as follows:
- *
- * ### Example
- *
- * ```
- * bootstrap(AppCmp, {imports: [RouterModule.forRoot(ROUTES)]});
- * ```
- *
- * For submodules and lazy loaded submodules it should be used as follows:
- *
- * ### Example
- *
- * ```
- * @NgModule({
- *   imports: [RouterModule.forChild(CHILD_ROUTES)]
- * })
- * class Lazy {}
- * ```
- *
- * @stable
- */
 var RouterModule = (function () {
-    function RouterModule(guard) {
+    function RouterModule() {
     }
     RouterModule.forRoot = function (routes, config) {
         return {
             ngModule: RouterModule,
             providers: [
-                ROUTER_PROVIDERS, provideRoutes(routes), {
-                    provide: ROUTER_FORROOT_GUARD,
-                    useFactory: provideForRootGuard,
-                    deps: [[__WEBPACK_IMPORTED_MODULE_5__router__["a" /* Router */], new __WEBPACK_IMPORTED_MODULE_1__angular_core__["Optional"](), new __WEBPACK_IMPORTED_MODULE_1__angular_core__["SkipSelf"]()]]
-                },
-                { provide: ROUTER_CONFIGURATION, useValue: config ? config : {} }, {
-                    provide: __WEBPACK_IMPORTED_MODULE_0__angular_common__["LocationStrategy"],
+                exports.ROUTER_PROVIDERS, provideRoutes(routes),
+                { provide: exports.ROUTER_CONFIGURATION, useValue: config ? config : {} }, {
+                    provide: common_1.LocationStrategy,
                     useFactory: provideLocationStrategy,
                     deps: [
-                        __WEBPACK_IMPORTED_MODULE_0__angular_common__["PlatformLocation"], [new __WEBPACK_IMPORTED_MODULE_1__angular_core__["Inject"](__WEBPACK_IMPORTED_MODULE_0__angular_common__["APP_BASE_HREF"]), new __WEBPACK_IMPORTED_MODULE_1__angular_core__["Optional"]()], ROUTER_CONFIGURATION
+                        common_1.PlatformLocation, [new core_1.Inject(common_1.APP_BASE_HREF), new core_1.Optional()], exports.ROUTER_CONFIGURATION
                     ]
                 },
                 provideRouterInitializer()
@@ -55528,45 +53094,36 @@ var RouterModule = (function () {
     RouterModule.forChild = function (routes) {
         return { ngModule: RouterModule, providers: [provideRoutes(routes)] };
     };
-    RouterModule.decorators = [
-        { type: __WEBPACK_IMPORTED_MODULE_1__angular_core__["NgModule"], args: [{ declarations: ROUTER_DIRECTIVES, exports: ROUTER_DIRECTIVES },] },
-    ];
     /** @nocollapse */
-    RouterModule.ctorParameters = [
-        { type: undefined, decorators: [{ type: __WEBPACK_IMPORTED_MODULE_1__angular_core__["Optional"] }, { type: __WEBPACK_IMPORTED_MODULE_1__angular_core__["Inject"], args: [ROUTER_FORROOT_GUARD,] },] },
+    RouterModule.decorators = [
+        { type: core_1.NgModule, args: [{ declarations: exports.ROUTER_DIRECTIVES, exports: exports.ROUTER_DIRECTIVES },] },
     ];
     return RouterModule;
 }());
+exports.RouterModule = RouterModule;
 function provideLocationStrategy(platformLocationStrategy, baseHref, options) {
     if (options === void 0) { options = {}; }
-    return options.useHash ? new __WEBPACK_IMPORTED_MODULE_0__angular_common__["HashLocationStrategy"](platformLocationStrategy, baseHref) :
-        new __WEBPACK_IMPORTED_MODULE_0__angular_common__["PathLocationStrategy"](platformLocationStrategy, baseHref);
+    return options.useHash ? new common_1.HashLocationStrategy(platformLocationStrategy, baseHref) :
+        new common_1.PathLocationStrategy(platformLocationStrategy, baseHref);
 }
-function provideForRootGuard(router) {
-    if (router) {
-        throw new Error("RouterModule.forRoot() called twice. Lazy loaded modules should use RouterModule.forChild() instead.");
-    }
-    return 'guarded';
-}
+exports.provideLocationStrategy = provideLocationStrategy;
 /**
  * @stable
  */
 function provideRoutes(routes) {
     return [
-        { provide: __WEBPACK_IMPORTED_MODULE_1__angular_core__["ANALYZE_FOR_ENTRY_COMPONENTS"], multi: true, useValue: routes },
-        { provide: __WEBPACK_IMPORTED_MODULE_6__router_config_loader__["c" /* ROUTES */], multi: true, useValue: routes }
+        { provide: core_1.ANALYZE_FOR_ENTRY_COMPONENTS, multi: true, useValue: routes },
+        { provide: router_config_loader_1.ROUTES, multi: true, useValue: routes }
     ];
 }
+exports.provideRoutes = provideRoutes;
 function setupRouter(ref, urlSerializer, outletMap, location, injector, loader, compiler, config, opts) {
     if (opts === void 0) { opts = {}; }
     if (ref.componentTypes.length == 0) {
         throw new Error('Bootstrap at least one component before injecting Router.');
     }
     var componentType = ref.componentTypes[0];
-    var r = new __WEBPACK_IMPORTED_MODULE_5__router__["a" /* Router */](componentType, urlSerializer, outletMap, location, injector, loader, compiler, __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_10__utils_collection__["a" /* flatten */])(config));
-    if (opts.errorHandler) {
-        r.errorHandler = opts.errorHandler;
-    }
+    var r = new router_1.Router(componentType, urlSerializer, outletMap, location, injector, loader, compiler, collection_1.flatten(config));
     if (opts.enableTracing) {
         r.events.subscribe(function (e) {
             console.group("Router Event: " + e.constructor.name);
@@ -55577,36 +53134,32 @@ function setupRouter(ref, urlSerializer, outletMap, location, injector, loader, 
     }
     return r;
 }
+exports.setupRouter = setupRouter;
 function rootRoute(router) {
     return router.routerState.root;
 }
-function initialRouterNavigation(router, opts) {
-    return function () {
-        if (opts.initialNavigation === false) {
-            router.setUpLocationChangeListener();
-        }
-        else {
-            router.initialNavigation();
-        }
-    };
+exports.rootRoute = rootRoute;
+function initialRouterNavigation(router) {
+    return function () { router.initialNavigation(); };
 }
+exports.initialRouterNavigation = initialRouterNavigation;
 function provideRouterInitializer() {
     return {
-        provide: __WEBPACK_IMPORTED_MODULE_1__angular_core__["APP_BOOTSTRAP_LISTENER"],
+        provide: core_1.APP_BOOTSTRAP_LISTENER,
         multi: true,
         useFactory: initialRouterNavigation,
-        deps: [__WEBPACK_IMPORTED_MODULE_5__router__["a" /* Router */], ROUTER_CONFIGURATION]
+        deps: [router_1.Router]
     };
 }
+exports.provideRouterInitializer = provideRouterInitializer;
 //# sourceMappingURL=router_module.js.map
 
 /***/ },
 
 /***/ "./node_modules/@angular/router/src/router_outlet_map.js":
-/***/ function(module, exports, __webpack_require__) {
+/***/ function(module, exports) {
 
 "use strict";
-/* harmony export (binding) */ __webpack_require__.d(exports, "a", function() { return RouterOutletMap; });
 /**
  * @license
  * Copyright Google Inc. All Rights Reserved.
@@ -55614,6 +53167,7 @@ function provideRouterInitializer() {
  * Use of this source code is governed by an MIT-style license that can be
  * found in the LICENSE file at https://angular.io/license
  */
+"use strict";
 /**
  * @stable
  */
@@ -55626,6 +53180,7 @@ var RouterOutletMap = (function () {
     RouterOutletMap.prototype.removeOutlet = function (name) { this._outlets[name] = undefined; };
     return RouterOutletMap;
 }());
+exports.RouterOutletMap = RouterOutletMap;
 //# sourceMappingURL=router_outlet_map.js.map
 
 /***/ },
@@ -55634,20 +53189,6 @@ var RouterOutletMap = (function () {
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_rxjs_BehaviorSubject__ = __webpack_require__("./node_modules/rxjs/BehaviorSubject.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_rxjs_BehaviorSubject___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_rxjs_BehaviorSubject__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__shared__ = __webpack_require__("./node_modules/@angular/router/src/shared.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__url_tree__ = __webpack_require__("./node_modules/@angular/router/src/url_tree.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__utils_collection__ = __webpack_require__("./node_modules/@angular/router/src/utils/collection.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__utils_tree__ = __webpack_require__("./node_modules/@angular/router/src/utils/tree.js");
-/* harmony export (binding) */ __webpack_require__.d(exports, "a", function() { return RouterState; });
-/* harmony export (immutable) */ exports["f"] = createEmptyState;
-/* unused harmony export createEmptyStateSnapshot */
-/* harmony export (binding) */ __webpack_require__.d(exports, "b", function() { return ActivatedRoute; });
-/* harmony export (binding) */ __webpack_require__.d(exports, "c", function() { return InheritedResolve; });
-/* harmony export (binding) */ __webpack_require__.d(exports, "d", function() { return ActivatedRouteSnapshot; });
-/* harmony export (binding) */ __webpack_require__.d(exports, "e", function() { return RouterStateSnapshot; });
-/* harmony export (immutable) */ exports["g"] = advanceActivatedRoute;
 /**
  * @license
  * Copyright Google Inc. All Rights Reserved.
@@ -55655,28 +53196,28 @@ var RouterOutletMap = (function () {
  * Use of this source code is governed by an MIT-style license that can be
  * found in the LICENSE file at https://angular.io/license
  */
+"use strict";
 var __extends = (this && this.__extends) || function (d, b) {
     for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
     function __() { this.constructor = d; }
     d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 };
-
-
-
-
-
+var BehaviorSubject_1 = __webpack_require__("./node_modules/rxjs/BehaviorSubject.js");
+var shared_1 = __webpack_require__("./node_modules/@angular/router/src/shared.js");
+var url_tree_1 = __webpack_require__("./node_modules/@angular/router/src/url_tree.js");
+var collection_1 = __webpack_require__("./node_modules/@angular/router/src/utils/collection.js");
+var tree_1 = __webpack_require__("./node_modules/@angular/router/src/utils/tree.js");
 /**
  * The state of the router.
  *
  * ### Usage
  *
  * ```
- * @Component({template:''})
  * class MyComponent {
  *   constructor(router: Router) {
  *     const state = router.routerState;
- *     const id: Observable<string> = state.root.firstChild.params.map(p => p.id);
- *     const isDebug: Observable<string> = state.root.queryParams.map(q => q.debug);
+ *     const id: Observable<string> = state.firstChild(state.root).params.map(p => p.id);
+ *     const isDebug: Observable<string> = state.queryParams.map(q => q.debug);
  *   }
  * }
  * ```
@@ -55695,26 +53236,29 @@ var RouterState = (function (_super) {
     }
     RouterState.prototype.toString = function () { return this.snapshot.toString(); };
     return RouterState;
-}(__WEBPACK_IMPORTED_MODULE_4__utils_tree__["a" /* Tree */]));
+}(tree_1.Tree));
+exports.RouterState = RouterState;
 function createEmptyState(urlTree, rootComponent) {
     var snapshot = createEmptyStateSnapshot(urlTree, rootComponent);
-    var emptyUrl = new __WEBPACK_IMPORTED_MODULE_0_rxjs_BehaviorSubject__["BehaviorSubject"]([new __WEBPACK_IMPORTED_MODULE_2__url_tree__["c" /* UrlSegment */]('', {})]);
-    var emptyParams = new __WEBPACK_IMPORTED_MODULE_0_rxjs_BehaviorSubject__["BehaviorSubject"]({});
-    var emptyData = new __WEBPACK_IMPORTED_MODULE_0_rxjs_BehaviorSubject__["BehaviorSubject"]({});
-    var emptyQueryParams = new __WEBPACK_IMPORTED_MODULE_0_rxjs_BehaviorSubject__["BehaviorSubject"]({});
-    var fragment = new __WEBPACK_IMPORTED_MODULE_0_rxjs_BehaviorSubject__["BehaviorSubject"]('');
-    var activated = new ActivatedRoute(emptyUrl, emptyParams, emptyQueryParams, fragment, emptyData, __WEBPACK_IMPORTED_MODULE_1__shared__["a" /* PRIMARY_OUTLET */], rootComponent, snapshot.root);
+    var emptyUrl = new BehaviorSubject_1.BehaviorSubject([new url_tree_1.UrlSegment('', {})]);
+    var emptyParams = new BehaviorSubject_1.BehaviorSubject({});
+    var emptyData = new BehaviorSubject_1.BehaviorSubject({});
+    var emptyQueryParams = new BehaviorSubject_1.BehaviorSubject({});
+    var fragment = new BehaviorSubject_1.BehaviorSubject('');
+    var activated = new ActivatedRoute(emptyUrl, emptyParams, emptyQueryParams, fragment, emptyData, shared_1.PRIMARY_OUTLET, rootComponent, snapshot.root);
     activated.snapshot = snapshot.root;
-    return new RouterState(new __WEBPACK_IMPORTED_MODULE_4__utils_tree__["b" /* TreeNode */](activated, []), snapshot);
+    return new RouterState(new tree_1.TreeNode(activated, []), snapshot);
 }
+exports.createEmptyState = createEmptyState;
 function createEmptyStateSnapshot(urlTree, rootComponent) {
     var emptyParams = {};
     var emptyData = {};
     var emptyQueryParams = {};
     var fragment = '';
-    var activated = new ActivatedRouteSnapshot([], emptyParams, emptyQueryParams, fragment, emptyData, __WEBPACK_IMPORTED_MODULE_1__shared__["a" /* PRIMARY_OUTLET */], rootComponent, null, urlTree.root, -1, InheritedResolve.empty);
-    return new RouterStateSnapshot('', new __WEBPACK_IMPORTED_MODULE_4__utils_tree__["b" /* TreeNode */](activated, []));
+    var activated = new ActivatedRouteSnapshot([], emptyParams, emptyQueryParams, fragment, emptyData, shared_1.PRIMARY_OUTLET, rootComponent, null, urlTree.root, -1, InheritedResolve.empty);
+    return new RouterStateSnapshot('', new tree_1.TreeNode(activated, []));
 }
+exports.createEmptyStateSnapshot = createEmptyStateSnapshot;
 /**
  * Contains the information about a component loaded in an outlet. The information is provided
  * through the params, urlSegments, and data observables.
@@ -55722,7 +53266,6 @@ function createEmptyStateSnapshot(urlTree, rootComponent) {
  * ### Usage
  *
  * ```
- * @Component({template:''})
  * class MyComponent {
  *   constructor(route: ActivatedRoute) {
  *     const id: Observable<string> = route.params.map(p => p.id);
@@ -55782,6 +53325,7 @@ var ActivatedRoute = (function () {
     };
     return ActivatedRoute;
 }());
+exports.ActivatedRoute = ActivatedRoute;
 /**
  * @internal
  */
@@ -55799,7 +53343,7 @@ var InheritedResolve = (function () {
          * @internal
          */
         get: function () {
-            return this.parent ? __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_3__utils_collection__["g" /* merge */])(this.parent.flattenedResolvedData, this.resolvedData) :
+            return this.parent ? collection_1.merge(this.parent.flattenedResolvedData, this.resolvedData) :
                 this.resolvedData;
         },
         enumerable: true,
@@ -55812,13 +53356,13 @@ var InheritedResolve = (function () {
     });
     return InheritedResolve;
 }());
+exports.InheritedResolve = InheritedResolve;
 /**
  * Contains the information about a component loaded in an outlet at a particular moment in time.
  *
  * ### Usage
  *
  * ```
- * @Component({template:''})
  * class MyComponent {
  *   constructor(route: ActivatedRoute) {
  *     const id: string = route.snapshot.params.id;
@@ -55883,13 +53427,13 @@ var ActivatedRouteSnapshot = (function () {
     };
     return ActivatedRouteSnapshot;
 }());
+exports.ActivatedRouteSnapshot = ActivatedRouteSnapshot;
 /**
  * The state of the router at a particular moment in time.
  *
  * ### Usage
  *
  * ```
- * @Component({template:''})
  * class MyComponent {
  *   constructor(router: Router) {
  *     const snapshot = router.routerState.snapshot;
@@ -55911,7 +53455,8 @@ var RouterStateSnapshot = (function (_super) {
     }
     RouterStateSnapshot.prototype.toString = function () { return serializeNode(this._root); };
     return RouterStateSnapshot;
-}(__WEBPACK_IMPORTED_MODULE_4__utils_tree__["a" /* Tree */]));
+}(tree_1.Tree));
+exports.RouterStateSnapshot = RouterStateSnapshot;
 function setRouterStateSnapshot(state, node) {
     node.value._routerState = state;
     node.children.forEach(function (c) { return setRouterStateSnapshot(state, c); });
@@ -55927,17 +53472,17 @@ function serializeNode(node) {
  */
 function advanceActivatedRoute(route) {
     if (route.snapshot) {
-        if (!__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_3__utils_collection__["d" /* shallowEqual */])(route.snapshot.queryParams, route._futureSnapshot.queryParams)) {
+        if (!collection_1.shallowEqual(route.snapshot.queryParams, route._futureSnapshot.queryParams)) {
             route.queryParams.next(route._futureSnapshot.queryParams);
         }
         if (route.snapshot.fragment !== route._futureSnapshot.fragment) {
             route.fragment.next(route._futureSnapshot.fragment);
         }
-        if (!__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_3__utils_collection__["d" /* shallowEqual */])(route.snapshot.params, route._futureSnapshot.params)) {
+        if (!collection_1.shallowEqual(route.snapshot.params, route._futureSnapshot.params)) {
             route.params.next(route._futureSnapshot.params);
             route.data.next(route._futureSnapshot.data);
         }
-        if (!__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_3__utils_collection__["h" /* shallowEqualArrays */])(route.snapshot.url, route._futureSnapshot.url)) {
+        if (!collection_1.shallowEqualArrays(route.snapshot.url, route._futureSnapshot.url)) {
             route.url.next(route._futureSnapshot.url);
         }
         route.snapshot = route._futureSnapshot;
@@ -55948,16 +53493,15 @@ function advanceActivatedRoute(route) {
         route.data.next(route._futureSnapshot.data);
     }
 }
+exports.advanceActivatedRoute = advanceActivatedRoute;
 //# sourceMappingURL=router_state.js.map
 
 /***/ },
 
 /***/ "./node_modules/@angular/router/src/shared.js":
-/***/ function(module, exports, __webpack_require__) {
+/***/ function(module, exports) {
 
 "use strict";
-/* harmony export (binding) */ __webpack_require__.d(exports, "a", function() { return PRIMARY_OUTLET; });
-/* harmony export (binding) */ __webpack_require__.d(exports, "b", function() { return NavigationCancelingError; });
 /**
  * @license
  * Copyright Google Inc. All Rights Reserved.
@@ -55965,28 +53509,14 @@ function advanceActivatedRoute(route) {
  * Use of this source code is governed by an MIT-style license that can be
  * found in the LICENSE file at https://angular.io/license
  */
-var __extends = (this && this.__extends) || function (d, b) {
-    for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
-    function __() { this.constructor = d; }
-    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-};
+"use strict";
 /**
  * Name of the primary outlet.
  * @type {string}
  *
  * @stable
  */
-var PRIMARY_OUTLET = 'primary';
-var NavigationCancelingError = (function (_super) {
-    __extends(NavigationCancelingError, _super);
-    function NavigationCancelingError(message) {
-        _super.call(this, message);
-        this.message = message;
-        this.stack = (new Error(message)).stack;
-    }
-    NavigationCancelingError.prototype.toString = function () { return this.message; };
-    return NavigationCancelingError;
-}(Error));
+exports.PRIMARY_OUTLET = 'primary';
 //# sourceMappingURL=shared.js.map
 
 /***/ },
@@ -55995,22 +53525,6 @@ var NavigationCancelingError = (function (_super) {
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__shared__ = __webpack_require__("./node_modules/@angular/router/src/shared.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__utils_collection__ = __webpack_require__("./node_modules/@angular/router/src/utils/collection.js");
-/* harmony export (immutable) */ exports["e"] = createEmptyUrlTree;
-/* harmony export (immutable) */ exports["f"] = containsTree;
-/* harmony export (binding) */ __webpack_require__.d(exports, "b", function() { return UrlTree; });
-/* harmony export (binding) */ __webpack_require__.d(exports, "a", function() { return UrlSegmentGroup; });
-/* harmony export (binding) */ __webpack_require__.d(exports, "c", function() { return UrlSegment; });
-/* unused harmony export equalSegments */
-/* unused harmony export equalPath */
-/* harmony export (immutable) */ exports["d"] = mapChildrenIntoArray;
-/* harmony export (binding) */ __webpack_require__.d(exports, "g", function() { return UrlSerializer; });
-/* harmony export (binding) */ __webpack_require__.d(exports, "h", function() { return DefaultUrlSerializer; });
-/* unused harmony export serializePaths */
-/* unused harmony export encode */
-/* unused harmony export decode */
-/* unused harmony export serializePath */
 /**
  * @license
  * Copyright Google Inc. All Rights Reserved.
@@ -56018,11 +53532,13 @@ var NavigationCancelingError = (function (_super) {
  * Use of this source code is governed by an MIT-style license that can be
  * found in the LICENSE file at https://angular.io/license
  */
-
-
+"use strict";
+var shared_1 = __webpack_require__("./node_modules/@angular/router/src/shared.js");
+var collection_1 = __webpack_require__("./node_modules/@angular/router/src/utils/collection.js");
 function createEmptyUrlTree() {
     return new UrlTree(new UrlSegmentGroup([], {}), {}, null);
 }
+exports.createEmptyUrlTree = createEmptyUrlTree;
 function containsTree(container, containee, exact) {
     if (exact) {
         return equalSegmentGroups(container.root, containee.root);
@@ -56031,6 +53547,7 @@ function containsTree(container, containee, exact) {
         return containsSegmentGroup(container.root, containee.root);
     }
 }
+exports.containsTree = containsTree;
 function equalSegmentGroups(container, containee) {
     if (!equalPath(container.segments, containee.segments))
         return false;
@@ -56072,9 +53589,9 @@ function containsSegmentGroupHelper(container, containee, containeePaths) {
         var next = containeePaths.slice(container.segments.length);
         if (!equalPath(container.segments, current))
             return false;
-        if (!container.children[__WEBPACK_IMPORTED_MODULE_0__shared__["a" /* PRIMARY_OUTLET */]])
+        if (!container.children[shared_1.PRIMARY_OUTLET])
             return false;
-        return containsSegmentGroupHelper(container.children[__WEBPACK_IMPORTED_MODULE_0__shared__["a" /* PRIMARY_OUTLET */]], containee, next);
+        return containsSegmentGroupHelper(container.children[shared_1.PRIMARY_OUTLET], containee, next);
     }
 }
 /**
@@ -56094,6 +53611,7 @@ var UrlTree = (function () {
     UrlTree.prototype.toString = function () { return new DefaultUrlSerializer().serialize(this); };
     return UrlTree;
 }());
+exports.UrlTree = UrlTree;
 /**
  * @stable
  */
@@ -56103,7 +53621,7 @@ var UrlSegmentGroup = (function () {
         this.segments = segments;
         this.children = children;
         this.parent = null;
-        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__utils_collection__["c" /* forEach */])(children, function (v, k) { return v.parent = _this; });
+        collection_1.forEach(children, function (v, k) { return v.parent = _this; });
     }
     /**
      * Return true if the segment has child segments
@@ -56120,6 +53638,7 @@ var UrlSegmentGroup = (function () {
     UrlSegmentGroup.prototype.toString = function () { return serializePaths(this); };
     return UrlSegmentGroup;
 }());
+exports.UrlSegmentGroup = UrlSegmentGroup;
 /**
  * @stable
  */
@@ -56131,17 +53650,19 @@ var UrlSegment = (function () {
     UrlSegment.prototype.toString = function () { return serializePath(this); };
     return UrlSegment;
 }());
+exports.UrlSegment = UrlSegment;
 function equalSegments(a, b) {
     if (a.length !== b.length)
         return false;
     for (var i = 0; i < a.length; ++i) {
         if (a[i].path !== b[i].path)
             return false;
-        if (!__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__utils_collection__["d" /* shallowEqual */])(a[i].parameters, b[i].parameters))
+        if (!collection_1.shallowEqual(a[i].parameters, b[i].parameters))
             return false;
     }
     return true;
 }
+exports.equalSegments = equalSegments;
 function equalPath(a, b) {
     if (a.length !== b.length)
         return false;
@@ -56151,20 +53672,22 @@ function equalPath(a, b) {
     }
     return true;
 }
+exports.equalPath = equalPath;
 function mapChildrenIntoArray(segment, fn) {
     var res = [];
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__utils_collection__["c" /* forEach */])(segment.children, function (child, childOutlet) {
-        if (childOutlet === __WEBPACK_IMPORTED_MODULE_0__shared__["a" /* PRIMARY_OUTLET */]) {
+    collection_1.forEach(segment.children, function (child, childOutlet) {
+        if (childOutlet === shared_1.PRIMARY_OUTLET) {
             res = res.concat(fn(child, childOutlet));
         }
     });
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__utils_collection__["c" /* forEach */])(segment.children, function (child, childOutlet) {
-        if (childOutlet !== __WEBPACK_IMPORTED_MODULE_0__shared__["a" /* PRIMARY_OUTLET */]) {
+    collection_1.forEach(segment.children, function (child, childOutlet) {
+        if (childOutlet !== shared_1.PRIMARY_OUTLET) {
             res = res.concat(fn(child, childOutlet));
         }
     });
     return res;
 }
+exports.mapChildrenIntoArray = mapChildrenIntoArray;
 /**
  * Defines a way to serialize/deserialize a url tree.
  *
@@ -56175,6 +53698,7 @@ var UrlSerializer = (function () {
     }
     return UrlSerializer;
 }());
+exports.UrlSerializer = UrlSerializer;
 /**
  * A default implementation of the serialization.
  *
@@ -56190,22 +53714,26 @@ var DefaultUrlSerializer = (function () {
     DefaultUrlSerializer.prototype.serialize = function (tree) {
         var segment = "/" + serializeSegment(tree.root, true);
         var query = serializeQueryParams(tree.queryParams);
-        var fragment = tree.fragment !== null && tree.fragment !== undefined ? "#" + encodeURI(tree.fragment) : '';
+        var fragment = tree.fragment !== null && tree.fragment !== undefined ?
+            "#" + encodeURIComponent(tree.fragment) :
+            '';
         return "" + segment + query + fragment;
     };
     return DefaultUrlSerializer;
 }());
+exports.DefaultUrlSerializer = DefaultUrlSerializer;
 function serializePaths(segment) {
     return segment.segments.map(function (p) { return serializePath(p); }).join('/');
 }
+exports.serializePaths = serializePaths;
 function serializeSegment(segment, root) {
     if (segment.hasChildren() && root) {
-        var primary = segment.children[__WEBPACK_IMPORTED_MODULE_0__shared__["a" /* PRIMARY_OUTLET */]] ?
-            serializeSegment(segment.children[__WEBPACK_IMPORTED_MODULE_0__shared__["a" /* PRIMARY_OUTLET */]], false) :
+        var primary = segment.children[shared_1.PRIMARY_OUTLET] ?
+            serializeSegment(segment.children[shared_1.PRIMARY_OUTLET], false) :
             '';
         var children_1 = [];
-        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__utils_collection__["c" /* forEach */])(segment.children, function (v, k) {
-            if (k !== __WEBPACK_IMPORTED_MODULE_0__shared__["a" /* PRIMARY_OUTLET */]) {
+        collection_1.forEach(segment.children, function (v, k) {
+            if (k !== shared_1.PRIMARY_OUTLET) {
                 children_1.push(k + ":" + serializeSegment(v, false));
             }
         });
@@ -56218,8 +53746,8 @@ function serializeSegment(segment, root) {
     }
     else if (segment.hasChildren() && !root) {
         var children = mapChildrenIntoArray(segment, function (v, k) {
-            if (k === __WEBPACK_IMPORTED_MODULE_0__shared__["a" /* PRIMARY_OUTLET */]) {
-                return [serializeSegment(segment.children[__WEBPACK_IMPORTED_MODULE_0__shared__["a" /* PRIMARY_OUTLET */]], false)];
+            if (k === shared_1.PRIMARY_OUTLET) {
+                return [serializeSegment(segment.children[shared_1.PRIMARY_OUTLET], false)];
             }
             else {
                 return [(k + ":" + serializeSegment(v, false))];
@@ -56234,12 +53762,15 @@ function serializeSegment(segment, root) {
 function encode(s) {
     return encodeURIComponent(s);
 }
+exports.encode = encode;
 function decode(s) {
     return decodeURIComponent(s);
 }
+exports.decode = decode;
 function serializePath(path) {
     return "" + encode(path.path) + serializeParams(path.parameters);
 }
+exports.serializePath = serializePath;
 function serializeParams(params) {
     return pairs(params).map(function (p) { return (";" + encode(p.first) + "=" + encode(p.second)); }).join('');
 }
@@ -56329,7 +53860,7 @@ var UrlParser = (function () {
             res = this.parseParens(false);
         }
         if (paths.length > 0 || Object.keys(children).length > 0) {
-            res[__WEBPACK_IMPORTED_MODULE_0__shared__["a" /* PRIMARY_OUTLET */]] = new UrlSegmentGroup(paths, children);
+            res[shared_1.PRIMARY_OUTLET] = new UrlSegmentGroup(paths, children);
         }
         return res;
     };
@@ -56359,7 +53890,7 @@ var UrlParser = (function () {
     };
     UrlParser.prototype.parseFragment = function () {
         if (this.peekStartsWith('#')) {
-            return decodeURI(this.remaining.substring(1));
+            return decode(this.remaining.substring(1));
         }
         else {
             return null;
@@ -56379,7 +53910,7 @@ var UrlParser = (function () {
             return;
         }
         this.capture(key);
-        var value = '';
+        var value = 'true';
         if (this.peekStartsWith('=')) {
             this.capture('=');
             var valueMatch = matchSegments(this.remaining);
@@ -56425,10 +53956,10 @@ var UrlParser = (function () {
                 this.capture(':');
             }
             else if (allowPrimary) {
-                outletName = __WEBPACK_IMPORTED_MODULE_0__shared__["a" /* PRIMARY_OUTLET */];
+                outletName = shared_1.PRIMARY_OUTLET;
             }
             var children = this.parseChildren();
-            segments[outletName] = Object.keys(children).length === 1 ? children[__WEBPACK_IMPORTED_MODULE_0__shared__["a" /* PRIMARY_OUTLET */]] :
+            segments[outletName] = Object.keys(children).length === 1 ? children[shared_1.PRIMARY_OUTLET] :
                 new UrlSegmentGroup([], children);
             if (this.peekStartsWith('//')) {
                 this.capture('//');
@@ -56447,34 +53978,6 @@ var UrlParser = (function () {
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_rxjs_Observable__ = __webpack_require__("./node_modules/rxjs/Observable.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_rxjs_Observable___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_rxjs_Observable__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_observable_fromPromise__ = __webpack_require__("./node_modules/rxjs/observable/fromPromise.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_observable_fromPromise___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_rxjs_observable_fromPromise__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_observable_of__ = __webpack_require__("./node_modules/rxjs/observable/of.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_observable_of___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_observable_of__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_operator_concatAll__ = __webpack_require__("./node_modules/rxjs/operator/concatAll.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_operator_concatAll___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_rxjs_operator_concatAll__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_operator_every__ = __webpack_require__("./node_modules/rxjs/operator/every.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_operator_every___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_rxjs_operator_every__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_rxjs_operator_last__ = __webpack_require__("./node_modules/rxjs/operator/last.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_rxjs_operator_last___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_rxjs_operator_last__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_rxjs_operator_map__ = __webpack_require__("./node_modules/rxjs/operator/map.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_rxjs_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6_rxjs_operator_map__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_rxjs_operator_mergeAll__ = __webpack_require__("./node_modules/rxjs/operator/mergeAll.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_rxjs_operator_mergeAll___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7_rxjs_operator_mergeAll__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__shared__ = __webpack_require__("./node_modules/@angular/router/src/shared.js");
-/* harmony export (immutable) */ exports["h"] = shallowEqualArrays;
-/* harmony export (immutable) */ exports["d"] = shallowEqual;
-/* harmony export (immutable) */ exports["a"] = flatten;
-/* unused harmony export first */
-/* harmony export (immutable) */ exports["i"] = last;
-/* unused harmony export and */
-/* harmony export (immutable) */ exports["g"] = merge;
-/* harmony export (immutable) */ exports["c"] = forEach;
-/* harmony export (immutable) */ exports["e"] = waitForMap;
-/* harmony export (immutable) */ exports["f"] = andObservables;
-/* harmony export (immutable) */ exports["b"] = wrapIntoObservable;
 /**
  * @license
  * Copyright Google Inc. All Rights Reserved.
@@ -56482,15 +53985,13 @@ var UrlParser = (function () {
  * Use of this source code is governed by an MIT-style license that can be
  * found in the LICENSE file at https://angular.io/license
  */
-
-
-
-
-
-
-
-
-
+"use strict";
+__webpack_require__("./node_modules/rxjs/add/operator/concatAll.js");
+__webpack_require__("./node_modules/rxjs/add/operator/last.js");
+var Observable_1 = __webpack_require__("./node_modules/rxjs/Observable.js");
+var fromPromise_1 = __webpack_require__("./node_modules/rxjs/observable/fromPromise.js");
+var of_1 = __webpack_require__("./node_modules/rxjs/observable/of.js");
+var shared_1 = __webpack_require__("./node_modules/@angular/router/src/shared.js");
 function shallowEqualArrays(a, b) {
     if (a.length !== b.length)
         return false;
@@ -56500,6 +54001,7 @@ function shallowEqualArrays(a, b) {
     }
     return true;
 }
+exports.shallowEqualArrays = shallowEqualArrays;
 function shallowEqual(a, b) {
     var k1 = Object.keys(a);
     var k2 = Object.keys(b);
@@ -56515,6 +54017,7 @@ function shallowEqual(a, b) {
     }
     return true;
 }
+exports.shallowEqual = shallowEqual;
 function flatten(a) {
     var target = [];
     for (var i = 0; i < a.length; ++i) {
@@ -56524,15 +54027,19 @@ function flatten(a) {
     }
     return target;
 }
+exports.flatten = flatten;
 function first(a) {
     return a.length > 0 ? a[0] : null;
 }
+exports.first = first;
 function last(a) {
     return a.length > 0 ? a[a.length - 1] : null;
 }
+exports.last = last;
 function and(bools) {
     return bools.reduce(function (a, b) { return a && b; }, true);
 }
+exports.and = and;
 function merge(m1, m2) {
     var m = {};
     for (var attr in m1) {
@@ -56547,6 +54054,7 @@ function merge(m1, m2) {
     }
     return m;
 }
+exports.merge = merge;
 function forEach(map, callback) {
     for (var prop in map) {
         if (map.hasOwnProperty(prop)) {
@@ -56554,59 +54062,58 @@ function forEach(map, callback) {
         }
     }
 }
+exports.forEach = forEach;
 function waitForMap(obj, fn) {
     var waitFor = [];
     var res = {};
     forEach(obj, function (a, k) {
-        if (k === __WEBPACK_IMPORTED_MODULE_8__shared__["a" /* PRIMARY_OUTLET */]) {
-            waitFor.push(__WEBPACK_IMPORTED_MODULE_6_rxjs_operator_map__["map"].call(fn(k, a), function (_) {
+        if (k === shared_1.PRIMARY_OUTLET) {
+            waitFor.push(fn(k, a).map(function (_) {
                 res[k] = _;
                 return _;
             }));
         }
     });
     forEach(obj, function (a, k) {
-        if (k !== __WEBPACK_IMPORTED_MODULE_8__shared__["a" /* PRIMARY_OUTLET */]) {
-            waitFor.push(__WEBPACK_IMPORTED_MODULE_6_rxjs_operator_map__["map"].call(fn(k, a), function (_) {
+        if (k !== shared_1.PRIMARY_OUTLET) {
+            waitFor.push(fn(k, a).map(function (_) {
                 res[k] = _;
                 return _;
             }));
         }
     });
     if (waitFor.length > 0) {
-        var concatted$ = __WEBPACK_IMPORTED_MODULE_3_rxjs_operator_concatAll__["concatAll"].call(__WEBPACK_IMPORTED_MODULE_2_rxjs_observable_of__["of"].apply(void 0, waitFor));
-        var last$ = __WEBPACK_IMPORTED_MODULE_5_rxjs_operator_last__["last"].call(concatted$);
-        return __WEBPACK_IMPORTED_MODULE_6_rxjs_operator_map__["map"].call(last$, function () { return res; });
+        return of_1.of.apply(void 0, waitFor).concatAll().last().map(function (last) { return res; });
     }
     else {
-        return __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2_rxjs_observable_of__["of"])(res);
+        return of_1.of(res);
     }
 }
+exports.waitForMap = waitForMap;
 function andObservables(observables) {
-    var merged$ = __WEBPACK_IMPORTED_MODULE_7_rxjs_operator_mergeAll__["mergeAll"].call(observables);
-    return __WEBPACK_IMPORTED_MODULE_4_rxjs_operator_every__["every"].call(merged$, function (result) { return result === true; });
+    return observables.mergeAll().every(function (result) { return result === true; });
 }
+exports.andObservables = andObservables;
 function wrapIntoObservable(value) {
-    if (value instanceof __WEBPACK_IMPORTED_MODULE_0_rxjs_Observable__["Observable"]) {
+    if (value instanceof Observable_1.Observable) {
         return value;
     }
     else if (value instanceof Promise) {
-        return __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1_rxjs_observable_fromPromise__["fromPromise"])(value);
+        return fromPromise_1.fromPromise(value);
     }
     else {
-        return __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2_rxjs_observable_of__["of"])(value);
+        return of_1.of(value);
     }
 }
+exports.wrapIntoObservable = wrapIntoObservable;
 //# sourceMappingURL=collection.js.map
 
 /***/ },
 
 /***/ "./node_modules/@angular/router/src/utils/tree.js":
-/***/ function(module, exports, __webpack_require__) {
+/***/ function(module, exports) {
 
 "use strict";
-/* harmony export (binding) */ __webpack_require__.d(exports, "a", function() { return Tree; });
-/* harmony export (binding) */ __webpack_require__.d(exports, "b", function() { return TreeNode; });
 /**
  * @license
  * Copyright Google Inc. All Rights Reserved.
@@ -56614,6 +54121,7 @@ function wrapIntoObservable(value) {
  * Use of this source code is governed by an MIT-style license that can be
  * found in the LICENSE file at https://angular.io/license
  */
+"use strict";
 var Tree = (function () {
     function Tree(root) {
         this._root = root;
@@ -56660,6 +54168,7 @@ var Tree = (function () {
     Tree.prototype.pathFromRoot = function (t) { return findPath(t, this._root, []).map(function (s) { return s.value; }); };
     return Tree;
 }());
+exports.Tree = Tree;
 function findNode(expected, c) {
     if (expected === c.value)
         return c;
@@ -56692,6 +54201,7 @@ var TreeNode = (function () {
     TreeNode.prototype.toString = function () { return "TreeNode(" + this.value + ")"; };
     return TreeNode;
 }());
+exports.TreeNode = TreeNode;
 //# sourceMappingURL=tree.js.map
 
 /***/ },
@@ -57844,6 +55354,66 @@ exports.Subscription = Subscription;
 
 /***/ },
 
+/***/ "./node_modules/rxjs/add/operator/catch.js":
+/***/ function(module, exports, __webpack_require__) {
+
+"use strict";
+"use strict";
+var Observable_1 = __webpack_require__("./node_modules/rxjs/Observable.js");
+var catch_1 = __webpack_require__("./node_modules/rxjs/operator/catch.js");
+Observable_1.Observable.prototype.catch = catch_1._catch;
+//# sourceMappingURL=catch.js.map
+
+/***/ },
+
+/***/ "./node_modules/rxjs/add/operator/concatAll.js":
+/***/ function(module, exports, __webpack_require__) {
+
+"use strict";
+"use strict";
+var Observable_1 = __webpack_require__("./node_modules/rxjs/Observable.js");
+var concatAll_1 = __webpack_require__("./node_modules/rxjs/operator/concatAll.js");
+Observable_1.Observable.prototype.concatAll = concatAll_1.concatAll;
+//# sourceMappingURL=concatAll.js.map
+
+/***/ },
+
+/***/ "./node_modules/rxjs/add/operator/every.js":
+/***/ function(module, exports, __webpack_require__) {
+
+"use strict";
+"use strict";
+var Observable_1 = __webpack_require__("./node_modules/rxjs/Observable.js");
+var every_1 = __webpack_require__("./node_modules/rxjs/operator/every.js");
+Observable_1.Observable.prototype.every = every_1.every;
+//# sourceMappingURL=every.js.map
+
+/***/ },
+
+/***/ "./node_modules/rxjs/add/operator/first.js":
+/***/ function(module, exports, __webpack_require__) {
+
+"use strict";
+"use strict";
+var Observable_1 = __webpack_require__("./node_modules/rxjs/Observable.js");
+var first_1 = __webpack_require__("./node_modules/rxjs/operator/first.js");
+Observable_1.Observable.prototype.first = first_1.first;
+//# sourceMappingURL=first.js.map
+
+/***/ },
+
+/***/ "./node_modules/rxjs/add/operator/last.js":
+/***/ function(module, exports, __webpack_require__) {
+
+"use strict";
+"use strict";
+var Observable_1 = __webpack_require__("./node_modules/rxjs/Observable.js");
+var last_1 = __webpack_require__("./node_modules/rxjs/operator/last.js");
+Observable_1.Observable.prototype.last = last_1.last;
+//# sourceMappingURL=last.js.map
+
+/***/ },
+
 /***/ "./node_modules/rxjs/add/operator/map.js":
 /***/ function(module, exports, __webpack_require__) {
 
@@ -57853,6 +55423,18 @@ var Observable_1 = __webpack_require__("./node_modules/rxjs/Observable.js");
 var map_1 = __webpack_require__("./node_modules/rxjs/operator/map.js");
 Observable_1.Observable.prototype.map = map_1.map;
 //# sourceMappingURL=map.js.map
+
+/***/ },
+
+/***/ "./node_modules/rxjs/add/operator/mergeAll.js":
+/***/ function(module, exports, __webpack_require__) {
+
+"use strict";
+"use strict";
+var Observable_1 = __webpack_require__("./node_modules/rxjs/Observable.js");
+var mergeAll_1 = __webpack_require__("./node_modules/rxjs/operator/mergeAll.js");
+Observable_1.Observable.prototype.mergeAll = mergeAll_1.mergeAll;
+//# sourceMappingURL=mergeAll.js.map
 
 /***/ },
 
@@ -57866,6 +55448,18 @@ var mergeMap_1 = __webpack_require__("./node_modules/rxjs/operator/mergeMap.js")
 Observable_1.Observable.prototype.mergeMap = mergeMap_1.mergeMap;
 Observable_1.Observable.prototype.flatMap = mergeMap_1.mergeMap;
 //# sourceMappingURL=mergeMap.js.map
+
+/***/ },
+
+/***/ "./node_modules/rxjs/add/operator/reduce.js":
+/***/ function(module, exports, __webpack_require__) {
+
+"use strict";
+"use strict";
+var Observable_1 = __webpack_require__("./node_modules/rxjs/Observable.js");
+var reduce_1 = __webpack_require__("./node_modules/rxjs/operator/reduce.js");
+Observable_1.Observable.prototype.reduce = reduce_1.reduce;
+//# sourceMappingURL=reduce.js.map
 
 /***/ },
 
@@ -60236,6 +57830,20 @@ if (false) {
 }
 else {
 }
+
+
+/***/ },
+
+/***/ 0:
+/***/ function(module, exports) {
+
+function webpackEmptyContext(req) {
+	throw new Error("Cannot find module '" + req + "'.");
+}
+webpackEmptyContext.keys = function() { return []; };
+webpackEmptyContext.resolve = webpackEmptyContext;
+module.exports = webpackEmptyContext;
+webpackEmptyContext.id = 0;
 
 
 /***/ }
