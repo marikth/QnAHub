@@ -9338,18 +9338,6 @@ Observable_1.Observable.of = of_1.of;
 
 /***/ },
 
-/***/ "./node_modules/rxjs/add/operator/catch.js":
-/***/ function(module, exports, __webpack_require__) {
-
-"use strict";
-"use strict";
-var Observable_1 = __webpack_require__("./node_modules/rxjs/Observable.js");
-var catch_1 = __webpack_require__("./node_modules/rxjs/operator/catch.js");
-Observable_1.Observable.prototype.catch = catch_1._catch;
-//# sourceMappingURL=catch.js.map
-
-/***/ },
-
 /***/ "./node_modules/rxjs/add/operator/do.js":
 /***/ function(module, exports, __webpack_require__) {
 
@@ -10118,7 +10106,7 @@ var About = (function () {
         core_1.Component({
             selector: 'about',
             styles: ["\n  "],
-            template: "\n    <h1>About</h1>\n    <div>\n      For hot module reloading run\n      <pre>npm run start:hmr</pre>\n    </div>\n    <div>\n      <h3>\n        patrick@AngularClass.com\n      </h3>\n    </div>\n    <pre>this.localState = {{ localState | json }}</pre>\n  "
+            template: "\n    <h1>About2</h1>\n    <div>\n      For hot module reloading run\n      <pre>npm run start:hmr</pre>\n    </div>\n    <div>\n      <h3>\n        patrick@AngularClass.com\n      </h3>\n    </div>\n    <pre>this.localState = {{ localState | json }}</pre>\n  "
         }), 
         __metadata('design:paramtypes', [(typeof (_a = typeof router_1.ActivatedRoute !== 'undefined' && router_1.ActivatedRoute) === 'function' && _a) || Object])
     ], About);
@@ -10243,6 +10231,7 @@ var App = (function () {
     function App(appState) {
         this.appState = appState;
         this.angularclassLogo = 'assets/img/angularclass-avatar.png';
+        this.loading = false;
         this.name = 'Angular 2 Webpack Starter';
         this.url = 'https://twitter.com/AngularClass';
     }
@@ -10256,7 +10245,7 @@ var App = (function () {
             styles: [
                 __webpack_require__("./src/source/app/app.style.css")
             ],
-            template: "\n  <md-content>\n    <md-toolbar color=\"primary\">\n        <span>{{ name }}</span>\n        <span class=\"fill\"></span>\n        <a md-button [routerLink]=\" ['./'] \">\n          Index\n        </a>\n        <a md-button [routerLink]=\" ['./home'] \">\n          Home\n        </a>\n        <a md-button [routerLink]=\" ['./detail'] \">\n          Detail\n        </a>\n        <a md-button [routerLink]=\" ['./about'] \">\n          About\n        </a>\n    </md-toolbar>\n\n    <md-progress-bar mode=\"indeterminate\" color=\"primary\" *ngIf=\"loading\"></md-progress-bar>\n\n    <main>\n      <router-outlet></router-outlet>\n    </main>\n\n    <pre class=\"app-state\">this.appState.state = {{ appState.state | json }}</pre>\n\n    <footer>\n      <span id=\"footerText\">WebPack Angular 2 Starter by <a [href]=\"url\">@AngularClass</a></span>\n      <img [src]=\"angularclassLogo\" width=\"6%\">\n    </footer>\n  </md-content>\n  "
+            template: "\n    <md-content>\n      <md-toolbar color=\"primary\">\n          <span>{{ name }}</span>\n          <span class=\"fill\"></span>\n          <a md-button [routerLink]=\" ['./'] \">\n            Index\n          </a>\n          <a md-button [routerLink]=\" ['./home'] \">\n            Home\n          </a>\n          <a md-button [routerLink]=\" ['./detail'] \">\n            Detail\n          </a>\n          <a md-button [routerLink]=\" ['./about'] \">\n            About\n          </a>\n      </md-toolbar>\n\n      <md-progress-bar mode=\"indeterminate\" color=\"primary\" *ngIf=\"loading\"></md-progress-bar>\n\n      <main>\n        <router-outlet></router-outlet>\n      </main>\n\n      <pre class=\"app-state\">this.appState.state = {{ appState.state | json }}</pre>\n\n      <footer>\n        <span id=\"footerText\">WebPack Angular 2 Starter by <a [href]=\"url\">@AngularClass</a></span>\n        <img [src]=\"angularclassLogo\" width=\"6%\">\n      </footer>\n    </md-content>\n  "
         }), 
         __metadata('design:paramtypes', [(typeof (_a = typeof app_service_1.AppState !== 'undefined' && app_service_1.AppState) === 'function' && _a) || Object])
     ], App);

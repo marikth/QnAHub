@@ -13,7 +13,7 @@ console.log('`About` component loaded asynchronously');
   styles: [`
   `],
   template: `
-    <h1>About</h1>
+    <h1>About2</h1>
     <div>
       For hot module reloading run
       <pre>npm run start:hmr</pre>
