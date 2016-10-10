@@ -16,8 +16,8 @@ module.exports = {
 
   entry: {
     'polyfills': './fe_src/polyfills.browser.ts',
-    'vendor':    './fe_src/vendor.browser.ts'
-    // 'main':      './fe_src/main.ts'
+    'vendor':    './fe_src/vendor.browser.ts',
+    'main':      './fe_src/main.ts'
   },
 
   output: {
@@ -30,19 +30,61 @@ module.exports = {
   },
 
   module: {
-    rules: [
-      {
-        test: /\.ts$/,
-        use: [
-          'awesome-typescript?tsconfig=tsconfig.json',
-          'angular2-template'
-        ]
-      },
-      {
-        test: /\.html$/,
-        use: 'raw'
-      }
-    ]
+    loaders: [
+
+         /*
+          * Typescript loader support for .ts and Angular 2 async routes via .async.ts
+          * Replace templateUrl and stylesUrl with require()
+          *
+          * See: https://github.com/s-panferov/awesome-typescript-loader
+          * See: https://github.com/TheLarkInn/angular2-template-loader
+          */
+         {
+           test: /\.ts$/,
+           loaders: [
+             'awesome-typescript-loader',
+             'angular2-template-loader'
+           ],
+           exclude: [/\.(spec|e2e)\.ts$/]
+         },
+
+         /*
+          * Json loader support for *.json files.
+          *
+          * See: https://github.com/webpack/json-loader
+          */
+         {
+           test: /\.json$/,
+           loader: 'json-loader'
+         },
+
+         /*
+          * to string and css loader support for *.css files
+          * Returns file content as string
+          *
+          */
+         {
+           test: /\.css$/,
+           loaders: ['to-string-loader', 'css-loader']
+         },
+
+         /* Raw loader support for *.html
+          * Returns file content as string
+          *
+          * See: https://github.com/webpack/raw-loader
+          */
+         {
+           test: /\.html$/,
+           loader: 'raw-loader',
+         },
+
+         /* File loader for supporting images, for example, in CSS files.
+         */
+         {
+           test: /\.(jpg|png|gif)$/,
+           loader: 'file'
+         }
+       ],
   },
 
   resolve: {
