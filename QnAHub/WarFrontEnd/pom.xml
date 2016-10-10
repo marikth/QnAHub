@@ -60,7 +60,7 @@
                             <goal>npm</goal>
                         </goals>
                         <configuration>
-                            <arguments>run build:dev</arguments>
+                            <arguments>run build</arguments>
                         </configuration>
                     </execution>
                     <!--<execution>-->
