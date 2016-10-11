@@ -15,10 +15,6 @@
     "lib": [
       "dom",
       "es6"
-    ],
-    "types": [
-      "node",
-      "selenium-webdriver"
     ]
   },
   "exclude": [

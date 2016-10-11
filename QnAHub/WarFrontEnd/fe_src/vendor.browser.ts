@@ -19,7 +19,7 @@ import 'rxjs';
 // // RxJS
 import 'core-js/client/shim';
 import 'reflect-metadata';
-require('zone.js/dist/zone');
+import 'zone.js';
 
 import 'ts-helpers';
 
