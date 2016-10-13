@@ -67,7 +67,10 @@ module.exports = {
            test: /\.css$/,
            loaders: ['to-string-loader', 'css-loader']
          },
-
+         {
+           test: /\.scss$/,
+           loader: "css-loader!sass-loader"
+         },
          /* Raw loader support for *.html
           * Returns file content as string
           *
