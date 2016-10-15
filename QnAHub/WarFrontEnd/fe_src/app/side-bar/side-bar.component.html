@@ -1,0 +1,6 @@
+<md-nav-list>
+  <md-list-item *ngFor="let link of links">
+    <a routerLink="{{ link.href }}">{{ link.name }}</a>
+  </md-list-item>
+  <md-divider></md-divider>
+</md-nav-list>
