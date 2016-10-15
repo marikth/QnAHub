@@ -4,7 +4,9 @@
 // run `typings install x` where `x` is your module
 
 // TODO(gdi2290): switch to DLLs
-
+declare var System: any;
+declare var module: { id: string };
+declare var require: any;
 // Angular 2
 import '@angular/core';
 import '@angular/common';
@@ -22,6 +24,10 @@ import 'reflect-metadata';
 import 'zone.js';
 
 import 'ts-helpers';
+
+
+
+
 
 // if ('production' === ENV) {
 //   // Production
