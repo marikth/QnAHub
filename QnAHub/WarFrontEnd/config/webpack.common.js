@@ -4,7 +4,6 @@ const webpack = require('webpack');
 const helpers = require('./helpers');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
-
 const METADATA = {
   title: 'QNA-Hub',
   baseUrl: '/',
@@ -63,14 +62,15 @@ module.exports = {
           * Returns file content as string
           *
           */
-         {
-           test: /\.css$/,
-           loaders: ['to-string-loader', 'css-loader']
-         },
-         {
-           test: /\.scss$/,
-           loader: "css-loader!sass-loader"
-         },
+          {
+            test: /\.css$/,
+            loaders: ['to-string-loader', 'css-loader']
+          },
+
+          {
+            test: /\.scss$/,
+            loader: 'style!css!sass'
+          },
          /* Raw loader support for *.html
           * Returns file content as string
           *
