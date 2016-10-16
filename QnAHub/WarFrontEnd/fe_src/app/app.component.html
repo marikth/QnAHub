@@ -1,5 +1,6 @@
 <md-sidenav-layout [class.m2app-dark]="isDarkTheme">
 
+<<<<<<< HEAD
   <md-sidenav #sidenav mode="side" class="app-sidenav">
     Sidenav
   </md-sidenav>
@@ -139,3 +140,22 @@
 <span class="app-action">
   <button md-fab><md-icon>check circle</md-icon></button>
 </span>
+=======
+  <md-sidenav #sidenav mode="side" class="app-sidenav" *ngIf="isLoggedIn">
+    <qnahub-side-bar></qnahub-side-bar>
+  </md-sidenav>
+
+  <md-toolbar color="primary">
+    <button md-icon-button (click)="sidenav.toggle()" *ngIf="isLoggedIn">
+      <md-icon class="md-24">menu</md-icon>
+    </button>
+  </md-toolbar>
+
+
+  <div class="app-content">
+    <!-- Routed views go here -->
+    <router-outlet></router-outlet>
+  </div>
+
+</md-sidenav-layout>
+>>>>>>> origin/add-material2

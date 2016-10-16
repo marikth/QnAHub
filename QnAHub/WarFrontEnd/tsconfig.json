@@ -11,7 +11,11 @@
     "strictNullChecks": false,
     "baseUrl": "./src",
     "paths": {
+<<<<<<< HEAD
       
+=======
+
+>>>>>>> origin/add-material2
     },
     "lib": [
       "dom",

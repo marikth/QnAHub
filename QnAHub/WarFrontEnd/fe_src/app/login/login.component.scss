@@ -1,0 +1,22 @@
+@import './../../styles.scss';
+
+.form {
+  position: relative;
+  z-index: 1;
+  max-width: 360px;
+  margin: 100px auto 100px;
+  padding: 30px 0 30px ;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  md-checkbox{
+    color: md-color($qna-light-gray);
+    font-size: 15px;
+    margin-right: 30px;
+  }
+}
+.login-title{
+   color: md-color($primary);
+   font-size: 22px;
+   margin: 0;
+   padding: 10px;
+}
