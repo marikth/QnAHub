@@ -5,5 +5,5 @@ target
 node
 node_modules
 bower_components
-$GIT_DIR/QnAHub/WarFrontEnd/src/main/webapp
-!$GIT_DIR/QnAHub/WarFrontEnd/src/main/webapp/WEB-INF
+QnAHub/WarFrontEnd/src/main/webapp
+!/QnAHub/WarFrontEnd/src/main/webapp/WEB-INF
