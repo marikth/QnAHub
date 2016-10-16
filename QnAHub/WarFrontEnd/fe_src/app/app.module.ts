@@ -10,10 +10,18 @@ import { SideBarComponent } from './side-bar/side-bar.component';
 import { DevTestComponent } from './dev-test/dev-test.component';
 import { LoginComponent } from './login/login.component';
 
+import { Logger } from './logger.service';
+import { AppState } from './app.service';
+
 const routes: Routes = [
   { path: '', redirectTo: '/login', pathMatch: 'full' },
   { path: 'dev-test',  component: DevTestComponent },
   { path: 'login',  component: LoginComponent }
+];
+
+const APP_PROVIDERS = [
+  Logger,
+  AppState,
 ];
 
 @NgModule({
@@ -31,6 +39,15 @@ const routes: Routes = [
     SideBarComponent,
     LoginComponent
    ],
-  bootstrap:    [ AppComponent ]
+  bootstrap:    [ AppComponent ],
+  providers: APP_PROVIDERS
 })
-export class AppModule { }
+export class AppModule {
+  constructor(public appState: AppState) {
+    appState.set('isLoggedIn', false);
+  }
+
+  ngOnInit() {
+    console.log('Start QnA component');
+  }
+}

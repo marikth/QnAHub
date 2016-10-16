@@ -48,6 +48,8 @@ $primary: md-palette($md-blue, A700);
 $accent:  md-palette($md-indigo, 900);
 $warn:    md-palette($md-red);
 
+$qna-light-gray: md-palette($md-grey);
+
 $theme: md-light-theme($primary, $accent, $warn);
 
 @include qnahub-theme($theme);

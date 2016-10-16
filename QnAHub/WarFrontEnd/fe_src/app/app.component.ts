@@ -6,7 +6,7 @@ declare var require: any;
 @Component({
   selector: 'app',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  styles: [ require('./app.component.scss').toString() ]
 })
 export class AppComponent {
 

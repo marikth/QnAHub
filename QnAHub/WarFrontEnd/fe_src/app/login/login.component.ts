@@ -1,4 +1,5 @@
 import {Component} from '@angular/core';
+import {AppState} from '../app.service';
 
 declare var require: any;
 
@@ -10,4 +11,11 @@ declare var require: any;
 
 export class LoginComponent{
 
+  constructor(public appState: AppState) {
+
+  }
+
+  ngOnInit() {
+    console.log('Start Login component');
+  }
 }
