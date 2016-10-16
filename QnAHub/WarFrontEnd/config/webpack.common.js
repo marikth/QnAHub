@@ -3,15 +3,16 @@ var path = require('path');
 const webpack = require('webpack');
 const helpers = require('./helpers');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const webpackMerge = require('webpack-merge');
 
 const METADATA = {
-  title: 'QNA-Hub',
+  siteTitle: 'QNA-Hub',
   baseUrl: '/',
   isDevServer: helpers.isWebpackDevServer()
 };
 
 module.exports = {
-
+  metadata: METADATA,
 
   entry: {
     'polyfills': './fe_src/polyfills.browser.ts',
@@ -98,7 +99,9 @@ module.exports = {
      new HtmlWebpackPlugin({
        filename: 'index.html',
        chunksSortMode: 'dependency',
-       template: 'fe_src/index.html'
+       template: 'fe_src/index.ejs',
+       baseUrl: METADATA.baseUrl,
+       siteTitle: METADATA.siteTitle
      }),
      new webpack.ProgressPlugin(),
      new webpack.ContextReplacementPlugin(

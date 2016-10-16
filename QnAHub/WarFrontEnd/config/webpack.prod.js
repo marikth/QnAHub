@@ -6,33 +6,12 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 const DefinePlugin = require('webpack/lib/DefinePlugin');
 
-const ENV = process.env.ENV = process.env.NODE_ENV = 'development';
-const HOST = process.env.HOST || 'localhost';
-const PORT = process.env.PORT || 3000;
-
 const METADATA = webpackMerge(commonConfig.metadata, {
-  siteTitle: 'QNA-Hub-Dev',
-  baseUrl: '/',
-  isDevServer: helpers.isWebpackDevServer(),
-  host: HOST,
-  port: PORT,
-  ENV: ENV
+  siteTitle: 'QNA-Hub',
+  baseUrl: '/qnahub/'
 });
 
 module.exports = webpackMerge(commonConfig, {
-
-  metadata: METADATA,
-
-  devServer: {
-    port: METADATA.port,
-    host: METADATA.host,
-    historyApiFallback: true,
-    watchOptions: {
-      aggregateTimeout: 300,
-      poll: 1000
-    },
-    outputPath: helpers.root('src/main/webapp/')
-  },
 
   plugins: [
      new HtmlWebpackPlugin({

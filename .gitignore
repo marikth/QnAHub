@@ -5,5 +5,5 @@ target
 node
 node_modules
 bower_components
-QnAHub/WarFrontEnd/src/main/webapp
+QnAHub/WarFrontEnd/src/main/webapp/*
 !/QnAHub/WarFrontEnd/src/main/webapp/WEB-INF
