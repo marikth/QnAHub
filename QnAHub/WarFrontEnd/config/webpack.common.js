@@ -96,13 +96,6 @@ module.exports = {
   },
 
   plugins: [
-     new HtmlWebpackPlugin({
-       filename: 'index.html',
-       chunksSortMode: 'dependency',
-       template: 'fe_src/index.ejs',
-       baseUrl: METADATA.baseUrl,
-       siteTitle: METADATA.siteTitle
-     }),
      new webpack.ProgressPlugin(),
      new webpack.ContextReplacementPlugin(
        // The (\\|\/) piece accounts for path separators in *nix and Windows
