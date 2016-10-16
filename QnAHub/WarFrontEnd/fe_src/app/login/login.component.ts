@@ -10,12 +10,13 @@ declare var require: any;
 })
 
 export class LoginComponent{
-
   constructor(public appState: AppState) {
-
+    this.isLoggedIn = appState.get('isLoggedIn');
   }
 
   ngOnInit() {
     console.log('Start Login component');
   }
+
+  isLoggedIn : boolean;
 }

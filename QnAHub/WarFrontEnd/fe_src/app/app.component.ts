@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import {AppState} from './app.service';
 
 
 declare var require: any;
@@ -9,5 +10,8 @@ declare var require: any;
   styles: [ require('./app.component.scss').toString() ]
 })
 export class AppComponent {
-
+  constructor(public appState: AppState) {
+    this.isLoggedIn = appState.get('isLoggedIn');
+  }
+  isLoggedIn : boolean;
 }
