@@ -34,11 +34,7 @@ import 'core-js/es6/promise';
 import 'core-js/es7/reflect';
  //import 'zone.js/dist/zone';
 
-<<<<<<< HEAD
-require ('./material2-app-theme.scss');
-=======
 require ('./styles.scss');
->>>>>>> origin/add-material2
 // if ('production' === ENV) {
 //   // Production
 //

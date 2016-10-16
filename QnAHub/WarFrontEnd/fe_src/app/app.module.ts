@@ -1,12 +1,9 @@
 import { NgModule }      from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { MaterialModule } from '@angular/material';
-<<<<<<< HEAD
-=======
 import { Routes, RouterModule } from '@angular/router';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
->>>>>>> origin/add-material2
 import { AppComponent }   from './app.component';
 import { ToolbarComponent } from './toolbar/toolbar.component';
 import { SideBarComponent } from './side-bar/side-bar.component';
@@ -28,12 +25,6 @@ const APP_PROVIDERS = [
 ];
 
 @NgModule({
-<<<<<<< HEAD
-  imports:      [ BrowserModule,
-    MaterialModule.forRoot() ],
-  declarations: [ AppComponent ],
-  bootstrap:    [ AppComponent ]
-=======
   imports:      [
     FormsModule,
     ReactiveFormsModule,
@@ -50,7 +41,6 @@ const APP_PROVIDERS = [
    ],
   bootstrap:    [ AppComponent ],
   providers: APP_PROVIDERS
->>>>>>> origin/add-material2
 })
 export class AppModule {
   constructor(public appState: AppState) {
