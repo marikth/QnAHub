@@ -19,7 +19,7 @@
     </dependency>
     <dependency>
       <groupId>qnahub</groupId>
-      <artifactId>data-module</artifactId>
+      <artifactId>manager-module</artifactId>
     </dependency>
   </dependencies>
   <build>

@@ -11,7 +11,7 @@
 	<version>trunk-SNAPSHOT</version>
 
 	<properties>
-		<spring.version>4.2.5.RELEASE</spring.version>
+		<spring.version>4.3.3.RELEASE</spring.version>
 		<qnahub.version>trunk-SNAPSHOT</qnahub.version>
 		<hibernate.version>5.1.0.Final</hibernate.version>
 	</properties>
@@ -42,6 +42,11 @@
 			<dependency>
 				<groupId>qnahub</groupId>
 				<artifactId>data-module</artifactId>
+				<version>${qnahub.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>qnahub</groupId>
+				<artifactId>manager-module</artifactId>
 				<version>${qnahub.version}</version>
 			</dependency>
 			<!-- Spring dependencies -->
@@ -88,28 +93,11 @@
 		<module>CommonModule</module>
 		<module>DataModule</module>
 		<module>WarFrontEnd</module>
+		<module>ManagerModule</module>
 	</modules>
 	<build>
 		<finalName>qnahub</finalName>
 		<plugins>
-			<!--<plugin>-->
-				<!--<groupId>org.codehaus.mojo</groupId>-->
-				<!--<artifactId>properties-maven-plugin</artifactId>-->
-				<!--<version>1.0.0</version>-->
-				<!--<executions>-->
-					<!--<execution>-->
-						<!--<phase>initialize</phase>-->
-						<!--<goals>-->
-							<!--<goal>read-project-properties</goal>-->
-						<!--</goals>-->
-						<!--<configuration>-->
-							<!--<urls>-->
-								<!--<file>file:///${user.dir}/conf/dev.properties</file>-->
-							<!--</urls>-->
-						<!--</configuration>-->
-					<!--</execution>-->
-				<!--</executions>-->
-			<!--</plugin>-->
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-compiler-plugin</artifactId>
