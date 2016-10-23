@@ -11,16 +11,26 @@ import javax.persistence.*;
 @Table(name = "USER")
 public class User extends SuperEntity{
 
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "ID")
-    private Long id;
+    @Column(name = "USERNAME")
+    private String username;
 
-    public Long getId() {
-        return id;
+    @ManyToOne
+    @JoinColumn(name = "SECURITY_INFO")
+    private UserSecurityInfo securityInfo;
+
+    public String getUsername() {
+        return username;
     }
 
-    public void setId(Long id) {
-        this.id = id;
+    public void setUsername(String username) {
+        this.username = username;
+    }
+
+    public UserSecurityInfo getSecurityInfo() {
+        return securityInfo;
+    }
+
+    public void setSecurityInfo(UserSecurityInfo securityInfo) {
+        this.securityInfo = securityInfo;
     }
 }

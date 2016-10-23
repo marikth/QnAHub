@@ -15,33 +15,7 @@
 
     <!-- 111Scans the classpath for annotated components that will be auto-registered as Spring beans -->
     <context:component-scan base-package="com.qnahub" />
-    <!-- Activates various annotations to be detected in bean classes e.g: @Autowired -->
-    <context:annotation-config />
 
-    <bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
-        <property name="driverClassName" value="com.mysql.jdbc.Driver" />
-        <property name="url" value="jdbc:mysql://localhost:3306/QNA_HUB?autoReconnect=true&amp;characterEncoding=UTF-8&amp;useUnicode=true" />
-        <property name="username" value="dev_user" />
-        <property name="password" value="1234" />
-    </bean>
-
-    <bean id="entityManagerFactory"
-          class="org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean"
-          p:packagesToScan="com.qnahub.data_module"
-          p:dataSource-ref="dataSource"
-    >
-        <property name="jpaVendorAdapter">
-            <bean class="org.springframework.orm.jpa.vendor.HibernateJpaVendorAdapter"
-                  p:database="MYSQL"
-                  p:databasePlatform="org.hibernate.dialect.MySQL5Dialect"
-                  p:showSql="true"/>
-        </property>
-    </bean>
-
-    <!-- Transactions -->
-    <bean id="transactionManager" class="org.springframework.orm.jpa.JpaTransactionManager">
-        <property name="entityManagerFactory" ref="entityManagerFactory" />
-    </bean>
     <!-- enable the configuration of transactional behavior based on annotations -->
     <tx:annotation-driven transaction-manager="transactionManager" />
 

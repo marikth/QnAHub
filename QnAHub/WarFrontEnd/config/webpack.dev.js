@@ -5,6 +5,7 @@ const commonConfig = require('./webpack.common.js');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 const DefinePlugin = require('webpack/lib/DefinePlugin');
+var OpenBrowserPlugin = require('open-browser-webpack-plugin');
 
 const ENV = process.env.ENV = process.env.NODE_ENV = 'development';
 const HOST = process.env.HOST || 'localhost';
@@ -35,6 +36,7 @@ module.exports = webpackMerge(commonConfig, {
   },
 
   plugins: [
+     new OpenBrowserPlugin({ url: 'http://localhost:3000' }),
      new HtmlWebpackPlugin({
        filename: 'index.html',
        chunksSortMode: 'dependency',
