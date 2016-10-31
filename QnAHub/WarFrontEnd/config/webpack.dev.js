@@ -5,7 +5,7 @@ const commonConfig = require('./webpack.common.js');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 const DefinePlugin = require('webpack/lib/DefinePlugin');
-var OpenBrowserPlugin = require('open-browser-webpack-plugin');
+const OpenBrowserPlugin = require('open-browser-webpack-plugin');
 
 const ENV = process.env.ENV = process.env.NODE_ENV = 'development';
 const HOST = process.env.HOST || 'localhost';
@@ -23,6 +23,24 @@ const METADATA = webpackMerge(commonConfig.metadata, {
 module.exports = webpackMerge(commonConfig, {
 
   metadata: METADATA,
+
+  module: {
+    loaders: [
+    /*
+     * to string and css loader support for *.css files
+     * Returns file content as string
+     *
+     */
+     {
+       test: /\.css$/,
+       loaders: ['to-string-loader', 'css-loader']
+     },
+
+     {
+       test: /\.scss$/,
+       loader: 'style!css!sass'
+     },
+   ]},
 
   devServer: {
     port: METADATA.port,

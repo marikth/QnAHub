@@ -18,6 +18,7 @@ module.exports = {
     'polyfills': './fe_src/polyfills.browser.ts',
     'vendor':    './fe_src/vendor.browser.ts',
     'main':      './fe_src/main.ts'
+  //  'environment': './fe_src/app/environment/environment.ts'
   },
 
   output: {
@@ -58,20 +59,7 @@ module.exports = {
            loader: 'json-loader'
          },
 
-         /*
-          * to string and css loader support for *.css files
-          * Returns file content as string
-          *
-          */
-          {
-            test: /\.css$/,
-            loaders: ['to-string-loader', 'css-loader']
-          },
 
-          {
-            test: /\.scss$/,
-            loader: 'style!css!sass'
-          },
          /* Raw loader support for *.html
           * Returns file content as string
           *
@@ -93,6 +81,8 @@ module.exports = {
 
   resolve: {
     extensions: ['.ts', '.js', '.json', '.css', '.scss', '.html'],
+    root: helpers.root('..'),
+    modulesDirectories: ['node_modules'],
   },
 
   plugins: [

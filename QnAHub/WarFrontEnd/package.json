@@ -6,7 +6,8 @@
     "build": "npm run build:dev",
     "build:dev": "webpack --config config/webpack.dev.js --progress --profile",
     "build:prod": "webpack --config config/webpack.prod.js  --progress --profile --bail",
-    "server": "server:dev",
+    "start": "npm run server",
+    "server": "npm run server:dev",
     "server:dev": "webpack-dev-server --config config/webpack.dev.js --progress --profile --watch --content-base src/main/webapp"
   },
   "license": "MIT",
@@ -43,6 +44,8 @@
     "css-loader": "^0.24.0",
     "sass-loader": "~4.0.1",
     "node-sass": "^3.10.1",
-    "style-loader": "^0.13.1"
+    "style-loader": "^0.13.1",
+    "extract-text-webpack-plugin": "^2.0.0-beta.4",
+    "open-browser-webpack-plugin": "0.0.2"
   }
 }
