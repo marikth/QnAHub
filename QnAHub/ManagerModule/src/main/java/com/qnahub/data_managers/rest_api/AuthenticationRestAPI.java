@@ -7,9 +7,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.ResponseBody;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 import org.springframework.web.client.HttpClientErrorException;
 
 import javax.servlet.http.HttpServletResponse;
@@ -20,7 +18,7 @@ import java.io.IOException;
  */
 
 @RestController()
-@RequestMapping(value="/rest")
+@RequestMapping(value="/auth")
 public class AuthenticationRestAPI {
 
     @Autowired
@@ -38,14 +36,14 @@ public class AuthenticationRestAPI {
 //        return new ResponseEntity<String>(new String("aaa"), HttpStatus.OK);
 //    }
 //
-//    @RequestMapping(value = "/login", method = RequestMethod.POST)
-//    public ResponseEntity<LoginResponse> loginUser(@RequestParam(value="username")String username, @RequestParam(value="password")CharSequence password){
-//        authManager.login(username, password);
-//        LoginResponse loginResponse = new LoginResponse();
-//        loginResponse.setToken("asdasd");
-//    //    return loginResponse;
-//        return new ResponseEntity<LoginResponse>(loginResponse, HttpStatus.OK);
-//    }
+    @RequestMapping(value = "/login", method = RequestMethod.POST)
+    public ResponseEntity<LoginResponse> loginUser(@RequestParam(value="username")String username, @RequestParam(value="password")CharSequence password){
+        authManager.login(username, password);
+        LoginResponse loginResponse = new LoginResponse();
+        loginResponse.setToken("asdasd");
+    //    return loginResponse;
+        return new ResponseEntity<LoginResponse>(loginResponse, HttpStatus.OK);
+    }
 
     @RequestMapping(value = "/create_user")
     public  ResponseEntity<LoginResponse> createUser(HttpServletResponse response){
