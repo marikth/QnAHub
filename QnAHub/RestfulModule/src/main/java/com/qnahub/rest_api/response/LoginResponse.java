@@ -1,4 +1,4 @@
-package com.qnahub.data_managers.rest_api.response;
+package com.qnahub.rest_api.response;
 
 /**
  * Created by markth on 10/25/2016.

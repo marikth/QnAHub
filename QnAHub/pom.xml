@@ -91,6 +91,16 @@
 				<artifactId>manager-module</artifactId>
 				<version>${qnahub.version}</version>
 			</dependency>
+            <dependency>
+                <groupId>qnahub</groupId>
+                <artifactId>restful-module</artifactId>
+                <version>${qnahub.version}</version>
+            </dependency>
+			<dependency>
+                <groupId>qnahub</groupId>
+				<artifactId>setup-module</artifactId>
+                <version>${qnahub.version}</version>
+            </dependency>
 
 
 			<!-- Testing -->
@@ -129,8 +139,10 @@
 	<modules>
 		<module>CommonModule</module>
 		<module>DataModule</module>
-		<module>WarFrontEnd</module>
+		<module>SetupModule</module>
 		<module>ManagerModule</module>
+		<module>RestfulModule</module>
+		<module>WarFrontEnd</module>
 	</modules>
 	<build>
 		<finalName>qnahub</finalName>
@@ -140,8 +152,8 @@
 				<artifactId>maven-compiler-plugin</artifactId>
 				<version>3.5.1</version>
 				<configuration>
-					<source>1.7</source>
-					<target>1.7</target>
+					<source>1.8</source>
+					<target>1.8</target>
 					<encoding>UTF-8</encoding>
 				</configuration>
 			</plugin>

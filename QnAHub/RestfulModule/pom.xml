@@ -9,14 +9,14 @@
         <version>trunk-SNAPSHOT</version>
     </parent>
 
-    <artifactId>manager-module</artifactId>
+    <artifactId>restful-module</artifactId>
     <packaging>jar</packaging>
-    <name>QnAHUB Manager Module</name>
+    <name>QnAHUB Restful Module</name>
 
     <dependencies>
         <dependency>
             <groupId>qnahub</groupId>
-            <artifactId>data-module</artifactId>
+            <artifactId>manager-module</artifactId>
         </dependency>
         <dependency>
             <groupId>com.fasterxml.jackson.core</groupId>

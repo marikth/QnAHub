@@ -1,17 +1,14 @@
-package com.qnahub.data_managers.rest_api;
+package com.qnahub.rest_api.controller;
 
 import com.qnahub.data_managers.managers.AuthenticationManager;
 import com.qnahub.data_managers.managers.UserManager;
-import com.qnahub.data_managers.rest_api.response.LoginResponse;
+import com.qnahub.rest_api.response.LoginResponse;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
-import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import org.springframework.web.client.HttpClientErrorException;
 
 import javax.servlet.http.HttpServletResponse;
-import java.io.IOException;
 
 /**
  * Created by markth on 10/20/2016.

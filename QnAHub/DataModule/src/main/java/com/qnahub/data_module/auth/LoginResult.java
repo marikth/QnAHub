@@ -9,15 +9,17 @@ public class LoginResult {
     protected LoginStatusEnum statusEnum;
     protected UserEntity loggedInUser;
     protected boolean isAdmin;
+    protected String token;
 
     public LoginResult(LoginStatusEnum statusEnum) {
         this.statusEnum = statusEnum;
     }
 
-    public LoginResult(LoginStatusEnum statusEnum, UserEntity loggedInUser, boolean isAdmin) {
+    public LoginResult(LoginStatusEnum statusEnum, UserEntity loggedInUser, boolean isAdmin, String token) {
         this.statusEnum = statusEnum;
         this.loggedInUser = loggedInUser;
         this.isAdmin = isAdmin;
+        this.token = token;
     }
 
     public LoginStatusEnum getStatusEnum() {
@@ -30,5 +32,9 @@ public class LoginResult {
 
     public boolean isAdmin() {
         return isAdmin;
+    }
+
+    public String getToken() {
+        return token;
     }
 }

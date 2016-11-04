@@ -20,7 +20,7 @@
         </dependency>
         <dependency>
             <groupId>qnahub</groupId>
-            <artifactId>manager-module</artifactId>
+            <artifactId>restful-module</artifactId>
         </dependency>
     </dependencies>
     <build>

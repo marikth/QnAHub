@@ -7,7 +7,8 @@ import com.qnahub.data_module.services.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import java.util.Date;
+import java.time.LocalDateTime;
+
 
 /**
  * Created by markth on 10/23/2016.
@@ -23,7 +24,7 @@ public class UserManager extends SuperManager{
         userEntity.setUsername("admin");
         UserAuthenticationInfoEntity securityInfoEntity = new UserAuthenticationInfoEntity();
         securityInfoEntity.setPassword("1234");
-        securityInfoEntity.setPasswordCreateDate(new Date());
+       // securityInfoEntity.setPasswordCreateDate(LocalDateTime.now());
         userEntity.setSecurityInfo(securityInfoEntity);
         userService.create(userEntity);
     }
