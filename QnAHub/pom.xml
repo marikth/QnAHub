@@ -13,7 +13,7 @@
 	<properties>
 		<springframework.version>4.3.3.RELEASE</springframework.version>
 		<qnahub.version>trunk-SNAPSHOT</qnahub.version>
-		<hibernate.version>5.1.0.Final</hibernate.version>
+		<hibernate.version>5.2.4.Final</hibernate.version>
 	</properties>
 
 	<dependencyManagement>
@@ -61,7 +61,7 @@
 			<!-- Hibernate -->
 			<dependency>
 				<groupId>org.hibernate</groupId>
-				<artifactId>hibernate-entitymanager</artifactId>
+				<artifactId>hibernate-core</artifactId>
 				<version>${hibernate.version}</version>
 			</dependency>
 			<dependency>

@@ -1,7 +1,7 @@
 package com.qnahub.common.entity;
 
 import javax.persistence.*;
-import java.util.Date;
+import java.time.LocalDateTime;
 
 /**
  * Created by markth on 4/13/2016.
@@ -19,8 +19,7 @@ public class SuperEntity {
     private int updateVersion;
 
     @Column(name = "UPDATE_DATE")
-    @Temporal(TemporalType.TIMESTAMP)
-    private Date updateDate;
+    private LocalDateTime updateDate;
 
     @Column(name = "UPDATE_USER")
     private Long updateUser;
@@ -33,11 +32,11 @@ public class SuperEntity {
         this.id = id;
     }
 
-    public Date getUpdateDate() {
+    public LocalDateTime getUpdateDate() {
         return updateDate;
     }
 
-    public void setUpdateDate(Date updateDate) {
+    public void setUpdateDate(LocalDateTime updateDate) {
         this.updateDate = updateDate;
     }
 
