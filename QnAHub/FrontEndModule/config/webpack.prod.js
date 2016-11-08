@@ -48,7 +48,7 @@ module.exports = webpackMerge(commonConfig, {
      new HtmlWebpackPlugin({
        filename: 'index.html',
        chunksSortMode: 'dependency',
-       template: 'fe_src/index.ejs',
+       template: 'src/index.ejs',
        baseUrl: METADATA.baseUrl,
        siteTitle: METADATA.siteTitle
      })

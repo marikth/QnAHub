@@ -50,7 +50,7 @@ module.exports = webpackMerge(commonConfig, {
       aggregateTimeout: 300,
       poll: 1000
     },
-    outputPath: helpers.root('src/main/webapp/')
+    outputPath: helpers.root('../WarModule/src/main/webapp/')
   },
 
   plugins: [
@@ -58,7 +58,7 @@ module.exports = webpackMerge(commonConfig, {
      new HtmlWebpackPlugin({
        filename: 'index.html',
        chunksSortMode: 'dependency',
-       template: 'fe_src/index.ejs',
+       template: 'src/index.ejs',
        baseUrl: METADATA.baseUrl,
        siteTitle: METADATA.siteTitle
      })],

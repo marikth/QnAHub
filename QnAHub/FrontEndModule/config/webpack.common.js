@@ -15,14 +15,14 @@ module.exports = {
   metadata: METADATA,
 
   entry: {
-    'polyfills': './fe_src/polyfills.browser.ts',
-    'vendor':    './fe_src/vendor.browser.ts',
-    'main':      './fe_src/main.ts'
-  //  'environment': './fe_src/app/environment/environment.ts'
+    'polyfills': './src/polyfills.browser.ts',
+    'vendor':    './src/vendor.browser.ts',
+    'main':      './src/main.ts'
+  //  'environment': './src/app/environment/environment.ts'
   },
 
   output: {
-    path: helpers.root('src/main/webapp'),
+    path: helpers.root('../WarModule/src/main/webapp'),
     filename: '[name].bundle.js',
     sourceMapFilename: '[name].map',
     chunkFilename: '[id].chunk.js',
