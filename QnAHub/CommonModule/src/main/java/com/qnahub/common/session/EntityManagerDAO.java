@@ -48,6 +48,7 @@ public class EntityManagerDAO {
             throw new NonUniqueResultException("Query: " + query.toString() + " returns non unique results");
         }
         Object singleResult = collection.iterator().next();
+        em.getProperties();
         return (T)singleResult;
     }
 }

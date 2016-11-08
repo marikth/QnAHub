@@ -11,19 +11,19 @@ import javax.persistence.*;
 @Table(name = "USER")
 @NamedQueries({
         @NamedQuery(name = UserEntity.FIND_BY_USERNAME, query = "SELECT o FROM UserEntity o WHERE o.username = ?1"),
-        @NamedQuery(name = UserEntity.FIND_BY_TOKEN, query = "SELECT o FROM UserEntity o WHERE o.securityInfo.authToken = ?1")
+        @NamedQuery(name = UserEntity.FIND_BY_TOKEN, query = "SELECT o FROM UserEntity o WHERE o.authenticationInfo.authToken = ?1")
 })
 public class UserEntity extends SuperEntity{
-    public static final String FIND_BY_USERNAME = "findByUsername";
-    public static final String FIND_BY_TOKEN = "findByAuthenticationToken";
+    public static final String FIND_BY_USERNAME = "userEntity.findByUsername";
+    public static final String FIND_BY_TOKEN = "userEntity.findByAuthenticationToken";
 
 
     @Column(name = "USERNAME")
     private String username;
 
-    @ManyToOne
-    @JoinColumn(name = "SECURITY_INFO")
-    private UserAuthenticationInfoEntity securityInfo;
+    @OneToOne
+    @JoinColumn(name = "AUTHENTICATION_INFO")
+    private UserAuthenticationInfoEntity authenticationInfo;
 
     public String getUsername() {
         return username;
@@ -33,11 +33,11 @@ public class UserEntity extends SuperEntity{
         this.username = username;
     }
 
-    public UserAuthenticationInfoEntity getSecurityInfo() {
-        return securityInfo;
+    public UserAuthenticationInfoEntity getAuthenticationInfo() {
+        return authenticationInfo;
     }
 
-    public void setSecurityInfo(UserAuthenticationInfoEntity securityInfo) {
-        this.securityInfo = securityInfo;
+    public void setAuthenticationInfo(UserAuthenticationInfoEntity authenticationInfo) {
+        this.authenticationInfo = authenticationInfo;
     }
 }

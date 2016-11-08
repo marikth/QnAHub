@@ -101,6 +101,11 @@
 				<artifactId>setup-module</artifactId>
                 <version>${qnahub.version}</version>
             </dependency>
+			<dependency>
+				<groupId>qnahub</groupId>
+				<artifactId>dao-module</artifactId>
+				<version>${qnahub.version}</version>
+			</dependency>
 
 
 			<!-- Testing -->
@@ -139,6 +144,7 @@
 	<modules>
 		<module>CommonModule</module>
 		<module>DataModule</module>
+		<module>DAOModule</module>
 		<module>SetupModule</module>
 		<module>ManagerModule</module>
 		<module>RestfulModule</module>
@@ -173,12 +179,17 @@
 			<plugin>
 				<groupId>org.eclipse.jetty</groupId>
 				<artifactId>jetty-maven-plugin</artifactId>
-				<version>9.3.13.v20161014</version>
+				<version>9.4.0.RC1</version>
 				<configuration>
-					<war>${project.basedir}/WarFrontEnd/target/qnahub</war>
+					<webAppSourceDirectory>WarFrontEnd/target/qnahub</webAppSourceDirectory>
+
 					<webApp>
 						<contextPath>/qnahub</contextPath>
 					</webApp>
+					<scanTargets>
+						<scanTarget>CommonModule/target/classes</scanTarget>
+						<scanTarget>module-name2/target/classes</scanTarget>
+					</scanTargets>
 				</configuration>
 			</plugin>
 		</plugins>

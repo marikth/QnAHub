@@ -1,6 +1,7 @@
 package com.qnahub.data_module.entity;
 
 import com.qnahub.common.entity.SuperEntity;
+import com.qnahub.common.utils.EncryptionUtil;
 
 import javax.persistence.*;
 import java.time.LocalDateTime;
@@ -48,7 +49,8 @@ public class UserAuthenticationInfoEntity extends SuperEntity {
     }
 
     public void setPassword(String password) {
-        this.password = password;
+        String encrypted = EncryptionUtil.encode(password);
+        this.password = encrypted;
     }
 
     public LocalDateTime getPasswordCreateDate() {

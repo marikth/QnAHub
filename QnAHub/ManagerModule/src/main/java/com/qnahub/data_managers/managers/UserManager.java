@@ -1,13 +1,10 @@
 package com.qnahub.data_managers.managers;
 
 import com.qnahub.common.managers.SuperManager;
+import com.qnahub.dao.ifc.UserDAOIfc;
 import com.qnahub.data_module.entity.UserEntity;
-import com.qnahub.data_module.entity.UserAuthenticationInfoEntity;
-import com.qnahub.data_module.services.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
-import java.time.LocalDateTime;
 
 
 /**
@@ -16,16 +13,11 @@ import java.time.LocalDateTime;
 @Service
 public class UserManager extends SuperManager{
 
-    @Autowired
-    private UserService userService;
 
-    public void createUser() {
-        UserEntity userEntity = new UserEntity();
-        userEntity.setUsername("admin");
-        UserAuthenticationInfoEntity securityInfoEntity = new UserAuthenticationInfoEntity();
-        securityInfoEntity.setPassword("1234");
-       // securityInfoEntity.setPasswordCreateDate(LocalDateTime.now());
-        userEntity.setSecurityInfo(securityInfoEntity);
-        userService.create(userEntity);
+    @Autowired
+    private UserDAOIfc userDao;
+
+    public void createUser(UserEntity user){
+        userDao.saveUser(user);
     }
 }

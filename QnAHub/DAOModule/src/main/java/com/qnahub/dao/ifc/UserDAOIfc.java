@@ -1,4 +1,4 @@
-package com.qnahub.data_module.dao;
+package com.qnahub.dao.ifc;
 
 import com.qnahub.common.ifc.SuperDaoIfc;
 import com.qnahub.data_module.entity.UserEntity;
@@ -8,5 +8,5 @@ import com.qnahub.data_module.entity.UserEntity;
  */
 public interface UserDAOIfc extends SuperDaoIfc {
 
-    void create(UserEntity userEntity);
+    void saveUser(UserEntity userEntity);
 }

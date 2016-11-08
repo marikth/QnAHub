@@ -11,7 +11,6 @@ import java.util.Collection;
 /**
  * Created by markth on 10/23/2016.
  */
-@Transactional
 public abstract class SuperDao implements SuperDaoIfc {
 
     @Autowired
