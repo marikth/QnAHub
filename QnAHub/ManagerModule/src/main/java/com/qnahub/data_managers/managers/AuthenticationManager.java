@@ -2,13 +2,10 @@ package com.qnahub.data_managers.managers;
 
 import com.qnahub.common.managers.SuperManager;
 import com.qnahub.common.utils.EncryptionUtil;
-import com.qnahub.dao.ifc.UserAuthenticationDAOIfc;
 import com.qnahub.data_module.auth.LoginResult;
 import com.qnahub.data_module.auth.LoginStatusEnum;
-import com.qnahub.dao.ifc.UserDAOIfc;
 import com.qnahub.data_module.entity.UserAuthenticationInfoEntity;
 import com.qnahub.data_module.entity.UserEntity;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.time.LocalDateTime;
@@ -19,14 +16,8 @@ import java.time.LocalDateTime;
 @Service
 public class AuthenticationManager extends SuperManager {
 
-    @Autowired
-    private UserDAOIfc userDAO;
-
-    @Autowired
-    private UserAuthenticationDAOIfc userAuthenticationDAO;
-
     public void createAuthenticationEntity(UserAuthenticationInfoEntity authEntity){
-        userAuthenticationDAO.saveUserAuthentication(authEntity);
+      //  userAuthenticationDAO.saveUserAuthentication(authEntity);
     }
 
     public void authenticate() {
@@ -34,7 +25,8 @@ public class AuthenticationManager extends SuperManager {
     }
 
     public LoginResult login(String username, CharSequence password) {
-        UserEntity user = userDAO.getSingleEntityBy(UserEntity.class, UserEntity.FIND_BY_USERNAME, username);
+        //UserEntity user = userDAO.getSingleEntityBy(UserEntity.class, UserEntity.FIND_BY_USERNAME, username);
+        UserEntity user = null;
         if(user == null){
             return new LoginResult(LoginStatusEnum.FAILED);
         }
@@ -49,7 +41,7 @@ public class AuthenticationManager extends SuperManager {
             String token = EncryptionUtil.generateHash(username);
             authenticationInfo.setLastLogin(LocalDateTime.now());
             authenticationInfo.setAuthToken(token);
-            userAuthenticationDAO.saveUserAuthentication(authenticationInfo);
+         //   userAuthenticationDAO.saveUserAuthentication(authenticationInfo);
             loginResult = new LoginResult(LoginStatusEnum.SUCCESS, user, true, token);
         }
 

@@ -1,5 +1,7 @@
 package com.qnahub.common.managers;
 
+import com.qnahub.common.session.EntityManagerDAO;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.transaction.annotation.Transactional;
 
 /**
@@ -7,4 +9,7 @@ import org.springframework.transaction.annotation.Transactional;
  */
 @Transactional
 public class SuperManager {
+
+    @Autowired
+    private EntityManagerDAO entityDao;
 }

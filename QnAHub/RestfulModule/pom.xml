@@ -16,6 +16,10 @@
     <dependencies>
         <dependency>
             <groupId>qnahub</groupId>
+            <artifactId>data-module</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>qnahub</groupId>
             <artifactId>manager-module</artifactId>
         </dependency>
         <dependency>

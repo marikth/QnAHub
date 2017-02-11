@@ -13,7 +13,7 @@
 	<properties>
 		<springframework.version>4.3.3.RELEASE</springframework.version>
 		<qnahub.version>trunk-SNAPSHOT</qnahub.version>
-		<hibernate.version>5.2.4.Final</hibernate.version>
+		<hibernate.version>5.2.5.Final</hibernate.version>
 	</properties>
 
 	<dependencyManagement>
@@ -144,12 +144,12 @@
 	<modules>
 		<module>CommonModule</module>
 		<module>DataModule</module>
-		<module>DAOModule</module>
 		<module>SetupModule</module>
 		<module>ManagerModule</module>
 		<module>RestfulModule</module>
 		<module>FrontEndModule</module>
 		<module>WarModule</module>
+		<module>EarModule</module>
 	</modules>
 	<build>
 		<finalName>qnahub</finalName>
@@ -177,23 +177,6 @@
 					<outputFileNameMapping>@{groupId}@-@{artifactId}@-@{baseVersion}@@{dashClassifier?}@.@{extension}@</outputFileNameMapping>
 				</configuration>
 			</plugin>
-			<plugin>
-				<groupId>org.eclipse.jetty</groupId>
-				<artifactId>jetty-maven-plugin</artifactId>
-				<version>9.4.0.RC1</version>
-				<configuration>
-					<webAppSourceDirectory>WarModule/target/qnahub</webAppSourceDirectory>
-
-					<webApp>
-						<contextPath>/qnahub</contextPath>
-					</webApp>
-					<scanTargets>
-						<scanTarget>CommonModule/target/classes</scanTarget>
-						<scanTarget>module-name2/target/classes</scanTarget>
-					</scanTargets>
-				</configuration>
-			</plugin>
 		</plugins>
 	</build>
-
 </project>

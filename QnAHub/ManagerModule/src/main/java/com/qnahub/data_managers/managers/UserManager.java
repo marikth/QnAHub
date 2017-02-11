@@ -1,9 +1,7 @@
 package com.qnahub.data_managers.managers;
 
 import com.qnahub.common.managers.SuperManager;
-import com.qnahub.dao.ifc.UserDAOIfc;
 import com.qnahub.data_module.entity.UserEntity;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 
@@ -14,10 +12,10 @@ import org.springframework.stereotype.Service;
 public class UserManager extends SuperManager{
 
 
-    @Autowired
-    private UserDAOIfc userDao;
-
+//    @Autowired
+//    private UserDAOIfc userDao;
+//
     public void createUser(UserEntity user){
-        userDao.saveUser(user);
+//        userDao.saveUser(user);
     }
 }

@@ -16,7 +16,11 @@
     <dependencies>
         <dependency>
             <groupId>qnahub</groupId>
-            <artifactId>dao-module</artifactId>
+            <artifactId>data-module</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>qnahub</groupId>
+            <artifactId>common-module</artifactId>
         </dependency>
         <dependency>
             <groupId>com.fasterxml.jackson.core</groupId>

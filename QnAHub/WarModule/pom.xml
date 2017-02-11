@@ -12,16 +12,5 @@
     <packaging>war</packaging>
     <name>QnAHUB War Module</name>
 
-    <dependencies>
-        <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-            <version>4.12</version>
-            <scope>compile</scope>
-        </dependency>
-        <dependency>
-            <groupId>qnahub</groupId>
-            <artifactId>restful-module</artifactId>
-        </dependency>
-    </dependencies>
+
 </project>
