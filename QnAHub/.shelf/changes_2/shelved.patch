@@ -1,0 +1,627 @@
+Index: RestfulModule/pom.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- RestfulModule/pom.xml	(revision )
++++ RestfulModule/pom.xml	(revision )
+@@ -0,0 +1,50 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
++         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
++    <modelVersion>4.0.0</modelVersion>
++
++    <parent>
++        <groupId>qnahub</groupId>
++        <artifactId>qnahub-parent</artifactId>
++        <version>trunk-SNAPSHOT</version>
++    </parent>
++
++    <artifactId>restful-module</artifactId>
++    <packaging>jar</packaging>
++    <name>QnAHUB Restful Module</name>
++
++    <dependencies>
++        <dependency>
++            <groupId>qnahub</groupId>
++            <artifactId>manager-module</artifactId>
++        </dependency>
++        <dependency>
++            <groupId>com.fasterxml.jackson.core</groupId>
++            <artifactId>jackson-databind</artifactId>
++        </dependency>
++        <dependency>
++            <groupId>javax.servlet</groupId>
++            <artifactId>javax.servlet-api</artifactId>
++        </dependency>
++        <dependency>
++            <groupId>org.springframework</groupId>
++            <artifactId>spring-core</artifactId>
++        </dependency>
++        <dependency>
++            <groupId>org.springframework</groupId>
++            <artifactId>spring-web</artifactId>
++        </dependency>
++        <dependency>
++            <groupId>org.springframework</groupId>
++            <artifactId>spring-webmvc</artifactId>
++        </dependency>
++        <dependency>
++            <groupId>org.springframework</groupId>
++            <artifactId>spring-tx</artifactId>
++        </dependency>
++        <dependency>
++            <groupId>org.springframework</groupId>
++            <artifactId>spring-orm</artifactId>
++        </dependency>
++    </dependencies>
++</project>
+\ No newline at end of file
+Index: CommonModule/src/main/java/com/qnahub/common/constants/ServerParamsConst.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- CommonModule/src/main/java/com/qnahub/common/constants/ServerParamsConst.java	(revision )
++++ CommonModule/src/main/java/com/qnahub/common/constants/ServerParamsConst.java	(revision )
+@@ -0,0 +1,8 @@
++package com.qnahub.common.constants;
++
++/**
++ * Created by markth on 11/4/2016.
++ */
++public class ServerParamsConst {
++    public static final int GUEST_VIEW_ALLOWED = 1;
++}
+Index: RestfulModule/src/main/java/com/qnahub/rest_api/controller/AuthenticationRestAPI.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- RestfulModule/src/main/java/com/qnahub/rest_api/controller/AuthenticationRestAPI.java	(revision )
++++ RestfulModule/src/main/java/com/qnahub/rest_api/controller/AuthenticationRestAPI.java	(revision )
+@@ -0,0 +1,65 @@
++package com.qnahub.rest_api.controller;
++
++import com.qnahub.data_managers.managers.AuthenticationManager;
++import com.qnahub.data_managers.managers.UserManager;
++import com.qnahub.data_managers.rest_api.response.LoginResponse;
++import org.springframework.beans.factory.annotation.Autowired;
++import org.springframework.http.HttpStatus;
++import org.springframework.http.MediaType;
++import org.springframework.http.ResponseEntity;
++import org.springframework.web.bind.annotation.*;
++import org.springframework.web.client.HttpClientErrorException;
++
++import javax.servlet.http.HttpServletResponse;
++import java.io.IOException;
++
++/**
++ * Created by markth on 10/20/2016.
++ */
++
++@RestController()
++@RequestMapping(value="/auth")
++public class AuthenticationRestAPI {
++
++    @Autowired
++    private AuthenticationManager authManager;
++
++    @Autowired
++    private UserManager userManager;
++
++//
++//    @RequestMapping(value = "/authentication", method = RequestMethod.GET, produces = "application/json")
++//    public ResponseEntity<String> authentication(){
++//        authManager.authenticate();
++//
++//
++//        return new ResponseEntity<String>(new String("aaa"), HttpStatus.OK);
++//    }
++//
++    @RequestMapping(value = "/login", method = RequestMethod.POST)
++    public ResponseEntity<LoginResponse> loginUser(@RequestParam(value="username")String username, @RequestParam(value="password")CharSequence password){
++        authManager.login(username, password);
++        LoginResponse loginResponse = new LoginResponse();
++        loginResponse.setToken("asdasd");
++    //    return loginResponse;
++        return new ResponseEntity<LoginResponse>(loginResponse, HttpStatus.OK);
++    }
++
++    @RequestMapping(value = "/create_user")
++    public  ResponseEntity<LoginResponse> createUser(HttpServletResponse response){
++        return new ResponseEntity<LoginResponse>(new LoginResponse() ,HttpStatus.OK);
++//        response.setContentType("application/json");
++//        LoginResponse loginResponse = new LoginResponse();
++////        loginResponse.setToken("asdasd");
++//        System.out.print(loginResponse);
++//
++//        ResponseEntity<LoginResponse> kk = new ResponseEntity<>(HttpStatus.OK);
++//
++//        try {
++//            return loginResponse.parse2String();
++//        } catch (IOException e) {
++//            throw new HttpClientErrorException(HttpStatus.SERVICE_UNAVAILABLE, "Output Parsing Error");
++//        }
++        //   return "lll";
++    }
++}
+Index: CommonModule/src/main/java/com/qnahub/common/environment/EnvParams.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- CommonModule/src/main/java/com/qnahub/common/environment/EnvParams.java	(revision )
++++ CommonModule/src/main/java/com/qnahub/common/environment/EnvParams.java	(revision )
+@@ -0,0 +1,14 @@
++package com.qnahub.common.environment;
++
++import java.util.Map;
++
++/**
++ * Created by markth on 11/4/2016.
++ */
++public class EnvParams {
++    private static Map<String, String> paramsMap;
++
++    private static void refresh(){
++
++    }
++}
+Index: CommonModule/src/main/java/com/qnahub/common/entity/ServerParameter.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- CommonModule/src/main/java/com/qnahub/common/entity/ServerParameter.java	(revision )
++++ CommonModule/src/main/java/com/qnahub/common/entity/ServerParameter.java	(revision )
+@@ -0,0 +1,46 @@
++package com.qnahub.common.entity;
++
++import javax.persistence.Column;
++import javax.persistence.Entity;
++import javax.persistence.Table;
++
++/**
++ * Created by markth on 10/23/2016.
++ */
++@Entity
++@Table(name = "SERVER_PARAMETERS")
++public class ServerParameter extends SuperSetupEntity{
++
++    @Column(name = "NAME")
++    private String name;
++
++    @Column(name = "VALUE")
++    private String value;
++
++    @Column(name = "DESCRIPTION")
++    private String description;
++
++    public String getName() {
++        return name;
++    }
++
++    public void setName(String name) {
++        this.name = name;
++    }
++
++    public String getValue() {
++        return value;
++    }
++
++    public void setValue(String value) {
++        this.value = value;
++    }
++
++    public String getDescription() {
++        return description;
++    }
++
++    public void setDescription(String description) {
++        this.description = description;
++    }
++}
+Index: SetupModule/pom.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- SetupModule/pom.xml	(revision )
++++ SetupModule/pom.xml	(revision )
+@@ -0,0 +1,20 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
++         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
++    <modelVersion>4.0.0</modelVersion>
++
++    <parent>
++        <groupId>qnahub</groupId>
++        <artifactId>qnahub-parent</artifactId>
++        <version>trunk-SNAPSHOT</version>
++    </parent>
++
++    <artifactId>setup-module</artifactId>
++    <packaging>jar</packaging>
++    <name>QnAHUB Setup Module</name>
++
++    <dependencies>
++
++    </dependencies>
++
++</project>
+\ No newline at end of file
+Index: CommonModule/src/main/java/com/qnahub/common/api/SuperResponse.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- CommonModule/src/main/java/com/qnahub/common/api/SuperResponse.java	(date 1478039500000)
++++ CommonModule/src/main/java/com/qnahub/common/api/SuperResponse.java	(revision )
+@@ -6,5 +6,5 @@
+  * Created by markth on 10/30/2016.
+  */
+ public abstract class SuperResponse {
+-    public abstract String parse2String() throws IOException;
++
+ }
+Index: ManagerModule/pom.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- ManagerModule/pom.xml	(date 1478039500000)
++++ ManagerModule/pom.xml	(revision )
+@@ -29,27 +29,22 @@
+         <dependency>
+             <groupId>org.springframework</groupId>
+             <artifactId>spring-core</artifactId>
+-            <version>${springframework.version}</version>
+         </dependency>
+         <dependency>
+             <groupId>org.springframework</groupId>
+             <artifactId>spring-web</artifactId>
+-            <version>${springframework.version}</version>
+         </dependency>
+         <dependency>
+             <groupId>org.springframework</groupId>
+             <artifactId>spring-webmvc</artifactId>
+-            <version>${springframework.version}</version>
+         </dependency>
+         <dependency>
+             <groupId>org.springframework</groupId>
+             <artifactId>spring-tx</artifactId>
+-            <version>${springframework.version}</version>
+         </dependency>
+         <dependency>
+             <groupId>org.springframework</groupId>
+             <artifactId>spring-orm</artifactId>
+-            <version>${springframework.version}</version>
+         </dependency>
+     </dependencies>
+ </project>
+\ No newline at end of file
+Index: WarFrontEnd/pom.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- WarFrontEnd/pom.xml	(date 1478039500000)
++++ WarFrontEnd/pom.xml	(revision )
+@@ -20,7 +20,7 @@
+         </dependency>
+         <dependency>
+             <groupId>qnahub</groupId>
+-            <artifactId>manager-module</artifactId>
++            <artifactId>restful-module</artifactId>
+         </dependency>
+     </dependencies>
+     <build>
+Index: ManagerModule/src/main/java/com/qnahub/data_managers/rest_api/AuthenticationRestAPI.java
+===================================================================
+--- ManagerModule/src/main/java/com/qnahub/data_managers/rest_api/AuthenticationRestAPI.java	(date 1478039500000)
++++ ManagerModule/src/main/java/com/qnahub/data_managers/rest_api/AuthenticationRestAPI.java	(date 1478039500000)
+@@ -1,65 +0,0 @@
+-package com.qnahub.data_managers.rest_api;
+-
+-import com.qnahub.data_managers.managers.AuthenticationManager;
+-import com.qnahub.data_managers.managers.UserManager;
+-import com.qnahub.data_managers.rest_api.response.LoginResponse;
+-import org.springframework.beans.factory.annotation.Autowired;
+-import org.springframework.http.HttpStatus;
+-import org.springframework.http.MediaType;
+-import org.springframework.http.ResponseEntity;
+-import org.springframework.web.bind.annotation.*;
+-import org.springframework.web.client.HttpClientErrorException;
+-
+-import javax.servlet.http.HttpServletResponse;
+-import java.io.IOException;
+-
+-/**
+- * Created by markth on 10/20/2016.
+- */
+-
+-@RestController()
+-@RequestMapping(value="/auth")
+-public class AuthenticationRestAPI {
+-
+-    @Autowired
+-    private AuthenticationManager authManager;
+-
+-    @Autowired
+-    private UserManager userManager;
+-
+-//
+-//    @RequestMapping(value = "/authentication", method = RequestMethod.GET, produces = "application/json")
+-//    public ResponseEntity<String> authentication(){
+-//        authManager.authenticate();
+-//
+-//
+-//        return new ResponseEntity<String>(new String("aaa"), HttpStatus.OK);
+-//    }
+-//
+-    @RequestMapping(value = "/login", method = RequestMethod.POST)
+-    public ResponseEntity<LoginResponse> loginUser(@RequestParam(value="username")String username, @RequestParam(value="password")CharSequence password){
+-        authManager.login(username, password);
+-        LoginResponse loginResponse = new LoginResponse();
+-        loginResponse.setToken("asdasd");
+-    //    return loginResponse;
+-        return new ResponseEntity<LoginResponse>(loginResponse, HttpStatus.OK);
+-    }
+-
+-    @RequestMapping(value = "/create_user")
+-    public  ResponseEntity<LoginResponse> createUser(HttpServletResponse response){
+-        return new ResponseEntity<LoginResponse>(new LoginResponse() ,HttpStatus.OK);
+-//        response.setContentType("application/json");
+-//        LoginResponse loginResponse = new LoginResponse();
+-////        loginResponse.setToken("asdasd");
+-//        System.out.print(loginResponse);
+-//
+-//        ResponseEntity<LoginResponse> kk = new ResponseEntity<>(HttpStatus.OK);
+-//
+-//        try {
+-//            return loginResponse.parse2String();
+-//        } catch (IOException e) {
+-//            throw new HttpClientErrorException(HttpStatus.SERVICE_UNAVAILABLE, "Output Parsing Error");
+-//        }
+-        //   return "lll";
+-    }
+-}
+Index: pom.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- pom.xml	(date 1478039500000)
++++ pom.xml	(revision )
+@@ -13,7 +13,7 @@
+ 	<properties>
+ 		<springframework.version>4.3.3.RELEASE</springframework.version>
+ 		<qnahub.version>trunk-SNAPSHOT</qnahub.version>
+-		<hibernate.version>5.1.0.Final</hibernate.version>
++		<hibernate.version>5.2.3.Final</hibernate.version>
+ 	</properties>
+ 
+ 	<dependencyManagement>
+@@ -91,6 +91,16 @@
+ 				<artifactId>manager-module</artifactId>
+ 				<version>${qnahub.version}</version>
+ 			</dependency>
++            <dependency>
++                <groupId>qnahub</groupId>
++                <artifactId>restful-module</artifactId>
++                <version>${qnahub.version}</version>
++            </dependency>
++			<dependency>
++                <groupId>qnahub</groupId>
++				<artifactId>setup-module</artifactId>
++                <version>${qnahub.version}</version>
++            </dependency>
+ 
+ 
+ 			<!-- Testing -->
+@@ -129,8 +139,9 @@
+ 	<modules>
+ 		<module>CommonModule</module>
+ 		<module>DataModule</module>
+-		<module>WarFrontEnd</module>
+ 		<module>ManagerModule</module>
++		<module>RestfulModule</module>
++		<module>WarFrontEnd</module>
+ 	</modules>
+ 	<build>
+ 		<finalName>qnahub</finalName>
+@@ -140,8 +151,8 @@
+ 				<artifactId>maven-compiler-plugin</artifactId>
+ 				<version>3.5.1</version>
+ 				<configuration>
+-					<source>1.7</source>
+-					<target>1.7</target>
++					<source>1.8</source>
++					<target>1.8</target>
+ 					<encoding>UTF-8</encoding>
+ 				</configuration>
+ 			</plugin>
+\ No newline at end of file
+Index: ManagerModule/src/main/java/com/qnahub/data_managers/managers/AuthenticationManager.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- ManagerModule/src/main/java/com/qnahub/data_managers/managers/AuthenticationManager.java	(date 1478039500000)
++++ ManagerModule/src/main/java/com/qnahub/data_managers/managers/AuthenticationManager.java	(revision )
+@@ -6,10 +6,12 @@
+ import com.qnahub.data_module.auth.LoginResult;
+ import com.qnahub.data_module.auth.LoginStatusEnum;
+ import com.qnahub.data_module.dao.UserDAOIfc;
++import com.qnahub.data_module.entity.UserAuthenticationInfoEntity;
+ import com.qnahub.data_module.entity.UserEntity;
+ import org.springframework.beans.factory.annotation.Autowired;
+ import org.springframework.stereotype.Service;
+ 
++import java.time.LocalDateTime;
+ import java.util.Collection;
+ 
+ /**
+@@ -31,10 +33,19 @@
+             return new LoginResult(LoginStatusEnum.FAILED);
+         }
+ 
+-        String currentPassword = user.getSecurityInfo().getPassword();
++        UserAuthenticationInfoEntity securityInfo = user.getSecurityInfo();
++        String currentPassword = securityInfo.getPassword();
+ 
+-        boolean isMatch = EncryptionUtil.matchEncoded(currentPassword, password);
+-        return !isMatch ?  new LoginResult(LoginStatusEnum.FAILED)
+-                : new LoginResult(LoginStatusEnum.SUCCESS, user, true) ;
++        LoginResult loginResult;
++        if(!EncryptionUtil.matchEncoded(currentPassword, password)) {
++            loginResult = new LoginResult(LoginStatusEnum.FAILED);
++        }else {
++            String token = EncryptionUtil.generateHash(username);
++       //     securityInfo.setLastLogin(LocalDateTime.now());
++            securityInfo.setAuthToken(token);
++            loginResult = new LoginResult(LoginStatusEnum.SUCCESS, user, true, token);
++        }
++
++        return loginResult;
+     }
+ }
+Index: DataModule/src/main/java/com/qnahub/data_module/auth/LoginResult.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- DataModule/src/main/java/com/qnahub/data_module/auth/LoginResult.java	(date 1478039500000)
++++ DataModule/src/main/java/com/qnahub/data_module/auth/LoginResult.java	(revision )
+@@ -9,15 +9,17 @@
+     protected LoginStatusEnum statusEnum;
+     protected UserEntity loggedInUser;
+     protected boolean isAdmin;
++    protected String token;
+ 
+     public LoginResult(LoginStatusEnum statusEnum) {
+         this.statusEnum = statusEnum;
+     }
+ 
+-    public LoginResult(LoginStatusEnum statusEnum, UserEntity loggedInUser, boolean isAdmin) {
++    public LoginResult(LoginStatusEnum statusEnum, UserEntity loggedInUser, boolean isAdmin, String token) {
+         this.statusEnum = statusEnum;
+         this.loggedInUser = loggedInUser;
+         this.isAdmin = isAdmin;
++        this.token = token;
+     }
+ 
+     public LoginStatusEnum getStatusEnum() {
+@@ -30,5 +32,9 @@
+ 
+     public boolean isAdmin() {
+         return isAdmin;
++    }
++
++    public String getToken() {
++        return token;
+     }
+ }
+Index: ManagerModule/src/main/java/com/qnahub/data_managers/rest_api/response/SuperRestResponse.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- ManagerModule/src/main/java/com/qnahub/data_managers/rest_api/response/SuperRestResponse.java	(date 1478039500000)
++++ ManagerModule/src/main/java/com/qnahub/data_managers/rest_api/response/SuperRestResponse.java	(revision )
+@@ -1,20 +1,10 @@
+ package com.qnahub.data_managers.rest_api.response;
+ 
+-import com.fasterxml.jackson.databind.ObjectMapper;
+ import com.qnahub.common.api.SuperResponse;
+ 
+-import java.io.IOException;
+-import java.io.StringWriter;
+-
+ /**
+  * Created by markth on 10/30/2016.
+  */
+ public class SuperRestResponse extends SuperResponse {
+-    @Override
+-    public String parse2String() throws IOException {
+-        StringWriter stringWriter = new StringWriter();
+-        ObjectMapper objectMapper = new ObjectMapper();
+-        objectMapper.writeValue(stringWriter, this);
+-        return stringWriter.toString();
+-    }
++
+ }
+Index: CommonModule/src/main/java/com/qnahub/common/utils/EncryptionUtil.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- CommonModule/src/main/java/com/qnahub/common/utils/EncryptionUtil.java	(date 1478039500000)
++++ CommonModule/src/main/java/com/qnahub/common/utils/EncryptionUtil.java	(revision )
+@@ -1,8 +1,9 @@
+ package com.qnahub.common.utils;
+ 
+-import org.springframework.security.crypto.bcrypt.BCrypt;
+ import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
+ 
++import java.time.LocalDateTime;
++
+ /**
+  * Created by markth on 10/23/2016.
+  */
+@@ -16,5 +17,10 @@
+     public static boolean matchEncoded(String encodedData, CharSequence rawData){
+         BCryptPasswordEncoder encoder = new BCryptPasswordEncoder();
+         return encoder.matches(rawData, encodedData);
++    }
++
++    public static String generateHash(CharSequence str){
++
++        return encode(str + LocalDateTime.now().toString());
+     }
+ }
+Index: ManagerModule/src/main/java/com/qnahub/data_managers/managers/UserManager.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- ManagerModule/src/main/java/com/qnahub/data_managers/managers/UserManager.java	(date 1478039500000)
++++ ManagerModule/src/main/java/com/qnahub/data_managers/managers/UserManager.java	(revision )
+@@ -7,8 +7,9 @@
+ import org.springframework.beans.factory.annotation.Autowired;
+ import org.springframework.stereotype.Service;
+ 
+-import java.util.Date;
++import java.time.LocalDateTime;
+ 
++
+ /**
+  * Created by markth on 10/23/2016.
+  */
+@@ -23,7 +24,7 @@
+         userEntity.setUsername("admin");
+         UserAuthenticationInfoEntity securityInfoEntity = new UserAuthenticationInfoEntity();
+         securityInfoEntity.setPassword("1234");
+-        securityInfoEntity.setPasswordCreateDate(new Date());
++       // securityInfoEntity.setPasswordCreateDate(LocalDateTime.now());
+         userEntity.setSecurityInfo(securityInfoEntity);
+         userService.create(userEntity);
+     }
+Index: CommonModule/src/main/java/com/qnahub/common/entity/ServerParameters.java
+===================================================================
+--- CommonModule/src/main/java/com/qnahub/common/entity/ServerParameters.java	(date 1478039500000)
++++ CommonModule/src/main/java/com/qnahub/common/entity/ServerParameters.java	(date 1478039500000)
+@@ -1,12 +0,0 @@
+-package com.qnahub.common.entity;
+-
+-import javax.persistence.Entity;
+-import javax.persistence.Table;
+-
+-/**
+- * Created by markth on 10/23/2016.
+- */
+-@Entity
+-@Table(name = "SERVER_PARAMETERS")
+-public class ServerParameters extends SuperSetupEntity{
+-}

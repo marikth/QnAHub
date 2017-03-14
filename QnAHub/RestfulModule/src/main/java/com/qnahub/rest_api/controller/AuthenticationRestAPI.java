@@ -1,6 +1,6 @@
 package com.qnahub.rest_api.controller;
 
-import com.qnahub.data_managers.managers.AuthenticationManager;
+import com.qnahub.data_managers.managers.QanHubAuthenticationManager;
 import com.qnahub.data_managers.managers.UserManager;
 import com.qnahub.rest_api.response.LoginResponse;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -19,7 +19,7 @@ import javax.servlet.http.HttpServletResponse;
 public class AuthenticationRestAPI {
 
     @Autowired
-    private AuthenticationManager authManager;
+    private QanHubAuthenticationManager authManager;
 
     @Autowired
     private UserManager userManager;

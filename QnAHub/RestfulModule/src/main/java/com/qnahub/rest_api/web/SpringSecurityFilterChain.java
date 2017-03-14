@@ -18,7 +18,7 @@ import static com.qnahub.rest_api.controller.WebConstants.LOGIN_REST_PATH;
 /**
  * Created by markth on 12/10/2016.
  */
-public class SecurityFilter implements Filter {
+public class SpringSecurityFilterChain implements Filter {
 
 
 

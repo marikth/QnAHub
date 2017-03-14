@@ -14,7 +14,7 @@ import java.time.LocalDateTime;
  * Created by markth on 10/23/2016.
  */
 @Service
-public class AuthenticationManager extends SuperManager {
+public class QanHubAuthenticationManager extends SuperManager {
 
     public void createAuthenticationEntity(UserAuthenticationInfoEntity authEntity){
       //  userAuthenticationDAO.saveUserAuthentication(authEntity);
